@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Climate Organizations Map</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <div id="sidebar-header">
+        <h2>Organizations</h2>
+        <button id="sidebar-toggle">⟨</button>
+      </div>
+
+      <div id="filters">
+        <!-- Filters will be injected by app.js -->
+      </div>
+
+      <div id="org-list">
+        <!-- Org list items will be injected by app.js -->
+      </div>
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
