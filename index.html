@@ -4,30 +4,43 @@
   <meta charset="utf-8" />
   <title>Climate Organizations Map</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <!-- Mapbox -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Your styles -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div id="app">
+  <!-- MAIN GRID LAYOUT -->
+  <div id="container">
+
+    <!-- SIDEBAR -->
     <div id="sidebar">
       <div id="sidebar-header">
         <h2>Organizations</h2>
         <button id="sidebar-toggle">⟨</button>
       </div>
 
-      <div id="filters">
-        <!-- Filters will be injected by app.js -->
-      </div>
+      <!-- CLEAR FILTERS BUTTON -->
+      <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
 
-      <div id="org-list">
-        <!-- Org list items will be injected by app.js -->
-      </div>
+      <!-- FILTERS (injected by JS) -->
+      <div id="filters"></div>
+
+      <!-- ORG LIST (injected by JS) -->
+      <div id="org-list"></div>
     </div>
 
+    <!-- MAP -->
     <div id="map"></div>
+
   </div>
 
+  <!-- Your JS -->
   <script src="app.js"></script>
 </body>
 </html>
+

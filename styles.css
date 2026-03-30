@@ -22,26 +22,28 @@
 }
 
 #sidebar.collapsed {
-  width: 0;
-  padding: 0;
-  overflow: hidden;
+  transform: translateX(-100%);
+  padding: 12px; /* keep padding so it reopens cleanly */
 }
+
 
 #sidebar-toggle {
   position: absolute;
-  left: 320px;
   top: 10px;
+  left: 320px;
+  z-index: 10;
   background: white;
   border: 1px solid #ccc;
   padding: 4px 6px;
   cursor: pointer;
-  z-index: 10;
+  border-radius: 4px;
   transition: left 0.25s ease;
 }
 
-#container.collapsed #sidebar-toggle {
+#sidebar.collapsed + #sidebar-toggle {
   left: 0;
 }
+
 
 /* ===============================
    FILTERS
@@ -52,17 +54,40 @@
 }
 
 .filter-group label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
 }
 
 .checkbox-row {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 6px;
-  margin-bottom: 4px;
+  margin: 2px 0;
+  font-size: 0.85rem;
 }
+
+.checkbox-row input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+.clear-filters-btn {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  background: #e6e6e6;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.clear-filters-btn:hover {
+  background: #dcdcdc;
+}
+
 
 /* ===============================
    ORG LIST

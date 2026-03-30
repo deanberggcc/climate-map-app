@@ -41,18 +41,10 @@ const orgTypeColors = {
 };
 
 map.on('load', () => {
-  map.addSource('orgs', {
-    type: 'geojson',
-    data: 'data/map_data.geojson',
-    cluster: true,
-    clusterRadius: 50,
-    clusterMaxZoom: 12
-  });
-
-  addLayers();
   setupSidebarToggle();
-  loadDataAndInitUI();
+  loadDataAndInitUI();   // this will add the source AFTER loading data
 });
+
 
 // ===============================
 // LAYERS
@@ -181,9 +173,9 @@ function setupSidebarToggle() {
   const toggle = document.getElementById('sidebar-toggle');
 
   toggle.addEventListener('click', () => {
-    sidebar.classList.toggle('collapsed');
-    document.getElementById('container').classList.toggle('collapsed');
-    toggle.textContent = sidebar.classList.contains('collapsed') ? '⟩' : '⟨';
+    const isCollapsed = sidebar.classList.toggle('collapsed');
+    toggle.classList.toggle('collapsed', isCollapsed);
+    map.resize();
   });
 }
 
@@ -194,13 +186,11 @@ async function loadDataAndInitUI() {
   const res = await fetch('data/map_data.geojson');
   const geojson = await res.json();
 
-  // Drop invalid coordinates
   geojson.features = geojson.features.filter(f => {
     const c = f.geometry?.coordinates;
     return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
   });
 
-  // Store raw for popup
   allFeatures = geojson.features.map(f => {
     f.properties.raw = JSON.stringify(f.properties);
     return f;
@@ -208,7 +198,21 @@ async function loadDataAndInitUI() {
 
   filteredFeatures = allFeatures.slice();
 
+  // ADD SOURCE HERE — not earlier
+  map.addSource('orgs', {
+    type: 'geojson',
+    data: {
+      type: 'FeatureCollection',
+      features: allFeatures
+    },
+    cluster: true,
+    clusterRadius: 50,
+    clusterMaxZoom: 12
+  });
+
+  addLayers();
   buildFiltersFromData(allFeatures);
+  setupClearFilters();
   renderOrgList(filteredFeatures);
   applyFilters();
 }
@@ -347,13 +351,43 @@ function applyFilters() {
     return true;
   });
 
-  map.getSource('orgs').setData({
-    type: 'FeatureCollection',
-    features: filteredFeatures
-  });
+    const src = map.getSource('orgs');
+    if (src) {
+      src.setData({
+        type: 'FeatureCollection',
+        features: filteredFeatures
+      });
+    }
+
 
   renderOrgList(filteredFeatures);
 }
+
+// ===============================
+// CLEAR ALL FILTERS
+// ===============================
+function setupClearFilters() {
+  const btn = document.getElementById('clear-filters');
+  btn.addEventListener('click', () => {
+    // Reset filter state
+    Object.keys(currentFilters).forEach(key => {
+      currentFilters[key] = Array.isArray(currentFilters[key]) ? [] : '';
+    });
+
+    // Uncheck all checkboxes
+    document.querySelectorAll('#filters input[type="checkbox"]').forEach(cb => {
+      cb.checked = false;
+    });
+
+    // Clear search bar
+    const searchInput = document.querySelector('#filters input[type="text"]');
+    if (searchInput) searchInput.value = '';
+
+    // Reapply filters
+    applyFilters();
+  });
+}
+
 
 // ===============================
 // SIDEBAR LIST
