@@ -9,8 +9,12 @@ const map = new mapboxgl.Map({
   zoom: 7
 });
 
+// Add zoom / rotate controls
+map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
 let allFeatures = [];
 let filteredFeatures = [];
+
 let currentFilters = {
   action_category: [],
   climate_categories: [],
@@ -21,6 +25,7 @@ let currentFilters = {
   tags: [],
   city: [],
   county: [],
+  verified: [],
   search: ''
 };
 
@@ -49,6 +54,9 @@ map.on('load', () => {
   loadDataAndInitUI();
 });
 
+// ===============================
+// LAYERS
+// ===============================
 function addLayers() {
   map.addLayer({
     id: 'clusters',
@@ -131,13 +139,18 @@ function addLayers() {
 
   map.on('click', 'org-points', (e) => {
     const props = e.features[0].properties;
-    const data = JSON.parse(props.raw || JSON.stringify(props)); // see below
+    const data = JSON.parse(props.raw || JSON.stringify(props));
 
     const climate = (data.climate_categories || []).slice(0, 3).join(', ');
     const social = (data.social_links || []).join('<br>');
 
+    const check = data.verified ? '✔️ ' : '';
+    const verifyLink = !data.verified
+      ? `<div class="verify-link"><a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a></div>`
+      : '';
+
     const html = `
-      <strong>${data.name || 'Unknown'}</strong><br>
+      <strong>${check}${data.name || 'Unknown'}</strong><br>
       ${data.address || ''}<br>
       ${data.city || ''}, ${data.state || ''}<br><br>
 
@@ -150,6 +163,7 @@ function addLayers() {
       ${data.website_url ? `<a href="${data.website_url}" target="_blank">Website</a><br>` : ''}
       ${social ? `<div style="margin-top:4px;">${social}</div>` : ''}
       <div style="margin-top:8px; font-size:12px;">${data.summary || ''}</div>
+      ${verifyLink}
     `;
 
     new mapboxgl.Popup()
@@ -157,32 +171,37 @@ function addLayers() {
       .setHTML(html)
       .addTo(map);
   });
-
-  map.on('mouseenter', 'org-points', () => {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-  map.on('mouseleave', 'org-points', () => {
-    map.getCanvas().style.cursor = '';
-  });
 }
 
+// ===============================
+// SIDEBAR COLLAPSE
+// ===============================
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
 
   toggle.addEventListener('click', () => {
     sidebar.classList.toggle('collapsed');
+    document.getElementById('container').classList.toggle('collapsed');
     toggle.textContent = sidebar.classList.contains('collapsed') ? '⟩' : '⟨';
   });
 }
 
+// ===============================
+// DATA LOAD + DEFENSIVE CLEANUP
+// ===============================
 async function loadDataAndInitUI() {
   const res = await fetch('data/map_data.geojson');
   const geojson = await res.json();
 
-  // Store full feature set
+  // Drop invalid coordinates
+  geojson.features = geojson.features.filter(f => {
+    const c = f.geometry?.coordinates;
+    return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
+  });
+
+  // Store raw for popup
   allFeatures = geojson.features.map(f => {
-    // store raw properties as JSON string for popup
     f.properties.raw = JSON.stringify(f.properties);
     return f;
   });
@@ -191,9 +210,12 @@ async function loadDataAndInitUI() {
 
   buildFiltersFromData(allFeatures);
   renderOrgList(filteredFeatures);
-  applyFilters(); // initial
+  applyFilters();
 }
 
+// ===============================
+// CHECKBOX FILTERS
+// ===============================
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
   filtersEl.innerHTML = '';
@@ -207,7 +229,8 @@ function buildFiltersFromData(features) {
     { key: 'status', label: 'Status' },
     { key: 'tags', label: 'Tags' },
     { key: 'city', label: 'City' },
-    { key: 'county', label: 'County' }
+    { key: 'county', label: 'County' },
+    { key: 'verified', label: 'Verification' }
   ];
 
   const valuesByField = {};
@@ -217,12 +240,9 @@ function buildFiltersFromData(features) {
     const p = f.properties;
     fields.forEach(({ key }) => {
       const val = p[key];
-      if (!val) return;
-      if (Array.isArray(val)) {
-        val.forEach(v => valuesByField[key].add(v));
-      } else {
-        valuesByField[key].add(val);
-      }
+      if (val === undefined || val === null) return;
+      if (Array.isArray(val)) val.forEach(v => valuesByField[key].add(v));
+      else valuesByField[key].add(val);
     });
   });
 
@@ -234,27 +254,33 @@ function buildFiltersFromData(features) {
     lab.textContent = label;
     group.appendChild(lab);
 
-    const select = document.createElement('select');
-    select.multiple = true;
-    select.dataset.field = key;
+    const values = Array.from(valuesByField[key]).sort();
 
-    Array.from(valuesByField[key])
-      .filter(v => v && v !== 'unknown' && v !== 'Unknown')
-      .sort()
-      .forEach(v => {
-        const opt = document.createElement('option');
-        opt.value = v;
-        opt.textContent = v;
-        select.appendChild(opt);
+    values.forEach(v => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'checkbox-row';
+
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.value = v;
+      cb.dataset.field = key;
+
+      cb.addEventListener('change', () => {
+        const selected = Array.from(
+          document.querySelectorAll(`input[data-field="${key}"]:checked`)
+        ).map(x => x.value);
+        currentFilters[key] = selected;
+        applyFilters();
       });
 
-    select.addEventListener('change', () => {
-      const selected = Array.from(select.selectedOptions).map(o => o.value);
-      currentFilters[key] = selected;
-      applyFilters();
+      const lbl = document.createElement('span');
+      lbl.textContent = v;
+
+      wrapper.appendChild(cb);
+      wrapper.appendChild(lbl);
+      group.appendChild(wrapper);
     });
 
-    group.appendChild(select);
     filtersEl.appendChild(group);
   });
 
@@ -274,6 +300,9 @@ function buildFiltersFromData(features) {
   filtersEl.appendChild(searchGroup);
 }
 
+// ===============================
+// FILTER APPLICATION
+// ===============================
 function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties;
@@ -284,28 +313,29 @@ function applyFilters() {
       if (!haystack.includes(currentFilters.search)) return false;
     }
 
-    // categorical filters
-    const checks = [
+    // simple fields
+    const simple = [
       'action_category',
       'organization_type',
       'audience_focus',
       'reach',
       'status',
       'city',
-      'county'
+      'county',
+      'verified'
     ];
 
-    for (const field of checks) {
+    for (const field of simple) {
       const selected = currentFilters[field];
       if (selected && selected.length > 0) {
         const val = p[field];
-        if (!val || !selected.includes(val)) return false;
+        if (!selected.includes(String(val))) return false;
       }
     }
 
-    // multi-valued fields
-    const multiFields = ['climate_categories', 'tags'];
-    for (const field of multiFields) {
+    // multi-valued
+    const multi = ['climate_categories', 'tags'];
+    for (const field of multi) {
       const selected = currentFilters[field];
       if (selected && selected.length > 0) {
         const vals = Array.isArray(p[field]) ? p[field] : [];
@@ -317,16 +347,17 @@ function applyFilters() {
     return true;
   });
 
-  // Update source data (hide non-matching by only feeding matching features)
-  const newGeoJSON = {
+  map.getSource('orgs').setData({
     type: 'FeatureCollection',
     features: filteredFeatures
-  };
-  map.getSource('orgs').setData(newGeoJSON);
+  });
 
   renderOrgList(filteredFeatures);
 }
 
+// ===============================
+// SIDEBAR LIST
+// ===============================
 function renderOrgList(features) {
   const listEl = document.getElementById('org-list');
   listEl.innerHTML = '';
