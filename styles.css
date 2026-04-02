@@ -1,129 +1,53 @@
 /* ===============================
-   LAYOUT
+   LAYOUT — NEW OVERLAY SYSTEM
    =============================== */
 
-#container {
-  display: grid;
-  grid-template-columns: 320px 1fr;
+/* Fullscreen map container */
+#map-container {
+  position: relative;
+  width: 100vw;
   height: 100vh;
-  transition: grid-template-columns 0.25s ease;
 }
 
-#container.collapsed {
-  grid-template-columns: 0 1fr;
+/* Map always fills the screen */
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
+/* Sidebar overlays the map */
 #sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 100%;
   background: #fafafa;
   border-right: 1px solid #ddd;
   overflow-y: auto;
-  transition: width 0.25s ease;
   padding: 12px;
+  z-index: 10;
+  transition: transform 0.25s ease;
 }
 
+/* Slide sidebar off-screen */
+#sidebar.closed {
+  transform: translateX(-100%);
+}
 
+/* Toggle button stays attached to sidebar edge */
 #sidebar-toggle {
   position: absolute;
   top: 10px;
-  left: 300px;
-  z-index: 20;
-  transition: left 0.25s ease, transform 0.25s ease;
-}
-
-#container.collapsed #sidebar-toggle {
-  left: 0;
-  transform: rotate(180deg);
-}
-
-
-
-/* ===============================
-   FILTERS
-   =============================== */
-
-.filter-group {
-  margin-bottom: 16px;
-}
-
-.filter-group label {
-  font-weight: 600;
-  font-size: 0.95rem;
-  margin-bottom: 4px;
-}
-
-details.filter-group summary {
-  font-weight: 600;
-  cursor: pointer;
-  margin-bottom: 6px;
-}
-
-.checkbox-container {
-  margin-left: 10px;
-}
-
-.checkbox-row {
-  display: flex;
-  align-items: left;
-  gap: 6px;
-  margin: 2px 0;
-  font-size: 0.85rem;
-}
-
-.checkbox-row input[type="checkbox"] {
-  width: 14px;
-  height: 14px;
-}
-
-.clear-filters-btn {
-  width: 100%;
-  padding: 8px 10px;
-  margin-bottom: 12px;
-  background: #e6e6e6;
+  right: -24px;
+  z-index: 11;
+  background: white;
   border: 1px solid #ccc;
+  padding: 4px 6px;
+  cursor: pointer;
   border-radius: 4px;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.clear-filters-btn:hover {
-  background: #dcdcdc;
-}
-
-
-/* ===============================
-   ORG LIST
-   =============================== */
-
-.org-item {
-  padding: 8px 0;
-  border-bottom: 1px solid #eee;
-  cursor: pointer;
-}
-
-.org-item:hover {
-  background: #f0f0f0;
-}
-
-.org-name {
-  font-weight: bold;
-}
-
-.org-meta {
-  font-size: 12px;
-  color: #666;
-}
-
-/* ===============================
-   POPUP
-   =============================== */
-
-.verify-link {
-  margin-top: 10px;
-  font-size: 13px;
-}
-
-.verify-link a {
-  color: #0077cc;
-  text-decoration: underline;
+  transition: transform 0.25s ease;
 }

@@ -28,6 +28,17 @@ let currentFilters = {
   search: ''
 };
 
+org.searchIndex = [
+  org.name,
+  org.city,
+  org.postal_code,
+  org.category_guess,
+  org.organization_type,
+  org.reach,
+  org.climate_categories?.join(" "),
+  org.tags?.join(" ")
+].filter(Boolean).join(" ").toLowerCase();
+
 const orgTypeColors = {
   'Nonprofit / Grassroots': '#a6cee3',
   'Coalition': '#b2df8a',
@@ -52,26 +63,29 @@ map.on('load', () => {
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
-  const container = document.getElementById('container');
 
   toggle.addEventListener('click', () => {
-    const isCollapsed = sidebar.classList.toggle('collapsed');
-    toggle.classList.toggle('collapsed', isCollapsed);
-    container.classList.toggle('collapsed', isCollapsed);
-    map.resize();
+    sidebar.classList.toggle('closed');
+
+    // Flip arrow direction
+    if (sidebar.classList.contains('closed')) {
+      toggle.textContent = '⟩';
+    } else {
+      toggle.textContent = '⟨';
+    }
+
+    // Resize map after animation
+    setTimeout(() => map.resize(), 260);
   });
 }
-
 
 // ===============================
 // SEARCH BAR (top of sidebar)
 // ===============================
-function setupSearchBar() {
-  const searchInput = document.getElementById('search-bar');
-  searchInput.addEventListener('input', () => {
-    currentFilters.search = searchInput.value.toLowerCase();
-    applyFilters();
-  });
+function applySearch(query) {
+  const q = query.toLowerCase().trim();
+  filteredOrgs = allOrgs.filter(org => org.searchIndex.includes(q));
+  updateMapAndSidebar(filteredOrgs);
 }
 
 
@@ -292,7 +306,9 @@ function buildFiltersFromData(features) {
         ).map(x => x.value);
 
         currentFilters[key] = selected;
-        summary.textContent = `${label} (${selected.length})`;
+        summary.textContent = selected.length > 0
+  		? `${label} (${selected.length})`
+ 		 : label;
         applyFilters();
       });
 
