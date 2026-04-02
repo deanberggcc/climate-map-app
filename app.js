@@ -1,5 +1,7 @@
 // app.js
 
+console.log("APP.JS STARTED");
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
 
 const map = new mapboxgl.Map({
