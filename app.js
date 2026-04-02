@@ -305,6 +305,13 @@ function addLayers() {
       'circle-stroke-color': '#333'
     }
   });
+  // Ensure org points are on top for click events
+  if (map.getLayer('org-points')) {
+       map.moveLayer('org-points');
+    }
+
+
+  map.moveLayer('org-points', 'cluster-count');
 
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
