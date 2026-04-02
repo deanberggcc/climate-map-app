@@ -62,14 +62,20 @@ html, body {
 #sidebar-toggle {
   position: absolute;
   top: 10px;
-  right: -24px;
-  z-index: 11;
+  left: 320px; /* attaches to sidebar edge */
+  z-index: 20;
   background: white;
   border: 1px solid #ccc;
   padding: 4px 6px;
   cursor: pointer;
   border-radius: 4px;
-  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, left 0.25s ease;
+  pointer-events: auto;
+}
+
+#sidebar.closed #sidebar-toggle {
+  left: 0; /* moves with sidebar */
+  transform: rotate(180deg);
 }
 
 /* Sidebar header */
