@@ -16,34 +16,34 @@
 <body>
   <!-- Outer wrapper (harmless, helps if any old CSS/JS still references #container) -->
   <div id="container">
-    <!-- MAP CONTAINER (full screen) -->
-    <div id="map-container">
+<!-- MAP -->
+<div id="map"></div>
 
-      <!-- SIDEBAR (overlays the map) -->
-      <div id="sidebar">
-	<div id="sidebar-content">
-        	<div id="sidebar-header">
-        	  <h2>Climate Organizations Map</h2>
-        	  <input id="search-bar" type="text" placeholder="Search organizations...">
-       		 </div>
+<!-- SIDEBAR (overlays the map) -->
+<div id="sidebar">
+  <div id="sidebar-content">
 
-      	  <!-- CLEAR FILTERS BUTTON -->
-      	  <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
-
-      	  <!-- FILTERS (injected by JS) -->
-      	  <div id="filters"></div>
-
-      	  <!-- ORG LIST (injected by JS) -->
-      	  <div id="org-list"></div>
-	</div>
-      </div>
-
-	<button id="sidebar-toggle">⟨</button>
-
-      <!-- MAP -->
-      <div id="map"></div>
-
+    <!-- Header + Search -->
+    <div id="sidebar-header">
+      <h2>Climate Organizations Map</h2>
+      <input id="search-bar" type="text" placeholder="Search organizations...">
     </div>
+
+    <!-- Filters -->
+    <div id="filters">
+      <!-- Your dynamically generated filters will populate here -->
+    </div>
+
+    <!-- Organization List -->
+    <div id="org-list">
+      <!-- Your dynamically generated org list will populate here -->
+    </div>
+
+  </div>
+</div>
+
+<!-- TOGGLE BUTTON (must be outside sidebar) -->
+<button id="sidebar-toggle">⟨</button>
   </div>
 
   <!-- Your JS -->

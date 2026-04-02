@@ -18,13 +18,6 @@ html, body {
    LAYOUT — OVERLAY SIDEBAR
    =============================== */
 
-/* Fullscreen map container */
-#map-container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
 /* Map always fills the screen */
 #map {
   position: absolute;
@@ -35,52 +28,54 @@ html, body {
   z-index: 1;
 }
 
+/* Sidebar panel (the real 320px box) */
 #sidebar {
-  pointer-events: none;
-}
-
-/* Sidebar overlays the map */
-#sidebar-content {
   position: absolute;
   top: 0;
   left: 0;
-  width: 320px;
+  width: 320px;        /* ← THIS is the key */
   height: 100%;
   background: #fafafa;
   border-right: 1px solid #ddd;
+  box-sizing: border-box;
+  z-index: 10;
+  transition: transform 0.25s ease;
+  pointer-events: none;   /* sidebar itself does NOT block map */
+}
+
+/* Sidebar interior stays interactive */
+#sidebar-content {
+  height: 100%;
   overflow-y: auto;
   padding: 12px;
-  z-index: 10;
-  pointer-events: auto;
-  box-sizing: border-box;
-  transition: transform 0.25s ease;
+  pointer-events: auto;   /* content IS clickable */
 }
 
 /* Slide sidebar off-screen */
 #sidebar.closed {
-  transform: translateX(-100%);
-  pointer-events: none; /* allows clicks through when collapsed */
+  transform: translateX(-320px);
 }
 
 /* Toggle button stays attached to sidebar edge */
 #sidebar-toggle {
   position: absolute;
   top: 10px;
-  left: 320px; /* attaches to sidebar edge */
-  z-index: 99999;
+  left: 320px;            /* matches sidebar width */
+  z-index: 9999;
   background: white;
   border: 1px solid #ccc;
   padding: 4px 6px;
   cursor: pointer;
   border-radius: 4px;
-  transition: transform 0.25s ease, left 0.25s ease;
-  pointer-events: auto;
+  transition: left 0.25s ease, transform 0.25s ease;
 }
 
-#sidebar.closed #sidebar-toggle {
-  left: 0; /* moves with sidebar */
+/* When sidebar is closed, move toggle left */
+#sidebar.closed + #sidebar-toggle {
+  left: 0;
   transform: rotate(180deg);
 }
+
 
 /* Sidebar header */
 #sidebar-header {
