@@ -35,8 +35,12 @@ html, body {
   z-index: 1;
 }
 
-/* Sidebar overlays the map */
 #sidebar {
+  pointer-events: none;
+}
+
+/* Sidebar overlays the map */
+#sidebar-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +67,7 @@ html, body {
   position: absolute;
   top: 10px;
   left: 320px; /* attaches to sidebar edge */
-  z-index: 20;
+  z-index: 99999;
   background: white;
   border: 1px solid #ccc;
   padding: 4px 6px;
