@@ -28,17 +28,6 @@ let currentFilters = {
   search: ''
 };
 
-org.searchIndex = [
-  org.name,
-  org.city,
-  org.postal_code,
-  org.category_guess,
-  org.organization_type,
-  org.reach,
-  org.climate_categories?.join(" "),
-  org.tags?.join(" ")
-].filter(Boolean).join(" ").toLowerCase();
-
 const orgTypeColors = {
   'Nonprofit / Grassroots': '#a6cee3',
   'Coalition': '#b2df8a',
@@ -56,9 +45,8 @@ map.on('load', () => {
   loadDataAndInitUI();
 });
 
-
 // ===============================
-// SIDEBAR TOGGLE (fixed)
+// SIDEBAR TOGGLE (overlay)
 // ===============================
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
@@ -80,14 +68,125 @@ function setupSidebarToggle() {
 }
 
 // ===============================
-// SEARCH BAR (top of sidebar)
+// SIMPLE FUZZY MATCH
 // ===============================
-function applySearch(query) {
-  const q = query.toLowerCase().trim();
-  filteredOrgs = allOrgs.filter(org => org.searchIndex.includes(q));
-  updateMapAndSidebar(filteredOrgs);
+function fuzzyMatch(haystack, needle) {
+  if (!needle) return true;
+  haystack = haystack.toLowerCase();
+  needle = needle.toLowerCase();
+
+  // direct substring
+  if (haystack.includes(needle)) return true;
+
+  // token-based: all tokens must appear somewhere
+  const tokens = needle.split(/\s+/).filter(Boolean);
+  return tokens.every(t => haystack.includes(t));
 }
 
+// ===============================
+// SEARCH BAR + AUTOCOMPLETE
+// ===============================
+function setupSearchBar() {
+  const input = document.getElementById('search-bar');
+
+  // Create suggestions container
+  const suggestions = document.createElement('div');
+  suggestions.id = 'search-suggestions';
+  suggestions.style.position = 'relative';
+  suggestions.style.zIndex = '50';
+
+  // Wrap input in a container so we can position suggestions
+  const header = document.getElementById('sidebar-header');
+  header.insertBefore(suggestions, input.nextSibling);
+
+  const dropdown = document.createElement('div');
+  dropdown.style.position = 'absolute';
+  dropdown.style.top = '100%';
+  dropdown.style.left = '0';
+  dropdown.style.right = '0';
+  dropdown.style.background = '#fff';
+  dropdown.style.border = '1px solid #ccc';
+  dropdown.style.maxHeight = '200px';
+  dropdown.style.overflowY = 'auto';
+  dropdown.style.fontSize = '0.85rem';
+  dropdown.style.display = 'none';
+  dropdown.style.cursor = 'pointer';
+  dropdown.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+  suggestions.appendChild(dropdown);
+
+  function hideDropdown() {
+    dropdown.style.display = 'none';
+    dropdown.innerHTML = '';
+  }
+
+  function showSuggestions(query) {
+    if (!query || !allFeatures.length) {
+      hideDropdown();
+      return;
+    }
+
+    const q = query.toLowerCase();
+    const seen = new Set();
+    const items = [];
+
+    for (const f of allFeatures) {
+      const p = f.properties;
+      const name = p.name || '';
+      const city = p.city || '';
+
+      if (name.toLowerCase().includes(q) && !seen.has(name)) {
+        seen.add(name);
+        items.push({ label: name, type: 'name' });
+      }
+      if (city.toLowerCase().includes(q) && !seen.has(city)) {
+        seen.add(city);
+        items.push({ label: city, type: 'city' });
+      }
+      if (items.length >= 10) break;
+    }
+
+    if (!items.length) {
+      hideDropdown();
+      return;
+    }
+
+    dropdown.innerHTML = '';
+    items.forEach(item => {
+      const div = document.createElement('div');
+      div.style.padding = '4px 8px';
+      div.textContent = item.type === 'city'
+        ? `${item.label} (city)`
+        : item.label;
+
+      div.addEventListener('click', () => {
+        input.value = item.label;
+        currentFilters.search = item.label.toLowerCase();
+        applyFilters();
+        hideDropdown();
+
+        // If it's a city suggestion, zoom to that city
+        if (item.type === 'city') {
+          zoomToCity(item.label);
+        }
+      });
+
+      dropdown.appendChild(div);
+    });
+
+    dropdown.style.display = 'block';
+  }
+
+  input.addEventListener('input', (e) => {
+    const q = e.target.value || '';
+    currentFilters.search = q.toLowerCase().trim();
+    applyFilters();
+    showSuggestions(q);
+  });
+
+  input.addEventListener('blur', () => {
+    setTimeout(hideDropdown, 150);
+  });
+}
 
 // ===============================
 // LOAD DATA + INIT UI
@@ -102,7 +201,22 @@ async function loadDataAndInitUI() {
   });
 
   allFeatures = geojson.features.map(f => {
-    f.properties.raw = JSON.stringify(f.properties);
+    const p = f.properties;
+
+    p.raw = JSON.stringify(p);
+
+    // Build search index for fuzzy search
+    p.searchIndex = [
+      p.name,
+      p.city,
+      p.postal_code,
+      p.category_guess,
+      p.organization_type,
+      p.reach,
+      Array.isArray(p.climate_categories) ? p.climate_categories.join(' ') : '',
+      Array.isArray(p.tags) ? p.tags.join(' ') : ''
+    ].filter(Boolean).join(' ').toLowerCase();
+
     return f;
   });
 
@@ -125,7 +239,6 @@ async function loadDataAndInitUI() {
   renderOrgList(filteredFeatures);
   applyFilters();
 }
-
 
 // ===============================
 // MAP LAYERS
@@ -240,7 +353,6 @@ function addLayers() {
   });
 }
 
-
 // ===============================
 // FILTERS (dropdowns + Unknown last)
 // ===============================
@@ -279,16 +391,16 @@ function buildFiltersFromData(features) {
     group.className = 'filter-group';
 
     const summary = document.createElement('summary');
-    summary.textContent = `${label} (0)`;
+    summary.textContent = label;
     group.appendChild(summary);
 
     const boxContainer = document.createElement('div');
     boxContainer.className = 'checkbox-container';
 
     const values = Array.from(valuesByField[key]).sort((a, b) => {
-      if (a === "Unknown") return 1;
-      if (b === "Unknown") return -1;
-      return a.localeCompare(b);
+      if (a === 'Unknown') return 1;
+      if (b === 'Unknown') return -1;
+      return String(a).localeCompare(String(b));
     });
 
     values.forEach(v => {
@@ -306,10 +418,18 @@ function buildFiltersFromData(features) {
         ).map(x => x.value);
 
         currentFilters[key] = selected;
+
+        // Show count only if > 0
         summary.textContent = selected.length > 0
-  		? `${label} (${selected.length})`
- 		 : label;
+          ? `${label} (${selected.length})`
+          : label;
+
         applyFilters();
+
+        // Zoom to city when city filter changes
+        if (key === 'city' && selected.length > 0) {
+          zoomToCity(selected[0]);
+        }
       });
 
       const lbl = document.createElement('span');
@@ -325,6 +445,36 @@ function buildFiltersFromData(features) {
   });
 }
 
+// ===============================
+// ZOOM TO CITY
+// ===============================
+function zoomToCity(cityName) {
+  if (!cityName) return;
+
+  const matches = allFeatures.filter(f => {
+    const p = f.properties;
+    return (p.city || '').toLowerCase() === cityName.toLowerCase();
+  });
+
+  if (!matches.length) return;
+
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+
+  matches.forEach(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    if (lon < minX) minX = lon;
+    if (lon > maxX) maxX = lon;
+    if (lat < minY) minY = lat;
+    if (lat > maxY) maxY = lat;
+  });
+
+  if (isFinite(minX) && isFinite(maxX) && isFinite(minY) && isFinite(maxY)) {
+    map.fitBounds([[minX, minY], [maxX, maxY]], {
+      padding: { top: 40, bottom: 40, left: 40, right: 40 },
+      duration: 800
+    });
+  }
+}
 
 // ===============================
 // APPLY FILTERS
@@ -333,9 +483,11 @@ function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties;
 
+    // Fuzzy search on searchIndex
     if (currentFilters.search) {
-      const haystack = `${p.name || ''} ${p.summary || ''}`.toLowerCase();
-      if (!haystack.includes(currentFilters.search)) return false;
+      if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
+        return false;
+      }
     }
 
     const simple = [
@@ -381,7 +533,6 @@ function applyFilters() {
   renderOrgList(filteredFeatures);
 }
 
-
 // ===============================
 // CLEAR FILTERS
 // ===============================
@@ -398,10 +549,16 @@ function setupClearFilters() {
 
     document.getElementById('search-bar').value = '';
 
+    // Reset filter labels
+    document.querySelectorAll('.filter-group summary').forEach(s => {
+      const text = s.textContent;
+      const base = text.split('(')[0].trim();
+      s.textContent = base;
+    });
+
     applyFilters();
   });
 }
-
 
 // ===============================
 // SIDEBAR LIST
@@ -434,3 +591,4 @@ function renderOrgList(features) {
     listEl.appendChild(item);
   });
 }
+
