@@ -21,28 +21,20 @@
   padding: 12px;
 }
 
-#sidebar.collapsed {
-  transform: translateX(-100%);
-  padding: 12px; /* keep padding so it reopens cleanly */
-}
-
 
 #sidebar-toggle {
   position: absolute;
   top: 10px;
-  left: 320px;
-  z-index: 10;
-  background: white;
-  border: 1px solid #ccc;
-  padding: 4px 6px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: left 0.25s ease;
+  left: 300px;
+  z-index: 20;
+  transition: left 0.25s ease, transform 0.25s ease;
 }
 
-#sidebar.collapsed + #sidebar-toggle {
+#container.collapsed #sidebar-toggle {
   left: 0;
+  transform: rotate(180deg);
 }
+
 
 
 /* ===============================
@@ -57,6 +49,16 @@
   font-weight: 600;
   font-size: 0.95rem;
   margin-bottom: 4px;
+}
+
+details.filter-group summary {
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.checkbox-container {
+  margin-left: 10px;
 }
 
 .checkbox-row {

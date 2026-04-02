@@ -9,7 +9,6 @@ const map = new mapboxgl.Map({
   zoom: 7
 });
 
-// Add zoom / rotate controls
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 let allFeatures = [];
@@ -42,12 +41,80 @@ const orgTypeColors = {
 
 map.on('load', () => {
   setupSidebarToggle();
-  loadDataAndInitUI();   // this will add the source AFTER loading data
+  setupSearchBar();
+  loadDataAndInitUI();
 });
 
 
 // ===============================
-// LAYERS
+// SIDEBAR TOGGLE (fixed)
+// ===============================
+function setupSidebarToggle() {
+  const sidebar = document.getElementById('sidebar');
+  const toggle = document.getElementById('sidebar-toggle');
+  const container = document.getElementById('container');
+
+  toggle.addEventListener('click', () => {
+    const isCollapsed = sidebar.classList.toggle('collapsed');
+    toggle.classList.toggle('collapsed', isCollapsed);
+    container.classList.toggle('collapsed', isCollapsed);
+    map.resize();
+  });
+}
+
+
+// ===============================
+// SEARCH BAR (top of sidebar)
+// ===============================
+function setupSearchBar() {
+  const searchInput = document.getElementById('search-bar');
+  searchInput.addEventListener('input', () => {
+    currentFilters.search = searchInput.value.toLowerCase();
+    applyFilters();
+  });
+}
+
+
+// ===============================
+// LOAD DATA + INIT UI
+// ===============================
+async function loadDataAndInitUI() {
+  const res = await fetch('data/map_data.geojson');
+  const geojson = await res.json();
+
+  geojson.features = geojson.features.filter(f => {
+    const c = f.geometry?.coordinates;
+    return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
+  });
+
+  allFeatures = geojson.features.map(f => {
+    f.properties.raw = JSON.stringify(f.properties);
+    return f;
+  });
+
+  filteredFeatures = allFeatures.slice();
+
+  map.addSource('orgs', {
+    type: 'geojson',
+    data: {
+      type: 'FeatureCollection',
+      features: allFeatures
+    },
+    cluster: true,
+    clusterRadius: 50,
+    clusterMaxZoom: 12
+  });
+
+  addLayers();
+  buildFiltersFromData(allFeatures);
+  setupClearFilters();
+  renderOrgList(filteredFeatures);
+  applyFilters();
+}
+
+
+// ===============================
+// MAP LAYERS
 // ===============================
 function addLayers() {
   map.addLayer({
@@ -94,21 +161,16 @@ function addLayers() {
     paint: {
       'circle-radius': 6,
       'circle-color': [
-        'case',
-        ['has', 'organization_type'],
-        [
-          'match',
-          ['get', 'organization_type'],
-          'Nonprofit / Grassroots', orgTypeColors['Nonprofit / Grassroots'],
-          'Coalition', orgTypeColors['Coalition'],
-          'Municipality', orgTypeColors['Municipality'],
-          'Academic', orgTypeColors['Academic'],
-          'Business', orgTypeColors['Business'],
-          'Tribal/Indigenous', orgTypeColors['Tribal/Indigenous'],
-          'Other', orgTypeColors['Other'],
-          'Unknown', orgTypeColors['Unknown'],
-          orgTypeColors['Unknown']
-        ],
+        'match',
+        ['get', 'organization_type'],
+        'Nonprofit / Grassroots', orgTypeColors['Nonprofit / Grassroots'],
+        'Coalition', orgTypeColors['Coalition'],
+        'Municipality', orgTypeColors['Municipality'],
+        'Academic', orgTypeColors['Academic'],
+        'Business', orgTypeColors['Business'],
+        'Tribal/Indigenous', orgTypeColors['Tribal/Indigenous'],
+        'Other', orgTypeColors['Other'],
+        'Unknown', orgTypeColors['Unknown'],
         orgTypeColors['Unknown']
       ],
       'circle-stroke-width': 1,
@@ -135,7 +197,6 @@ function addLayers() {
 
     const climate = (data.climate_categories || []).slice(0, 3).join(', ');
     const social = (data.social_links || []).join('<br>');
-
     const check = data.verified ? '✔️ ' : '';
     const verifyLink = !data.verified
       ? `<div class="verify-link"><a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a></div>`
@@ -158,67 +219,16 @@ function addLayers() {
       ${verifyLink}
     `;
 
-    new mapboxgl.Popup()
+    new mapboxgl.Popup({ anchor: 'auto', maxWidth: '300px' })
       .setLngLat(e.lngLat)
       .setHTML(html)
       .addTo(map);
   });
 }
 
-// ===============================
-// SIDEBAR COLLAPSE
-// ===============================
-function setupSidebarToggle() {
-  const sidebar = document.getElementById('sidebar');
-  const toggle = document.getElementById('sidebar-toggle');
-
-  toggle.addEventListener('click', () => {
-    const isCollapsed = sidebar.classList.toggle('collapsed');
-    toggle.classList.toggle('collapsed', isCollapsed);
-    map.resize();
-  });
-}
 
 // ===============================
-// DATA LOAD + DEFENSIVE CLEANUP
-// ===============================
-async function loadDataAndInitUI() {
-  const res = await fetch('data/map_data.geojson');
-  const geojson = await res.json();
-
-  geojson.features = geojson.features.filter(f => {
-    const c = f.geometry?.coordinates;
-    return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
-  });
-
-  allFeatures = geojson.features.map(f => {
-    f.properties.raw = JSON.stringify(f.properties);
-    return f;
-  });
-
-  filteredFeatures = allFeatures.slice();
-
-  // ADD SOURCE HERE — not earlier
-  map.addSource('orgs', {
-    type: 'geojson',
-    data: {
-      type: 'FeatureCollection',
-      features: allFeatures
-    },
-    cluster: true,
-    clusterRadius: 50,
-    clusterMaxZoom: 12
-  });
-
-  addLayers();
-  buildFiltersFromData(allFeatures);
-  setupClearFilters();
-  renderOrgList(filteredFeatures);
-  applyFilters();
-}
-
-// ===============================
-// CHECKBOX FILTERS
+// FILTERS (dropdowns + Unknown last)
 // ===============================
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
@@ -251,14 +261,21 @@ function buildFiltersFromData(features) {
   });
 
   fields.forEach(({ key, label }) => {
-    const group = document.createElement('div');
+    const group = document.createElement('details');
     group.className = 'filter-group';
 
-    const lab = document.createElement('label');
-    lab.textContent = label;
-    group.appendChild(lab);
+    const summary = document.createElement('summary');
+    summary.textContent = `${label} (0)`;
+    group.appendChild(summary);
 
-    const values = Array.from(valuesByField[key]).sort();
+    const boxContainer = document.createElement('div');
+    boxContainer.className = 'checkbox-container';
+
+    const values = Array.from(valuesByField[key]).sort((a, b) => {
+      if (a === "Unknown") return 1;
+      if (b === "Unknown") return -1;
+      return a.localeCompare(b);
+    });
 
     values.forEach(v => {
       const wrapper = document.createElement('div');
@@ -273,7 +290,9 @@ function buildFiltersFromData(features) {
         const selected = Array.from(
           document.querySelectorAll(`input[data-field="${key}"]:checked`)
         ).map(x => x.value);
+
         currentFilters[key] = selected;
+        summary.textContent = `${label} (${selected.length})`;
         applyFilters();
       });
 
@@ -282,42 +301,27 @@ function buildFiltersFromData(features) {
 
       wrapper.appendChild(cb);
       wrapper.appendChild(lbl);
-      group.appendChild(wrapper);
+      boxContainer.appendChild(wrapper);
     });
 
+    group.appendChild(boxContainer);
     filtersEl.appendChild(group);
   });
-
-  // Search bar
-  const searchGroup = document.createElement('div');
-  searchGroup.className = 'filter-group';
-  const searchLabel = document.createElement('label');
-  searchLabel.textContent = 'Search (name / summary)';
-  const searchInput = document.createElement('input');
-  searchInput.type = 'text';
-  searchInput.addEventListener('input', () => {
-    currentFilters.search = searchInput.value.toLowerCase();
-    applyFilters();
-  });
-  searchGroup.appendChild(searchLabel);
-  searchGroup.appendChild(searchInput);
-  filtersEl.appendChild(searchGroup);
 }
 
+
 // ===============================
-// FILTER APPLICATION
+// APPLY FILTERS
 // ===============================
 function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties;
 
-    // text search
     if (currentFilters.search) {
       const haystack = `${p.name || ''} ${p.summary || ''}`.toLowerCase();
       if (!haystack.includes(currentFilters.search)) return false;
     }
 
-    // simple fields
     const simple = [
       'action_category',
       'organization_type',
@@ -337,7 +341,6 @@ function applyFilters() {
       }
     }
 
-    // multi-valued
     const multi = ['climate_categories', 'tags'];
     for (const field of multi) {
       const selected = currentFilters[field];
@@ -351,39 +354,34 @@ function applyFilters() {
     return true;
   });
 
-    const src = map.getSource('orgs');
-    if (src) {
-      src.setData({
-        type: 'FeatureCollection',
-        features: filteredFeatures
-      });
-    }
-
+  const src = map.getSource('orgs');
+  if (src) {
+    src.setData({
+      type: 'FeatureCollection',
+      features: filteredFeatures
+    });
+  }
 
   renderOrgList(filteredFeatures);
 }
 
+
 // ===============================
-// CLEAR ALL FILTERS
+// CLEAR FILTERS
 // ===============================
 function setupClearFilters() {
   const btn = document.getElementById('clear-filters');
   btn.addEventListener('click', () => {
-    // Reset filter state
     Object.keys(currentFilters).forEach(key => {
       currentFilters[key] = Array.isArray(currentFilters[key]) ? [] : '';
     });
 
-    // Uncheck all checkboxes
     document.querySelectorAll('#filters input[type="checkbox"]').forEach(cb => {
       cb.checked = false;
     });
 
-    // Clear search bar
-    const searchInput = document.querySelector('#filters input[type="text"]');
-    if (searchInput) searchInput.value = '';
+    document.getElementById('search-bar').value = '';
 
-    // Reapply filters
     applyFilters();
   });
 }
