@@ -51,16 +51,13 @@ map.on('load', () => {
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
+  if (!sidebar || !toggle) return;
 
   toggle.addEventListener('click', () => {
     sidebar.classList.toggle('closed');
 
     // Flip arrow direction
-    if (sidebar.classList.contains('closed')) {
-      toggle.textContent = '⟩';
-    } else {
-      toggle.textContent = '⟨';
-    }
+    toggle.textContent = sidebar.classList.contains('closed') ? '⟩' : '⟨';
 
     // Resize map after animation
     setTimeout(() => map.resize(), 260);
@@ -72,13 +69,11 @@ function setupSidebarToggle() {
 // ===============================
 function fuzzyMatch(haystack, needle) {
   if (!needle) return true;
-  haystack = haystack.toLowerCase();
+  haystack = (haystack || '').toLowerCase();
   needle = needle.toLowerCase();
 
-  // direct substring
   if (haystack.includes(needle)) return true;
 
-  // token-based: all tokens must appear somewhere
   const tokens = needle.split(/\s+/).filter(Boolean);
   return tokens.every(t => haystack.includes(t));
 }
@@ -88,15 +83,14 @@ function fuzzyMatch(haystack, needle) {
 // ===============================
 function setupSearchBar() {
   const input = document.getElementById('search-bar');
+  const header = document.getElementById('sidebar-header');
+  if (!input || !header) return;
 
-  // Create suggestions container
   const suggestions = document.createElement('div');
   suggestions.id = 'search-suggestions';
   suggestions.style.position = 'relative';
   suggestions.style.zIndex = '50';
 
-  // Wrap input in a container so we can position suggestions
-  const header = document.getElementById('sidebar-header');
   header.insertBefore(suggestions, input.nextSibling);
 
   const dropdown = document.createElement('div');
@@ -164,7 +158,6 @@ function setupSearchBar() {
         applyFilters();
         hideDropdown();
 
-        // If it's a city suggestion, zoom to that city
         if (item.type === 'city') {
           zoomToCity(item.label);
         }
@@ -192,52 +185,60 @@ function setupSearchBar() {
 // LOAD DATA + INIT UI
 // ===============================
 async function loadDataAndInitUI() {
-  const res = await fetch('data/map_data.geojson');
-  const geojson = await res.json();
+  try {
+    const res = await fetch('data/map_data.geojson');
+    if (!res.ok) {
+      console.error('Failed to load data/map_data.geojson', res.status);
+      return;
+    }
+    const geojson = await res.json();
 
-  geojson.features = geojson.features.filter(f => {
-    const c = f.geometry?.coordinates;
-    return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
-  });
+    geojson.features = (geojson.features || []).filter(f => {
+      const c = f.geometry?.coordinates;
+      return Array.isArray(c) && c.length === 2 && isFinite(c[0]) && isFinite(c[1]);
+    });
 
-  allFeatures = geojson.features.map(f => {
-    const p = f.properties;
+    allFeatures = geojson.features.map(f => {
+      const p = f.properties || {};
 
-    p.raw = JSON.stringify(p);
+      p.raw = JSON.stringify(p);
 
-    // Build search index for fuzzy search
-    p.searchIndex = [
-      p.name,
-      p.city,
-      p.postal_code,
-      p.category_guess,
-      p.organization_type,
-      p.reach,
-      Array.isArray(p.climate_categories) ? p.climate_categories.join(' ') : '',
-      Array.isArray(p.tags) ? p.tags.join(' ') : ''
-    ].filter(Boolean).join(' ').toLowerCase();
+      p.searchIndex = [
+        p.name,
+        p.city,
+        p.postal_code,
+        p.category_guess,
+        p.organization_type,
+        p.reach,
+        Array.isArray(p.climate_categories) ? p.climate_categories.join(' ') : '',
+        Array.isArray(p.tags) ? p.tags.join(' ') : ''
+      ].filter(Boolean).join(' ').toLowerCase();
 
-    return f;
-  });
+      f.properties = p;
+      return f;
+    });
 
-  filteredFeatures = allFeatures.slice();
+    filteredFeatures = allFeatures.slice();
 
-  map.addSource('orgs', {
-    type: 'geojson',
-    data: {
-      type: 'FeatureCollection',
-      features: allFeatures
-    },
-    cluster: true,
-    clusterRadius: 50,
-    clusterMaxZoom: 12
-  });
+    map.addSource('orgs', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: allFeatures
+      },
+      cluster: true,
+      clusterRadius: 50,
+      clusterMaxZoom: 12
+    });
 
-  addLayers();
-  buildFiltersFromData(allFeatures);
-  setupClearFilters();
-  renderOrgList(filteredFeatures);
-  applyFilters();
+    addLayers();
+    buildFiltersFromData(allFeatures);
+    setupClearFilters();
+    renderOrgList(filteredFeatures);
+    applyFilters();
+  } catch (err) {
+    console.error('Error loading or parsing map_data.geojson', err);
+  }
 }
 
 // ===============================
@@ -358,6 +359,7 @@ function addLayers() {
 // ===============================
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
+  if (!filtersEl) return;
   filtersEl.innerHTML = '';
 
   const fields = [
@@ -377,7 +379,7 @@ function buildFiltersFromData(features) {
   fields.forEach(f => valuesByField[f.key] = new Set());
 
   features.forEach(f => {
-    const p = f.properties;
+    const p = f.properties || {};
     fields.forEach(({ key }) => {
       const val = p[key];
       if (val === undefined || val === null) return;
@@ -419,14 +421,12 @@ function buildFiltersFromData(features) {
 
         currentFilters[key] = selected;
 
-        // Show count only if > 0
         summary.textContent = selected.length > 0
           ? `${label} (${selected.length})`
           : label;
 
         applyFilters();
 
-        // Zoom to city when city filter changes
         if (key === 'city' && selected.length > 0) {
           zoomToCity(selected[0]);
         }
@@ -452,7 +452,7 @@ function zoomToCity(cityName) {
   if (!cityName) return;
 
   const matches = allFeatures.filter(f => {
-    const p = f.properties;
+    const p = f.properties || {};
     return (p.city || '').toLowerCase() === cityName.toLowerCase();
   });
 
@@ -481,9 +481,8 @@ function zoomToCity(cityName) {
 // ===============================
 function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
-    const p = f.properties;
+    const p = f.properties || {};
 
-    // Fuzzy search on searchIndex
     if (currentFilters.search) {
       if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
         return false;
@@ -538,6 +537,8 @@ function applyFilters() {
 // ===============================
 function setupClearFilters() {
   const btn = document.getElementById('clear-filters');
+  if (!btn) return;
+
   btn.addEventListener('click', () => {
     Object.keys(currentFilters).forEach(key => {
       currentFilters[key] = Array.isArray(currentFilters[key]) ? [] : '';
@@ -547,9 +548,9 @@ function setupClearFilters() {
       cb.checked = false;
     });
 
-    document.getElementById('search-bar').value = '';
+    const searchInput = document.getElementById('search-bar');
+    if (searchInput) searchInput.value = '';
 
-    // Reset filter labels
     document.querySelectorAll('.filter-group summary').forEach(s => {
       const text = s.textContent;
       const base = text.split('(')[0].trim();
@@ -565,10 +566,11 @@ function setupClearFilters() {
 // ===============================
 function renderOrgList(features) {
   const listEl = document.getElementById('org-list');
+  if (!listEl) return;
   listEl.innerHTML = '';
 
   features.forEach(f => {
-    const p = f.properties;
+    const p = f.properties || {};
     const item = document.createElement('div');
     item.className = 'org-item';
 
@@ -591,4 +593,3 @@ function renderOrgList(features) {
     listEl.appendChild(item);
   });
 }
-

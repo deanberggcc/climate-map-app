@@ -1,5 +1,21 @@
 /* ===============================
-   LAYOUT — NEW OVERLAY SYSTEM
+   BASE
+   =============================== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+/* ===============================
+   LAYOUT — OVERLAY SIDEBAR
    =============================== */
 
 /* Fullscreen map container */
@@ -30,6 +46,7 @@
   overflow-y: auto;
   padding: 12px;
   z-index: 10;
+  box-sizing: border-box;
   transition: transform 0.25s ease;
 }
 
@@ -50,4 +67,116 @@
   cursor: pointer;
   border-radius: 4px;
   transition: transform 0.25s ease;
+}
+
+/* Sidebar header */
+#sidebar-header {
+  margin-bottom: 8px;
+}
+
+#sidebar-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+#search-bar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+/* ===============================
+   FILTERS
+   =============================== */
+
+.filter-group {
+  margin-bottom: 16px;
+}
+
+.filter-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+details.filter-group summary {
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.checkbox-container {
+  margin-left: 10px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px 0;
+  font-size: 0.85rem;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+.clear-filters-btn {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  background: #e6e6e6;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.clear-filters-btn:hover {
+  background: #dcdcdc;
+}
+
+/* ===============================
+   ORG LIST
+   =============================== */
+
+#org-list {
+  margin-top: 8px;
+}
+
+.org-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.org-item:hover {
+  background: #f0f0f0;
+}
+
+.org-name {
+  font-weight: bold;
+}
+
+.org-meta {
+  font-size: 12px;
+  color: #666;
+}
+
+/* ===============================
+   POPUP
+   =============================== */
+
+.verify-link {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.verify-link a {
+  color: #0077cc;
+  text-decoration: underline;
 }

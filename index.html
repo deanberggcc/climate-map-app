@@ -14,32 +14,34 @@
 </head>
 
 <body>
+  <!-- Outer wrapper (harmless, helps if any old CSS/JS still references #container) -->
+  <div id="container">
+    <!-- MAP CONTAINER (full screen) -->
+    <div id="map-container">
 
-  <!-- MAP CONTAINER (full screen) -->
-  <div id="map-container">
+      <!-- SIDEBAR (overlays the map) -->
+      <div id="sidebar">
+        <div id="sidebar-header">
+          <h2>Climate Organizations Map</h2>
+          <input id="search-bar" type="text" placeholder="Search organizations...">
+        </div>
 
-    <!-- SIDEBAR (now overlays the map) -->
-    <div id="sidebar">
-      <div id="sidebar-header">
-        <h2>Climate Organizations Map</h2>
-        <input id="search-bar" type="text" placeholder="Search organizations...">
+        <button id="sidebar-toggle">⟨</button>
+
+        <!-- CLEAR FILTERS BUTTON -->
+        <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
+
+        <!-- FILTERS (injected by JS) -->
+        <div id="filters"></div>
+
+        <!-- ORG LIST (injected by JS) -->
+        <div id="org-list"></div>
       </div>
 
-      <button id="sidebar-toggle">⟨</button>
+      <!-- MAP -->
+      <div id="map"></div>
 
-      <!-- CLEAR FILTERS BUTTON -->
-      <button id="clear-filters" class="clear-filters-btn">Clear All Filters</button>
-
-      <!-- FILTERS (injected by JS) -->
-      <div id="filters"></div>
-
-      <!-- ORG LIST (injected by JS) -->
-      <div id="org-list"></div>
     </div>
-
-    <!-- MAP -->
-    <div id="map"></div>
-
   </div>
 
   <!-- Your JS -->
