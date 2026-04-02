@@ -86,12 +86,14 @@ function setupSearchBar() {
   const header = document.getElementById('sidebar-header');
   if (!input || !header) return;
 
+  // Create suggestions container
   const suggestions = document.createElement('div');
   suggestions.id = 'search-suggestions';
   suggestions.style.position = 'relative';
   suggestions.style.zIndex = '50';
 
-  header.insertBefore(suggestions, input.nextSibling);
+  // SAFE append (instead of insertBefore)
+  header.appendChild(suggestions);
 
   const dropdown = document.createElement('div');
   dropdown.style.position = 'absolute';
