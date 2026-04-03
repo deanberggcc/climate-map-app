@@ -251,6 +251,7 @@ async function loadDataAndInitUI() {
 // MAP LAYERS
 // ===============================
 function addLayers() {
+  // --- CLUSTERS ---
   map.addLayer({
     id: 'clusters',
     type: 'circle',
@@ -276,6 +277,7 @@ function addLayers() {
     }
   });
 
+  // --- CLUSTER COUNT LABELS ---
   map.addLayer({
     id: 'cluster-count',
     type: 'symbol',
@@ -287,12 +289,12 @@ function addLayers() {
     }
   });
 
+  // --- ORG POINTS ---
   map.addLayer({
     id: 'org-points',
     type: 'circle',
     source: 'orgs',
     filter: ['!', ['has', 'point_count']],
-    interactive: true,
     paint: {
       'circle-radius': 6,
       'circle-color': [
@@ -312,23 +314,23 @@ function addLayers() {
       'circle-stroke-color': '#333'
     }
   });
-  // Find the first symbol layer in the style
-const layers = map.getStyle().layers;
-let firstSymbolId = null;
 
-for (const layer of layers) {
-  if (layer.type === 'symbol') {
-    firstSymbolId = layer.id;
-    break;
+  // --- ENSURE ORG-POINTS IS ABOVE ALL SYMBOL LAYERS ---
+  const layers = map.getStyle().layers;
+  let firstSymbolId = null;
+
+  for (const layer of layers) {
+    if (layer.type === 'symbol') {
+      firstSymbolId = layer.id;
+      break;
+    }
   }
-}
 
-// Move org-points ABOVE all symbol layers
-if (firstSymbolId) {
-  map.moveLayer('org-points', firstSymbolId);
-}
+  if (firstSymbolId) {
+    map.moveLayer('org-points', firstSymbolId);
+  }
 
-
+  // --- CLUSTER CLICK ---
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
     const clusterId = features[0].properties.cluster_id;
@@ -342,6 +344,7 @@ if (firstSymbolId) {
     });
   });
 
+  // --- ORG CLICK ---
   map.on('click', 'org-points', (e) => {
     const props = e.features[0].properties;
     const data = JSON.parse(props.raw || JSON.stringify(props));
@@ -376,6 +379,7 @@ if (firstSymbolId) {
       .addTo(map);
   });
 }
+
 
 // ===============================
 // FILTERS (dropdowns + Unknown last)
