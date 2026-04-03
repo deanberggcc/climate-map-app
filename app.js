@@ -312,13 +312,22 @@ function addLayers() {
       'circle-stroke-color': '#333'
     }
   });
-  // Ensure org points are on top for click events
-  if (map.getLayer('org-points')) {
-       map.moveLayer('org-points');
-    }
+  // Find the first symbol layer in the style
+const layers = map.getStyle().layers;
+let firstSymbolId = null;
 
+for (const layer of layers) {
+  if (layer.type === 'symbol') {
+    firstSymbolId = layer.id;
+    break;
+  }
+}
 
-  map.moveLayer('org-points', 'clusters');
+// Move org-points ABOVE all symbol layers
+if (firstSymbolId) {
+  map.moveLayer('org-points', firstSymbolId);
+}
+
 
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
