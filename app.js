@@ -296,7 +296,9 @@ function addLayers() {
     source: 'orgs',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-radius': 6,
+      'circle-radius': 7,
+      'circle-stroke-width': 2,
+      'circle-stroke-color': '#333',
       'circle-color': [
         'match',
         ['get', 'organization_type'],
@@ -309,80 +311,93 @@ function addLayers() {
         'Other', orgTypeColors['Other'],
         'Unknown', orgTypeColors['Unknown'],
         orgTypeColors['Unknown']
-      ],
-      'circle-stroke-width': 1,
-      'circle-stroke-color': '#333'
+      ]
     }
   });
 
-  // --- ENSURE ORG-POINTS IS ABOVE ALL SYMBOL LAYERS ---
- map.on('styledata', () => {
-  const layers = map.getStyle().layers;
-  let lastSymbolLayerId = null;
+  // ============================================================
+  //  FIX 1: GUARANTEED LAYER ORDERING (AFTER STYLE LOAD)
+  // ============================================================
+  map.on('styledata', () => {
+    const layers = map.getStyle().layers;
+    let lastSymbolLayerId = null;
 
-  for (const layer of layers) {
-    if (layer.type === 'symbol') {
-      lastSymbolLayerId = layer.id;
+    for (const layer of layers) {
+      if (layer.type === 'symbol') {
+        lastSymbolLayerId = layer.id;
+      }
     }
-  }
 
-  if (lastSymbolLayerId) {
-    map.moveLayer('clusters', lastSymbolLayerId);
-    map.moveLayer('cluster-count', lastSymbolLayerId);
-    map.moveLayer('org-points', lastSymbolLayerId);
-  }
-});
+    if (lastSymbolLayerId) {
+      map.moveLayer('clusters', lastSymbolLayerId);
+      map.moveLayer('cluster-count', lastSymbolLayerId);
+      map.moveLayer('org-points', lastSymbolLayerId);
+    }
+  });
 
-  // --- CLUSTER CLICK ---
-  map.on('click', 'clusters', (e) => {
-    const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
-    const clusterId = features[0].properties.cluster_id;
+  // ============================================================
+  //  FIX 2: GUARANTEED CLICK HANDLER ATTACHMENT
+  // ============================================================
+  map.on('styledata', () => {
+    if (!map.getLayer('org-points')) return;
 
-    map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
-      if (err) return;
-      map.easeTo({
-        center: features[0].geometry.coordinates,
-        zoom: zoom
+    // Remove old handlers to avoid duplicates
+    map.off('click', 'org-points');
+    map.off('click', 'clusters');
+
+    // --- CLUSTER CLICK ---
+    map.on('click', 'clusters', (e) => {
+      const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+      if (!features.length) return;
+
+      const clusterId = features[0].properties.cluster_id;
+      map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
+        if (err) return;
+        map.easeTo({
+          center: features[0].geometry.coordinates,
+          zoom: zoom
+        });
       });
     });
-  });
 
-  // --- ORG CLICK ---
-  map.on('click', 'org-points', (e) => {
-    const props = e.features[0].properties;
-    const data = JSON.parse(props.raw || JSON.stringify(props));
+    // --- ORG CLICK ---
+    map.on('click', 'org-points', (e) => {
+      if (!e.features || !e.features.length) return;
 
-    const climate = (data.climate_categories || []).slice(0, 3).join(', ');
-    const social = (data.social_links || []).join('<br>');
-    const check = data.verified ? '✔️ ' : '';
-    const verifyLink = !data.verified
-      ? `<div class="verify-link"><a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a></div>`
-      : '';
+      const props = e.features[0].properties;
+      const data = JSON.parse(props.raw || JSON.stringify(props));
 
-    const html = `
-      <strong>${check}${data.name || 'Unknown'}</strong><br>
-      ${data.address || ''}<br>
-      ${data.city || ''}, ${data.state || ''}<br><br>
+      const climate = (data.climate_categories || []).slice(0, 3).join(', ');
+      const social = (data.social_links || []).join('<br>');
+      const check = data.verified ? '✔️ ' : '';
+      const verifyLink = !data.verified
+        ? `<div class="verify-link"><a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a></div>`
+        : '';
 
-      <strong>Type:</strong> ${data.organization_type || 'Unknown'}<br>
-      <strong>Action:</strong> ${data.action_category || 'Unknown'}<br>
-      <strong>Climate:</strong> ${climate || 'Unknown'}<br>
-      <strong>Audience:</strong> ${data.audience_focus || 'Unknown'}<br>
-      <strong>Reach:</strong> ${data.reach || 'Unknown'}<br><br>
+      const html = `
+        <strong>${check}${data.name || 'Unknown'}</strong><br>
+        ${data.address || ''}<br>
+        ${data.city || ''}, ${data.state || ''}<br><br>
 
-      ${data.website_url ? `<a href="${data.website_url}" target="_blank">Website</a><br>` : ''}
-      ${social ? `<div style="margin-top:4px;">${social}</div>` : ''}
-      <div style="margin-top:8px; font-size:12px;">${data.summary || ''}</div>
-      ${verifyLink}
-    `;
+        <strong>Type:</strong> ${data.organization_type || 'Unknown'}<br>
+        <strong>Action:</strong> ${data.action_category || 'Unknown'}<br>
+        <strong>Climate:</strong> ${climate || 'Unknown'}<br>
+        <strong>Audience:</strong> ${data.audience_focus || 'Unknown'}<br>
+        <strong>Reach:</strong> ${data.reach || 'Unknown'}<br><br>
 
-    new mapboxgl.Popup({ anchor: 'auto', maxWidth: '300px' })
-      .setLngLat(e.lngLat)
-      .setHTML(html)
-      .addTo(map);
+        ${data.website_url ? `<a href="${data.website_url}" target="_blank">Website</a><br>` : ''}
+        ${social ? `<div style="margin-top:4px;">${social}</div>` : ''}
+        <div style="margin-top:8px; font-size:12px;">${data.summary || ''}</div>
+        ${verifyLink}
+      `;
+
+      new mapboxgl.Popup({ anchor: 'auto', maxWidth: '300px' })
+        .setLngLat(e.lngLat)
+        .setHTML(html)
+        .addTo(map);
+    });
   });
 }
-
 
 // ===============================
 // FILTERS (dropdowns + Unknown last)
