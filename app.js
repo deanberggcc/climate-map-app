@@ -1,7 +1,6 @@
 // app.js
 
 console.log("APP.JS STARTED");
-console.log(map.queryRenderedFeatures({ layers: ['org-points'] }));
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
@@ -319,7 +318,7 @@ function addLayers() {
     }
 
 
-  map.moveLayer('org-points', 'cluster-count');
+  map.moveLayer('org-points', 'clusters');
 
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
