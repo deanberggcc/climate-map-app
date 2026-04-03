@@ -48,10 +48,6 @@ map.on('load', () => {
   setupSearchBar();
   loadDataAndInitUI();
 });
-map.on('click', (e) => {
-  const feats = map.queryRenderedFeatures(e.point, { layers: ['org-points'] });
-  console.log("CLICKED FEATURES:", feats);
-});
 
 
 // ===============================
