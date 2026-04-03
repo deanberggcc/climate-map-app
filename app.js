@@ -1,6 +1,8 @@
 // app.js
 
 console.log("APP.JS STARTED");
+console.log(map.queryRenderedFeatures({ layers: ['org-points'] }));
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
 
@@ -41,11 +43,11 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
-map.on('load', () => {
-  setupSidebarToggle();
-  setupSearchBar();
-  loadDataAndInitUI();
+map.on('click', (e) => {
+  const feats = map.queryRenderedFeatures(e.point, { layers: ['org-points'] });
+  console.log("CLICKED FEATURES:", feats);
 });
+
 
 // ===============================
 // SIDEBAR TOGGLE (overlay)
@@ -290,6 +292,7 @@ function addLayers() {
     type: 'circle',
     source: 'orgs',
     filter: ['!', ['has', 'point_count']],
+    interactive: true,
     paint: {
       'circle-radius': 6,
       'circle-color': [
