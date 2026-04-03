@@ -316,19 +316,22 @@ function addLayers() {
   });
 
   // --- ENSURE ORG-POINTS IS ABOVE ALL SYMBOL LAYERS ---
+ map.on('styledata', () => {
   const layers = map.getStyle().layers;
-  let firstSymbolId = null;
+  let lastSymbolLayerId = null;
 
   for (const layer of layers) {
     if (layer.type === 'symbol') {
-      firstSymbolId = layer.id;
-      break;
+      lastSymbolLayerId = layer.id;
     }
   }
 
-  if (firstSymbolId) {
-    map.moveLayer('org-points', firstSymbolId);
+  if (lastSymbolLayerId) {
+    map.moveLayer('clusters', lastSymbolLayerId);
+    map.moveLayer('cluster-count', lastSymbolLayerId);
+    map.moveLayer('org-points', lastSymbolLayerId);
   }
+});
 
   // --- CLUSTER CLICK ---
   map.on('click', 'clusters', (e) => {
