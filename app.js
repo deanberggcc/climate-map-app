@@ -43,6 +43,11 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
+map.on('load', () => {
+  setupSidebarToggle();
+  setupSearchBar();
+  loadDataAndInitUI();
+});
 map.on('click', (e) => {
   const feats = map.queryRenderedFeatures(e.point, { layers: ['org-points'] });
   console.log("CLICKED FEATURES:", feats);
