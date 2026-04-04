@@ -61,40 +61,42 @@ function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
   const x = screenPos.x;
 
-  // If point is under/near the sidebar, force popup to the right
-  if (x < SIDEBAR_WIDTH + 40) return 'right';
+  // If point is under sidebar → force popup to the right
+  if (x < SIDEBAR_WIDTH + 20) return 'right';
 
-  // Otherwise: left side of screen → right anchor, right side → left anchor
+  // Otherwise: left half → right anchor, right half → left anchor
   return x < w / 2 ? 'right' : 'left';
 }
+
 
 function computePopupOffset(screenPos, map) {
   const h = map.getCanvas().height;
   const y = screenPos.y;
 
-  // Horizontal offset: small nudge away from the point
-  let baseX = 12;
+  // Horizontal offset (distance from point)
+  let dx = 14;
 
-  // If under sidebar, push further right
-  if (screenPos.x < SIDEBAR_WIDTH + 40) {
-    baseX = SIDEBAR_WIDTH - screenPos.x + 16;
+  // If under sidebar, push popup further right
+  if (screenPos.x < SIDEBAR_WIDTH + 20) {
+    dx = SIDEBAR_WIDTH - screenPos.x + 20;
   }
 
-  // Vertical offset: keep popup inside viewport
-  const margin = 80;
+  // Vertical clamping
+  const margin = 80; // minimum distance from top/bottom
   let dy = 0;
+
   if (y < margin) {
-    dy = margin - y;
+    dy = margin - y; // push down
   } else if (y > h - margin) {
-    dy = (h - margin) - y;
+    dy = (h - margin) - y; // push up
   }
 
-  // Mapbox uses per-anchor offsets; we only use left/right anchors
   return {
-    'left': [-baseX, dy],
-    'right': [baseX, dy]
+    'left': [-dx, dy],
+    'right': [dx, dy]
   };
 }
+
 
 // ===============================
 // SIDEBAR TOGGLE (overlay)
@@ -444,14 +446,13 @@ function addLayers() {
 	const offset = computePopupOffset(screenPos, map);
 
 	new mapboxgl.Popup({
-	    anchor,
+ 			   anchor,
  			   offset,
- 			   maxWidth: '300px'
-  			})
+	    maxWidth: '300px'
+	})
  			 .setLngLat(e.lngLat)
  			 .setHTML(html)
  			 .addTo(map);
-
     });
   });
 }
