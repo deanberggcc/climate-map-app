@@ -620,6 +620,17 @@ function zoomToBoundingFeatures(matches) {
     padding: { top: 40, bottom: 40, left: 40, right: 40 },
     duration: 800
   });
+
+  // Clamp zoom after fitBounds animation completes
+  map.once('moveend', () => clampZoom(13));
+}
+
+
+function clampZoom(maxZoom = 13) {
+  const z = map.getZoom();
+  if (z > maxZoom) {
+    map.easeTo({ zoom: maxZoom, duration: 300 });
+  }
 }
 
 function updateVisibleOrgs() {
