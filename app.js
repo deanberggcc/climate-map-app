@@ -51,6 +51,8 @@ map.on('load', () => {
   loadDataAndInitUI();
 });
 
+map.on('moveend', updateVisibleOrgs);
+
 // ===============================
 // SMART POPUP POSITIONING
 // ===============================
@@ -181,16 +183,30 @@ function setupSearchBar() {
     for (const f of allFeatures) {
       const p = f.properties;
       const name = p.name || '';
-      const city = p.city || '';
+	const city = p.city || '';
+	const county = p.county || '';
+	const zip = p.postal_code || '';
 
-      if (name.toLowerCase().includes(q) && !seen.has(name)) {
-        seen.add(name);
-        items.push({ label: name, type: 'name' });
-      }
-      if (city.toLowerCase().includes(q) && !seen.has(city)) {
-        seen.add(city);
-        items.push({ label: city, type: 'city' });
-      }
+	if (name.toLowerCase().includes(q) && !seen.has(name)) {
+ 			 seen.add(name);
+ 			 items.push({ label: name, type: 'name' });
+	}
+
+	if (city.toLowerCase().includes(q) && !seen.has(city)) {
+	  seen.add(city);
+ 			 items.push({ label: city, type: 'city' });
+	}
+
+	if (county.toLowerCase().includes(q) && !seen.has(county)) {
+	  seen.add(county);
+	  items.push({ label: county, type: 'county' });
+	}
+
+	if (zip.includes(q) && !seen.has(zip)) {
+ 			 seen.add(zip);
+	  items.push({ label: zip, type: 'zip' });
+	}
+
       if (items.length >= 10) break;
     }
 
@@ -214,8 +230,20 @@ function setupSearchBar() {
         hideDropdown();
 
         if (item.type === 'city') {
-          zoomToCity(item.label);
-        }
+ 			 const matches = allFeatures.filter(f => f.properties.city === item.label.toLowerCase());
+	   zoomToBoundingFeatures(matches);
+	}
+
+	if (item.type === 'zip') {
+	  const matches = allFeatures.filter(f => f.properties.postal_code === item.label);
+	  zoomToBoundingFeatures(matches);
+	}
+
+	if (item.type === 'county') {
+	  const matches = allFeatures.filter(f => f.properties.county === item.label.toLowerCase());
+	  zoomToBoundingFeatures(matches);
+	}
+
       });
 
       dropdown.appendChild(div);
@@ -289,7 +317,7 @@ async function loadDataAndInitUI() {
     addLayers();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
-    renderOrgList(filteredFeatures);
+    updateVisibleOrgs();
     applyFilters();
   } catch (err) {
     console.error('Error loading or parsing map_data.geojson', err);
@@ -471,10 +499,6 @@ function buildFiltersFromData(features) {
     { key: 'organization_type', label: 'Organization Type' },
     { key: 'audience_focus', label: 'Audience Focus' },
     { key: 'reach', label: 'Reach' },
-    { key: 'status', label: 'Status' },
-    { key: 'tags', label: 'Tags' },
-    { key: 'city', label: 'City' },
-    { key: 'county', label: 'County' },
     { key: 'verified', label: 'Verification' }
   ];
 
@@ -579,6 +603,36 @@ function zoomToCity(cityName) {
   }
 }
 
+function zoomToBoundingFeatures(matches) {
+  if (!matches.length) return;
+
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+
+  matches.forEach(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    minX = Math.min(minX, lon);
+    maxX = Math.max(maxX, lon);
+    minY = Math.min(minY, lat);
+    maxY = Math.max(maxY, lat);
+  });
+
+  map.fitBounds([[minX, minY], [maxX, maxY]], {
+    padding: { top: 40, bottom: 40, left: 40, right: 40 },
+    duration: 800
+  });
+}
+
+function updateVisibleOrgs() {
+  const bounds = map.getBounds();
+
+  const visible = filteredFeatures.filter(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    return bounds.contains([lon, lat]);
+  });
+
+  renderOrgList(visible);
+}
+
 // ===============================
 // APPLY FILTERS
 // ===============================
@@ -597,9 +651,6 @@ function applyFilters() {
       'organization_type',
       'audience_focus',
       'reach',
-      'status',
-      'city',
-      'county',
       'verified'
     ];
 
@@ -632,7 +683,7 @@ function applyFilters() {
     });
   }
 
-  renderOrgList(filteredFeatures);
+  updateVisibleOrgs();
 }
 
 // ===============================
