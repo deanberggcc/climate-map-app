@@ -55,58 +55,44 @@ map.on('load', () => {
 // SMART POPUP POSITIONING
 // ===============================
 
-// Adjust this to match your sidebar width in CSS
-const SIDEBAR_WIDTH = 320;
+const SIDEBAR_WIDTH = 320; // match your CSS
 
-// Determine anchor based on screen position
-function computeSmartAnchor(screenPos, map) {
+function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
-  const h = map.getCanvas().height;
-
   const x = screenPos.x;
-  const y = screenPos.y;
 
-  // Horizontal anchor
-  const horizontal = x < w * 0.33 ? 'left'
-                  : x > w * 0.66 ? 'right'
-                  : 'center';
+  // If point is under/near the sidebar, force popup to the right
+  if (x < SIDEBAR_WIDTH + 40) return 'right';
 
-  // Vertical anchor
-  const vertical = y < h * 0.33 ? 'top'
-                : y > h * 0.66 ? 'bottom'
-                : 'middle';
-
-  // Combine into Mapbox anchor format
-  if (vertical === 'middle') return horizontal;
-  if (horizontal === 'center') return vertical;
-
-  return `${vertical}-${horizontal}`;
+  // Otherwise: left side of screen → right anchor, right side → left anchor
+  return x < w / 2 ? 'right' : 'left';
 }
 
-// Compute popup offset, ensuring it never appears under the sidebar
-function computeSmartOffset(screenPos, map) {
-  const w = map.getCanvas().width;
+function computePopupOffset(screenPos, map) {
+  const h = map.getCanvas().height;
+  const y = screenPos.y;
 
-  // If the point is under the sidebar, push popup right
-  if (screenPos.x < SIDEBAR_WIDTH) {
-    const shift = SIDEBAR_WIDTH - screenPos.x + 10;
-    return {
-      'left': [shift, 0],
-      'top-left': [shift, 10],
-      'bottom-left': [shift, -10]
-    };
+  // Horizontal offset: small nudge away from the point
+  let baseX = 12;
+
+  // If under sidebar, push further right
+  if (screenPos.x < SIDEBAR_WIDTH + 40) {
+    baseX = SIDEBAR_WIDTH - screenPos.x + 16;
   }
 
-  // Default offsets
+  // Vertical offset: keep popup inside viewport
+  const margin = 80;
+  let dy = 0;
+  if (y < margin) {
+    dy = margin - y;
+  } else if (y > h - margin) {
+    dy = (h - margin) - y;
+  }
+
+  // Mapbox uses per-anchor offsets; we only use left/right anchors
   return {
-    'top': [0, 10],
-    'bottom': [0, -10],
-    'left': [10, 0],
-    'right': [-10, 0],
-    'top-left': [10, 10],
-    'top-right': [-10, 10],
-    'bottom-left': [10, -10],
-    'bottom-right': [-10, -10]
+    'left': [-baseX, dy],
+    'right': [baseX, dy]
   };
 }
 
@@ -454,22 +440,18 @@ function addLayers() {
 
       // SMART POPUP
 	const screenPos = map.project(e.lngLat);
-	const anchor = computeSmartAnchor(screenPos, map);
-	const offset = computeSmartOffset(screenPos, map);
+	const anchor = computePopupAnchor(screenPos, map);
+	const offset = computePopupOffset(screenPos, map);
 
-	if (activePopup) activePopup.remove();
+	new mapboxgl.Popup({
+	    anchor,
+ 			   offset,
+ 			   maxWidth: '300px'
+  			})
+ 			 .setLngLat(e.lngLat)
+ 			 .setHTML(html)
+ 			 .addTo(map);
 
-	activePopupLngLat = e.lngLat;
-
-	activePopup = new mapboxgl.Popup({
- 			anchor,
-	    offset,
-	    maxWidth: '300px',
-	    closeOnMove: false   // important for smooth repositioning
-	})
-	  .setLngLat(e.lngLat)
-	  .setHTML(html)
- 		 .addTo(map);
     });
   });
 }
