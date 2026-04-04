@@ -31,6 +31,9 @@ let currentFilters = {
   search: ''
 };
 
+let activePopup = null;
+let activePopupLngLat = null;
+
 const orgTypeColors = {
   'Nonprofit / Grassroots': '#a6cee3',
   'Coalition': '#b2df8a',
@@ -48,6 +51,64 @@ map.on('load', () => {
   loadDataAndInitUI();
 });
 
+// ===============================
+// SMART POPUP POSITIONING
+// ===============================
+
+// Adjust this to match your sidebar width in CSS
+const SIDEBAR_WIDTH = 320;
+
+// Determine anchor based on screen position
+function computeSmartAnchor(screenPos, map) {
+  const w = map.getCanvas().width;
+  const h = map.getCanvas().height;
+
+  const x = screenPos.x;
+  const y = screenPos.y;
+
+  // Horizontal anchor
+  const horizontal = x < w * 0.33 ? 'left'
+                  : x > w * 0.66 ? 'right'
+                  : 'center';
+
+  // Vertical anchor
+  const vertical = y < h * 0.33 ? 'top'
+                : y > h * 0.66 ? 'bottom'
+                : 'middle';
+
+  // Combine into Mapbox anchor format
+  if (vertical === 'middle') return horizontal;
+  if (horizontal === 'center') return vertical;
+
+  return `${vertical}-${horizontal}`;
+}
+
+// Compute popup offset, ensuring it never appears under the sidebar
+function computeSmartOffset(screenPos, map) {
+  const w = map.getCanvas().width;
+
+  // If the point is under the sidebar, push popup right
+  if (screenPos.x < SIDEBAR_WIDTH) {
+    const shift = SIDEBAR_WIDTH - screenPos.x + 10;
+    return {
+      'left': [shift, 0],
+      'top-left': [shift, 10],
+      'bottom-left': [shift, -10]
+    };
+  }
+
+  // Default offsets
+  return {
+    'top': [0, 10],
+    'bottom': [0, -10],
+    'left': [10, 0],
+    'right': [-10, 0],
+    'top-left': [10, 10],
+    'top-right': [-10, 10],
+    'bottom-left': [10, -10],
+    'bottom-right': [-10, -10]
+  };
+}
 
 // ===============================
 // SIDEBAR TOGGLE (overlay)
@@ -391,10 +452,24 @@ function addLayers() {
         ${verifyLink}
       `;
 
-      new mapboxgl.Popup({ anchor: 'auto', maxWidth: '300px' })
-        .setLngLat(e.lngLat)
-        .setHTML(html)
-        .addTo(map);
+      // SMART POPUP
+	const screenPos = map.project(e.lngLat);
+	const anchor = computeSmartAnchor(screenPos, map);
+	const offset = computeSmartOffset(screenPos, map);
+
+	if (activePopup) activePopup.remove();
+
+	activePopupLngLat = e.lngLat;
+
+	activePopup = new mapboxgl.Popup({
+ 			anchor,
+	    offset,
+	    maxWidth: '300px',
+	    closeOnMove: false   // important for smooth repositioning
+	})
+	  .setLngLat(e.lngLat)
+	  .setHTML(html)
+ 		 .addTo(map);
     });
   });
 }
