@@ -396,6 +396,23 @@ function addLayers() {
       ]
     }
   });
+  map.on('click', 'org-points', (e) => {
+ 	 if (!e.features?.length) return;
+
+ 	 const props = e.features[0].properties;
+ 	 const data = JSON.parse(props.raw || JSON.stringify(props));
+
+ 	 requestAnimationFrame(() => {
+	    const screenPos = map.project(e.lngLat);
+	    const offset = computePopupOffset(screenPos, map);
+
+	    popup
+	      .setLngLat(e.lngLat)
+	      .setHTML(renderPopupHTML(data))
+	      .setOffset(offset)
+	      .addTo(map);
+	  });
+	});
 }
 
 /* -------------------------------------------------------
@@ -433,24 +450,6 @@ function setupMapInteractions() {
         center: features[0].geometry.coordinates,
         zoom: zoom
       });
-    });
-  });
-
-  map.on('click', 'org-points', (e) => {
-    if (!e.features?.length) return;
-
-    const props = e.features[0].properties;
-    const data = JSON.parse(props.raw || JSON.stringify(props));
-
-    requestAnimationFrame(() => {
-      const screenPos = map.project(e.lngLat);
-      const offset = computePopupOffset(screenPos, map);
-
-      popup
-        .setLngLat(e.lngLat)
-        .setHTML(renderPopupHTML(data))
-        .setOffset(offset)
-        .addTo(map);
     });
   });
 }
