@@ -23,6 +23,15 @@ html, body {
   z-index: 1;
 }
 
+/* ===============================
+   FIX: Prevent global CSS from breaking Mapbox
+   =============================== */
+
+#map * {
+  all: unset;
+  display: revert;
+  position: absolute;
+}
 
 /* ===============================
    SIDEBAR (overlay)
