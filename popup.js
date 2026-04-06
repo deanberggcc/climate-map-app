@@ -1,0 +1,35 @@
+export function renderPopupHTML(data) {
+  const climate = (data.climate_categories || []).slice(0, 3).join(', ');
+  const social = (data.social_links || []).join(' • ');
+  const verified = data.verified ? '✔️ ' : '';
+
+  return `
+    <div class="popup">
+      <div class="popup-title">${verified}${data.name || 'Unknown'}</div>
+
+      <div class="popup-address">
+        ${data.address || ''}
+        ${data.city || ''}${data.state ? ', ' + data.state : ''}
+      </div>
+
+      <div class="popup-meta">
+        <div><strong>Type:</strong> ${data.organization_type || 'Unknown'}</div>
+        <div><strong>Action:</strong> ${data.action_category || 'Unknown'}</div>
+        <div><strong>Climate:</strong> ${climate || 'Unknown'}</div>
+        <div><strong>Audience:</strong> ${data.audience_focus || 'Unknown'}</div>
+        <div><strong>Reach:</strong> ${data.reach || 'Unknown'}</div>
+      </div>
+
+      ${data.website_url ? `<a class="popup-link" href="${data.website_url}" target="_blank">Website</a>` : ''}
+
+      ${social ? `<div class="popup-social">${social}</div>` : ''}
+
+      ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ''}
+
+      ${!data.verified ? `
+        <div class="popup-verify">
+          <a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a>
+        </div>` : ''}
+    </div>
+  `;
+}
