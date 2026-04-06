@@ -96,6 +96,12 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
+const popup = new mapboxgl.Popup({
+  closeButton: true,
+  closeOnClick: false,
+  maxWidth: '300px'
+});
+
 /* -------------------------------------------------------
    MAP LOAD
 ------------------------------------------------------- */
@@ -322,6 +328,7 @@ async function loadDataAndInitUI() {
 
     addLayers();
     setupMapInteractions();
+    bindOrgPointClicks();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
     updateVisibleOrgs();
@@ -336,6 +343,7 @@ async function loadDataAndInitUI() {
 ------------------------------------------------------- */
 
 function addLayers() {
+  // --- CLUSTERS ---
   map.addLayer({
     id: 'clusters',
     type: 'circle',
@@ -361,6 +369,7 @@ function addLayers() {
     }
   });
 
+  // --- CLUSTER COUNT ---
   map.addLayer({
     id: 'cluster-count',
     type: 'symbol',
@@ -372,6 +381,7 @@ function addLayers() {
     }
   });
 
+  // --- ORG POINTS ---
   map.addLayer({
     id: 'org-points',
     type: 'circle',
@@ -396,24 +406,28 @@ function addLayers() {
       ]
     }
   });
-  map.on('click', 'org-points', (e) => {
- 	 if (!e.features?.length) return;
-
- 	 const props = e.features[0].properties;
- 	 const data = JSON.parse(props.raw || JSON.stringify(props));
-
- 	 requestAnimationFrame(() => {
-	    const screenPos = map.project(e.lngLat);
-	    const offset = computePopupOffset(screenPos, map);
-
-	    popup
-	      .setLngLat(e.lngLat)
-	      .setHTML(renderPopupHTML(data))
-	      .setOffset(offset)
-	      .addTo(map);
-	  });
-	});
 }
+
+function bindOrgPointClicks() {
+  map.on('click', 'org-points', (e) => {
+    if (!e.features?.length) return;
+
+    const props = e.features[0].properties;
+    const data = JSON.parse(props.raw || JSON.stringify(props));
+
+    requestAnimationFrame(() => {
+      const screenPos = map.project(e.lngLat);
+      const offset = computePopupOffset(screenPos, map);
+
+      popup
+        .setLngLat(e.lngLat)
+        .setHTML(renderPopupHTML(data))
+        .setOffset(offset)
+        .addTo(map);
+    });
+  });
+}
+
 
 /* -------------------------------------------------------
    MAP INTERACTIONS (ONE-TIME BIND)
@@ -432,12 +446,6 @@ function setupMapInteractions() {
     map.moveLayer('cluster-count', lastSymbolLayerId);
     map.moveLayer('org-points', lastSymbolLayerId);
   }
-
-  const popup = new mapboxgl.Popup({
-    closeButton: true,
-    closeOnClick: false,
-    maxWidth: '300px'
-  });
 
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
