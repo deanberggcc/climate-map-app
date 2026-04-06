@@ -60,6 +60,7 @@ const map = new mapboxgl.Map({
   center: [-71.06, 42.36],
   zoom: 7
 });
+window._map = map;
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
