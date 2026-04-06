@@ -2,6 +2,76 @@
 
 console.log("APP.JS STARTED");
 
+// popup.js (or top of app.js)
+
+export function renderPopupHTML(data) {
+  const climate = (data.climate_categories || []).slice(0, 3).join(', ');
+  const social = (data.social_links || []).join(' • ');
+  const verified = data.verified ? '✔️ ' : '';
+
+  return `
+    <div class="popup">
+      <div class="popup-title">${verified}${data.name || 'Unknown'}</div>
+
+      <div class="popup-address">
+        ${data.address || ''}
+        ${data.city || ''}${data.state ? ', ' + data.state : ''}
+      </div>
+
+      <div class="popup-meta">
+        <div><strong>Type:</strong> ${data.organization_type || 'Unknown'}</div>
+        <div><strong>Action:</strong> ${data.action_category || 'Unknown'}</div>
+        <div><strong>Climate:</strong> ${climate || 'Unknown'}</div>
+        <div><strong>Audience:</strong> ${data.audience_focus || 'Unknown'}</div>
+        <div><strong>Reach:</strong> ${data.reach || 'Unknown'}</div>
+      </div>
+
+      ${data.website_url ? `<a class="popup-link" href="${data.website_url}" target="_blank">Website</a>` : ''}
+
+      ${social ? `<div class="popup-social">${social}</div>` : ''}
+
+      ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ''}
+
+      ${!data.verified ? `
+        <div class="popup-verify">
+          <a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a>
+        </div>` : ''}
+    </div>
+  `;
+}
+
+// SMART POPUP POSITIONING
+function computePopupAnchor(screenPos, map) {
+  const w = map.getCanvas().width;
+  const h = map.getCanvas().height;
+
+  const left = screenPos.x < w * 0.33;
+  const right = screenPos.x > w * 0.66;
+  const top = screenPos.y < h * 0.33;
+  const bottom = screenPos.y > h * 0.66;
+
+  if (top && left) return 'top-left';
+  if (top && right) return 'top-right';
+  if (bottom && left) return 'bottom-left';
+  if (bottom && right) return 'bottom-right';
+  if (left) return 'left';
+  if (right) return 'right';
+  if (top) return 'top';
+  return 'bottom';
+}
+
+function computePopupOffset(screenPos, map) {
+  const w = map.getCanvas().width;
+  const sidebarWidth = 320;
+
+  // If point is behind the sidebar, push popup right
+  if (screenPos.x < sidebarWidth + 20) {
+    return { left: [sidebarWidth - screenPos.x + 20, 0] };
+  }
+
+  return 12; // default small offset
+}
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
 
@@ -438,50 +508,32 @@ function addLayers() {
     });
 
     // --- ORG CLICK ---
-    map.on('click', 'org-points', (e) => {
-      if (!e.features || !e.features.length) return;
+	import { renderPopupHTML } from './popup.js';
 
-      const props = e.features[0].properties;
-      const data = JSON.parse(props.raw || JSON.stringify(props));
+	const popup = new mapboxgl.Popup({
+	  closeButton: true,
+ 			 closeOnClick: false,
+ 			 maxWidth: '300px',
+ 			 fadeDuration: 0
+	});
 
-      const climate = (data.climate_categories || []).slice(0, 3).join(', ');
-      const social = (data.social_links || []).join('<br>');
-      const check = data.verified ? '✔️ ' : '';
-      const verifyLink = !data.verified
-        ? `<div class="verify-link"><a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a></div>`
-        : '';
+	map.on('click', 'org-points', (e) => {
+ 			 if (!e.features?.length) return;
 
-      const html = `
-        <strong>${check}${data.name || 'Unknown'}</strong><br>
-        ${data.address || ''}<br>
-        ${data.city || ''}, ${data.state || ''}<br><br>
+ 			 const props = e.features[0].properties;
+ 			 const data = JSON.parse(props.raw || JSON.stringify(props));
 
-        <strong>Type:</strong> ${data.organization_type || 'Unknown'}<br>
-        <strong>Action:</strong> ${data.action_category || 'Unknown'}<br>
-        <strong>Climate:</strong> ${climate || 'Unknown'}<br>
-        <strong>Audience:</strong> ${data.audience_focus || 'Unknown'}<br>
-        <strong>Reach:</strong> ${data.reach || 'Unknown'}<br><br>
+ 			 const screenPos = map.project(e.lngLat);
+ 			 const anchor = computePopupAnchor(screenPos, map);
+	  const offset = computePopupOffset(screenPos, map);
 
-        ${data.website_url ? `<a href="${data.website_url}" target="_blank">Website</a><br>` : ''}
-        ${social ? `<div style="margin-top:4px;">${social}</div>` : ''}
-        <div style="margin-top:8px; font-size:12px;">${data.summary || ''}</div>
-        ${verifyLink}
-      `;
-
-      // SMART POPUP
-	const screenPos = map.project(e.lngLat);
-	const anchor = computePopupAnchor(screenPos, map);
-	const offset = computePopupOffset(screenPos, map);
-
-	new mapboxgl.Popup({
- 			   anchor,
- 			   offset,
-	    maxWidth: '300px'
-	})
- 			 .setLngLat(e.lngLat)
- 			 .setHTML(html)
- 			 .addTo(map);
-    });
+	  popup
+ 			   .setLngLat(e.lngLat)
+ 			   .setHTML(renderPopupHTML(data))
+ 			   .setOffset(offset)
+ 			   .setAnchor(anchor)
+ 			   .addTo(map);
+	});
   });
 }
 

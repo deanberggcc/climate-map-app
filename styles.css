@@ -14,20 +14,22 @@ html, body {
    =============================== */
 
 #map {
-  position: absolute;
+  position: fixed; /* instead of absolute */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  will-change: transform;
   z-index: 1;
 }
+
 
 /* ===============================
    SIDEBAR (overlay)
    =============================== */
 
 #sidebar {
-  position: absolute;
+  position: fixed; /* instead of absolute */
   top: 0;
   left: 0;
   width: 320px;
@@ -36,19 +38,19 @@ html, body {
   border-right: 1px solid #ddd;
   box-sizing: border-box;
   z-index: 10;
+  transform: translateX(0);
   transition: transform 0.25s ease;
-  pointer-events: none; /* sidebar shell does NOT block map */
+  pointer-events: auto;
+}
+
+#sidebar.closed {
+  transform: translateX(-320px);
 }
 
 #sidebar-content {
   height: 100%;
   overflow-y: auto;
   padding: 12px;
-  pointer-events: auto; /* content IS interactive */
-}
-
-#sidebar.closed {
-  transform: translateX(-320px);
 }
 
 /* ===============================
@@ -56,7 +58,7 @@ html, body {
    =============================== */
 
 #sidebar-toggle {
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 320px;
   z-index: 9999;
@@ -65,7 +67,7 @@ html, body {
   padding: 4px 6px;
   cursor: pointer;
   border-radius: 4px;
-  transition: left 0.25s ease, transform 0.25s ease;
+  transition: transform 0.25s ease, left 0.25s ease;
 }
 
 #sidebar.closed + #sidebar-toggle {
@@ -156,12 +158,40 @@ details.filter-group summary {
    POPUP
    =============================== */
 
-.verify-link {
-  margin-top: 10px;
+.popup {
   font-size: 13px;
+  line-height: 1.35;
 }
 
-.verify-link a {
-  color: #0077cc;
-  text-decoration: underline;
+.popup-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.popup-address {
+  margin-bottom: 6px;
+}
+
+.popup-meta div {
+  margin-bottom: 2px;
+}
+
+.popup-link {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.popup-social {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.popup-summary {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.popup-verify {
+  margin-top: 10px;
+  font-size: 12px;
 }
