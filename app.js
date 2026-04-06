@@ -625,24 +625,6 @@ function applyFilters() {
   updateVisibleOrgs();
 }
 
-    const vals = Array.isArray(p[field]) ? p[field] : [];
-    const hasAny = vals.some(v => selected.includes(v));
-    if (!hasAny) return false;
-  }
-
-  return true;
-});
-
-const src = map.getSource('orgs');
-if (src) {
-  src.setData({
-    type: 'FeatureCollection',
-    features: filteredFeatures
-  });
-}
-
-updateVisibleOrgs();
-}
 
 /* -------------------------------------------------------
    ZOOM HELPERS
