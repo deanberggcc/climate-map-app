@@ -4,6 +4,10 @@ import { renderPopupHTML } from './popup.js';
 
 const SIDEBAR_WIDTH = 320;
 
+/* -------------------------------------------------------
+   POPUP POSITIONING HELPERS
+------------------------------------------------------- */
+
 function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
   const x = screenPos.x;
@@ -14,19 +18,38 @@ function computePopupAnchor(screenPos, map) {
 function computePopupOffset(screenPos, map) {
   const h = map.getCanvas().height;
   const y = screenPos.y;
+
   let dx = 14;
   if (screenPos.x < SIDEBAR_WIDTH + 20) {
     dx = SIDEBAR_WIDTH - screenPos.x + 20;
   }
+
   const margin = 80;
   let dy = 0;
   if (y < margin) dy = margin - y;
   else if (y > h - margin) dy = (h - margin) - y;
+
   return {
     left: [-dx, dy],
     right: [dx, dy]
   };
 }
+
+/* -------------------------------------------------------
+   DEBOUNCE
+------------------------------------------------------- */
+
+function debounce(fn, delay = 120) {
+  let t;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), delay);
+  };
+}
+
+/* -------------------------------------------------------
+   MAP INIT
+------------------------------------------------------- */
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
@@ -39,6 +62,10 @@ const map = new mapboxgl.Map({
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+/* -------------------------------------------------------
+   GLOBAL STATE
+------------------------------------------------------- */
 
 let allFeatures = [];
 let filteredFeatures = [];
@@ -68,6 +95,10 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
+/* -------------------------------------------------------
+   MAP LOAD
+------------------------------------------------------- */
+
 map.on('load', () => {
   setupSidebarToggle();
   setupSearchBar();
@@ -76,16 +107,25 @@ map.on('load', () => {
 
 map.on('moveend', updateVisibleOrgs);
 
+/* -------------------------------------------------------
+   SIDEBAR TOGGLE
+------------------------------------------------------- */
+
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
   if (!sidebar || !toggle) return;
+
   toggle.addEventListener('click', () => {
     sidebar.classList.toggle('closed');
     toggle.textContent = sidebar.classList.contains('closed') ? '⟩' : '⟨';
     setTimeout(() => map.resize(), 260);
   });
 }
+
+/* -------------------------------------------------------
+   FUZZY SEARCH
+------------------------------------------------------- */
 
 function fuzzyMatch(haystack, needle) {
   if (!needle) return true;
@@ -95,6 +135,10 @@ function fuzzyMatch(haystack, needle) {
   const tokens = needle.split(/\s+/).filter(Boolean);
   return tokens.every(t => haystack.includes(t));
 }
+
+/* -------------------------------------------------------
+   SEARCH BAR + DROPDOWN
+------------------------------------------------------- */
 
 function setupSearchBar() {
   const input = document.getElementById('search-bar');
@@ -139,29 +183,25 @@ function setupSearchBar() {
 
     for (const f of allFeatures) {
       const p = f.properties;
-      const name = p.name || '';
-      const city = p.city || '';
-      const county = p.county || '';
-      const zip = p.postal_code || '';
 
-      if (name.toLowerCase().includes(q) && !seen.has(name)) {
-        seen.add(name);
-        items.push({ label: name, type: 'name' });
+      if (p._name.includes(q) && !seen.has(p.name)) {
+        seen.add(p.name);
+        items.push({ label: p.name, type: 'name' });
       }
 
-      if (city.toLowerCase().includes(q) && !seen.has(city)) {
-        seen.add(city);
-        items.push({ label: city, type: 'city' });
+      if (p._city.includes(q) && !seen.has(p.city)) {
+        seen.add(p.city);
+        items.push({ label: p.city, type: 'city' });
       }
 
-      if (county.toLowerCase().includes(q) && !seen.has(county)) {
-        seen.add(county);
-        items.push({ label: county, type: 'county' });
+      if (p._county.includes(q) && !seen.has(p.county)) {
+        seen.add(p.county);
+        items.push({ label: p.county, type: 'county' });
       }
 
-      if (zip.includes(q) && !seen.has(zip)) {
-        seen.add(zip);
-        items.push({ label: zip, type: 'zip' });
+      if (p._zip.includes(q) && !seen.has(p._zip)) {
+        seen.add(p._zip);
+        items.push({ label: p._zip, type: 'zip' });
       }
 
       if (items.length >= 10) break;
@@ -183,21 +223,21 @@ function setupSearchBar() {
       div.addEventListener('click', () => {
         input.value = item.label;
         currentFilters.search = item.label.toLowerCase();
-        applyFilters();
+        debouncedApply();
         hideDropdown();
 
         if (item.type === 'city') {
-          const matches = allFeatures.filter(f => f.properties.city === item.label.toLowerCase());
+          const matches = allFeatures.filter(f => f.properties._city === item.label.toLowerCase());
           zoomToBoundingFeatures(matches);
         }
 
         if (item.type === 'zip') {
-          const matches = allFeatures.filter(f => f.properties.postal_code === item.label);
+          const matches = allFeatures.filter(f => f.properties._zip === item.label);
           zoomToBoundingFeatures(matches);
         }
 
         if (item.type === 'county') {
-          const matches = allFeatures.filter(f => f.properties.county === item.label.toLowerCase());
+          const matches = allFeatures.filter(f => f.properties._county === item.label.toLowerCase());
           zoomToBoundingFeatures(matches);
         }
       });
@@ -208,17 +248,24 @@ function setupSearchBar() {
     dropdown.style.display = 'block';
   }
 
+  const debouncedApply = debounce(applyFilters, 120);
+  const debouncedSuggest = debounce(showSuggestions, 120);
+
   input.addEventListener('input', (e) => {
     const q = e.target.value || '';
     currentFilters.search = q.toLowerCase().trim();
-    applyFilters();
-    showSuggestions(q);
+    debouncedApply();
+    debouncedSuggest(q);
   });
 
   input.addEventListener('blur', () => {
     setTimeout(hideDropdown, 150);
   });
 }
+
+/* -------------------------------------------------------
+   LOAD DATA + INIT UI
+------------------------------------------------------- */
 
 async function loadDataAndInitUI() {
   try {
@@ -238,6 +285,11 @@ async function loadDataAndInitUI() {
       const p = f.properties || {};
 
       p.raw = JSON.stringify(p);
+
+      p._name = (p.name || "").toLowerCase();
+      p._city = (p.city || "").toLowerCase();
+      p._county = (p.county || "").toLowerCase();
+      p._zip = (p.postal_code || "");
 
       p.searchIndex = [
         p.name,
@@ -268,6 +320,7 @@ async function loadDataAndInitUI() {
     });
 
     addLayers();
+    setupMapInteractions();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
     updateVisibleOrgs();
@@ -276,6 +329,10 @@ async function loadDataAndInitUI() {
     console.error('Error loading or parsing map_data.geojson', err);
   }
 }
+
+/* -------------------------------------------------------
+   LAYERS
+------------------------------------------------------- */
 
 function addLayers() {
   map.addLayer({
@@ -338,56 +395,54 @@ function addLayers() {
       ]
     }
   });
+}
 
-  map.on('styledata', () => {
-    const layers = map.getStyle().layers;
-    let lastSymbolLayerId = null;
+/* -------------------------------------------------------
+   MAP INTERACTIONS (ONE-TIME BIND)
+------------------------------------------------------- */
 
-    for (const layer of layers) {
-      if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
-    }
+function setupMapInteractions() {
+  const layers = map.getStyle().layers;
+  let lastSymbolLayerId = null;
 
-    if (lastSymbolLayerId) {
-      map.moveLayer('clusters', lastSymbolLayerId);
-      map.moveLayer('cluster-count', lastSymbolLayerId);
-      map.moveLayer('org-points', lastSymbolLayerId);
-    }
+  for (const layer of layers) {
+    if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
+  }
+
+  if (lastSymbolLayerId) {
+    map.moveLayer('clusters', lastSymbolLayerId);
+    map.moveLayer('cluster-count', lastSymbolLayerId);
+    map.moveLayer('org-points', lastSymbolLayerId);
+  }
+
+  const popup = new mapboxgl.Popup({
+    closeButton: true,
+    closeOnClick: false,
+    maxWidth: '300px'
   });
 
-  map.on('styledata', () => {
-    if (!map.getLayer('org-points')) return;
+  map.on('click', 'clusters', (e) => {
+    const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+    if (!features.length) return;
 
-    map.off('click', 'org-points');
-    map.off('click', 'clusters');
-
-    map.on('click', 'clusters', (e) => {
-      const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
-      if (!features.length) return;
-
-      const clusterId = features[0].properties.cluster_id;
-      map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
-        if (err) return;
-        map.easeTo({
-          center: features[0].geometry.coordinates,
-          zoom: zoom
-        });
+    const clusterId = features[0].properties.cluster_id;
+    map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
+      if (err) return;
+      map.easeTo({
+        center: features[0].geometry.coordinates,
+        zoom: zoom
       });
     });
+  });
 
-    const popup = new mapboxgl.Popup({
-      closeButton: true,
-      closeOnClick: false,
-      maxWidth: '300px'
-    });
+  map.on('click', 'org-points', (e) => {
+    if (!e.features?.length) return;
 
-    map.on('click', 'org-points', (e) => {
-      if (!e.features?.length) return;
+    const props = e.features[0].properties;
+    const data = JSON.parse(props.raw || JSON.stringify(props));
 
-      const props = e.features[0].properties;
-      const data = JSON.parse(props.raw || JSON.stringify(props));
-
+    requestAnimationFrame(() => {
       const screenPos = map.project(e.lngLat);
-      const anchor = computePopupAnchor(screenPos, map);
       const offset = computePopupOffset(screenPos, map);
 
       popup
@@ -398,6 +453,10 @@ function addLayers() {
     });
   });
 }
+
+/* -------------------------------------------------------
+   CLEAR FILTERS
+------------------------------------------------------- */
 
 function setupClearFilters() {
   const btn = document.getElementById('clear-filters');
@@ -423,6 +482,10 @@ function setupClearFilters() {
     applyFilters();
   });
 }
+
+/* -------------------------------------------------------
+   BUILD FILTER UI
+------------------------------------------------------- */
 
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
@@ -508,6 +571,10 @@ function buildFiltersFromData(features) {
   });
 }
 
+/* -------------------------------------------------------
+   APPLY FILTERS
+------------------------------------------------------- */
+
 function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties || {};
@@ -558,85 +625,112 @@ function applyFilters() {
   updateVisibleOrgs();
 }
 
-function zoomToCity(cityName) {
-  if (!cityName) return;
+    const vals = Array.isArray(p[field]) ? p[field] : [];
+    const hasAny = vals.some(v => selected.includes(v));
+    if (!hasAny) return false;
+  }
 
-  const matches = allFeatures.filter(f => {
-    const p = f.properties || {};
-    return (p.city || '').toLowerCase() === cityName.toLowerCase();
+  return true;
+});
+
+const src = map.getSource('orgs');
+if (src) {
+  src.setData({
+    type: 'FeatureCollection',
+    features: filteredFeatures
   });
+}
 
-  if (!matches.length) return;
+updateVisibleOrgs();
+}
 
-  zoomToBoundingFeatures(matches);
+/* -------------------------------------------------------
+   ZOOM HELPERS
+------------------------------------------------------- */
+
+function zoomToCity(cityName) {
+if (!cityName) return;
+
+const matches = allFeatures.filter(f => {
+  const p = f.properties || {};
+  return p._city === cityName.toLowerCase();
+});
+
+if (!matches.length) return;
+
+zoomToBoundingFeatures(matches);
 }
 
 function zoomToBoundingFeatures(matches) {
-  if (!matches.length) return;
+if (!matches.length) return;
 
-  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
 
-  matches.forEach(f => {
-    const [lon, lat] = f.geometry.coordinates;
-    minX = Math.min(minX, lon);
-    maxX = Math.max(maxX, lon);
-    minY = Math.min(minY, lat);
-    maxY = Math.max(maxY, lat);
-  });
+matches.forEach(f => {
+  const [lon, lat] = f.geometry.coordinates;
+  minX = Math.min(minX, lon);
+  maxX = Math.max(maxX, lon);
+  minY = Math.min(minY, lat);
+  maxY = Math.max(maxY, lat);
+});
 
-  map.fitBounds([[minX, minY], [maxX, maxY]], {
-    padding: { top: 40, bottom: 40, left: 40, right: 40 },
-    duration: 800
-  });
+map.fitBounds([[minX, minY], [maxX, maxY]], {
+  padding: { top: 40, bottom: 40, left: 40, right: 40 },
+  duration: 800
+});
 
-  map.once('moveend', () => clampZoom(13));
+map.once('moveend', () => clampZoom(13));
 }
 
 function clampZoom(maxZoom = 13) {
-  const z = map.getZoom();
-  if (z > maxZoom) {
-    map.easeTo({ zoom: maxZoom, duration: 300 });
-  }
+const z = map.getZoom();
+if (z > maxZoom) {
+  map.easeTo({ zoom: maxZoom, duration: 300 });
+}
 }
 
+/* -------------------------------------------------------
+   VISIBLE ORGS + SIDEBAR LIST
+------------------------------------------------------- */
+
 function updateVisibleOrgs() {
-  const bounds = map.getBounds();
+const bounds = map.getBounds();
 
-  const visible = filteredFeatures.filter(f => {
-    const [lon, lat] = f.geometry.coordinates;
-    return bounds.contains([lon, lat]);
-  });
+const visible = filteredFeatures.filter(f => {
+  const [lon, lat] = f.geometry.coordinates;
+  return bounds.contains([lon, lat]);
+});
 
-  renderOrgList(visible);
+renderOrgList(visible);
 }
 
 function renderOrgList(features) {
-  const listEl = document.getElementById('org-list');
-  if (!listEl) return;
-  listEl.innerHTML = '';
+const listEl = document.getElementById('org-list');
+if (!listEl) return;
+listEl.innerHTML = '';
 
-  features.forEach(f => {
-    const p = f.properties || {};
-    const item = document.createElement('div');
-    item.className = 'org-item';
+features.forEach(f => {
+  const p = f.properties || {};
+  const item = document.createElement('div');
+  item.className = 'org-item';
 
-    const nameEl = document.createElement('div');
-    nameEl.className = 'org-name';
-    nameEl.textContent = p.name || 'Unknown';
+  const nameEl = document.createElement('div');
+  nameEl.className = 'org-name';
+  nameEl.textContent = p.name || 'Unknown';
 
-    const metaEl = document.createElement('div');
-    metaEl.className = 'org-meta';
-    metaEl.textContent = `${p.city || ''} • ${p.organization_type || 'Unknown'}`;
+  const metaEl = document.createElement('div');
+  metaEl.className = 'org-meta';
+  metaEl.textContent = `${p.city || ''} • ${p.organization_type || 'Unknown'}`;
 
-    item.appendChild(nameEl);
-    item.appendChild(metaEl);
+  item.appendChild(nameEl);
+  item.appendChild(metaEl);
 
-    item.addEventListener('click', () => {
-      const [lon, lat] = f.geometry.coordinates;
-      map.easeTo({ center: [lon, lat], zoom: 13 });
-    });
-
-    listEl.appendChild(item);
+  item.addEventListener('click', () => {
+    const [lon, lat] = f.geometry.coordinates;
+    map.easeTo({ center: [lon, lat], zoom: 13 });
   });
+
+  listEl.appendChild(item);
+});
 }
 
