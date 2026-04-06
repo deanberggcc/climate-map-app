@@ -1,55 +1,32 @@
-// app.js (CLEAN + MODULE-COMPATIBLE)
-
 console.log("APP.JS STARTED");
 
-// Import popup renderer from popup.js
 import { renderPopupHTML } from './popup.js';
-
-// ============================================================
-// SMART POPUP POSITIONING (FINAL VERSION — ONLY ONE COPY)
-// ============================================================
 
 const SIDEBAR_WIDTH = 320;
 
 function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
   const x = screenPos.x;
-
-  // If point is under sidebar → force popup to the right
   if (x < SIDEBAR_WIDTH + 20) return 'right';
-
-  // Otherwise: left half → right anchor, right half → left anchor
   return x < w / 2 ? 'right' : 'left';
 }
 
 function computePopupOffset(screenPos, map) {
   const h = map.getCanvas().height;
   const y = screenPos.y;
-
-  // Horizontal offset
   let dx = 14;
-
-  // If under sidebar, push popup further right
   if (screenPos.x < SIDEBAR_WIDTH + 20) {
     dx = SIDEBAR_WIDTH - screenPos.x + 20;
   }
-
-  // Vertical clamping
   const margin = 80;
   let dy = 0;
-
   if (y < margin) dy = margin - y;
   else if (y > h - margin) dy = (h - margin) - y;
-
   return {
-    'left': [-dx, dy],
-    'right': [dx, dy]
+    left: [-dx, dy],
+    right: [dx, dy]
   };
 }
-
-// ============================================================
-// MAP INITIALIZATION
-// ============================================================
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
@@ -62,10 +39,6 @@ const map = new mapboxgl.Map({
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
-
-// ============================================================
-// GLOBAL STATE
-// ============================================================
 
 let allFeatures = [];
 let filteredFeatures = [];
@@ -95,10 +68,6 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
-// ============================================================
-// MAP LOAD
-// ============================================================
-
 map.on('load', () => {
   setupSidebarToggle();
   setupSearchBar();
@@ -107,15 +76,10 @@ map.on('load', () => {
 
 map.on('moveend', updateVisibleOrgs);
 
-// ============================================================
-// SIDEBAR TOGGLE
-// ============================================================
-
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
   if (!sidebar || !toggle) return;
-
   toggle.addEventListener('click', () => {
     sidebar.classList.toggle('closed');
     toggle.textContent = sidebar.classList.contains('closed') ? '⟩' : '⟨';
@@ -123,24 +87,14 @@ function setupSidebarToggle() {
   });
 }
 
-// ============================================================
-// FUZZY MATCH
-// ============================================================
-
 function fuzzyMatch(haystack, needle) {
   if (!needle) return true;
   haystack = (haystack || '').toLowerCase();
   needle = needle.toLowerCase();
-
   if (haystack.includes(needle)) return true;
-
   const tokens = needle.split(/\s+/).filter(Boolean);
   return tokens.every(t => haystack.includes(t));
 }
-
-// ============================================================
-// SEARCH BAR + AUTOCOMPLETE
-// ============================================================
 
 function setupSearchBar() {
   const input = document.getElementById('search-bar');
@@ -266,10 +220,6 @@ function setupSearchBar() {
   });
 }
 
-// ============================================================
-// LOAD DATA + INIT UI
-// ============================================================
-
 async function loadDataAndInitUI() {
   try {
     const res = await fetch('data/map_data.geojson');
@@ -327,12 +277,7 @@ async function loadDataAndInitUI() {
   }
 }
 
-// ============================================================
-// MAP LAYERS + CLICK HANDLERS
-// ============================================================
-
 function addLayers() {
-  // CLUSTERS
   map.addLayer({
     id: 'clusters',
     type: 'circle',
@@ -358,7 +303,6 @@ function addLayers() {
     }
   });
 
-  // CLUSTER COUNT LABELS
   map.addLayer({
     id: 'cluster-count',
     type: 'symbol',
@@ -370,7 +314,6 @@ function addLayers() {
     }
   });
 
-  // ORG POINTS
   map.addLayer({
     id: 'org-points',
     type: 'circle',
@@ -396,7 +339,6 @@ function addLayers() {
     }
   });
 
-  // FIX 1: LAYER ORDERING
   map.on('styledata', () => {
     const layers = map.getStyle().layers;
     let lastSymbolLayerId = null;
@@ -412,14 +354,12 @@ function addLayers() {
     }
   });
 
-  // FIX 2: CLICK HANDLERS
   map.on('styledata', () => {
     if (!map.getLayer('org-points')) return;
 
     map.off('click', 'org-points');
     map.off('click', 'clusters');
 
-    // CLUSTER CLICK
     map.on('click', 'clusters', (e) => {
       const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
       if (!features.length) return;
@@ -434,12 +374,10 @@ function addLayers() {
       });
     });
 
-    // ORG CLICK
     const popup = new mapboxgl.Popup({
       closeButton: true,
       closeOnClick: false,
-      maxWidth: '300px',
-      fadeDuration: 0
+      maxWidth: '300px'
     });
 
     map.on('click', 'org-points', (e) => {
@@ -456,15 +394,35 @@ function addLayers() {
         .setLngLat(e.lngLat)
         .setHTML(renderPopupHTML(data))
         .setOffset(offset)
-        .setAnchor(anchor)
         .addTo(map);
     });
   });
 }
 
-// ============================================================
-// FILTERS
-// ============================================================
+function setupClearFilters() {
+  const btn = document.getElementById('clear-filters');
+  if (!btn) return;
+
+  btn.addEventListener('click', () => {
+    Object.keys(currentFilters).forEach(key => {
+      currentFilters[key] = Array.isArray(currentFilters[key]) ? [] : '';
+    });
+
+    document.querySelectorAll('#filters input[type="checkbox"]').forEach(cb => {
+      cb.checked = false;
+    });
+
+    const searchInput = document.getElementById('search-bar');
+    if (searchInput) searchInput.value = '';
+
+    document.querySelectorAll('.filter-group summary').forEach(s => {
+      const base = s.textContent.split('(')[0].trim();
+      s.textContent = base;
+    });
+
+    applyFilters();
+  });
+}
 
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
@@ -550,9 +508,55 @@ function buildFiltersFromData(features) {
   });
 }
 
-// ============================================================
-// ZOOM HELPERS
-// ============================================================
+function applyFilters() {
+  filteredFeatures = allFeatures.filter(f => {
+    const p = f.properties || {};
+
+    if (currentFilters.search) {
+      if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
+        return false;
+      }
+    }
+
+    const simple = [
+      'action_category',
+      'organization_type',
+      'audience_focus',
+      'reach',
+      'verified'
+    ];
+
+    for (const field of simple) {
+      const selected = currentFilters[field];
+      if (selected && selected.length > 0) {
+        const val = p[field];
+        if (!selected.includes(String(val))) return false;
+      }
+    }
+
+    const multi = ['climate_categories', 'tags'];
+    for (const field of multi) {
+      const selected = currentFilters[field];
+      if (selected && selected.length > 0) {
+        const vals = Array.isArray(p[field]) ? p[field] : [];
+        const hasAny = vals.some(v => selected.includes(v));
+        if (!hasAny) return false;
+      }
+    }
+
+    return true;
+  });
+
+  const src = map.getSource('orgs');
+  if (src) {
+    src.setData({
+      type: 'FeatureCollection',
+      features: filteredFeatures
+    });
+  }
+
+  updateVisibleOrgs();
+}
 
 function zoomToCity(cityName) {
   if (!cityName) return;
@@ -635,3 +639,4 @@ function renderOrgList(features) {
     listEl.appendChild(item);
   });
 }
+

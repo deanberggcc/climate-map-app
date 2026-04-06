@@ -1,3 +1,4 @@
+// popup.js
 export function renderPopupHTML(data) {
   const climate = (data.climate_categories || []).slice(0, 3).join(', ');
   const social = (data.social_links || []).join(' • ');
