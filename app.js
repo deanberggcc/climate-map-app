@@ -1,79 +1,58 @@
-// app.js
+// app.js (CLEAN + MODULE-COMPATIBLE)
 
 console.log("APP.JS STARTED");
 
-// popup.js (or top of app.js)
+// Import popup renderer from popup.js
+import { renderPopupHTML } from './popup.js';
 
-export function renderPopupHTML(data) {
-  const climate = (data.climate_categories || []).slice(0, 3).join(', ');
-  const social = (data.social_links || []).join(' • ');
-  const verified = data.verified ? '✔️ ' : '';
+// ============================================================
+// SMART POPUP POSITIONING (FINAL VERSION — ONLY ONE COPY)
+// ============================================================
 
-  return `
-    <div class="popup">
-      <div class="popup-title">${verified}${data.name || 'Unknown'}</div>
+const SIDEBAR_WIDTH = 320;
 
-      <div class="popup-address">
-        ${data.address || ''}
-        ${data.city || ''}${data.state ? ', ' + data.state : ''}
-      </div>
-
-      <div class="popup-meta">
-        <div><strong>Type:</strong> ${data.organization_type || 'Unknown'}</div>
-        <div><strong>Action:</strong> ${data.action_category || 'Unknown'}</div>
-        <div><strong>Climate:</strong> ${climate || 'Unknown'}</div>
-        <div><strong>Audience:</strong> ${data.audience_focus || 'Unknown'}</div>
-        <div><strong>Reach:</strong> ${data.reach || 'Unknown'}</div>
-      </div>
-
-      ${data.website_url ? `<a class="popup-link" href="${data.website_url}" target="_blank">Website</a>` : ''}
-
-      ${social ? `<div class="popup-social">${social}</div>` : ''}
-
-      ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ''}
-
-      ${!data.verified ? `
-        <div class="popup-verify">
-          <a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a>
-        </div>` : ''}
-    </div>
-  `;
-}
-
-// SMART POPUP POSITIONING
 function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
-  const h = map.getCanvas().height;
+  const x = screenPos.x;
 
-  const left = screenPos.x < w * 0.33;
-  const right = screenPos.x > w * 0.66;
-  const top = screenPos.y < h * 0.33;
-  const bottom = screenPos.y > h * 0.66;
+  // If point is under sidebar → force popup to the right
+  if (x < SIDEBAR_WIDTH + 20) return 'right';
 
-  if (top && left) return 'top-left';
-  if (top && right) return 'top-right';
-  if (bottom && left) return 'bottom-left';
-  if (bottom && right) return 'bottom-right';
-  if (left) return 'left';
-  if (right) return 'right';
-  if (top) return 'top';
-  return 'bottom';
+  // Otherwise: left half → right anchor, right half → left anchor
+  return x < w / 2 ? 'right' : 'left';
 }
 
 function computePopupOffset(screenPos, map) {
-  const w = map.getCanvas().width;
-  const sidebarWidth = 320;
+  const h = map.getCanvas().height;
+  const y = screenPos.y;
 
-  // If point is behind the sidebar, push popup right
-  if (screenPos.x < sidebarWidth + 20) {
-    return { left: [sidebarWidth - screenPos.x + 20, 0] };
+  // Horizontal offset
+  let dx = 14;
+
+  // If under sidebar, push popup further right
+  if (screenPos.x < SIDEBAR_WIDTH + 20) {
+    dx = SIDEBAR_WIDTH - screenPos.x + 20;
   }
 
-  return 12; // default small offset
+  // Vertical clamping
+  const margin = 80;
+  let dy = 0;
+
+  if (y < margin) dy = margin - y;
+  else if (y > h - margin) dy = (h - margin) - y;
+
+  return {
+    'left': [-dx, dy],
+    'right': [dx, dy]
+  };
 }
 
+// ============================================================
+// MAP INITIALIZATION
+// ============================================================
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
+mapboxgl.accessToken =
+  'pk.eyJ1IjoiZ3JlZW4tY29tbXVuaXR5LWNhdGFseXN0cyIsImEiOiJjbW41ZHk1Y3AwOWhzMnBvZzBvOTB5c3RkIn0.2iB1CKpnzYAD34bUkQPBIw';
 
 const map = new mapboxgl.Map({
   container: 'map',
@@ -83,6 +62,10 @@ const map = new mapboxgl.Map({
 });
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+// ============================================================
+// GLOBAL STATE
+// ============================================================
 
 let allFeatures = [];
 let filteredFeatures = [];
@@ -101,9 +84,6 @@ let currentFilters = {
   search: ''
 };
 
-let activePopup = null;
-let activePopupLngLat = null;
-
 const orgTypeColors = {
   'Nonprofit / Grassroots': '#a6cee3',
   'Coalition': '#b2df8a',
@@ -115,6 +95,10 @@ const orgTypeColors = {
   'Unknown': '#cccccc'
 };
 
+// ============================================================
+// MAP LOAD
+// ============================================================
+
 map.on('load', () => {
   setupSidebarToggle();
   setupSearchBar();
@@ -123,56 +107,10 @@ map.on('load', () => {
 
 map.on('moveend', updateVisibleOrgs);
 
-// ===============================
-// SMART POPUP POSITIONING
-// ===============================
+// ============================================================
+// SIDEBAR TOGGLE
+// ============================================================
 
-const SIDEBAR_WIDTH = 320; // match your CSS
-
-function computePopupAnchor(screenPos, map) {
-  const w = map.getCanvas().width;
-  const x = screenPos.x;
-
-  // If point is under sidebar → force popup to the right
-  if (x < SIDEBAR_WIDTH + 20) return 'right';
-
-  // Otherwise: left half → right anchor, right half → left anchor
-  return x < w / 2 ? 'right' : 'left';
-}
-
-
-function computePopupOffset(screenPos, map) {
-  const h = map.getCanvas().height;
-  const y = screenPos.y;
-
-  // Horizontal offset (distance from point)
-  let dx = 14;
-
-  // If under sidebar, push popup further right
-  if (screenPos.x < SIDEBAR_WIDTH + 20) {
-    dx = SIDEBAR_WIDTH - screenPos.x + 20;
-  }
-
-  // Vertical clamping
-  const margin = 80; // minimum distance from top/bottom
-  let dy = 0;
-
-  if (y < margin) {
-    dy = margin - y; // push down
-  } else if (y > h - margin) {
-    dy = (h - margin) - y; // push up
-  }
-
-  return {
-    'left': [-dx, dy],
-    'right': [dx, dy]
-  };
-}
-
-
-// ===============================
-// SIDEBAR TOGGLE (overlay)
-// ===============================
 function setupSidebarToggle() {
   const sidebar = document.getElementById('sidebar');
   const toggle = document.getElementById('sidebar-toggle');
@@ -180,18 +118,15 @@ function setupSidebarToggle() {
 
   toggle.addEventListener('click', () => {
     sidebar.classList.toggle('closed');
-
-    // Flip arrow direction
     toggle.textContent = sidebar.classList.contains('closed') ? '⟩' : '⟨';
-
-    // Resize map after animation
     setTimeout(() => map.resize(), 260);
   });
 }
 
-// ===============================
-// SIMPLE FUZZY MATCH
-// ===============================
+// ============================================================
+// FUZZY MATCH
+// ============================================================
+
 function fuzzyMatch(haystack, needle) {
   if (!needle) return true;
   haystack = (haystack || '').toLowerCase();
@@ -203,21 +138,19 @@ function fuzzyMatch(haystack, needle) {
   return tokens.every(t => haystack.includes(t));
 }
 
-// ===============================
+// ============================================================
 // SEARCH BAR + AUTOCOMPLETE
-// ===============================
+// ============================================================
+
 function setupSearchBar() {
   const input = document.getElementById('search-bar');
   const header = document.getElementById('sidebar-header');
   if (!input || !header) return;
 
-  // Create suggestions container
   const suggestions = document.createElement('div');
   suggestions.id = 'search-suggestions';
   suggestions.style.position = 'relative';
   suggestions.style.zIndex = '50';
-
-  // SAFE append (instead of insertBefore)
   header.appendChild(suggestions);
 
   const dropdown = document.createElement('div');
@@ -253,29 +186,29 @@ function setupSearchBar() {
     for (const f of allFeatures) {
       const p = f.properties;
       const name = p.name || '';
-	const city = p.city || '';
-	const county = p.county || '';
-	const zip = p.postal_code || '';
+      const city = p.city || '';
+      const county = p.county || '';
+      const zip = p.postal_code || '';
 
-	if (name.toLowerCase().includes(q) && !seen.has(name)) {
- 			 seen.add(name);
- 			 items.push({ label: name, type: 'name' });
-	}
+      if (name.toLowerCase().includes(q) && !seen.has(name)) {
+        seen.add(name);
+        items.push({ label: name, type: 'name' });
+      }
 
-	if (city.toLowerCase().includes(q) && !seen.has(city)) {
-	  seen.add(city);
- 			 items.push({ label: city, type: 'city' });
-	}
+      if (city.toLowerCase().includes(q) && !seen.has(city)) {
+        seen.add(city);
+        items.push({ label: city, type: 'city' });
+      }
 
-	if (county.toLowerCase().includes(q) && !seen.has(county)) {
-	  seen.add(county);
-	  items.push({ label: county, type: 'county' });
-	}
+      if (county.toLowerCase().includes(q) && !seen.has(county)) {
+        seen.add(county);
+        items.push({ label: county, type: 'county' });
+      }
 
-	if (zip.includes(q) && !seen.has(zip)) {
- 			 seen.add(zip);
-	  items.push({ label: zip, type: 'zip' });
-	}
+      if (zip.includes(q) && !seen.has(zip)) {
+        seen.add(zip);
+        items.push({ label: zip, type: 'zip' });
+      }
 
       if (items.length >= 10) break;
     }
@@ -300,20 +233,19 @@ function setupSearchBar() {
         hideDropdown();
 
         if (item.type === 'city') {
- 			 const matches = allFeatures.filter(f => f.properties.city === item.label.toLowerCase());
-	   zoomToBoundingFeatures(matches);
-	}
+          const matches = allFeatures.filter(f => f.properties.city === item.label.toLowerCase());
+          zoomToBoundingFeatures(matches);
+        }
 
-	if (item.type === 'zip') {
-	  const matches = allFeatures.filter(f => f.properties.postal_code === item.label);
-	  zoomToBoundingFeatures(matches);
-	}
+        if (item.type === 'zip') {
+          const matches = allFeatures.filter(f => f.properties.postal_code === item.label);
+          zoomToBoundingFeatures(matches);
+        }
 
-	if (item.type === 'county') {
-	  const matches = allFeatures.filter(f => f.properties.county === item.label.toLowerCase());
-	  zoomToBoundingFeatures(matches);
-	}
-
+        if (item.type === 'county') {
+          const matches = allFeatures.filter(f => f.properties.county === item.label.toLowerCase());
+          zoomToBoundingFeatures(matches);
+        }
       });
 
       dropdown.appendChild(div);
@@ -334,9 +266,10 @@ function setupSearchBar() {
   });
 }
 
-// ===============================
+// ============================================================
 // LOAD DATA + INIT UI
-// ===============================
+// ============================================================
+
 async function loadDataAndInitUI() {
   try {
     const res = await fetch('data/map_data.geojson');
@@ -394,11 +327,12 @@ async function loadDataAndInitUI() {
   }
 }
 
-// ===============================
-// MAP LAYERS
-// ===============================
+// ============================================================
+// MAP LAYERS + CLICK HANDLERS
+// ============================================================
+
 function addLayers() {
-  // --- CLUSTERS ---
+  // CLUSTERS
   map.addLayer({
     id: 'clusters',
     type: 'circle',
@@ -424,7 +358,7 @@ function addLayers() {
     }
   });
 
-  // --- CLUSTER COUNT LABELS ---
+  // CLUSTER COUNT LABELS
   map.addLayer({
     id: 'cluster-count',
     type: 'symbol',
@@ -436,7 +370,7 @@ function addLayers() {
     }
   });
 
-  // --- ORG POINTS ---
+  // ORG POINTS
   map.addLayer({
     id: 'org-points',
     type: 'circle',
@@ -462,17 +396,13 @@ function addLayers() {
     }
   });
 
-  // ============================================================
-  //  FIX 1: GUARANTEED LAYER ORDERING (AFTER STYLE LOAD)
-  // ============================================================
+  // FIX 1: LAYER ORDERING
   map.on('styledata', () => {
     const layers = map.getStyle().layers;
     let lastSymbolLayerId = null;
 
     for (const layer of layers) {
-      if (layer.type === 'symbol') {
-        lastSymbolLayerId = layer.id;
-      }
+      if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
     }
 
     if (lastSymbolLayerId) {
@@ -482,17 +412,14 @@ function addLayers() {
     }
   });
 
-  // ============================================================
-  //  FIX 2: GUARANTEED CLICK HANDLER ATTACHMENT
-  // ============================================================
+  // FIX 2: CLICK HANDLERS
   map.on('styledata', () => {
     if (!map.getLayer('org-points')) return;
 
-    // Remove old handlers to avoid duplicates
     map.off('click', 'org-points');
     map.off('click', 'clusters');
 
-    // --- CLUSTER CLICK ---
+    // CLUSTER CLICK
     map.on('click', 'clusters', (e) => {
       const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
       if (!features.length) return;
@@ -507,39 +434,38 @@ function addLayers() {
       });
     });
 
-    // --- ORG CLICK ---
-	import { renderPopupHTML } from './popup.js';
+    // ORG CLICK
+    const popup = new mapboxgl.Popup({
+      closeButton: true,
+      closeOnClick: false,
+      maxWidth: '300px',
+      fadeDuration: 0
+    });
 
-	const popup = new mapboxgl.Popup({
-	  closeButton: true,
- 			 closeOnClick: false,
- 			 maxWidth: '300px',
- 			 fadeDuration: 0
-	});
+    map.on('click', 'org-points', (e) => {
+      if (!e.features?.length) return;
 
-	map.on('click', 'org-points', (e) => {
- 			 if (!e.features?.length) return;
+      const props = e.features[0].properties;
+      const data = JSON.parse(props.raw || JSON.stringify(props));
 
- 			 const props = e.features[0].properties;
- 			 const data = JSON.parse(props.raw || JSON.stringify(props));
+      const screenPos = map.project(e.lngLat);
+      const anchor = computePopupAnchor(screenPos, map);
+      const offset = computePopupOffset(screenPos, map);
 
- 			 const screenPos = map.project(e.lngLat);
- 			 const anchor = computePopupAnchor(screenPos, map);
-	  const offset = computePopupOffset(screenPos, map);
-
-	  popup
- 			   .setLngLat(e.lngLat)
- 			   .setHTML(renderPopupHTML(data))
- 			   .setOffset(offset)
- 			   .setAnchor(anchor)
- 			   .addTo(map);
-	});
+      popup
+        .setLngLat(e.lngLat)
+        .setHTML(renderPopupHTML(data))
+        .setOffset(offset)
+        .setAnchor(anchor)
+        .addTo(map);
+    });
   });
 }
 
-// ===============================
-// FILTERS (dropdowns + Unknown last)
-// ===============================
+// ============================================================
+// FILTERS
+// ============================================================
+
 function buildFiltersFromData(features) {
   const filtersEl = document.getElementById('filters');
   if (!filtersEl) return;
@@ -624,9 +550,10 @@ function buildFiltersFromData(features) {
   });
 }
 
-// ===============================
-// ZOOM TO CITY
-// ===============================
+// ============================================================
+// ZOOM HELPERS
+// ============================================================
+
 function zoomToCity(cityName) {
   if (!cityName) return;
 
@@ -637,22 +564,7 @@ function zoomToCity(cityName) {
 
   if (!matches.length) return;
 
-  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-
-  matches.forEach(f => {
-    const [lon, lat] = f.geometry.coordinates;
-    if (lon < minX) minX = lon;
-    if (lon > maxX) maxX = lon;
-    if (lat < minY) minY = lat;
-    if (lat > maxY) maxY = lat;
-  });
-
-  if (isFinite(minX) && isFinite(maxX) && isFinite(minY) && isFinite(maxY)) {
-    map.fitBounds([[minX, minY], [maxX, maxY]], {
-      padding: { top: 40, bottom: 40, left: 40, right: 40 },
-      duration: 800
-    });
-  }
+  zoomToBoundingFeatures(matches);
 }
 
 function zoomToBoundingFeatures(matches) {
@@ -673,10 +585,8 @@ function zoomToBoundingFeatures(matches) {
     duration: 800
   });
 
-  // Clamp zoom after fitBounds animation completes
   map.once('moveend', () => clampZoom(13));
 }
-
 
 function clampZoom(maxZoom = 13) {
   const z = map.getZoom();
@@ -696,91 +606,6 @@ function updateVisibleOrgs() {
   renderOrgList(visible);
 }
 
-// ===============================
-// APPLY FILTERS
-// ===============================
-function applyFilters() {
-  filteredFeatures = allFeatures.filter(f => {
-    const p = f.properties || {};
-
-    if (currentFilters.search) {
-      if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
-        return false;
-      }
-    }
-
-    const simple = [
-      'action_category',
-      'organization_type',
-      'audience_focus',
-      'reach',
-      'verified'
-    ];
-
-    for (const field of simple) {
-      const selected = currentFilters[field];
-      if (selected && selected.length > 0) {
-        const val = p[field];
-        if (!selected.includes(String(val))) return false;
-      }
-    }
-
-    const multi = ['climate_categories', 'tags'];
-    for (const field of multi) {
-      const selected = currentFilters[field];
-      if (selected && selected.length > 0) {
-        const vals = Array.isArray(p[field]) ? p[field] : [];
-        const hasAny = vals.some(v => selected.includes(v));
-        if (!hasAny) return false;
-      }
-    }
-
-    return true;
-  });
-
-  const src = map.getSource('orgs');
-  if (src) {
-    src.setData({
-      type: 'FeatureCollection',
-      features: filteredFeatures
-    });
-  }
-
-  updateVisibleOrgs();
-}
-
-// ===============================
-// CLEAR FILTERS
-// ===============================
-function setupClearFilters() {
-  const btn = document.getElementById('clear-filters');
-  if (!btn) return;
-
-  btn.addEventListener('click', () => {
-    Object.keys(currentFilters).forEach(key => {
-      currentFilters[key] = Array.isArray(currentFilters[key]) ? [] : '';
-    });
-
-    document.querySelectorAll('#filters input[type="checkbox"]').forEach(cb => {
-      cb.checked = false;
-    });
-
-    const searchInput = document.getElementById('search-bar');
-    if (searchInput) searchInput.value = '';
-
-    document.querySelectorAll('.filter-group summary').forEach(s => {
-      const text = s.textContent;
-      const base = text.split('(')[0].trim();
-      s.textContent = base;
-    });
-
-    applyFilters();
-  });
-}
-
-// ===============================
-// SIDEBAR LIST
-// ===============================
 function renderOrgList(features) {
   const listEl = document.getElementById('org-list');
   if (!listEl) return;
