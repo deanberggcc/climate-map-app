@@ -14,23 +14,12 @@ html, body {
    =============================== */
 
 #map {
-  position: fixed; /* instead of absolute */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  will-change: transform;
   z-index: 1;
-}
-
-/* ===============================
-   FIX: Prevent global CSS from breaking Mapbox
-   =============================== */
-
-#map * {
-  all: unset;
-  display: revert;
-  position: absolute;
 }
 
 /* ===============================
@@ -38,7 +27,7 @@ html, body {
    =============================== */
 
 #sidebar {
-  position: fixed; /* instead of absolute */
+  position: fixed;
   top: 0;
   left: 0;
   width: 320px;
