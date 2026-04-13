@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    html, body {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-  </style>
   <meta charset="utf-8" />
   <title>Climate Organizations Map</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 
   <!-- Mapbox -->
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
 
+  <!-- Your styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -23,20 +18,16 @@
 <!-- MAP -->
 <div id="map"></div>
 
-<!-- SIDEBAR (overlays the map) -->
+<!-- SIDEBAR -->
 <div id="sidebar">
   <div id="sidebar-content">
 
-    <!-- Header + Search -->
     <div id="sidebar-header">
       <h2>Climate Organizations Map</h2>
       <input id="search-bar" type="text" placeholder="Search organizations...">
     </div>
 
-    <!-- Filters -->
     <div id="filters"></div>
-
-    <!-- Organization List -->
     <div id="org-list"></div>
 
   </div>
@@ -45,7 +36,7 @@
 <!-- TOGGLE BUTTON -->
 <button id="sidebar-toggle">⟨</button>
 
-<!-- Your JS -->
+<!-- JS -->
 <script type="module" src="app.js"></script>
 
 </body>
