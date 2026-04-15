@@ -381,13 +381,13 @@ function addLayers() {
     }
   });
 
-  // --- ORG POINTS ---
-  map.on("load", () => {
-     map.addSource("orgs", {
- 	    type: "geojson",
- 	   data: "data/map_data.geojson",
-  	  cluster: false
-          });
+// --- ORG POINTS ---
+map.on("load", () => {
+  map.addSource("orgs", {
+    type: "geojson",
+    data: "data/map_data.geojson",
+    cluster: false
+  });
 
   map.addLayer({
     id: 'org-points',
@@ -413,39 +413,45 @@ function addLayers() {
       ]
     }
   });
-  // JITTER LOGIC
-    map.on("styledata", () => {
-        const features = map.querySourceFeatures("orgs");
 
-        const jittered = {
-	      type: "FeatureCollection",
-   	    features: features.map(f => {
- 	        const id = f.properties.id || f.properties.ID;
-   	       const [lon, lat] = f.geometry.coordinates;
+  // --- JITTER LOGIC ---
+  let jitterApplied = false;
 
- 	         // deterministic jitter seed
-    	       const seed = [...id].reduce((a, c) => a + c.charCodeAt(0), 0);
+  map.on("styledata", () => {
+    // Prevent infinite loops
+    if (jitterApplied) return;
 
- 	         // jitter radius in degrees (~40m)
- 	         const d = 40 / 111000;
+    const features = map.querySourceFeatures("orgs");
 
-   	        const jitterLat = lat + ((Math.sin(seed) * 0.5) * d);
- 	         const jitterLon = lon + ((Math.cos(seed) * 0.5) * d);
+    const jittered = {
+      type: "FeatureCollection",
+      features: features.map(f => {
+        const id = f.properties.id || f.properties.ID;
+        const [lon, lat] = f.geometry.coordinates;
 
- 	         return {
- 	             ...f,
- 	             geometry: {
-   		         type: "Point",
-      		       coordinates: [jitterLon, jitterLat]
-    	           }
-   	        };
-  	     })
-  	  };
+        // deterministic jitter seed
+        const seed = [...id].reduce((a, c) => a + c.charCodeAt(0), 0);
 
-	  map.getSource("orgs").setData(jittered);
-       });
-     });
-}
+        // jitter radius in degrees (~40m)
+        const d = 40 / 111000;
+
+        const jitterLat = lat + ((Math.sin(seed) * 0.5) * d);
+        const jitterLon = lon + ((Math.cos(seed) * 0.5) * d);
+
+        return {
+          ...f,
+          geometry: {
+            type: "Point",
+            coordinates: [jitterLon, jitterLat]
+          }
+        };
+      })
+    };
+
+    map.getSource("orgs").setData(jittered);
+    jitterApplied = true;
+  });
+});
 
 function bindOrgPointClicks() {
   map.on('click', 'org-points', (e) => {
