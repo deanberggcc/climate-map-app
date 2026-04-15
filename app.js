@@ -382,14 +382,21 @@ function addLayers() {
   });
 
   // --- ORG POINTS ---
+  map.on("load", () => {
+     map.addSource("orgs", {
+ 	    type: "geojson",
+ 	   data: "data/map_data.geojson",
+  	  cluster: false
+          });
+
   map.addLayer({
     id: 'org-points',
     type: 'circle',
     source: 'orgs',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-radius': 7,
-      'circle-stroke-width': 2,
+      'circle-radius': 6,
+      'circle-stroke-width': 1,
       'circle-stroke-color': '#333',
       'circle-color': [
         'match',
@@ -406,6 +413,38 @@ function addLayers() {
       ]
     }
   });
+  // JITTER LOGIC
+    map.on("styledata", () => {
+        const features = map.querySourceFeatures("orgs");
+
+        const jittered = {
+	      type: "FeatureCollection",
+   	    features: features.map(f => {
+ 	        const id = f.properties.id || f.properties.ID;
+   	       const [lon, lat] = f.geometry.coordinates;
+
+ 	         // deterministic jitter seed
+    	       const seed = [...id].reduce((a, c) => a + c.charCodeAt(0), 0);
+
+ 	         // jitter radius in degrees (~40m)
+ 	         const d = 40 / 111000;
+
+   	        const jitterLat = lat + ((Math.sin(seed) * 0.5) * d);
+ 	         const jitterLon = lon + ((Math.cos(seed) * 0.5) * d);
+
+ 	         return {
+ 	             ...f,
+ 	             geometry: {
+   		         type: "Point",
+      		       coordinates: [jitterLon, jitterLat]
+    	           }
+   	        };
+  	     })
+  	  };
+
+	  map.getSource("orgs").setData(jittered);
+       });
+     });
 }
 
 function bindOrgPointClicks() {
