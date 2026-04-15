@@ -343,6 +343,15 @@ async function loadDataAndInitUI() {
 ------------------------------------------------------- */
 
 function addLayers() {
+
+  // --- SOURCE (add once, before layers) ---
+  map.addSource("orgs", {
+    type: "geojson",
+    data: "data/map_data.geojson",
+    cluster: true,
+    clusterRadius: 50
+  });
+
   // --- CLUSTERS ---
   map.addLayer({
     id: 'clusters',
@@ -381,14 +390,7 @@ function addLayers() {
     }
   });
 
-// --- ORG POINTS ---
-map.on("load", () => {
-  map.addSource("orgs", {
-    type: "geojson",
-    data: "data/map_data.geojson",
-    cluster: false
-  });
-
+  // --- ORG POINTS ---
   map.addLayer({
     id: 'org-points',
     type: 'circle',
@@ -414,96 +416,61 @@ map.on("load", () => {
     }
   });
 
-  // --- JITTER LOGIC ---
-  let jitterApplied = false;
+  // --- COLLISION-AWARE JITTER ---
+  map.once("idle", () => {
+    const src = map.getSource("orgs");
+    if (!src) return;
 
-  map.on("styledata", () => {
-    // Prevent infinite loops
-    if (jitterApplied) return;
+    const features = map.querySourceFeatures("orgs", {
+      sourceLayer: undefined
+    });
 
-    const features = map.querySourceFeatures("orgs");
+    // Group features by rounded coordinate
+    const groups = {};
+    for (const f of features) {
+      const [lon, lat] = f.geometry.coordinates;
+      const key = `${lon.toFixed(5)},${lat.toFixed(5)}`;
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(f);
+    }
 
     const jittered = {
       type: "FeatureCollection",
-      features: features.map(f => {
-        const id = f.properties.id || f.properties.ID;
+      features: []
+    };
+
+    for (const key in groups) {
+      const group = groups[key];
+
+      if (group.length === 1) {
+        // No jitter needed
+        jittered.features.push(group[0]);
+        continue;
+      }
+
+      // Spread points in a circle
+      const angleStep = (2 * Math.PI) / group.length;
+      const radius = 40 / 111000; // ~40m
+
+      group.forEach((f, i) => {
         const [lon, lat] = f.geometry.coordinates;
+        const angle = i * angleStep;
 
-        // deterministic jitter seed
-        const seed = [...id].reduce((a, c) => a + c.charCodeAt(0), 0);
+        const jitterLon = lon + Math.cos(angle) * radius;
+        const jitterLat = lat + Math.sin(angle) * radius;
 
-        // jitter radius in degrees (~40m)
-        const d = 40 / 111000;
-
-        const jitterLat = lat + ((Math.sin(seed) * 0.5) * d);
-        const jitterLon = lon + ((Math.cos(seed) * 0.5) * d);
-
-        return {
+        jittered.features.push({
           ...f,
           geometry: {
             type: "Point",
             coordinates: [jitterLon, jitterLat]
           }
-        };
-      })
-    };
-
-    map.getSource("orgs").setData(jittered);
-    jitterApplied = true;
-  });
-});
-
-function bindOrgPointClicks() {
-  map.on('click', 'org-points', (e) => {
-    if (!e.features?.length) return;
-
-    const props = e.features[0].properties;
-    const data = JSON.parse(props.raw || JSON.stringify(props));
-
-    requestAnimationFrame(() => {
-      const screenPos = map.project(e.lngLat);
-      const offset = computePopupOffset(screenPos, map);
-
-      popup
-        .setLngLat(e.lngLat)
-        .setHTML(renderPopupHTML(data))
-        .setOffset(offset)
-        .addTo(map);
-    });
-  });
-}
-
-
-/* -------------------------------------------------------
-   MAP INTERACTIONS (ONE-TIME BIND)
-------------------------------------------------------- */
-
-function setupMapInteractions() {
-  const layers = map.getStyle().layers;
-  let lastSymbolLayerId = null;
-
-  for (const layer of layers) {
-    if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
-  }
-
-  if (lastSymbolLayerId) {
-    map.moveLayer('clusters', lastSymbolLayerId);
-    map.moveLayer('cluster-count', lastSymbolLayerId);
-    map.moveLayer('org-points', lastSymbolLayerId);
-  }
-
-  map.on('click', 'clusters', (e) => {
-    const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
-    if (!features.length) return;
-
-    const clusterId = features[0].properties.cluster_id;
-    map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
-      if (err) return;
-      map.easeTo({
-        center: features[0].geometry.coordinates,
-        zoom: zoom
+        });
       });
-    });
+    }
+
+    // Replace source data with jittered version
+    src.setData(jittered);
   });
 }
 
