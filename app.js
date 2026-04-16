@@ -362,183 +362,102 @@ async function loadDataAndInitUI() {
 
 function addLayers() {
 
-  // --- SOURCE (add once, before layers) ---
-  map.addSource("orgs", {
-    type: "geojson",
-    data: "data/map_data.geojson",
-    cluster: true,
-    clusterRadius: 50
-  });
-
-  // --- CLUSTERS ---
-  map.addLayer({
-    id: 'clusters',
-    type: 'circle',
-    source: 'orgs',
-    filter: ['has', 'point_count'],
-    paint: {
-      'circle-color': [
-        'step',
-        ['get', 'point_count'],
-        '#ccebc5', 20,
-        '#b3cde3', 50,
-        '#fbb4ae', 100,
-        '#decbe4'
-      ],
-      'circle-radius': [
-        'step',
-        ['get', 'point_count'],
-        15, 20,
-        20, 50,
-        25, 100,
-        30
-      ]
-    }
-  });
-
-  // --- CLUSTER COUNT ---
-  map.addLayer({
-    id: 'cluster-count',
-    type: 'symbol',
-    source: 'orgs',
-    filter: ['has', 'point_count'],
-    layout: {
-      'text-field': '{point_count_abbreviated}',
-      'text-size': 12
-    }
-  });
-
-  // --- ORG POINTS ---
-  map.addLayer({
-    id: 'org-points',
-    type: 'circle',
-    source: 'orgs',
-    filter: ['!', ['has', 'point_count']],
-    paint: {
-      'circle-radius': 6,
-      'circle-stroke-width': 1,
-      'circle-stroke-color': '#333',
-      'circle-color': [
-        'match',
-        ['get', 'organization_type'],
-        'Nonprofit / Grassroots', orgTypeColors['Nonprofit / Grassroots'],
-        'Coalition', orgTypeColors['Coalition'],
-        'Municipality', orgTypeColors['Municipality'],
-        'Academic', orgTypeColors['Academic'],
-        'Business', orgTypeColors['Business'],
-        'Tribal/Indigenous', orgTypeColors['Tribal/Indigenous'],
-        'Other', orgTypeColors['Other'],
-        'Unknown', orgTypeColors['Unknown'],
-        orgTypeColors['Unknown']
-      ]
-    }
-  });
-
- function applyJitter() {
-  const src = map.getSource("orgs");
-  if (!src || !originalFeatures) return;
-
-  if (!jitterEnabled) {
-    // restore original data
-    src.setData({
-      type: "FeatureCollection",
-      features: originalFeatures
-    });
-    return;
-  }
-
-  // collision-aware jitter
-  const groups = {};
-  for (const f of originalFeatures) {
-    const [lon, lat] = f.geometry.coordinates;
-    const key = `${lon.toFixed(5)},${lat.toFixed(5)}`;
-    if (!groups[key]) groups[key] = [];
-    groups[key].push(f);
-  }
-
-  const jittered = {
-    type: "FeatureCollection",
-    features: []
-  };
-
-  for (const key in groups) {
-    const group = groups[key];
-
-    if (group.length === 1) {
-      jittered.features.push(group[0]);
-      continue;
-    }
-
-    const angleStep = (2 * Math.PI) / group.length;
-    const radius = 40 / 111000; // ~40m
-
-    group.forEach((f, i) => {
-      const [lon, lat] = f.geometry.coordinates;
-      const angle = i * angleStep;
-
-      const jitterLon = lon + Math.cos(angle) * radius;
-      const jitterLat = lat + Math.sin(angle) * radius;
-
-      jittered.features.push({
-        ...f,
-        geometry: {
-          type: "Point",
-          coordinates: [jitterLon, jitterLat]
-        }
-      });
+  // ---------------------------------------------------
+  // 1. ADD SOURCE (ONLY IF NOT ALREADY ADDED)
+  // ---------------------------------------------------
+  if (!map.getSource("orgs")) {
+    map.addSource("orgs", {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: allFeatures
+      },
+      cluster: true,
+      clusterRadius: 50,
+      clusterMaxZoom: 12
     });
   }
 
-  src.setData(jittered);
-}
-
-    // Group features by rounded coordinate
-    const groups = {};
-    for (const f of features) {
-      const [lon, lat] = f.geometry.coordinates;
-      const key = `${lon.toFixed(5)},${lat.toFixed(5)}`;
-      if (!groups[key]) groups[key] = [];
-      groups[key].push(f);
-    }
-
-    const jittered = {
-      type: "FeatureCollection",
-      features: []
-    };
-
-    for (const key in groups) {
-      const group = groups[key];
-
-      if (group.length === 1) {
-        // No jitter needed
-        jittered.features.push(group[0]);
-        continue;
+  // ---------------------------------------------------
+  // 2. CLUSTERS
+  // ---------------------------------------------------
+  if (!map.getLayer("clusters")) {
+    map.addLayer({
+      id: 'clusters',
+      type: 'circle',
+      source: 'orgs',
+      filter: ['has', 'point_count'],
+      paint: {
+        'circle-color': [
+          'step',
+          ['get', 'point_count'],
+          '#ccebc5', 20,
+          '#b3cde3', 50,
+          '#fbb4ae', 100,
+          '#decbe4'
+        ],
+        'circle-radius': [
+          'step',
+          ['get', 'point_count'],
+          15, 20,
+          20, 50,
+          25, 100,
+          30
+        ]
       }
+    });
+  }
 
-      // Spread points in a circle
-      const angleStep = (2 * Math.PI) / group.length;
-      const radius = 40 / 111000; // ~40m
+  // ---------------------------------------------------
+  // 3. CLUSTER COUNT
+  // ---------------------------------------------------
+  if (!map.getLayer("cluster-count")) {
+    map.addLayer({
+      id: 'cluster-count',
+      type: 'symbol',
+      source: 'orgs',
+      filter: ['has', 'point_count'],
+      layout: {
+        'text-field': '{point_count_abbreviated}',
+        'text-size': 12
+      }
+    });
+  }
 
-      group.forEach((f, i) => {
-        const [lon, lat] = f.geometry.coordinates;
-        const angle = i * angleStep;
+  // ---------------------------------------------------
+  // 4. ORG POINTS
+  // ---------------------------------------------------
+  if (!map.getLayer("org-points")) {
+    map.addLayer({
+      id: 'org-points',
+      type: 'circle',
+      source: 'orgs',
+      filter: ['!', ['has', 'point_count']],
+      paint: {
+        'circle-radius': 6,
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#333',
+        'circle-color': [
+          'match',
+          ['get', 'organization_type'],
+          'Nonprofit / Grassroots', orgTypeColors['Nonprofit / Grassroots'],
+          'Coalition', orgTypeColors['Coalition'],
+          'Municipality', orgTypeColors['Municipality'],
+          'Academic', orgTypeColors['Academic'],
+          'Business', orgTypeColors['Business'],
+          'Tribal/Indigenous', orgTypeColors['Tribal/Indigenous'],
+          'Other', orgTypeColors['Other'],
+          'Unknown', orgTypeColors['Unknown'],
+          orgTypeColors['Unknown']
+        ]
+      }
+    });
+  }
 
-        const jitterLon = lon + Math.cos(angle) * radius;
-        const jitterLat = lat + Math.sin(angle) * radius;
-
-        jittered.features.push({
-          ...f,
-          geometry: {
-            type: "Point",
-            coordinates: [jitterLon, jitterLat]
-          }
-        });
-      });
-    }
-
-    // Replace source data with jittered version
-    src.setData(jittered);
-  });
+  // ---------------------------------------------------
+  // 5. APPLY JITTER (collision-aware, toggleable)
+  // ---------------------------------------------------
+  applyJitter();
 }
 
 /* -------------------------------------------------------
