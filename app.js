@@ -70,7 +70,7 @@ map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 let allFeatures = [];
 let filteredFeatures = [];
-let originalFeatures = []; // for jitter (Option B)
+let originalFeatures = []; // raw, pre-jitter
 
 let currentFilters = {
   action_category: [],
@@ -313,8 +313,10 @@ async function loadDataAndInitUI() {
       return f;
     });
 
-    filteredFeatures = allFeatures.slice();
+    // keep a raw copy, then jitter once (Option B)
     originalFeatures = allFeatures.slice();
+    allFeatures = applyCollisionJitter(originalFeatures);
+    filteredFeatures = allFeatures.slice();
 
     map.addSource('orgs', {
       type: 'geojson',
@@ -327,23 +329,12 @@ async function loadDataAndInitUI() {
       clusterMaxZoom: 12
     });
 
-    map.addSource('orgs-jittered', {
-      type: 'geojson',
-      data: {
-        type: 'FeatureCollection',
-        features: allFeatures
-      }
-    });
-
     addLayers();
     setupMapInteractions();
     bindOrgPointClicks();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
     updateVisibleOrgs();
-
-    applyCollisionJitter(); // Option B: jitter once
-
     applyFilters();
   } catch (err) {
     console.error('Error loading or parsing map_data.geojson', err);
@@ -351,15 +342,10 @@ async function loadDataAndInitUI() {
 }
 
 /* -------------------------------------------------------
-   COLLISION-AWARE JITTER (Option B)
+   COLLISION-AWARE JITTER (pure, Option B)
 ------------------------------------------------------- */
 
-function applyCollisionJitter() {
-  const src = map.getSource("orgs-jittered");
-  if (!src) return;
-
-  const features = originalFeatures;
-
+function applyCollisionJitter(features) {
   const groups = {};
   for (const f of features) {
     const [lon, lat] = f.geometry.coordinates;
@@ -368,40 +354,37 @@ function applyCollisionJitter() {
     groups[key].push(f);
   }
 
-  const jittered = {
-    type: "FeatureCollection",
-    features: []
-  };
+  const jittered = [];
 
   for (const key in groups) {
     const group = groups[key];
 
     if (group.length === 1) {
-      jittered.features.push(group[0]);
+      jittered.push(group[0]);
       continue;
     }
 
     const angleStep = (2 * Math.PI) / group.length;
-    const radius = 40 / 111000;
+    const radius = 40 / 111000; // ~40m
 
     group.forEach((f, i) => {
       const [lon, lat] = f.geometry.coordinates;
       const angle = i * angleStep;
 
-      jittered.features.push({
+      const jitterLon = lon + Math.cos(angle) * radius;
+      const jitterLat = lat + Math.sin(angle) * radius;
+
+      jittered.push({
         ...f,
         geometry: {
           type: "Point",
-          coordinates: [
-            lon + Math.cos(angle) * radius,
-            lat + Math.sin(angle) * radius
-          ]
+          coordinates: [jitterLon, jitterLat]
         }
       });
     });
   }
 
-  src.setData(jittered);
+  return jittered;
 }
 
 /* -------------------------------------------------------
@@ -420,16 +403,6 @@ function addLayers() {
       cluster: true,
       clusterRadius: 50,
       clusterMaxZoom: 12
-    });
-  }
-
-  if (!map.getSource("orgs-jittered")) {
-    map.addSource("orgs-jittered", {
-      type: "geojson",
-      data: {
-        type: "FeatureCollection",
-        features: allFeatures
-      }
     });
   }
 
@@ -477,7 +450,9 @@ function addLayers() {
     map.addLayer({
       id: 'org-points',
       type: 'circle',
-      source: 'orgs-jittered',
+      source: 'orgs',
+      // only show non-clustered points
+      filter: ['!', ['has', 'point_count']],
       paint: {
         'circle-radius': 6,
         'circle-stroke-width': 1,
@@ -672,9 +647,6 @@ function applyFilters() {
     });
   }
 
-  // DO NOT modify originalFeatures
-  // DO NOT re-jitter here (Option B)
-
   updateVisibleOrgs();
 }
 
@@ -767,3 +739,76 @@ function renderOrgList(features) {
     listEl.appendChild(item);
   });
 }
+
+/* -------------------------------------------------------
+   MAP INTERACTIONS (ONE-TIME BIND)
+------------------------------------------------------- */
+
+function setupMapInteractions() {
+  const layers = map.getStyle().layers;
+  let lastSymbolLayerId = null;
+
+  for (const layer of layers) {
+    if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
+  }
+
+  // keep clusters below labels, org-points above cluster-count
+  if (lastSymbolLayerId) {
+    if (map.getLayer('clusters')) {
+      map.moveLayer('clusters', lastSymbolLayerId);
+    }
+    if (map.getLayer('cluster-count')) {
+      map.moveLayer('cluster-count', lastSymbolLayerId);
+    }
+    if (map.getLayer('org-points')) {
+      map.moveLayer('org-points', lastSymbolLayerId);
+    }
+  }
+
+  map.on('click', 'clusters', (e) => {
+    const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
+    if (!features.length) return;
+
+    const clusterId = features[0].properties.cluster_id;
+    map.getSource('orgs').getClusterExpansionZoom(clusterId, (err, zoom) => {
+      if (err) return;
+      map.easeTo({
+        center: features[0].geometry.coordinates,
+        zoom: zoom
+      });
+    });
+  });
+}
+
+/* -------------------------------------------------------
+   ORG POINT CLICKS
+------------------------------------------------------- */
+
+function bindOrgPointClicks() {
+  map.on('click', 'org-points', (e) => {
+    if (!e.features?.length) return;
+
+    const props = e.features[0].properties;
+    const data = JSON.parse(props.raw || JSON.stringify(props));
+
+    requestAnimationFrame(() => {
+      const screenPos = map.project(e.lngLat);
+      const offset = computePopupOffset(screenPos, map);
+
+      popup
+        .setLngLat(e.lngLat)
+        .setHTML(renderPopupHTML(data))
+        .setOffset(offset)
+        .addTo(map);
+    });
+  });
+
+  map.on('mouseenter', 'org-points', () => {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  map.on('mouseleave', 'org-points', () => {
+    map.getCanvas().style.cursor = '';
+  });
+}
+
