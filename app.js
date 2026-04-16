@@ -71,6 +71,9 @@ map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 let allFeatures = [];
 let filteredFeatures = [];
 
+let jitterEnabled = true;
+let originalFeatures = null; // raw, unjittered data
+
 let currentFilters = {
   action_category: [],
   climate_categories: [],
@@ -109,8 +112,20 @@ const popup = new mapboxgl.Popup({
 map.on('load', () => {
   setupSidebarToggle();
   setupSearchBar();
+  setupJitterToggle();
   loadDataAndInitUI();
 });
+
+function setupJitterToggle() {
+  const btn = document.getElementById('jitter-toggle');
+  if (!btn) return;
+
+  btn.addEventListener('click', () => {
+    jitterEnabled = !jitterEnabled;
+    btn.textContent = jitterEnabled ? "Jitter: ON" : "Jitter: OFF";
+    applyJitter(); // re-jitter or restore original
+  });
+}
 
 map.on('moveend', updateVisibleOrgs);
 
@@ -313,6 +328,8 @@ async function loadDataAndInitUI() {
       return f;
     });
 
+    originalFeatures = allFeatures.map(f => JSON.parse(JSON.stringify(f)));
+
     filteredFeatures = allFeatures.slice();
 
     map.addSource('orgs', {
@@ -329,6 +346,7 @@ async function loadDataAndInitUI() {
     addLayers();
     setupMapInteractions();
     bindOrgPointClicks();
+    applyJitter();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
     updateVisibleOrgs();
@@ -416,14 +434,63 @@ function addLayers() {
     }
   });
 
-  // --- COLLISION-AWARE JITTER ---
-  map.once("idle", () => {
-    const src = map.getSource("orgs");
-    if (!src) return;
+ function applyJitter() {
+  const src = map.getSource("orgs");
+  if (!src || !originalFeatures) return;
 
-    const features = map.querySourceFeatures("orgs", {
-      sourceLayer: undefined
+  if (!jitterEnabled) {
+    // restore original data
+    src.setData({
+      type: "FeatureCollection",
+      features: originalFeatures
     });
+    return;
+  }
+
+  // collision-aware jitter
+  const groups = {};
+  for (const f of originalFeatures) {
+    const [lon, lat] = f.geometry.coordinates;
+    const key = `${lon.toFixed(5)},${lat.toFixed(5)}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(f);
+  }
+
+  const jittered = {
+    type: "FeatureCollection",
+    features: []
+  };
+
+  for (const key in groups) {
+    const group = groups[key];
+
+    if (group.length === 1) {
+      jittered.features.push(group[0]);
+      continue;
+    }
+
+    const angleStep = (2 * Math.PI) / group.length;
+    const radius = 40 / 111000; // ~40m
+
+    group.forEach((f, i) => {
+      const [lon, lat] = f.geometry.coordinates;
+      const angle = i * angleStep;
+
+      const jitterLon = lon + Math.cos(angle) * radius;
+      const jitterLat = lat + Math.sin(angle) * radius;
+
+      jittered.features.push({
+        ...f,
+        geometry: {
+          type: "Point",
+          coordinates: [jitterLon, jitterLat]
+        }
+      });
+    });
+  }
+
+  src.setData(jittered);
+}
 
     // Group features by rounded coordinate
     const groups = {};
@@ -640,6 +707,8 @@ function applyFilters() {
       type: 'FeatureCollection',
       features: filteredFeatures
     });
+   originalFeatures = filteredFeatures.map(f => JSON.parse(JSON.stringify(f)));
+applyJitter();
   }
 
   updateVisibleOrgs();
