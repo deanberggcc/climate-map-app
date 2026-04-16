@@ -70,9 +70,7 @@ map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 let allFeatures = [];
 let filteredFeatures = [];
-
-let jitterEnabled = true;
-let originalFeatures = null; // raw, unjittered data
+let originalFeatures = []; // for jitter (Option B)
 
 let currentFilters = {
   action_category: [],
@@ -112,20 +110,8 @@ const popup = new mapboxgl.Popup({
 map.on('load', () => {
   setupSidebarToggle();
   setupSearchBar();
-  setupJitterToggle();
   loadDataAndInitUI();
 });
-
-function setupJitterToggle() {
-  const btn = document.getElementById('jitter-toggle');
-  if (!btn) return;
-
-  btn.addEventListener('click', () => {
-    jitterEnabled = !jitterEnabled;
-    btn.textContent = jitterEnabled ? "Jitter: ON" : "Jitter: OFF";
-    applyJitter(); // re-jitter or restore original
-  });
-}
 
 map.on('moveend', updateVisibleOrgs);
 
@@ -237,12 +223,11 @@ function setupSearchBar() {
     dropdown.innerHTML = '';
     items.forEach(item => {
       const div = document.createElement('div');
-      div.style.padding = '4px 8px';
-      div.textContent = item.type === 'city'
-        ? `${item.label} (city)`
-        : item.label;
+      div.textContent = item.label;
+      div.style.padding = '6px 10px';
+      div.style.borderBottom = '1px solid #eee';
 
-      div.addEventListener('click', () => {
+      div.addEventListener('mousedown', () => {
         input.value = item.label;
         currentFilters.search = item.label.toLowerCase();
         debouncedApply();
@@ -328,9 +313,8 @@ async function loadDataAndInitUI() {
       return f;
     });
 
-    originalFeatures = allFeatures.map(f => JSON.parse(JSON.stringify(f)));
-
     filteredFeatures = allFeatures.slice();
+    originalFeatures = allFeatures.slice();
 
     map.addSource('orgs', {
       type: 'geojson',
@@ -343,17 +327,81 @@ async function loadDataAndInitUI() {
       clusterMaxZoom: 12
     });
 
+    map.addSource('orgs-jittered', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: allFeatures
+      }
+    });
+
     addLayers();
     setupMapInteractions();
     bindOrgPointClicks();
-    applyJitter();
     buildFiltersFromData(allFeatures);
     setupClearFilters();
     updateVisibleOrgs();
+
+    applyCollisionJitter(); // Option B: jitter once
+
     applyFilters();
   } catch (err) {
     console.error('Error loading or parsing map_data.geojson', err);
   }
+}
+
+/* -------------------------------------------------------
+   COLLISION-AWARE JITTER (Option B)
+------------------------------------------------------- */
+
+function applyCollisionJitter() {
+  const src = map.getSource("orgs-jittered");
+  if (!src) return;
+
+  const features = originalFeatures;
+
+  const groups = {};
+  for (const f of features) {
+    const [lon, lat] = f.geometry.coordinates;
+    const key = `${lon.toFixed(5)},${lat.toFixed(5)}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(f);
+  }
+
+  const jittered = {
+    type: "FeatureCollection",
+    features: []
+  };
+
+  for (const key in groups) {
+    const group = groups[key];
+
+    if (group.length === 1) {
+      jittered.features.push(group[0]);
+      continue;
+    }
+
+    const angleStep = (2 * Math.PI) / group.length;
+    const radius = 40 / 111000;
+
+    group.forEach((f, i) => {
+      const [lon, lat] = f.geometry.coordinates;
+      const angle = i * angleStep;
+
+      jittered.features.push({
+        ...f,
+        geometry: {
+          type: "Point",
+          coordinates: [
+            lon + Math.cos(angle) * radius,
+            lat + Math.sin(angle) * radius
+          ]
+        }
+      });
+    });
+  }
+
+  src.setData(jittered);
 }
 
 /* -------------------------------------------------------
@@ -362,9 +410,6 @@ async function loadDataAndInitUI() {
 
 function addLayers() {
 
-  // ---------------------------------------------------
-  // 1. ADD SOURCE (ONLY IF NOT ALREADY ADDED)
-  // ---------------------------------------------------
   if (!map.getSource("orgs")) {
     map.addSource("orgs", {
       type: "geojson",
@@ -378,9 +423,16 @@ function addLayers() {
     });
   }
 
-  // ---------------------------------------------------
-  // 2. CLUSTERS
-  // ---------------------------------------------------
+  if (!map.getSource("orgs-jittered")) {
+    map.addSource("orgs-jittered", {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: allFeatures
+      }
+    });
+  }
+
   if (!map.getLayer("clusters")) {
     map.addLayer({
       id: 'clusters',
@@ -408,9 +460,6 @@ function addLayers() {
     });
   }
 
-  // ---------------------------------------------------
-  // 3. CLUSTER COUNT
-  // ---------------------------------------------------
   if (!map.getLayer("cluster-count")) {
     map.addLayer({
       id: 'cluster-count',
@@ -424,15 +473,11 @@ function addLayers() {
     });
   }
 
-  // ---------------------------------------------------
-  // 4. ORG POINTS
-  // ---------------------------------------------------
   if (!map.getLayer("org-points")) {
     map.addLayer({
       id: 'org-points',
       type: 'circle',
-      source: 'orgs',
-      filter: ['!', ['has', 'point_count']],
+      source: 'orgs-jittered',
       paint: {
         'circle-radius': 6,
         'circle-stroke-width': 1,
@@ -453,11 +498,6 @@ function addLayers() {
       }
     });
   }
-
-  // ---------------------------------------------------
-  // 5. APPLY JITTER (collision-aware, toggleable)
-  // ---------------------------------------------------
-  applyJitter();
 }
 
 /* -------------------------------------------------------
@@ -585,12 +625,14 @@ function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties || {};
 
+    // Search filter
     if (currentFilters.search) {
       if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
         return false;
       }
     }
 
+    // Simple single-value filters
     const simple = [
       'action_category',
       'organization_type',
@@ -607,6 +649,7 @@ function applyFilters() {
       }
     }
 
+    // Multi-value filters
     const multi = ['climate_categories', 'tags'];
     for (const field of multi) {
       const selected = currentFilters[field];
@@ -620,63 +663,64 @@ function applyFilters() {
     return true;
   });
 
+  // Update ONLY the clustered source
   const src = map.getSource('orgs');
   if (src) {
     src.setData({
       type: 'FeatureCollection',
       features: filteredFeatures
     });
-   originalFeatures = filteredFeatures.map(f => JSON.parse(JSON.stringify(f)));
-applyJitter();
   }
+
+  // DO NOT modify originalFeatures
+  // DO NOT re-jitter here (Option B)
 
   updateVisibleOrgs();
 }
-
 
 /* -------------------------------------------------------
    ZOOM HELPERS
 ------------------------------------------------------- */
 
 function zoomToCity(cityName) {
-if (!cityName) return;
+  if (!cityName) return;
 
-const matches = allFeatures.filter(f => {
-  const p = f.properties || {};
-  return p._city === cityName.toLowerCase();
-});
+  const matches = allFeatures.filter(f => {
+    const p = f.properties || {};
+    return p._city === cityName.toLowerCase();
+  });
 
-if (!matches.length) return;
+  if (!matches.length) return;
 
-zoomToBoundingFeatures(matches);
+  zoomToBoundingFeatures(matches);
 }
 
 function zoomToBoundingFeatures(matches) {
-if (!matches.length) return;
+  if (!matches.length) return;
 
-let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
 
-matches.forEach(f => {
-  const [lon, lat] = f.geometry.coordinates;
-  minX = Math.min(minX, lon);
-  maxX = Math.max(maxX, lon);
-  minY = Math.min(minY, lat);
-  maxY = Math.max(maxY, lat);
-});
+  matches.forEach(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    minX = Math.min(minX, lon);
+    maxX = Math.max(maxX, lon);
+    minY = Math.min(minY, lat);
+    maxY = Math.max(maxY, lat);
+  });
 
-map.fitBounds([[minX, minY], [maxX, maxY]], {
-  padding: { top: 40, bottom: 40, left: 40, right: 40 },
-  duration: 800
-});
+  map.fitBounds([[minX, minY], [maxX, maxY]], {
+    padding: { top: 40, bottom: 40, left: 40, right: 40 },
+    duration: 800
+  });
 
-map.once('moveend', () => clampZoom(13));
+  map.once('moveend', () => clampZoom(13));
 }
 
 function clampZoom(maxZoom = 13) {
-const z = map.getZoom();
-if (z > maxZoom) {
-  map.easeTo({ zoom: maxZoom, duration: 300 });
-}
+  const z = map.getZoom();
+  if (z > maxZoom) {
+    map.easeTo({ zoom: maxZoom, duration: 300 });
+  }
 }
 
 /* -------------------------------------------------------
@@ -684,43 +728,42 @@ if (z > maxZoom) {
 ------------------------------------------------------- */
 
 function updateVisibleOrgs() {
-const bounds = map.getBounds();
+  const bounds = map.getBounds();
 
-const visible = filteredFeatures.filter(f => {
-  const [lon, lat] = f.geometry.coordinates;
-  return bounds.contains([lon, lat]);
-});
+  const visible = filteredFeatures.filter(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    return bounds.contains([lon, lat]);
+  });
 
-renderOrgList(visible);
+  renderOrgList(visible);
 }
 
 function renderOrgList(features) {
-const listEl = document.getElementById('org-list');
-if (!listEl) return;
-listEl.innerHTML = '';
+  const listEl = document.getElementById('org-list');
+  if (!listEl) return;
+  listEl.innerHTML = '';
 
-features.forEach(f => {
-  const p = f.properties || {};
-  const item = document.createElement('div');
-  item.className = 'org-item';
+  features.forEach(f => {
+    const p = f.properties || {};
+    const item = document.createElement('div');
+    item.className = 'org-item';
 
-  const nameEl = document.createElement('div');
-  nameEl.className = 'org-name';
-  nameEl.textContent = p.name || 'Unknown';
+    const nameEl = document.createElement('div');
+    nameEl.className = 'org-name';
+    nameEl.textContent = p.name || 'Unknown';
 
-  const metaEl = document.createElement('div');
-  metaEl.className = 'org-meta';
-  metaEl.textContent = `${p.city || ''} • ${p.organization_type || 'Unknown'}`;
+    const metaEl = document.createElement('div');
+    metaEl.className = 'org-meta';
+    metaEl.textContent = `${p.city || ''} • ${p.organization_type || 'Unknown'}`;
 
-  item.appendChild(nameEl);
-  item.appendChild(metaEl);
+    item.appendChild(nameEl);
+    item.appendChild(metaEl);
 
-  item.addEventListener('click', () => {
-    const [lon, lat] = f.geometry.coordinates;
-    map.easeTo({ center: [lon, lat], zoom: 13 });
+    item.addEventListener('click', () => {
+      const [lon, lat] = f.geometry.coordinates;
+      map.easeTo({ center: [lon, lat], zoom: 13 });
+    });
+
+    listEl.appendChild(item);
   });
-
-  listEl.appendChild(item);
-});
 }
-
