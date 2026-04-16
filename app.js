@@ -70,7 +70,6 @@ map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 let allFeatures = [];
 let filteredFeatures = [];
-let originalFeatures = []; // raw, pre-jitter
 
 let currentFilters = {
   action_category: [],
@@ -313,9 +312,8 @@ async function loadDataAndInitUI() {
       return f;
     });
 
-    // keep a raw copy, then jitter once (Option B)
-    originalFeatures = allFeatures.slice();
-    allFeatures = applyCollisionJitter(originalFeatures);
+    // Apply collision-aware jitter once, then use jittered features everywhere
+    allFeatures = applyCollisionJitter(allFeatures);
     filteredFeatures = allFeatures.slice();
 
     map.addSource('orgs', {
@@ -342,7 +340,7 @@ async function loadDataAndInitUI() {
 }
 
 /* -------------------------------------------------------
-   COLLISION-AWARE JITTER (pure, Option B)
+   COLLISION-AWARE JITTER
 ------------------------------------------------------- */
 
 function applyCollisionJitter(features) {
@@ -365,7 +363,7 @@ function applyCollisionJitter(features) {
     }
 
     const angleStep = (2 * Math.PI) / group.length;
-    const radius = 40 / 111000; // ~40m
+    const radius = 80 / 111000; // ~80m for stronger separation
 
     group.forEach((f, i) => {
       const [lon, lat] = f.geometry.coordinates;
@@ -392,20 +390,6 @@ function applyCollisionJitter(features) {
 ------------------------------------------------------- */
 
 function addLayers() {
-
-  if (!map.getSource("orgs")) {
-    map.addSource("orgs", {
-      type: "geojson",
-      data: {
-        type: "FeatureCollection",
-        features: allFeatures
-      },
-      cluster: true,
-      clusterRadius: 50,
-      clusterMaxZoom: 12
-    });
-  }
-
   if (!map.getLayer("clusters")) {
     map.addLayer({
       id: 'clusters',
@@ -451,7 +435,6 @@ function addLayers() {
       id: 'org-points',
       type: 'circle',
       source: 'orgs',
-      // only show non-clustered points
       filter: ['!', ['has', 'point_count']],
       paint: {
         'circle-radius': 6,
@@ -600,14 +583,12 @@ function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties || {};
 
-    // Search filter
     if (currentFilters.search) {
       if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
         return false;
       }
     }
 
-    // Simple single-value filters
     const simple = [
       'action_category',
       'organization_type',
@@ -624,7 +605,6 @@ function applyFilters() {
       }
     }
 
-    // Multi-value filters
     const multi = ['climate_categories', 'tags'];
     for (const field of multi) {
       const selected = currentFilters[field];
@@ -638,7 +618,6 @@ function applyFilters() {
     return true;
   });
 
-  // Update ONLY the clustered source
   const src = map.getSource('orgs');
   if (src) {
     src.setData({
@@ -741,18 +720,17 @@ function renderOrgList(features) {
 }
 
 /* -------------------------------------------------------
-   MAP INTERACTIONS (ONE-TIME BIND)
+   MAP INTERACTIONS
 ------------------------------------------------------- */
 
 function setupMapInteractions() {
-  const layers = map.getStyle().layers;
+  const layers = map.getStyle().layers || [];
   let lastSymbolLayerId = null;
 
   for (const layer of layers) {
     if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
   }
 
-  // keep clusters below labels, org-points above cluster-count
   if (lastSymbolLayerId) {
     if (map.getLayer('clusters')) {
       map.moveLayer('clusters', lastSymbolLayerId);
@@ -811,4 +789,5 @@ function bindOrgPointClicks() {
     map.getCanvas().style.cursor = '';
   });
 }
+
 
