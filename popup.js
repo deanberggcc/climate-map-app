@@ -29,7 +29,7 @@ export function renderPopupHTML(data) {
 
       ${!data.verified ? `
         <div class="popup-verify">
-          <a href="YOUR_SURVEY_URL" target="_blank">Click to claim and verify</a>
+          <a href="https://forms.gle/qrH53jyJkizRgKNN7" target="_blank">Click to claim and verify</a>
         </div>` : ''}
     </div>
   `;
