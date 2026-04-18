@@ -437,8 +437,8 @@ function addLayers() {
       source: 'orgs',
       filter: ['!', ['has', 'point_count']],
       paint: {
-        'circle-radius': 6,
-        'circle-stroke-width': 1,
+        'circle-radius': 7,
+        'circle-stroke-width': 0.5,
         'circle-stroke-color': '#333',
         'circle-color': [
           'match',
@@ -496,10 +496,16 @@ function buildFiltersFromData(features) {
   if (!filtersEl) return;
   filtersEl.innerHTML = '';
 
+  // --- Add Filters header ---
+  const header = document.createElement('h3');
+  header.className = 'sidebar-section-header';
+  header.textContent = 'Filters';
+  filtersEl.appendChild(header);
+
   const fields = [
-    { key: 'action_category', label: 'Action Category' },
-    { key: 'climate_categories', label: 'Climate Categories' },
     { key: 'organization_type', label: 'Organization Type' },
+  { key: 'action_category', label: 'Action Category' },
+    { key: 'climate_categories', label: 'Climate Categories' },
     { key: 'audience_focus', label: 'Audience Focus' },
     { key: 'reach', label: 'Reach' },
     { key: 'verified', label: 'Verification' }
@@ -693,6 +699,12 @@ function renderOrgList(features) {
   const listEl = document.getElementById('org-list');
   if (!listEl) return;
   listEl.innerHTML = '';
+
+  // --- Add header above org list ---
+  const header = document.createElement('h3');
+  header.className = 'sidebar-section-header';
+  header.textContent = 'Organizations in View';
+  listEl.appendChild(header);
 
   features.forEach(f => {
     const p = f.properties || {};

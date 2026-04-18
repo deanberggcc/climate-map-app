@@ -94,6 +94,14 @@ html, body {
   margin-bottom: 8px;
 }
 
+.sidebar-section-header {
+  margin: 12px 0 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+
 /* ===============================
    FILTERS
    =============================== */
