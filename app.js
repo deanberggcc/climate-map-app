@@ -191,6 +191,16 @@ function setupSearchBar() {
     for (const f of allFeatures) {
       const p = f.properties;
 
+  // Normalize verified into canonical string
+  if (typeof p.verified === "boolean") {
+       p.verified = p.verified ? "Verified" : "Not Verified";
+    } else if (typeof p.verified === "string") {
+       const v = p.verified.trim().toLowerCase();
+       p.verified = v === "verified" ? "Verified" : "Not Verified";
+    } else {
+       p.verified = "Not Verified";
+    }
+
       if (p._name.includes(q) && !seen.has(p.name)) {
         seen.add(p.name);
         items.push({ label: p.name, type: 'name' });
