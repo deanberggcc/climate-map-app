@@ -1,6 +1,8 @@
 console.log("APP.JS STARTED");
 
 import { renderPopupHTML } from './popup.js';
+import { formatAddress, formatCity } from './formatters.js';
+
 
 const SIDEBAR_WIDTH = 320;
 
@@ -63,6 +65,23 @@ const map = new mapboxgl.Map({
 window._map = map;
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+let activePopup = null;
+
+export function openPopupForFeature(feature, map) {
+  if (activePopup) {
+    activePopup.remove();
+    activePopup = null;
+  }
+
+  const coords = feature.geometry.coordinates;
+  const html = renderPopupHTML(feature.properties);
+
+  activePopup = new mapboxgl.Popup({ closeOnClick: true })
+    .setLngLat(coords)
+    .setHTML(html)
+    .addTo(map);
+}
 
 /* -------------------------------------------------------
    GLOBAL STATE
@@ -303,7 +322,6 @@ async function loadDataAndInitUI() {
 // Remove validated entirely
 delete p.validated;
 
-
       p.raw = JSON.stringify(p);
 
       p._name = (p.name || "").toLowerCase();
@@ -328,6 +346,13 @@ delete p.validated;
 
     // Apply collision-aware jitter once, then use jittered features everywhere
     allFeatures = applyCollisionJitter(allFeatures);
+
+// Build lookup table
+window.__allFeaturesById = {};
+allFeatures.forEach(f => {
+  window.__allFeaturesById[f.properties.id] = f;
+});
+
     filteredFeatures = allFeatures.slice();
 
     map.addSource('orgs', {
@@ -731,15 +756,28 @@ function renderOrgList(features) {
 
     const metaEl = document.createElement('div');
     metaEl.className = 'org-meta';
-    metaEl.textContent = `${p.city || ''} • ${p.organization_type || 'Unknown'}`;
+    metaEl.textContent = `${formatCity(p.city)} • ${p.organization_type || 'Unknown'}`;
 
     item.appendChild(nameEl);
     item.appendChild(metaEl);
 
     item.addEventListener('click', () => {
-      const [lon, lat] = f.geometry.coordinates;
-      map.easeTo({ center: [lon, lat], zoom: 13 });
-    });
+  const feature = f; // already the correct feature
+
+  const [lon, lat] = feature.geometry.coordinates;
+
+  map.easeTo({
+    center: [lon, lat],
+    zoom: 13,
+    speed: 0.6
+  });
+
+  // Open popup after map moves
+  map.once('moveend', () => {
+    openPopupForFeature(feature, map);
+  });
+});
+
 
     listEl.appendChild(item);
   });
@@ -799,11 +837,7 @@ function bindOrgPointClicks() {
       const screenPos = map.project(e.lngLat);
       const offset = computePopupOffset(screenPos, map);
 
-      popup
-        .setLngLat(e.lngLat)
-        .setHTML(renderPopupHTML(data))
-        .setOffset(offset)
-        .addTo(map);
+      openPopupForFeature(e.features[0], map);
     });
   });
 

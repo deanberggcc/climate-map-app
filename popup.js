@@ -1,4 +1,7 @@
 // popup.js
+
+import { formatAddress, formatCity } from "./formatters.js";
+
 export function renderPopupHTML(data) {
   const climate = (data.climate_categories || []).slice(0, 3).join(', ');
   const social = (data.social_links || []).join(' • ');
@@ -9,9 +12,10 @@ export function renderPopupHTML(data) {
       <div class="popup-title">${verified}${data.name || 'Unknown'}</div>
 
       <div class="popup-address">
-        ${data.address || ''}
-        ${data.city || ''}${data.state ? ', ' + data.state : ''}
-      </div>
+	  ${formatAddress(data.address || '')}<br>
+	  ${formatCity(data.city || '')}${data.state ? ', ' + 	data.state.toUpperCase() : ''}
+	</div>
+
 
       <div class="popup-meta">
         <div><strong>Type:</strong> ${data.organization_type || 'Unknown'}</div>
