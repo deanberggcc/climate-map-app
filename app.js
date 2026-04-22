@@ -5,6 +5,7 @@ import { formatAddress, formatCity } from './formatters.js';
 
 
 const SIDEBAR_WIDTH = 320;
+let selectedOrgId = null;
 
 /* -------------------------------------------------------
    POPUP POSITIONING HELPERS
@@ -35,6 +36,17 @@ function computePopupOffset(screenPos, map) {
     left: [-dx, dy],
     right: [dx, dy]
   };
+}
+
+function highlightOrg(feature) {
+  if (!feature) {
+    selectedOrgId = null;
+    map.setFilter("org-highlight", ["==", "id", ""]);
+    return;
+  }
+
+  selectedOrgId = feature.properties.id;
+  map.setFilter("org-highlight", ["==", "id", selectedOrgId]);
 }
 
 /* -------------------------------------------------------
@@ -74,10 +86,21 @@ export function openPopupForFeature(feature, map) {
     activePopup = null;
   }
 
+  // NEW: highlight the selected org
+  highlightOrg(feature);
+
   const coords = feature.geometry.coordinates;
+  const screenPos = map.project(coords);
+  const offset = computePopupOffset(screenPos, map);
+  const anchor = computePopupAnchor(screenPos, map);
+
   const html = renderPopupHTML(feature.properties);
 
-  activePopup = new mapboxgl.Popup({ closeOnClick: true })
+  activePopup = new mapboxgl.Popup({
+    closeOnClick: true,
+    anchor: anchor,
+    offset: offset[anchor]
+  })
     .setLngLat(coords)
     .setHTML(html)
     .addTo(map);
@@ -495,6 +518,21 @@ function addLayers() {
       }
     });
   }
+if (!map.getLayer("org-highlight")) {
+  map.addLayer({
+    id: "org-highlight",
+    type: "circle",
+    source: "orgs",
+    filter: ["==", "id", ""], // initially nothing selected
+    paint: {
+      "circle-radius": 14,
+      "circle-color": "rgba(255, 200, 0, 0.4)",
+      "circle-stroke-color": "rgba(255, 150, 0, 0.9)",
+      "circle-stroke-width": 3,
+      "circle-blur": 0.6
+    }
+  });
+}
 }
 
 /* -------------------------------------------------------
@@ -709,8 +747,10 @@ function zoomToBoundingFeatures(matches) {
     duration: 800
   });
 
-  map.once('moveend', () => clampZoom(13));
-}
+  map.once('moveend', () => {
+  highlightOrg(matches[0]);
+  openPopupForFeature(matches[0], map);
+});
 
 function clampZoom(maxZoom = 13) {
   const z = map.getZoom();
@@ -766,16 +806,12 @@ function renderOrgList(features) {
 
   const [lon, lat] = feature.geometry.coordinates;
 
-  map.easeTo({
-    center: [lon, lat],
-    zoom: 13,
-    speed: 0.6
-  });
+ item.addEventListener('click', () => {
+  const feature = f;
 
-  // Open popup after map moves
-  map.once('moveend', () => {
-    openPopupForFeature(feature, map);
-  });
+  // No zoom, no centering — just open popup
+  openPopupForFeature(feature, map);
+});
 });
 
 
@@ -837,7 +873,28 @@ function bindOrgPointClicks() {
       const screenPos = map.project(e.lngLat);
       const offset = computePopupOffset(screenPos, map);
 
-      openPopupForFeature(e.features[0], map);
+      export function openPopupForFeature(feature, map) {
+  if (activePopup) {
+    activePopup.remove();
+    activePopup = null;
+  }
+
+  const coords = feature.geometry.coordinates;
+  const screenPos = map.project(coords);
+  const offset = computePopupOffset(screenPos, map);
+  const anchor = computePopupAnchor(screenPos, map);
+
+  const html = renderPopupHTML(feature.properties);
+
+  activePopup = new mapboxgl.Popup({
+    closeOnClick: true,
+    anchor: anchor,
+    offset: offset[anchor]
+  })
+    .setLngLat(coords)
+    .setHTML(html)
+    .addTo(map);
+}
     });
   });
 
