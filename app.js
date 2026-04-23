@@ -101,29 +101,27 @@ function highlightOrg(feature) {
   map.setFilter("org-highlight", ["==", "id", selectedOrgId]);
 }
 
+// Use the shared popup instance you already have:
+const popup = new mapboxgl.Popup({
+  closeButton: true,
+  closeOnClick: false,
+  maxWidth: '300px'
+});
+
 export function openPopupForFeature(feature, map) {
-  if (activePopup) {
-    activePopup.remove();
-    activePopup = null;
-  }
-
-  highlightOrg(feature);
-
   const coords = feature.geometry.coordinates;
-  const screenPos = map.project(coords);
-  const offset = computePopupOffset(screenPos, map);
-  const anchor = computePopupAnchor(screenPos, map);
+  const data = feature.properties;
 
-  const html = renderPopupHTML(feature.properties);
+  requestAnimationFrame(() => {
+    const screenPos = map.project(coords);
+    const offset = computePopupOffset(screenPos, map);
 
-  activePopup = new mapboxgl.Popup({
-    closeOnClick: true,
-    anchor: anchor,
-    offset: offset[anchor]
-  })
-    .setLngLat(coords)
-    .setHTML(html)
-    .addTo(map);
+    popup
+      .setLngLat(coords)
+      .setHTML(renderPopupHTML(data))
+      .setOffset(offset)   // <-- IMPORTANT: pass the whole offset object
+      .addTo(map);
+  });
 }
 
 
@@ -238,6 +236,9 @@ async function loadDataAndInitUI() {
       f.properties = p;
       return f;
     });
+
+console.log("Distinct verified values:",
+  Array.from(new Set(allFeatures.map(f => f.properties.verified))));
 
     // Jitter
     allFeatures = applyCollisionJitter(allFeatures);
@@ -393,20 +394,20 @@ function addLayers() {
   }
 
   if (!map.getLayer("org-highlight")) {
-    map.addLayer({
-      id: "org-highlight",
-      type: "circle",
-      source: "orgs",
-      filter: ["==", "id", ""],
-      paint: {
-        "circle-radius": 14,
-        "circle-color": "rgba(255, 200, 0, 0.4)",
-        "circle-stroke-color": "rgba(255, 150, 0, 0.9)",
-        "circle-stroke-width": 3,
-        "circle-blur": 0.6
-      }
-    });
-  }
+  map.addLayer({
+    id: "org-highlight",
+    type: "circle",
+    source: "orgs",
+    filter: ["==", "id", ""],
+    paint: {
+      "circle-radius": 7,
+      "circle-color": "rgba(255, 200, 0, 0.15)",
+      "circle-stroke-color": "rgba(255, 160, 0, 0.7)",
+      "circle-stroke-width": 2,
+      "circle-blur": 0.2
+    }
+  });
+}
 }
 
 
@@ -674,9 +675,17 @@ function renderOrgList(features) {
     item.appendChild(metaEl);
 
     // Sidebar click → open popup (NO zoom, NO centering)
-    item.addEventListener('click', () => {
-      openPopupForFeature(f, map);
-    });
+    item.addEventListener('mouseenter', () => {
+  highlightOrg(f);
+});
+
+item.addEventListener('mouseleave', () => {
+  highlightOrg(null);
+});
+
+item.addEventListener('click', () => {
+  openPopupForFeature(f, map);
+});
 
     listEl.appendChild(item);
   });
@@ -721,17 +730,25 @@ function setupMapInteractions() {
 function bindOrgPointClicks() {
   map.on('click', 'org-points', (e) => {
     if (!e.features?.length) return;
-
     const feature = e.features[0];
     openPopupForFeature(feature, map);
   });
 
-  map.on('mouseenter', 'org-points', () => {
-    map.getCanvas().style.cursor = 'pointer';
+  map.on('mousemove', 'org-points', (e) => {
+    if (!e.features?.length) {
+      highlightOrg(null);
+      return;
+    }
+    highlightOrg(e.features[0]);
   });
 
   map.on('mouseleave', 'org-points', () => {
+    highlightOrg(null);
     map.getCanvas().style.cursor = '';
+  });
+
+  map.on('mouseenter', 'org-points', () => {
+    map.getCanvas().style.cursor = 'pointer';
   });
 }
 
