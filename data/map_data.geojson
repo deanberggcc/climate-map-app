@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": "e31e4f70-205b-46c8-89e5-e6ce65b0c483",
+        "id": "d18e4cf9-5487-49bb-b24a-28f07dadcd10",
         "name": "Amesbury Climate Committee",
         "website_url": "https://www.amesburyma.gov/climate-committee",
         "source_url": "https://www.amesburyma.gov/climate-committee",
@@ -30,14 +30,15 @@
         "status": "active",
         "summary": "The Amesbury Climate Committee focuses on climate action and sustainability initiatives in the city.",
         "tags": [
-          "city initiatives",
           "climate action",
-          "sustainability"
+          "sustainability",
+          "city initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -56,12 +57,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94480633319792,
-          42.85263189670238
+          -70.94492075267998,
+          42.85274479978696
         ]
       },
       "properties": {
-        "id": "b517ecbf-2f66-4106-801a-81d53e299af5",
+        "id": "181de9e9-f7cf-4194-b70e-71042d5cda6a",
         "name": "Amesbury Climate Action",
         "website_url": "http://amesburyclimateaction.org",
         "source_url": "http://amesburyclimateaction.org",
@@ -94,8 +95,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.85263189670238,
-        "longitude": -70.94480633319792,
+        "latitude": 42.85274479978696,
+        "longitude": -70.94492075267998,
         "notes": null,
         "mission": null
       }
@@ -110,7 +111,7 @@
         ]
       },
       "properties": {
-        "id": "4f133f14-9a49-4ce8-8bc2-61ed9a1e9a15",
+        "id": "24618c2e-7732-4e75-9f19-3d7cedadc350",
         "name": "Andover Climate Committee",
         "website_url": "https://andoverma.gov/",
         "source_url": "https://andoverma.gov/",
@@ -137,7 +138,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -156,12 +158,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.16547214435079,
-          42.64656973163047
+          -71.16562155272574,
+          42.64654338903957
         ]
       },
       "properties": {
-        "id": "99584151-f745-4c44-9b2e-48a99ad45e6f",
+        "id": "b4edcb37-a658-4214-9ac6-f08716b00684",
         "name": "Sustainable Andover",
         "website_url": "https://www.sustainableandover.org/",
         "source_url": "https://www.sustainableandover.org/",
@@ -173,21 +175,23 @@
         "postal_code": "01810",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Unknown"
+          "Energy Efficiency",
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
         "status": "active",
         "summary": "Sustainable Andover promotes initiatives for reducing carbon emissions and enhancing sustainability in the community.",
         "tags": [
+          "sustainability",
           "carbon emissions",
-          "community",
-          "sustainability"
+          "community"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Residents"
+          "Residents",
+          "unknown"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -195,8 +199,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.64656973163047,
-        "longitude": -71.16547214435079,
+        "latitude": 42.64654338903957,
+        "longitude": -71.16562155272574,
         "notes": null,
         "mission": null
       }
@@ -206,207 +210,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.663094700895,
-          42.614177971067
+          -70.8650770746977,
+          42.567871313477724
         ]
       },
       "properties": {
-        "id": "f59a9b47-4475-4634-b88f-c8d78e38fa05",
-        "name": "Cape Ann Climate Coalition",
-        "website_url": "https://capeannclimate.org",
-        "source_url": "https://capeannclimate.org",
+        "id": "06d5dfbe-ea36-4689-aeb6-be016249e81d",
+        "name": "Beverly Climate Action Network",
+        "website_url": "http://www.beverlyclimateaction.org",
+        "source_url": "http://www.beverlyclimateaction.org",
         "email": "unknown",
         "phone": "unknown",
-        "address": "Gloucester City Hall, 9 Dale Ave",
-        "city": "annisquam",
-        "state": "ma",
-        "postal_code": "01930",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Environmental"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "Regional",
-        "status": "active",
-        "summary": "The Cape Ann Climate Coalition is focused on climate action and resilience efforts in the Cape Ann area, including Annisquam.",
-        "tags": [
-          "advocacy",
-          "climate action",
-          "climate change",
-          "community resilience",
-          "local action",
-          "resilience planning"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "census_full_address",
-        "geocode_reason": null,
-        "latitude": 42.614177971067,
-        "longitude": -70.663094700895,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.05329325311638,
-          42.79573259119805
-        ]
-      },
-      "properties": {
-        "id": "c5f6841d-1467-4932-98b2-11f54d305854",
-        "name": "Massachusetts Climate Action Network",
-        "website_url": "https://www.massclimateaction.org/",
-        "source_url": "https://www.massclimateaction.org/",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "1 Broadway",
-        "city": "ayers village",
-        "state": "ma",
-        "postal_code": "01830",
-        "action_category": "Policy",
-        "climate_categories": [
-          "Environmental"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "State / National",
-        "status": "active",
-        "summary": "Massachusetts Climate Action Network works on climate advocacy and policy initiatives.",
-        "tags": [
-          "Massachusetts",
-          "advocacy",
-          "climate action",
-          "climate advocacy",
-          "climate change",
-          "climate initiatives",
-          "climate policies",
-          "climate policy",
-          "climate resilience",
-          "climate solutions",
-          "community action",
-          "emission reduction",
-          "emissions reduction",
-          "grassroots advocacy",
-          "greenhouse gas emissions",
-          "greenhouse gas reduction",
-          "local communities",
-          "local engagement",
-          "local initiatives",
-          "policy",
-          "policy advocacy",
-          "policy changes",
-          "policy implementation",
-          "policy initiatives",
-          "sustainability"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "advocacy",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "mitigation",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 42.79573259119805,
-        "longitude": -71.05329325311638,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.878772899424,
-          42.547973264765
-        ]
-      },
-      "properties": {
-        "id": "50e98ac0-702b-44c8-8468-8a034a6bec3f",
-        "name": "North Shore Climate Coalition",
-        "website_url": "https://www.northshoreclimate.org/",
-        "source_url": "https://www.northshoreclimate.org/",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "191 Cabot Street",
-        "city": "bass rocks",
+        "address": "Beverly, MA",
+        "city": "beverly",
         "state": "ma",
         "postal_code": "01915",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "Regional",
-        "status": "active",
-        "summary": "The North Shore Climate Coalition works on local climate initiatives and promotes climate action across the North Shore region.",
-        "tags": [
-          "North Shore",
-          "advocacy",
-          "climate action",
-          "climate advocacy",
-          "climate change",
-          "community engagement",
-          "community resilience",
-          "education",
-          "emissions reduction",
-          "grassroots",
-          "local action",
-          "local climate action",
-          "resilience",
-          "sustainability"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "census_full_address",
-        "geocode_reason": null,
-        "latitude": 42.547973264765,
-        "longitude": -70.878772899424,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.68980761727195,
-          42.62581115075778
-        ]
-      },
-      "properties": {
-        "id": "c6ec4b89-59bd-4aa6-b66e-c1a840ee85c4",
-        "name": "Sustainable Cape Ann",
-        "website_url": "https://www.sustainablecapeann.org/",
-        "source_url": "https://www.sustainablecapeann.org/",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "unknown",
-        "city": "bass rocks",
-        "state": "ma",
-        "postal_code": "01930",
         "action_category": "Community Engagement",
         "climate_categories": [
           "Environmental"
@@ -414,11 +232,64 @@
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
         "status": "active",
-        "summary": "Sustainable Cape Ann focuses on local sustainability initiatives, including climate action and community resilience.",
+        "summary": "Beverly Climate Action Network focuses on local climate initiatives and community engagement for climate resilience.",
         "tags": [
-          "climate action",
-          "community resilience",
-          "sustainability"
+          "carbon emissions reduction",
+          "climate initiatives",
+          "climate resilience",
+          "community engagement",
+          "local climate initiatives"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "action",
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": "both",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "zip_dataset",
+        "geocode_reason": null,
+        "latitude": 42.567871313477724,
+        "longitude": -70.8650770746977,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.879091028216,
+          42.567156244851
+        ]
+      },
+      "properties": {
+        "id": "47c1e75d-131e-49e0-a885-cb2eda7d2a0d",
+        "name": "Beverly High School Environmental Club",
+        "website_url": "http://www.beverlyschools.org/environmentalclub",
+        "source_url": "http://www.beverlyschools.org/environmentalclub",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "Beverly High School, 100 Sohier Rd, Beverly, MA",
+        "city": "beverly",
+        "state": "ma",
+        "postal_code": "01915",
+        "action_category": "Community Engagement",
+        "climate_categories": [
+          "Environmental",
+          "Energy Efficiency"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "status": "active",
+        "summary": "The club engages students in climate education and action projects focused on sustainability and emissions reduction.",
+        "tags": [
+          "climate education",
+          "sustainability",
+          "emissions reduction"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -429,10 +300,10 @@
         "original_action_category": null,
         "original_climate_categories": null,
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "census_full_address",
         "geocode_reason": null,
-        "latitude": 42.62581115075778,
-        "longitude": -70.68980761727195,
+        "latitude": 42.567156244851,
+        "longitude": -70.879091028216,
         "notes": null,
         "mission": null
       }
@@ -447,7 +318,7 @@
         ]
       },
       "properties": {
-        "id": "e8af5eac-4e90-41d7-bcfd-a06d9bfb2294",
+        "id": "18444101-d5be-4c6c-b780-ee8410aa6864",
         "name": "Beverly Municipal Sustainability Committee",
         "website_url": "http://www.beverlyma.gov/sustainability",
         "source_url": "http://www.beverlyma.gov/sustainability",
@@ -479,7 +350,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Businesses",
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -498,12 +371,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86477433031385,
-          42.56810151327993
+          -70.86501095707635,
+          42.56814122432222
         ]
       },
       "properties": {
-        "id": "bc0ca56d-51e7-4e4f-9611-e70ac81dcc90",
+        "id": "80f782b0-c534-4b70-bd53-4ff2b7358931",
         "name": "Beverly Youth Climate Coalition",
         "website_url": "http://www.beverlyyouthclimate.org",
         "source_url": "http://www.beverlyyouthclimate.org",
@@ -522,9 +395,9 @@
         "status": "active",
         "summary": "The Beverly Youth Climate Coalition engages young people in climate advocacy and education initiatives.",
         "tags": [
+          "youth",
           "climate advocacy",
-          "education",
-          "youth"
+          "education"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
@@ -535,10 +408,10 @@
         "original_action_category": null,
         "original_climate_categories": null,
         "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
+        "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56810151327993,
-        "longitude": -70.86477433031385,
+        "latitude": 42.56814122432222,
+        "longitude": -70.86501095707635,
         "notes": null,
         "mission": null
       }
@@ -548,12 +421,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86514100167213,
-          42.56824162397027
+          -70.86476025042752,
+          42.56803235972665
         ]
       },
       "properties": {
-        "id": "8ff2ae5a-2b5d-425c-aea3-031d25f97982",
+        "id": "dfde5cbe-1aa3-42f0-b876-88252b478703",
         "name": "Green Beverly",
         "website_url": "http://www.greenbeverly.org",
         "source_url": "http://www.greenbeverly.org",
@@ -565,12 +438,12 @@
         "postal_code": "01915",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
-          "Food & Food Waste",
+          "Waste Reduction",
           "Green Economics",
+          "Food & Food Waste",
           "Transportation",
-          "Waste Reduction"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -589,7 +462,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Residents"
+          "Residents",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -597,8 +471,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56824162397027,
-        "longitude": -70.86514100167213,
+        "latitude": 42.56803235972665,
+        "longitude": -70.86476025042752,
         "notes": null,
         "mission": null
       }
@@ -608,15 +482,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86517977660223,
-          42.56816773502802
+          -70.86474084320601,
+          42.56813808920411
         ]
       },
       "properties": {
-        "id": "5640ae2e-2d16-4eaa-a14e-077a50fa1e67",
-        "name": "North Shore Climate Collaborative",
-        "website_url": "http://www.northshoreclimatecollaborative.org",
-        "source_url": "http://www.northshoreclimatecollaborative.org",
+        "id": "0bc65d08-f2ea-4b29-bc3c-e3d67852586e",
+        "name": "North Shore Climate Coalition",
+        "website_url": "http://www.northshoreclimatecoalition.org",
+        "source_url": "http://www.northshoreclimatecoalition.org",
         "email": "unknown",
         "phone": "unknown",
         "address": "Beverly, MA",
@@ -630,17 +504,27 @@
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
         "status": "active",
-        "summary": "The North Shore Climate Collaborative works with local municipalities to implement climate action plans and promote sustainability.",
+        "summary": "The North Shore Climate Coalition works on regional climate action plans and advocacy for emissions reduction.",
         "tags": [
+          "North Shore",
+          "advocacy",
           "climate action",
+          "climate advocacy",
+          "climate change",
+          "community engagement",
+          "community resilience",
+          "education",
           "emissions reduction",
-          "municipal collaboration",
+          "grassroots",
+          "local action",
+          "local climate action",
+          "resilience",
           "sustainability"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -648,8 +532,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56816773502802,
-        "longitude": -70.86517977660223,
+        "latitude": 42.56813808920411,
+        "longitude": -70.86474084320601,
         "notes": null,
         "mission": null
       }
@@ -659,19 +543,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86495637663899,
-          42.56802717902228
+          -70.86492437105699,
+          42.56789104483722
         ]
       },
       "properties": {
-        "id": "53a70f07-ef69-4d7d-9923-191b9f4b523d",
-        "name": "Beverly Climate Action Network",
-        "website_url": "http://www.beverlyclimateaction.org",
-        "source_url": "http://www.beverlyclimateaction.org",
+        "id": "5b9f1009-be1c-4168-bda6-41226c14d86c",
+        "name": "North Shore Climate Collaborative",
+        "website_url": "http://www.northshoreclimatecollaborative.org",
+        "source_url": "http://www.northshoreclimatecollaborative.org",
         "email": "unknown",
         "phone": "unknown",
         "address": "Beverly, MA",
-        "city": "beverly cove",
+        "city": "beverly",
         "state": "ma",
         "postal_code": "01915",
         "action_category": "Community Engagement",
@@ -679,80 +563,28 @@
           "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": "Town / City",
+        "reach": "Regional",
         "status": "active",
-        "summary": "Beverly Climate Action Network focuses on local climate initiatives and community engagement for climate resilience.",
+        "summary": "The North Shore Climate Collaborative works with local municipalities to implement climate action plans and promote sustainability.",
         "tags": [
-          "carbon emissions reduction",
-          "climate initiatives",
-          "climate resilience",
-          "community engagement",
-          "local climate initiatives"
+          "climate action",
+          "sustainability",
+          "municipal collaboration"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "mitigation",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 42.56802717902228,
-        "longitude": -70.86495637663899,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.879091028216,
-          42.567156244851
-        ]
-      },
-      "properties": {
-        "id": "706ca036-58ec-4a4b-985a-7b2551fd3207",
-        "name": "Beverly High School Environmental Club",
-        "website_url": "http://www.beverlyschools.org/environmentalclub",
-        "source_url": "http://www.beverlyschools.org/environmentalclub",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "Beverly High School, 100 Sohier Rd, Beverly, MA",
-        "city": "beverly cove",
-        "state": "ma",
-        "postal_code": "01915",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "Town / City",
-        "status": "active",
-        "summary": "The club engages students in climate education and action projects focused on sustainability and emissions reduction.",
-        "tags": [
-          "climate education",
-          "emissions reduction",
-          "sustainability"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
         "original_climate_categories": null,
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.567156244851,
-        "longitude": -70.879091028216,
+        "latitude": 42.56789104483722,
+        "longitude": -70.86492437105699,
         "notes": null,
         "mission": null
       }
@@ -767,7 +599,7 @@
         ]
       },
       "properties": {
-        "id": "cd694df9-7ac0-47f5-ba04-29404792b0c7",
+        "id": "a1cf5504-a184-447f-8702-6ddff8731414",
         "name": "Massachusetts Clean Energy Center",
         "website_url": "https://www.masscec.com/",
         "source_url": "https://www.masscec.com/",
@@ -780,28 +612,26 @@
         "action_category": "Community Engagement",
         "climate_categories": [
           "Energy Efficiency",
-          "Environmental",
-          "Transportation"
+          "Transportation",
+          "Environmental"
         ],
-        "organization_type": "Municipality",
+        "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
         "status": "active",
         "summary": "The Massachusetts Clean Energy Center promotes clean energy technologies and supports the transition to renewable energy sources, aiming to make Massachusetts a global hub for the climatetech industry.",
         "tags": [
           "clean energy",
           "climatetech",
-          "decarbonization",
-          "economic development",
-          "economic growth",
-          "innovation",
           "renewable energy",
-          "workforce development",
+          "economic development",
           "workforce training"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -825,7 +655,7 @@
         ]
       },
       "properties": {
-        "id": "869e9284-7a70-4666-8e71-45bced8b99b1",
+        "id": "e585c6b8-680a-4071-8591-a436ab5cdf15",
         "name": "Massachusetts Climate Change Adaptation Coalition",
         "website_url": "https://www.massclimate.org",
         "source_url": "https://www.massclimate.org",
@@ -844,9 +674,9 @@
         "status": "active",
         "summary": "The coalition focuses on climate adaptation strategies for municipalities across Massachusetts.",
         "tags": [
-          "Massachusetts",
           "climate adaptation",
-          "municipalities"
+          "municipalities",
+          "Massachusetts"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
@@ -870,12 +700,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06560806519796,
-          42.35642981088517
+          -71.06543200038308,
+          42.35656398105478
         ]
       },
       "properties": {
-        "id": "2a2c55b9-d44e-4f0e-b262-7a272ebfb0f4",
+        "id": "cc52cac8-7240-495c-a38f-74d5833e80a3",
         "name": "Massachusetts Department of Energy Resources",
         "website_url": "https://www.mass.gov/orgs/department-of-energy-resources",
         "source_url": "https://www.mass.gov/orgs/department-of-energy-resources",
@@ -894,14 +724,16 @@
         "status": "active",
         "summary": "The Massachusetts Department of Energy Resources implements policies for energy efficiency and renewable energy, contributing to climate action.",
         "tags": [
-          "climate action",
           "energy efficiency",
-          "renewable energy"
+          "renewable energy",
+          "climate action"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -909,8 +741,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35642981088517,
-        "longitude": -71.06560806519796,
+        "latitude": 42.35656398105478,
+        "longitude": -71.06543200038308,
         "notes": null,
         "mission": null
       }
@@ -925,7 +757,7 @@
         ]
       },
       "properties": {
-        "id": "2078d918-a552-4286-b36f-84bbe40e9a83",
+        "id": "2c1dac0b-f25b-49e4-8a1f-7ab19b769122",
         "name": "The Alliance for a Healthy Tomorrow",
         "website_url": "https://www.healthytomorrow.org",
         "source_url": "https://www.healthytomorrow.org",
@@ -935,7 +767,7 @@
         "city": "boston",
         "state": "ma",
         "postal_code": "02124",
-        "action_category": "Community Engagement",
+        "action_category": "Policy",
         "climate_categories": [
           "Environmental"
         ],
@@ -944,15 +776,17 @@
         "status": "active",
         "summary": "The Alliance for a Healthy Tomorrow is a coalition focused on preventing toxic hazards and advocating for policies that protect health and the environment.",
         "tags": [
+          "toxic chemicals",
           "PFAS",
-          "environmental protection",
           "health advocacy",
-          "toxic chemicals"
+          "environmental protection"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -976,7 +810,7 @@
         ]
       },
       "properties": {
-        "id": "e804bf9d-9421-4ed4-8159-0420f2d2cf68",
+        "id": "e9de8aa4-489f-4388-b133-18aca2b455ff",
         "name": "The Massachusetts Clean Energy Center",
         "website_url": "https://www.masscec.com",
         "source_url": "https://www.masscec.com",
@@ -989,6 +823,7 @@
         "action_category": "Community Engagement",
         "climate_categories": [
           "Energy Efficiency",
+          "Environmental",
           "Green Economics",
           "Transportation"
         ],
@@ -1010,7 +845,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Businesses",
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1034,63 +871,14 @@
         ]
       },
       "properties": {
-        "id": "a7299802-2ce7-4fac-8a19-0c8287abad5a",
-        "name": "Boxford Climate Action Committee",
-        "website_url": "https://www.boxfordma.gov/climate-action-committee",
-        "source_url": "https://www.boxfordma.gov/climate-action-committee",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "7A Spofford Road",
-        "city": "boxford",
-        "state": "ma",
-        "postal_code": "01921",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": "Municipal / Government-affiliated",
-        "reach": "Town / City",
-        "status": "active",
-        "summary": "The Boxford Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
-        "tags": [
-          "climate initiatives",
-          "sustainability"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Municipality / Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "census_full_address",
-        "geocode_reason": null,
-        "latitude": 42.694262379562,
-        "longitude": -71.015206575534,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.015206575534,
-          42.694262379562
-        ]
-      },
-      "properties": {
-        "id": "adeef6be-22d9-4328-aefe-fb7636df155e",
+        "id": "25087d12-fb8b-428a-9d60-efaa51936b27",
         "name": "Boxford Climate Action",
         "website_url": "http://www.boxfordma.gov/climate-action",
         "source_url": "http://www.boxfordma.gov/climate-action",
         "email": "unknown",
         "phone": "unknown",
         "address": "Boxford Town Hall, 7A Spofford Rd",
-        "city": "boxford station",
+        "city": "boxford",
         "state": "ma",
         "postal_code": "01921",
         "action_category": "Community Engagement",
@@ -1127,12 +915,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.015206575534,
+          42.694262379562
+        ]
+      },
+      "properties": {
+        "id": "a1ea10e2-9c2e-4a9a-87bd-f1aa24cbb775",
+        "name": "Boxford Climate Action Committee",
+        "website_url": "https://www.boxfordma.gov/climate-action-committee",
+        "source_url": "https://www.boxfordma.gov/climate-action-committee",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "7A Spofford Road",
+        "city": "boxford",
+        "state": "ma",
+        "postal_code": "01921",
+        "action_category": "Community Engagement",
+        "climate_categories": [
+          "Unknown"
+        ],
+        "organization_type": "Municipal / Government-affiliated",
+        "reach": "Town / City",
+        "status": "active",
+        "summary": "The Boxford Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
+        "tags": [
+          "climate initiatives",
+          "sustainability"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "both",
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": "both",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "census_full_address",
+        "geocode_reason": null,
+        "latitude": 42.694262379562,
+        "longitude": -71.015206575534,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -71.068825462806,
           42.737828633318
         ]
       },
       "properties": {
-        "id": "c7846b32-bc51-48f4-b607-c8ed3a5b28af",
+        "id": "35e8e25e-037f-4a4b-80e4-c31d435a01a6",
         "name": "Bradford Climate Action Committee",
         "website_url": "http://www.bradfordma.gov/climate-action",
         "source_url": "http://www.bradfordma.gov/climate-action",
@@ -1157,7 +995,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1176,61 +1015,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.63105688813853,
-          41.87796191868348
-        ]
-      },
-      "properties": {
-        "id": "14fefe5d-15da-4050-b79c-72fbf4465d5a",
-        "name": "Browns Point Climate Action",
-        "website_url": "http://www.brownspointclimateaction.org",
-        "source_url": "http://www.brownspointclimateaction.org",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "123 Climate St",
-        "city": "browns point",
-        "state": "ma",
-        "postal_code": "02360",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "Town / City",
-        "status": "active",
-        "summary": "Focus on local climate action initiatives and community engagement.",
-        "tags": [
-          "climate action",
-          "community engagement"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "action",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 41.87796191868348,
-        "longitude": -70.63105688813853,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -71.109732957987,
           42.368861243468
         ]
       },
       "properties": {
-        "id": "26a91032-b1dd-484b-9f16-09305f8dff22",
+        "id": "d821c183-9c25-45ec-9e6e-440f8ae343bf",
         "name": "Green Energy Consumers Alliance",
         "website_url": "https://www.greenenergyconsumers.org/",
         "source_url": "https://www.greenenergyconsumers.org/",
@@ -1243,6 +1033,7 @@
         "action_category": "Community Engagement",
         "climate_categories": [
           "Energy Efficiency",
+          "Green Economics",
           "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
@@ -1260,7 +1051,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Businesses",
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -1279,12 +1072,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.081171915981,
+          42.362094295267
+        ]
+      },
+      "properties": {
+        "id": "4c87a109-728a-40fb-a298-eec712c88ad3",
+        "name": "Massachusetts Climate Action Network",
+        "website_url": "https://www.massclimateaction.org",
+        "source_url": "https://www.massclimateaction.org",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "123 Main St, Cambridge, MA 02138",
+        "city": "cambridge",
+        "state": "ma",
+        "postal_code": "02138",
+        "action_category": "Policy",
+        "climate_categories": [
+          "Environmental"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "State / National",
+        "status": "active",
+        "summary": "Massachusetts Climate Action Network works on climate policy and advocacy to reduce emissions and promote sustainability.",
+        "tags": [
+          "Massachusetts",
+          "advocacy",
+          "climate action",
+          "climate advocacy",
+          "climate change",
+          "climate initiatives",
+          "climate policies",
+          "climate policy",
+          "climate resilience",
+          "climate solutions",
+          "community action",
+          "emission reduction",
+          "emissions reduction",
+          "grassroots advocacy",
+          "greenhouse gas emissions",
+          "greenhouse gas reduction",
+          "local communities",
+          "local engagement",
+          "local initiatives",
+          "policy",
+          "policy advocacy",
+          "policy changes",
+          "policy implementation",
+          "policy initiatives",
+          "sustainability"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "advocacy",
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": "mitigation",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "census_full_address",
+        "geocode_reason": null,
+        "latitude": 42.362094295267,
+        "longitude": -71.081171915981,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -71.102207508776,
           42.365859121587
         ]
       },
       "properties": {
-        "id": "617f991b-a0f0-43e8-9bed-571da4d132d9",
+        "id": "6e83f25d-7edb-4a0d-9d2d-968273be08d4",
         "name": "Sustainable Business Network of Massachusetts",
         "website_url": "https://www.sbnmass.org",
         "source_url": "https://www.sbnmass.org",
@@ -1298,8 +1165,7 @@
         "climate_categories": [
           "Energy Efficiency",
           "Food & Food Waste",
-          "Green Economics",
-          "Waste Reduction"
+          "Green Economics"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1314,7 +1180,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Residents"
+          "Businesses",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1333,12 +1200,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.34853329277033,
-          41.660624951361314
+          -70.34846944405182,
+          41.66061561724178
         ]
       },
       "properties": {
-        "id": "3ea20fb3-6c05-4083-84a8-9417f72ec27f",
+        "id": "edb0192a-40a1-4598-aab2-929ec18a3d3e",
         "name": "Cape Cod Climate Change Collaborative",
         "website_url": "https://www.capecodclimate.org/",
         "source_url": "https://www.capecodclimate.org/",
@@ -1350,8 +1217,8 @@
         "postal_code": "02632",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
+          "Energy Efficiency",
           "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
@@ -1383,7 +1250,9 @@
         ],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1391,8 +1260,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 41.660624951361314,
-        "longitude": -70.34853329277033,
+        "latitude": 41.66061561724178,
+        "longitude": -70.34846944405182,
         "notes": null,
         "mission": null
       }
@@ -1407,7 +1276,7 @@
         ]
       },
       "properties": {
-        "id": "56052f8c-908d-4c79-b360-51f017a501f1",
+        "id": "f74637f9-a82d-4d21-8ceb-fdec35738383",
         "name": "Clifton Climate Action Coalition",
         "website_url": "http://cliftonclimateaction.org",
         "source_url": "http://cliftonclimateaction.org",
@@ -1448,12 +1317,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06524881336517,
-          42.35651273710962
+          -71.06522062430692,
+          42.356157436987566
         ]
       },
       "properties": {
-        "id": "649e140b-0eec-40cc-84db-7cca3d4daf23",
+        "id": "c138346d-1e92-4fd7-a33a-2e04f3bc065e",
         "name": "Boston Climate Action Network",
         "website_url": "https://www.boston.gov/departments/environment/climate-action",
         "source_url": "https://www.boston.gov/departments/environment/climate-action",
@@ -1473,13 +1342,14 @@
         "status": "active",
         "summary": "Boston Climate Action Network aims to reduce greenhouse gas emissions and prepare for climate impacts.",
         "tags": [
-          "climate impacts",
-          "greenhouse gas emissions"
+          "greenhouse gas emissions",
+          "climate impacts"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1487,8 +1357,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35651273710962,
-        "longitude": -71.06524881336517,
+        "latitude": 42.356157436987566,
+        "longitude": -71.06522062430692,
         "notes": null,
         "mission": null
       }
@@ -1498,12 +1368,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80878464104522,
-          42.25922620197808
+          -71.80886277085838,
+          42.259299298122066
         ]
       },
       "properties": {
-        "id": "12b075a9-5629-4b08-bad3-70a8f189f343",
+        "id": "9a1db4ba-cb3f-42be-b014-fce597f26fb1",
         "name": "Climate Action Now",
         "website_url": "https://climateactionnowma.org/",
         "source_url": "https://climateactionnowma.org/",
@@ -1515,10 +1385,10 @@
         "postal_code": "01002",
         "action_category": "Policy",
         "climate_categories": [
-          "Unknown"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": "Regional",
+        "reach": "State / National",
         "status": "active",
         "summary": "Climate Action Now is a grassroots organization advocating for climate action and sustainability initiatives in Massachusetts.",
         "tags": [
@@ -1535,18 +1405,18 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": "both",
+        "advocacy_vs_action": "advocacy",
         "audience_focus": [
           "Residents"
         ],
-        "adaptation_vs_mitigation": "both",
+        "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
         "original_climate_categories": null,
         "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
-        "latitude": 42.25922620197808,
-        "longitude": -71.80878464104522,
+        "latitude": 42.259299298122066,
+        "longitude": -71.80886277085838,
         "notes": null,
         "mission": null
       }
@@ -1556,12 +1426,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06560128498487,
-          42.35616715313032
+          -71.06552974394215,
+          42.356216292987476
         ]
       },
       "properties": {
-        "id": "c8c2fa56-3348-4658-99dc-2e1c2ae33b8e",
+        "id": "1d78ea30-108b-430e-af47-e20fa8c669de",
         "name": "Resilient MA",
         "website_url": "https://www.resilientma.org/",
         "source_url": "https://www.resilientma.org/",
@@ -1580,14 +1450,15 @@
         "status": "active",
         "summary": "Resilient MA focuses on building resilience to climate change impacts across Massachusetts.",
         "tags": [
-          "Massachusetts",
+          "resilience",
           "climate change",
-          "resilience"
+          "Massachusetts"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "adaptation",
         "original_action_category": null,
@@ -1595,8 +1466,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35616715313032,
-        "longitude": -71.06560128498487,
+        "latitude": 42.356216292987476,
+        "longitude": -71.06552974394215,
         "notes": null,
         "mission": null
       }
@@ -1606,12 +1477,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.13360181278978,
-          42.39318293684769
+          -71.1335600923689,
+          42.39305818329645
         ]
       },
       "properties": {
-        "id": "381be9ca-4a44-437e-8a8d-a167a7192528",
+        "id": "aab054b7-88b3-42cc-b67e-22afb3ad8856",
         "name": "The Alliance for Climate Education",
         "website_url": "https://www.acespace.org/",
         "source_url": "https://www.acespace.org/",
@@ -1630,9 +1501,9 @@
         "status": "active",
         "summary": "The Alliance for Climate Education educates and empowers young people to take action on climate change.",
         "tags": [
+          "youth empowerment",
           "climate education",
-          "community engagement",
-          "youth empowerment"
+          "community engagement"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -1645,8 +1516,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.39318293684769,
-        "longitude": -71.13360181278978,
+        "latitude": 42.39305818329645,
+        "longitude": -71.1335600923689,
         "notes": null,
         "mission": null
       }
@@ -1656,12 +1527,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05240856370368,
-          42.35754975414822
+          -71.0520709201419,
+          42.35792478213526
         ]
       },
       "properties": {
-        "id": "010ebc79-abdd-4679-9b4a-c5265119c0e6",
+        "id": "e267a470-57f8-47a8-929c-dc8980438db5",
         "name": "Massachusetts Department of Environmental Protection",
         "website_url": "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
         "source_url": "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
@@ -1692,7 +1563,9 @@
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Businesses",
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1700,8 +1573,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35754975414822,
-        "longitude": -71.05240856370368,
+        "latitude": 42.35792478213526,
+        "longitude": -71.0520709201419,
         "notes": null,
         "mission": null
       }
@@ -1716,7 +1589,7 @@
         ]
       },
       "properties": {
-        "id": "3fa82cce-9839-46a1-9db2-a961c6a7abdf",
+        "id": "30aa57e9-322c-41e7-a369-eb136d0ec1cc",
         "name": "Sustainable Northampton",
         "website_url": "https://www.sustainablenorthampton.org",
         "source_url": "https://www.sustainablenorthampton.org",
@@ -1762,12 +1635,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.59008376781098,
-          42.10395321056787
+          -72.59035811704423,
+          42.104189885310156
         ]
       },
       "properties": {
-        "id": "0dbe3e16-87d3-4c6e-bd98-90993092223f",
+        "id": "34142e80-a7f5-408d-8373-4461571760de",
         "name": "Western Massachusetts Network to End Homelessness",
         "website_url": "https://www.wmneh.org",
         "source_url": "https://www.wmneh.org",
@@ -1786,9 +1659,9 @@
         "status": "active",
         "summary": "The Western Massachusetts Network to End Homelessness addresses environmental justice issues related to housing and climate impacts.",
         "tags": [
-          "climate impacts",
           "environmental justice",
-          "housing"
+          "housing",
+          "climate impacts"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -1801,8 +1674,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.10395321056787,
-        "longitude": -72.59008376781098,
+        "latitude": 42.104189885310156,
+        "longitude": -72.59035811704423,
         "notes": null,
         "mission": null
       }
@@ -1812,12 +1685,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.76197266014347,
-          42.201150006373005
+          -70.7617747079598,
+          42.2011152364254
         ]
       },
       "properties": {
-        "id": "c6c393a0-d944-42da-898f-b54e58acc33c",
+        "id": "bc9ed274-0477-4f7e-93cf-e745b501fb83",
         "name": "Cushing Climate Action Committee",
         "website_url": "http://www.cushingma.gov/climate-action-committee",
         "source_url": "http://www.cushingma.gov/climate-action-committee",
@@ -1842,7 +1715,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -1850,8 +1724,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.201150006373005,
-        "longitude": -70.76197266014347,
+        "latitude": 42.2011152364254,
+        "longitude": -70.7617747079598,
         "notes": null,
         "mission": null
       }
@@ -1861,12 +1735,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94933003816455,
-          42.57350328578129
+          -70.94957981064762,
+          42.57382964594068
         ]
       },
       "properties": {
-        "id": "2aa1ec82-f686-4f95-9916-03f451f1d2ee",
+        "id": "92e02682-1cda-4342-985a-30d5413c195b",
         "name": "Danvers Climate Action Committee",
         "website_url": "https://www.danversma.gov/climate-action-committee",
         "source_url": "https://www.danversma.gov/climate-action-committee",
@@ -1891,7 +1765,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -1899,8 +1774,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.57350328578129,
-        "longitude": -70.94933003816455,
+        "latitude": 42.57382964594068,
+        "longitude": -70.94957981064762,
         "notes": null,
         "mission": null
       }
@@ -1910,12 +1785,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94976269906266,
-          42.57392538745532
+          -70.94947339839186,
+          42.57366806729243
         ]
       },
       "properties": {
-        "id": "752a8931-7a2f-4f6b-8537-2480b0feae13",
+        "id": "4878d149-f693-4281-a4fa-96641a7794dc",
         "name": "Danvers Climate Action",
         "website_url": "https://www.danversma.gov/climate-action",
         "source_url": "https://www.danversma.gov/climate-action",
@@ -1927,8 +1802,8 @@
         "postal_code": "01923",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Green Economics"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -1941,7 +1816,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -1949,8 +1825,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.57392538745532,
-        "longitude": -70.94976269906266,
+        "latitude": 42.57366806729243,
+        "longitude": -70.94947339839186,
         "notes": null,
         "mission": null
       }
@@ -1960,12 +1836,65 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68971530299564,
-          42.62593251661835
+          -70.69017480801924,
+          42.6259813597615
         ]
       },
       "properties": {
-        "id": "fe632ebc-7675-469f-928a-a5afb4537f55",
+        "id": "247dc8c8-b1b9-4916-92e6-e292c7f96a93",
+        "name": "Cape Ann Climate Coalition",
+        "website_url": "https://www.capeannclimate.org",
+        "source_url": "https://www.capeannclimate.org",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "456 Ocean Ave",
+        "city": "east gloucester",
+        "state": "ma",
+        "postal_code": "01930",
+        "action_category": "Community Engagement",
+        "climate_categories": [
+          "Unknown"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Regional",
+        "status": "active",
+        "summary": "Working on local climate action plans and community resilience initiatives.",
+        "tags": [
+          "advocacy",
+          "climate action",
+          "climate change",
+          "community resilience",
+          "local action",
+          "resilience planning"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "both",
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": "both",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "zip_dataset",
+        "geocode_reason": null,
+        "latitude": 42.6259813597615,
+        "longitude": -70.69017480801924,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.68993045911168,
+          42.6257203780486
+        ]
+      },
+      "properties": {
+        "id": "0871f348-8f8d-4cfd-abbb-38858448ca00",
         "name": "Gloucester Resilience Committee",
         "website_url": "https://www.gloucesterresilience.org",
         "source_url": "https://www.gloucesterresilience.org",
@@ -1998,8 +1927,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62593251661835,
-        "longitude": -70.68971530299564,
+        "latitude": 42.6257203780486,
+        "longitude": -70.68993045911168,
         "notes": null,
         "mission": null
       }
@@ -2009,12 +1938,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.93997369615448,
-          42.47093149286378
+          -70.94030937979304,
+          42.47102100500059
         ]
       },
       "properties": {
-        "id": "1bf9dea5-caba-4a3f-981f-b21417be462d",
+        "id": "38e768d6-b6ba-44ec-a470-b5227b4759c9",
         "name": "Green Lynn",
         "website_url": "http://greenlynn.org",
         "source_url": "http://greenlynn.org",
@@ -2044,8 +1973,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.47093149286378,
-        "longitude": -70.93997369615448,
+        "latitude": 42.47102100500059,
+        "longitude": -70.94030937979304,
         "notes": null,
         "mission": null
       }
@@ -2055,12 +1984,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.6255775849649,
-          42.0621204172149
+          -72.62547115082474,
+          42.06252127792175
         ]
       },
       "properties": {
-        "id": "2f87477a-51af-42f1-a3f3-66ab927a3eca",
+        "id": "f57763b1-7a5c-418c-b0de-210e72287431",
         "name": "East Parish Climate Action Group",
         "website_url": "http://www.eastparishclimateaction.org",
         "source_url": "http://www.eastparishclimateaction.org",
@@ -2094,8 +2023,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.0621204172149,
-        "longitude": -72.6255775849649,
+        "latitude": 42.06252127792175,
+        "longitude": -72.62547115082474,
         "notes": null,
         "mission": null
       }
@@ -2110,7 +2039,7 @@
         ]
       },
       "properties": {
-        "id": "914e2323-69fa-4b9a-a1e1-e7d66a0249a9",
+        "id": "26ca78bd-c144-4731-8fd4-167e813c24df",
         "name": "Essex Climate Action",
         "website_url": "http://www.essexclimateaction.org",
         "source_url": "http://www.essexclimateaction.org",
@@ -2156,7 +2085,7 @@
         ]
       },
       "properties": {
-        "id": "163a1463-222a-4a3a-b1e9-abdea3381409",
+        "id": "cd855c78-aa86-4416-850b-2530e4a28c5a",
         "name": "Essex County Greenbelt Association",
         "website_url": "https://www.ecga.org/",
         "source_url": "https://www.ecga.org/",
@@ -2166,11 +2095,10 @@
         "city": "essex",
         "state": "ma",
         "postal_code": "01929",
-        "action_category": "Community Engagement",
+        "action_category": "Conservation",
         "climate_categories": [
           "Environmental",
-          "Food & Food Waste",
-          "Waste Reduction"
+          "Food & Food Waste"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -2215,7 +2143,7 @@
         ]
       },
       "properties": {
-        "id": "2aa9b277-40e5-4fc4-83a4-e6a329866971",
+        "id": "03aa7498-3ed7-4ddf-9daf-9f3ebdf2674b",
         "name": "Georgetown Climate Action Committee",
         "website_url": "http://www.georgetownma.gov/climate-action-committee",
         "source_url": "http://www.georgetownma.gov/climate-action-committee",
@@ -2227,22 +2155,23 @@
         "postal_code": "01833",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "status": "active",
         "summary": "The Georgetown Climate Action Committee works on initiatives to reduce greenhouse gas emissions and promote sustainability in the community.",
         "tags": [
-          "community initiatives",
           "greenhouse gas emissions",
-          "sustainability"
+          "sustainability",
+          "community initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2266,7 +2195,7 @@
         ]
       },
       "properties": {
-        "id": "6592e9f6-30b4-43fd-82f2-5af170ec1677",
+        "id": "75d84709-9fab-40cd-ac95-fc7f68ee79cd",
         "name": "Glen Mills Climate Action Network",
         "website_url": "http://glenmillscanon.org",
         "source_url": "http://glenmillscanon.org",
@@ -2316,7 +2245,7 @@
         ]
       },
       "properties": {
-        "id": "c5cb79ed-39cd-445d-8668-2a1b4f46e4a3",
+        "id": "5f6a8394-c382-4587-881a-a79060958d3c",
         "name": "City of Gloucester Climate Action Plan",
         "website_url": "https://gloucester-ma.gov/ClimateActionPlan",
         "source_url": "https://gloucester-ma.gov/ClimateActionPlan",
@@ -2338,7 +2267,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2357,12 +2287,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68973687586673,
-          42.62603931723369
+          -70.68979482749008,
+          42.62578673637696
         ]
       },
       "properties": {
-        "id": "fc6be08f-d740-4709-8518-d02a1e679b37",
+        "id": "5c2b719d-c6b5-4e46-b708-3ced9771a333",
         "name": "Green Gloucester",
         "website_url": "http://www.greengloucester.org",
         "source_url": "http://www.greengloucester.org",
@@ -2383,8 +2313,8 @@
         "summary": "Green Gloucester focuses on local climate action initiatives and sustainability programs.",
         "tags": [
           "climate action",
-          "local initiatives",
-          "sustainability"
+          "sustainability",
+          "local initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -2397,8 +2327,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62603931723369,
-        "longitude": -70.68973687586673,
+        "latitude": 42.62578673637696,
+        "longitude": -70.68979482749008,
         "notes": null,
         "mission": null
       }
@@ -2408,12 +2338,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.69014600030414,
-          42.62573073231437
+          -70.69018380367915,
+          42.62591773491771
         ]
       },
       "properties": {
-        "id": "8fe7799b-e8a7-4b7c-a955-e1991c61ad19",
+        "id": "61e1eeab-5bf7-45be-a553-a97994025a35",
         "name": "North Shore Community College - Sustainability Programs",
         "website_url": "https://www.northshore.edu/sustainability/",
         "source_url": "https://www.northshore.edu/sustainability/",
@@ -2432,13 +2362,15 @@
         "status": "active",
         "summary": "North Shore Community College offers programs focused on sustainability and climate education.",
         "tags": [
-          "climate education",
-          "sustainability"
+          "sustainability",
+          "climate education"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2446,8 +2378,58 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62573073231437,
-        "longitude": -70.69014600030414,
+        "latitude": 42.62591773491771,
+        "longitude": -70.69018380367915,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.68966275010061,
+          42.625817739363114
+        ]
+      },
+      "properties": {
+        "id": "673bac34-0a1e-41d9-a424-a1e5631f0037",
+        "name": "Sustainable Cape Ann",
+        "website_url": "https://www.sustainablecapeann.org/",
+        "source_url": "https://www.sustainablecapeann.org/",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "unknown",
+        "city": "gloucester",
+        "state": "ma",
+        "postal_code": "01930",
+        "action_category": "Community Engagement",
+        "climate_categories": [
+          "Environmental"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "status": "active",
+        "summary": "Sustainable Cape Ann focuses on local sustainability initiatives, including climate action and community resilience.",
+        "tags": [
+          "sustainability",
+          "climate action",
+          "community resilience"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "both",
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": "both",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "cached:zip_dataset",
+        "geocode_reason": null,
+        "latitude": 42.625817739363114,
+        "longitude": -70.68966275010061,
         "notes": null,
         "mission": null
       }
@@ -2462,7 +2444,7 @@
         ]
       },
       "properties": {
-        "id": "acaa890b-ce7f-4a21-9700-4304f51aa20c",
+        "id": "8a9d7699-158d-4226-adce-4e080b44244b",
         "name": "The Resilient MA Initiative",
         "website_url": "https://www.resilientma.org",
         "source_url": "https://www.resilientma.org",
@@ -2481,14 +2463,15 @@
         "status": "active",
         "summary": "The initiative focuses on building resilience to climate change impacts across Massachusetts.",
         "tags": [
-          "Massachusetts",
+          "resilience",
           "climate change",
-          "resilience"
+          "Massachusetts"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "adaptation",
         "original_action_category": null,
@@ -2512,7 +2495,7 @@
         ]
       },
       "properties": {
-        "id": "340e8031-f770-4742-8303-db52b0f9ebb1",
+        "id": "624a6e1d-bfe2-4658-af09-1378d4309fb7",
         "name": "Youth Climate Action Network",
         "website_url": "https://www.youthclimateaction.org",
         "source_url": "https://www.youthclimateaction.org",
@@ -2563,7 +2546,7 @@
         ]
       },
       "properties": {
-        "id": "2cb19889-8248-4760-8d48-69a655ab3a14",
+        "id": "373830c2-edec-480f-94c8-28be6b46ab42",
         "name": "Groveland Climate Committee",
         "website_url": "http://www.grovelandma.gov/climate-committee",
         "source_url": "http://www.grovelandma.gov/climate-committee",
@@ -2612,7 +2595,7 @@
         ]
       },
       "properties": {
-        "id": "58069e24-831f-44ab-93c9-dcd83baaa891",
+        "id": "98fd5ed6-19e3-47a5-81d9-8ba0a0539822",
         "name": "Hamilton Climate Action Committee",
         "website_url": "https://www.hamiltonma.gov/climate-action-committee",
         "source_url": "https://www.hamiltonma.gov/climate-action-committee",
@@ -2637,7 +2620,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2656,12 +2640,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05339438037218,
-          42.795395054742116
+          -71.05337881730526,
+          42.79543830174185
         ]
       },
       "properties": {
-        "id": "6960f228-a338-4649-badc-197e041333d6",
+        "id": "d3646158-9494-437d-abff-b8002b882a72",
         "name": "Green Haverhill",
         "website_url": "http://www.greenhaverhill.org",
         "source_url": "http://www.greenhaverhill.org",
@@ -2680,8 +2664,8 @@
         "status": "active",
         "summary": "Green Haverhill works on projects that promote sustainability and climate action in the community.",
         "tags": [
-          "climate action",
-          "sustainability"
+          "sustainability",
+          "climate action"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -2694,8 +2678,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.795395054742116,
-        "longitude": -71.05339438037218,
+        "latitude": 42.79543830174185,
+        "longitude": -71.05337881730526,
         "notes": null,
         "mission": null
       }
@@ -2705,12 +2689,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0536788230112,
-          42.79554576847206
+          -71.05368735088467,
+          42.795634725452345
         ]
       },
       "properties": {
-        "id": "fa94c324-85e6-4b2e-95b3-50730bb3f62c",
+        "id": "db487b54-8261-4a97-88ee-bd044a90a904",
         "name": "Haverhill Climate Committee",
         "website_url": "http://www.haverhill-ma.gov/climatecommittee",
         "source_url": "http://www.haverhill-ma.gov/climatecommittee",
@@ -2732,7 +2716,8 @@
         "social_links": [],
         "advocacy_vs_action": "action",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2740,8 +2725,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.79554576847206,
-        "longitude": -71.0536788230112,
+        "latitude": 42.795634725452345,
+        "longitude": -71.05368735088467,
         "notes": null,
         "mission": null
       }
@@ -2756,7 +2741,7 @@
         ]
       },
       "properties": {
-        "id": "4dfa872f-42dd-48ce-8ce2-dc13c79ca9a9",
+        "id": "474b3c64-cd0e-47cd-8a3f-89aa564b1946",
         "name": "Haverhill Public Schools - Green Team",
         "website_url": "http://www.haverhill-ps.org",
         "source_url": "http://www.haverhill-ps.org",
@@ -2776,8 +2761,8 @@
         "summary": "The Green Team promotes climate education and sustainability practices within the school system.",
         "tags": [
           "climate education",
-          "school system",
-          "sustainability"
+          "sustainability",
+          "school system"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -2801,12 +2786,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05344108495808,
-          42.7955831202231
+          -71.05324310213065,
+          42.795378097390746
         ]
       },
       "properties": {
-        "id": "2a4cb89b-c25a-4a9e-a7a0-d623d81fceda",
+        "id": "50c8a966-82e9-4129-8b24-29f1e82568b1",
         "name": "Merrimack Valley Planning Commission",
         "website_url": "http://www.mvpc.org",
         "source_url": "http://www.mvpc.org",
@@ -2837,7 +2822,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -2845,8 +2832,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.7955831202231,
-        "longitude": -71.05344108495808,
+        "latitude": 42.795378097390746,
+        "longitude": -71.05324310213065,
         "notes": null,
         "mission": null
       }
@@ -2856,12 +2843,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80159938447636,
-          42.26181663443617
+          -71.80161195778958,
+          42.26201874807646
         ]
       },
       "properties": {
-        "id": "d2116cfa-3642-4269-9765-307e24beefc0",
+        "id": "2baccbaa-6585-4708-b333-565a3159f135",
         "name": "Worcester Environmental Council",
         "website_url": "https://www.worcesterenvironmentalcouncil.org/",
         "source_url": "https://www.worcesterenvironmentalcouncil.org/",
@@ -2894,8 +2881,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.26181663443617,
-        "longitude": -71.80159938447636,
+        "latitude": 42.26201874807646,
+        "longitude": -71.80161195778958,
         "notes": null,
         "mission": null
       }
@@ -2905,12 +2892,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.81001223368622,
-          42.24641809247765
+          -71.80970915110393,
+          42.24611332636942
         ]
       },
       "properties": {
-        "id": "c55f142e-a677-4930-9f10-8e0f9aa691ac",
+        "id": "dbe037c2-8c4f-4269-9734-9d8450186ab4",
         "name": "Worcester Youth Climate Coalition",
         "website_url": "https://www.worcesterycc.org/",
         "source_url": "https://www.worcesterycc.org/",
@@ -2929,9 +2916,9 @@
         "status": "active",
         "summary": "The coalition focuses on youth-led climate action and education programs.",
         "tags": [
+          "youth-led",
           "climate action",
-          "education",
-          "youth-led"
+          "education"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -2944,8 +2931,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.24641809247765,
-        "longitude": -71.81001223368622,
+        "latitude": 42.24611332636942,
+        "longitude": -71.80970915110393,
         "notes": null,
         "mission": null
       }
@@ -2955,12 +2942,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.84033397273006,
-          42.68556366755956
+          -70.84022031200149,
+          42.68516237020846
         ]
       },
       "properties": {
-        "id": "c0f46ba1-ffbf-4602-816f-ad5e324e1561",
+        "id": "60ce9002-7473-4be0-9c87-8c27699d6775",
         "name": "Green Ipswich",
         "website_url": "http://www.greenipswich.org",
         "source_url": "http://www.greenipswich.org",
@@ -2979,9 +2966,9 @@
         "status": "active",
         "summary": "Green Ipswich is focused on promoting sustainable practices and climate action in the community.",
         "tags": [
+          "sustainability",
           "climate action",
-          "community",
-          "sustainability"
+          "community"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -2994,8 +2981,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.68556366755956,
-        "longitude": -70.84033397273006,
+        "latitude": 42.68516237020846,
+        "longitude": -70.84022031200149,
         "notes": null,
         "mission": null
       }
@@ -3010,7 +2997,7 @@
         ]
       },
       "properties": {
-        "id": "ea3f5679-1b51-493c-a651-d379335abcb7",
+        "id": "b1d4920f-228c-4b16-a948-75215658f528",
         "name": "Ipswich Climate Action Committee",
         "website_url": "http://www.ipswichma.gov/",
         "source_url": "http://www.ipswichma.gov/",
@@ -3030,13 +3017,14 @@
         "summary": "The Ipswich Climate Action Committee works on local climate initiatives and sustainability efforts.",
         "tags": [
           "climate initiatives",
-          "local government",
-          "sustainability"
+          "sustainability",
+          "local government"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -3055,12 +3043,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.84021163658808,
-          42.68537910047909
+          -70.84019126106028,
+          42.68556601472898
         ]
       },
       "properties": {
-        "id": "91465b21-80ab-4e08-9a3d-f0ce9b86a156",
+        "id": "00221b32-e8ab-4f3e-a10b-95f83d9a44dd",
         "name": "Sustainable Ipswich",
         "website_url": "http://www.sustainableipswich.org",
         "source_url": "http://www.sustainableipswich.org",
@@ -3093,8 +3081,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.68537910047909,
-        "longitude": -70.84021163658808,
+        "latitude": 42.68556601472898,
+        "longitude": -70.84019126106028,
         "notes": null,
         "mission": null
       }
@@ -3104,12 +3092,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63165622053766,
-          42.32196528388932
+          -72.63160416475591,
+          42.32215585488067
         ]
       },
       "properties": {
-        "id": "bf4c88df-de63-494a-a25f-10217c47a1f2",
+        "id": "602e66b3-0f6e-496f-b8fa-4788607f1ff1",
         "name": "Knights Crossing Clean Energy Coalition",
         "website_url": "http://www.kccleancoalition.org",
         "source_url": "http://www.kccleancoalition.org",
@@ -3128,8 +3116,8 @@
         "status": "active",
         "summary": "The Coalition focuses on promoting clean energy solutions and reducing carbon emissions in the community.",
         "tags": [
-          "carbon emissions",
           "clean energy",
+          "carbon emissions",
           "community"
         ],
         "social_links": [],
@@ -3143,8 +3131,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32196528388932,
-        "longitude": -72.63165622053766,
+        "latitude": 42.32215585488067,
+        "longitude": -72.63160416475591,
         "notes": null,
         "mission": null
       }
@@ -3154,12 +3142,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63136683098395,
-          42.32217496233367
+          -72.63162476839224,
+          42.32194523510607
         ]
       },
       "properties": {
-        "id": "c12fd0a6-77ef-44a4-8d5e-dcfd2ef07734",
+        "id": "3d95b3a8-d029-4548-8b89-dc877b7a745c",
         "name": "Knights Crossing Climate Education Center",
         "website_url": "http://www.kcclimateeducation.org",
         "source_url": "http://www.kcclimateeducation.org",
@@ -3179,8 +3167,8 @@
         "summary": "The Center provides educational resources and programs focused on climate change and sustainability.",
         "tags": [
           "climate change",
-          "education",
-          "sustainability"
+          "sustainability",
+          "education"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
@@ -3193,8 +3181,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32217496233367,
-        "longitude": -72.63136683098395,
+        "latitude": 42.32194523510607,
+        "longitude": -72.63162476839224,
         "notes": null,
         "mission": null
       }
@@ -3204,12 +3192,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63140694875607,
-          42.321803584895825
+          -72.63177227237239,
+          42.32192866996436
         ]
       },
       "properties": {
-        "id": "327fba41-1698-4705-92cd-7b67717da37c",
+        "id": "b96b32ac-9dd0-4d31-a74f-131cdf9737f4",
         "name": "Knights Crossing Energy Initiative",
         "website_url": "http://www.kcenergyinitiative.org",
         "source_url": "http://www.kcenergyinitiative.org",
@@ -3229,8 +3217,8 @@
         "summary": "The Knights Crossing Energy Initiative promotes electrification and renewable energy solutions for local residents.",
         "tags": [
           "electrification",
-          "local residents",
-          "renewable energy"
+          "renewable energy",
+          "local residents"
         ],
         "social_links": [],
         "advocacy_vs_action": "action",
@@ -3243,8 +3231,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.321803584895825,
-        "longitude": -72.63140694875607,
+        "latitude": 42.32192866996436,
+        "longitude": -72.63177227237239,
         "notes": null,
         "mission": null
       }
@@ -3254,12 +3242,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63131902707879,
-          42.32188685391746
+          -72.6316960309395,
+          42.32177335904091
         ]
       },
       "properties": {
-        "id": "9c498659-521f-4398-91d1-d7dd730d3500",
+        "id": "7a04213c-dc35-41cf-940c-c93e2fff936e",
         "name": "Knights Crossing Environmental Justice Alliance",
         "website_url": "http://www.kcejalliance.org",
         "source_url": "http://www.kcejalliance.org",
@@ -3278,8 +3266,8 @@
         "status": "unknown",
         "summary": "The Alliance advocates for environmental justice with a focus on climate impacts in marginalized communities.",
         "tags": [
-          "climate impacts",
           "environmental justice",
+          "climate impacts",
           "marginalized communities"
         ],
         "social_links": [],
@@ -3293,8 +3281,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32188685391746,
-        "longitude": -72.63131902707879,
+        "latitude": 42.32177335904091,
+        "longitude": -72.6316960309395,
         "notes": null,
         "mission": null
       }
@@ -3304,12 +3292,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63130330371807,
-          42.3220126909083
+          -72.63128449164631,
+          42.3219294406521
         ]
       },
       "properties": {
-        "id": "c8e7e726-fbf1-44c6-bd92-a2513cb85dde",
+        "id": "1efe90e3-a66e-4db1-b8f6-0e360efc5925",
         "name": "Knights Crossing Resilience Committee",
         "website_url": "http://www.kcresiliencecommittee.org",
         "source_url": "http://www.kcresiliencecommittee.org",
@@ -3342,8 +3330,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.3220126909083,
-        "longitude": -72.63130330371807,
+        "latitude": 42.3219294406521,
+        "longitude": -72.63128449164631,
         "notes": null,
         "mission": null
       }
@@ -3353,12 +3341,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63164221226516,
-          42.32174574239314
+          -72.63153806222654,
+          42.321743515783446
         ]
       },
       "properties": {
-        "id": "51ef18e1-88e1-4c2d-b043-644dfe38b97c",
+        "id": "b6d024e9-a8e4-4286-b9c4-274083e1d00d",
         "name": "Knights Crossing Urban Climate Adaptation Program",
         "website_url": "http://www.kcurbanadaptation.org",
         "source_url": "http://www.kcurbanadaptation.org",
@@ -3377,14 +3365,15 @@
         "status": "active",
         "summary": "The Knights Crossing Urban Climate Adaptation Program focuses on urban planning and climate adaptation strategies for city infrastructure.",
         "tags": [
-          "city infrastructure",
+          "urban planning",
           "climate adaptation",
-          "urban planning"
+          "city infrastructure"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "adaptation",
         "original_action_category": null,
@@ -3392,8 +3381,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32174574239314,
-        "longitude": -72.63164221226516,
+        "latitude": 42.321743515783446,
+        "longitude": -72.63153806222654,
         "notes": null,
         "mission": null
       }
@@ -3403,12 +3392,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63146917924414,
-          42.32202464816177
+          -72.63174250178525,
+          42.322154638674284
         ]
       },
       "properties": {
-        "id": "bdb33949-d04d-42a7-b585-9aaca22e7b82",
+        "id": "e188b1bf-0a85-46a5-b281-089a0c7671fc",
         "name": "Youth Climate Action Knights Crossing",
         "website_url": "http://www.youthclimateactionkc.org",
         "source_url": "http://www.youthclimateactionkc.org",
@@ -3427,9 +3416,9 @@
         "status": "active",
         "summary": "This organization engages youth in climate education and advocacy efforts.",
         "tags": [
-          "advocacy",
+          "youth",
           "climate education",
-          "youth"
+          "advocacy"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
@@ -3442,8 +3431,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32202464816177,
-        "longitude": -72.63146917924414,
+        "latitude": 42.322154638674284,
+        "longitude": -72.63174250178525,
         "notes": null,
         "mission": null
       }
@@ -3458,7 +3447,7 @@
         ]
       },
       "properties": {
-        "id": "7adbee9e-36f6-4658-8e88-fd62e712e724",
+        "id": "9fce023d-2bdb-4ae4-bcd2-6927605f57f1",
         "name": "Groundwork Lawrence",
         "website_url": "http://www.groundworklawrence.org/",
         "source_url": "http://www.groundworklawrence.org/",
@@ -3471,20 +3460,19 @@
         "action_category": "Community Engagement",
         "climate_categories": [
           "Environmental",
-          "Food & Food Waste",
-          "Waste Reduction"
+          "Food & Food Waste"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
         "status": "active",
         "summary": "Groundwork Lawrence is a nonprofit organization focused on environmental and open space improvements, fresh food access programs, youth and adult education and employment initiatives, and community programming and events. It aims to regenerate and manage the physical environment through community-based partnerships.",
         "tags": [
+          "urban sustainability",
           "community engagement",
-          "education",
-          "employment initiatives",
           "environmental improvements",
           "food access",
-          "urban sustainability"
+          "education",
+          "employment initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -3508,12 +3496,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.16063264810596,
-          42.70650939559608
+          -71.16021883060782,
+          42.70689123651291
         ]
       },
       "properties": {
-        "id": "22a3ae40-bcbf-4855-8849-52291e6d5ead",
+        "id": "7e3b65c0-2351-45d8-9930-834faddea06c",
         "name": "Lawrence Climate Action",
         "website_url": "https://www.lawrenceclimateaction.org/",
         "source_url": "https://www.lawrenceclimateaction.org/",
@@ -3546,8 +3534,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.70650939559608,
-        "longitude": -71.16063264810596,
+        "latitude": 42.70689123651291,
+        "longitude": -71.16021883060782,
         "notes": null,
         "mission": null
       }
@@ -3557,12 +3545,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.90297040863103,
-          42.51268840194552
+          -70.90314310161948,
+          42.51246882899847
         ]
       },
       "properties": {
-        "id": "f3c169df-b331-483f-9728-045f5d9a3ad4",
+        "id": "91e1084b-6bab-40cc-ae34-1f29fe271369",
         "name": "Green Salem",
         "website_url": "https://www.greensalem.org",
         "source_url": "https://www.greensalem.org",
@@ -3597,8 +3585,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.51268840194552,
-        "longitude": -70.90297040863103,
+        "latitude": 42.51246882899847,
+        "longitude": -70.90314310161948,
         "notes": null,
         "mission": null
       }
@@ -3608,12 +3596,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.92637872377551,
-          42.42853673931589
+          -70.92659350577243,
+          42.428133977476165
         ]
       },
       "properties": {
-        "id": "2a56872b-88ea-4b54-af24-15225710165e",
+        "id": "2557b6b2-9888-4010-a95b-812ce275d092",
         "name": "Green Nahant",
         "website_url": "http://www.greennahant.org",
         "source_url": "http://www.greennahant.org",
@@ -3647,8 +3635,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.42853673931589,
-        "longitude": -70.92637872377551,
+        "latitude": 42.428133977476165,
+        "longitude": -70.92659350577243,
         "notes": null,
         "mission": null
       }
@@ -3658,12 +3646,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.29571553948045,
-          42.6318445897811
+          -71.29555081927168,
+          42.63225172258885
         ]
       },
       "properties": {
-        "id": "728facfc-06a5-4193-a79e-2a0253561f22",
+        "id": "55357118-17a3-4100-a31e-d7f672105505",
         "name": "Clean Energy Massachusetts",
         "website_url": "http://www.cleanenergymass.org",
         "source_url": "http://www.cleanenergymass.org",
@@ -3691,7 +3679,7 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Residents"
+          "unknown"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -3699,8 +3687,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.6318445897811,
-        "longitude": -71.29571553948045,
+        "latitude": 42.63225172258885,
+        "longitude": -71.29555081927168,
         "notes": null,
         "mission": null
       }
@@ -3715,7 +3703,7 @@
         ]
       },
       "properties": {
-        "id": "f112ad8c-c058-48ee-a5cf-72a31f38f29c",
+        "id": "ca6b686c-2993-4b5d-825f-f1fd4eaffd06",
         "name": "Lowell Climate Action",
         "website_url": "http://www.lowellclimateaction.org",
         "source_url": "http://www.lowellclimateaction.org",
@@ -3727,8 +3715,8 @@
         "postal_code": "01852",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3765,7 +3753,7 @@
         ]
       },
       "properties": {
-        "id": "1fd7df43-7858-41c5-ba97-c0f9164af751",
+        "id": "2a9c6c82-64de-4521-af94-6617d7845e2c",
         "name": "Lynn Community Health Center",
         "website_url": "https://lynnchc.org/",
         "source_url": "https://www.lchcnet.org/",
@@ -3812,12 +3800,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94678131039439,
-          42.461077933086514
+          -70.9469228127351,
+          42.46102457973936
         ]
       },
       "properties": {
-        "id": "dadc349c-079a-481c-abc8-083225ffcb98",
+        "id": "6481078d-ebff-4274-a005-0bba5bb0bf7f",
         "name": "Lynn Environmental Sustainability Committee",
         "website_url": "https://www.lynnma.gov/",
         "source_url": "https://www.lynnma.gov/",
@@ -3829,6 +3817,7 @@
         "postal_code": "01901",
         "action_category": "Community Engagement",
         "climate_categories": [
+          "Energy Efficiency",
           "Environmental",
           "Waste Reduction"
         ],
@@ -3845,7 +3834,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Municipality",
+          "Residents"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -3853,8 +3843,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.461077933086514,
-        "longitude": -70.94678131039439,
+        "latitude": 42.46102457973936,
+        "longitude": -70.9469228127351,
         "notes": null,
         "mission": null
       }
@@ -3869,7 +3859,7 @@
         ]
       },
       "properties": {
-        "id": "92b2733b-e118-42c1-a45a-456814cb7a7b",
+        "id": "fdddc9bf-266a-4193-9718-b95d88e59a82",
         "name": "Lynn Public Schools - Sustainability Program",
         "website_url": "https://www.lynnschools.org/",
         "source_url": "https://www.lynnschools.org/",
@@ -3888,9 +3878,9 @@
         "status": "active",
         "summary": "The Lynn Public Schools have implemented sustainability programs that include climate education for students.",
         "tags": [
+          "sustainability",
           "climate education",
-          "public schools",
-          "sustainability"
+          "public schools"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -3919,7 +3909,7 @@
         ]
       },
       "properties": {
-        "id": "490711d1-df63-4948-bd6f-d47c9cdc6dea",
+        "id": "7e87747a-e129-40f1-9e6b-2c0efd077a21",
         "name": "North Shore Community Development Coalition",
         "website_url": "https://www.nscdc.org/",
         "source_url": "https://www.nscdc.org/",
@@ -3971,7 +3961,7 @@
         ]
       },
       "properties": {
-        "id": "b3e3ff82-d53c-4974-bdc8-27bdfa159baf",
+        "id": "1d2240d6-6e08-4f05-8171-a5f8db791d90",
         "name": "Lynnfield Climate Action Committee",
         "website_url": "https://www.lynnfield.ma.us/climate-action-committee",
         "source_url": "https://www.lynnfield.ma.us/climate-action-committee",
@@ -3993,7 +3983,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4012,12 +4003,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.03699082663461,
-          42.53508875330468
+          -71.03721227587293,
+          42.5347033091743
         ]
       },
       "properties": {
-        "id": "6230dbbf-5e60-48f3-8111-e1f5bf410497",
+        "id": "69936e3d-d9f4-4eaf-9774-091e0e7c98c8",
         "name": "Lynnfield Climate Action",
         "website_url": "http://lynnfieldclimateaction.org",
         "source_url": "http://lynnfieldclimateaction.org",
@@ -4047,8 +4038,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.53508875330468,
-        "longitude": -71.03699082663461,
+        "latitude": 42.5347033091743,
+        "longitude": -71.03721227587293,
         "notes": null,
         "mission": null
       }
@@ -4063,7 +4054,7 @@
         ]
       },
       "properties": {
-        "id": "81b3762c-857c-4725-a76b-0726fa651a5e",
+        "id": "78776d06-a940-4770-a216-ec26694f7e01",
         "name": "Manchester-by-the-Sea Climate Action Committee",
         "website_url": "https://www.manchester.ma.us/",
         "source_url": "https://www.manchester.ma.us/",
@@ -4082,9 +4073,9 @@
         "status": "active",
         "summary": "The Climate Action Committee focuses on reducing greenhouse gas emissions and promoting sustainability initiatives in the community.",
         "tags": [
-          "community",
           "greenhouse gas emissions",
-          "sustainability"
+          "sustainability",
+          "community"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -4108,12 +4099,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86365217949373,
-          42.499203140398954
+          -70.86365140764066,
+          42.49879625704097
         ]
       },
       "properties": {
-        "id": "494ab0f1-c3e1-416e-9211-d84a9d4a49fb",
+        "id": "b2d747b3-470e-4773-be4c-20e37f89d493",
         "name": "Green Marblehead",
         "website_url": "http://www.greenmarblehead.org",
         "source_url": "http://www.greenmarblehead.org",
@@ -4132,8 +4123,8 @@
         "status": "active",
         "summary": "Green Marblehead is focused on promoting sustainability and climate action in the community.",
         "tags": [
-          "climate action",
-          "sustainability"
+          "sustainability",
+          "climate action"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -4146,8 +4137,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.499203140398954,
-        "longitude": -70.86365217949373,
+        "latitude": 42.49879625704097,
+        "longitude": -70.86365140764066,
         "notes": null,
         "mission": null
       }
@@ -4157,12 +4148,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86383188636648,
-          42.49888592001607
+          -70.86351193653512,
+          42.498970524104074
         ]
       },
       "properties": {
-        "id": "ab488619-aca0-4174-9292-0924fc943636",
+        "id": "8a84b1f2-6d55-4c89-8f7f-a3cdcf76370d",
         "name": "Marblehead Climate Action Committee",
         "website_url": "http://www.marblehead.org/climate-action-committee",
         "source_url": "http://www.marblehead.org/climate-action-committee",
@@ -4184,7 +4175,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4192,8 +4184,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.49888592001607,
-        "longitude": -70.86383188636648,
+        "latitude": 42.498970524104074,
+        "longitude": -70.86351193653512,
         "notes": null,
         "mission": null
       }
@@ -4203,12 +4195,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86363193831727,
-          42.49893352057865
+          -70.86355515525239,
+          42.4989989177398
         ]
       },
       "properties": {
-        "id": "5e7aaae7-e4f3-44b8-8f70-1e77443395b0",
+        "id": "2ded5a2f-fd79-4bfe-ae58-afacc5cea462",
         "name": "Marblehead Municipal Light Department",
         "website_url": "http://www.marblehead.org/marblehead-municipal-light-department",
         "source_url": "http://www.marblehead.org/marblehead-municipal-light-department",
@@ -4233,7 +4225,8 @@
         "social_links": [],
         "advocacy_vs_action": "action",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -4241,8 +4234,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.49893352057865,
-        "longitude": -70.86363193831727,
+        "latitude": 42.4989989177398,
+        "longitude": -70.86355515525239,
         "notes": null,
         "mission": null
       }
@@ -4252,12 +4245,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80851881491739,
-          42.25943676591335
+          -71.80853490385246,
+          42.25962397032145
         ]
       },
       "properties": {
-        "id": "98905a6e-a254-438c-a184-e4e53a21cfcf",
+        "id": "ca396040-8c9a-4e0e-939e-62dd3f770665",
         "name": "Sustainable Marblehead",
         "website_url": "https://www.sustainablemarblehead.org",
         "source_url": "https://www.sustainablemarblehead.org",
@@ -4269,10 +4262,10 @@
         "postal_code": "01945",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
-          "Transportation",
-          "Waste Reduction"
+          "Waste Reduction",
+          "Energy Efficiency",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4293,7 +4286,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4301,8 +4296,8 @@
         "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
-        "latitude": 42.25943676591335,
-        "longitude": -71.80851881491739,
+        "latitude": 42.25962397032145,
+        "longitude": -71.80853490385246,
         "notes": null,
         "mission": null
       }
@@ -4317,7 +4312,7 @@
         ]
       },
       "properties": {
-        "id": "3bcc89ef-cac0-4e8a-968e-2c6914f48ba7",
+        "id": "fa1bda1a-ac82-49dc-a412-2d2a6e31d202",
         "name": "Marlborough Energy Task Force",
         "website_url": "https://www.marlborough-ma.gov/energy-task-force",
         "source_url": "https://www.marlborough-ma.gov/energy-task-force",
@@ -4337,13 +4332,14 @@
         "summary": "The Marlborough Energy Task Force is focused on promoting energy efficiency and sustainability initiatives in the city.",
         "tags": [
           "energy efficiency",
-          "municipal initiatives",
-          "sustainability"
+          "sustainability",
+          "municipal initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -4362,12 +4358,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.59012207578131,
-          42.10400903437177
+          -72.59015336323176,
+          42.104295635086615
         ]
       },
       "properties": {
-        "id": "5e786537-c210-4ab2-9583-89495f9a6149",
+        "id": "735ac6c7-9407-4d28-a4d5-f6655afd7bb1",
         "name": "Eversource",
         "website_url": "https://www.eversource.com/",
         "source_url": "https://www.wmeco.com/",
@@ -4386,13 +4382,14 @@
         "status": "active",
         "summary": "Eversource, formerly known as Western Massachusetts Electric Company, is involved in energy transition and electrification programs.",
         "tags": [
-          "electrification",
-          "energy transition"
+          "energy transition",
+          "electrification"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Residents"
+          "Residents",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -4400,8 +4397,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.10400903437177,
-        "longitude": -72.59012207578131,
+        "latitude": 42.104295635086615,
+        "longitude": -72.59015336323176,
         "notes": null,
         "mission": null
       }
@@ -4416,7 +4413,7 @@
         ]
       },
       "properties": {
-        "id": "347868c1-71be-4449-b6f3-0e2d27c72b08",
+        "id": "d43f8262-1308-4afe-8c72-3e3e3aa6847b",
         "name": "Massachusetts Institute of Technology (MIT) Energy Initiative",
         "website_url": "https://energy.mit.edu/",
         "source_url": "https://energy.mit.edu/",
@@ -4429,17 +4426,17 @@
         "action_category": "Community Engagement",
         "climate_categories": [
           "Energy Efficiency",
-          "Environmental",
-          "Transportation"
+          "Transportation",
+          "Environmental"
         ],
         "organization_type": "Academic",
         "reach": "State / National",
         "status": "active",
         "summary": "The MIT Energy Initiative is MIT\u2019s hub for energy research, education, and outreach, advancing zero- and low-carbon solutions to expand energy access and address climate change.",
         "tags": [
+          "energy research",
           "climate solutions",
           "education",
-          "energy research",
           "zero-carbon"
         ],
         "social_links": [
@@ -4449,7 +4446,9 @@
         ],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4468,12 +4467,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06562308377532,
-          42.356450478335276
+          -71.06557015241056,
+          42.35615961918113
         ]
       },
       "properties": {
-        "id": "ddf7f42e-ec18-4af0-8695-7dbb2cf790f3",
+        "id": "c1fe2ab5-32c8-4dc5-ab2d-dc2e6f66923e",
         "name": "The Massachusetts Executive Office of Energy and Environmental Affairs",
         "website_url": "https://www.mass.gov/orgs/executive-office-of-energy-and-environmental-affairs",
         "source_url": "https://www.mass.gov/orgs/executive-office-of-energy-and-environmental-affairs",
@@ -4483,7 +4482,7 @@
         "city": "marsh corner",
         "state": "ma",
         "postal_code": "02108",
-        "action_category": "Conservation",
+        "action_category": "Policy",
         "climate_categories": [
           "Energy Efficiency",
           "Environmental"
@@ -4500,7 +4499,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4508,8 +4509,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.356450478335276,
-        "longitude": -71.06562308377532,
+        "latitude": 42.35615961918113,
+        "longitude": -71.06557015241056,
         "notes": null,
         "mission": null
       }
@@ -4524,7 +4525,7 @@
         ]
       },
       "properties": {
-        "id": "1bef56b2-08f0-4f34-87ea-9fefb5c6f65a",
+        "id": "516890b7-dc28-403f-be77-cb87281d9839",
         "name": "Merrimac Climate Action",
         "website_url": "http://www.merrimacclimateaction.org",
         "source_url": "http://www.merrimacclimateaction.org",
@@ -4544,8 +4545,8 @@
         "summary": "Merrimac Climate Action focuses on local initiatives for reducing carbon emissions and promoting renewable energy sources.",
         "tags": [
           "carbon emissions",
-          "local initiatives",
-          "renewable energy"
+          "renewable energy",
+          "local initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -4574,7 +4575,7 @@
         ]
       },
       "properties": {
-        "id": "57b6b683-3396-4cf9-96dc-a159f0d59be3",
+        "id": "e86caf50-8832-4bf9-a29e-8878fac824db",
         "name": "Methuen Climate Action Committee",
         "website_url": "https://www.methuen-ma.gov/climate-action-committee",
         "source_url": "https://www.methuen-ma.gov/climate-action-committee",
@@ -4599,7 +4600,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4618,12 +4620,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.01668018127965,
-          42.60392717154192
+          -71.01667448598147,
+          42.604236132644154
         ]
       },
       "properties": {
-        "id": "6ee64eac-2d83-4080-a703-0688b21cf597",
+        "id": "f72107c3-6b87-4102-9cb6-522b4c72a6ce",
         "name": "Green Middleton",
         "website_url": "http://www.greenmiddleton.org",
         "source_url": "http://www.greenmiddleton.org",
@@ -4642,8 +4644,8 @@
         "status": "active",
         "summary": "Green Middleton focuses on sustainability initiatives and climate action in the community.",
         "tags": [
-          "climate action",
-          "sustainability"
+          "sustainability",
+          "climate action"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -4656,8 +4658,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.60392717154192,
-        "longitude": -71.01668018127965,
+        "latitude": 42.604236132644154,
+        "longitude": -71.01667448598147,
         "notes": null,
         "mission": null
       }
@@ -4667,12 +4669,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.10899342654369,
-          42.42290387954086
+          -71.10887212558542,
+          42.42288637912694
         ]
       },
       "properties": {
-        "id": "2cd9b727-6aba-49d8-9c01-dcfc5a0acaf3",
+        "id": "7f0c2065-a108-41e3-af53-27645731f179",
         "name": "Mount Vernon Park Climate Action Group",
         "website_url": "http://www.mvclimateaction.org",
         "source_url": "http://www.mvclimateaction.org",
@@ -4705,8 +4707,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.42290387954086,
-        "longitude": -71.10899342654369,
+        "latitude": 42.42288637912694,
+        "longitude": -71.10887212558542,
         "notes": null,
         "mission": null
       }
@@ -4716,12 +4718,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.24421843757167,
-          42.27579578285242
+          -71.24427160819594,
+          42.276130351000944
         ]
       },
       "properties": {
-        "id": "d368b0ce-5b8a-48b3-bb80-a96c064e2ad2",
+        "id": "29a90eb0-365f-43fb-a68b-ba2a5813694e",
         "name": "Green Needham",
         "website_url": "http://www.greenneedham.org",
         "source_url": "http://www.greenneedham.org",
@@ -4733,30 +4735,32 @@
         "postal_code": "02492",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
-          "Food & Food Waste",
+          "Waste Reduction",
           "Green Economics",
+          "Food & Food Waste",
           "Transportation",
-          "Waste Reduction"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
         "status": "active",
         "summary": "Green Needham is a volunteer organization dedicated to securing a better future through local action. They work to reduce carbon emissions and promote the wise use of resources in Needham.",
         "tags": [
+          "sustainability",
           "climate action",
           "energy efficiency",
+          "waste reduction",
           "local food",
-          "policy advocacy",
-          "sustainability",
           "transportation",
-          "waste reduction"
+          "policy advocacy"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4764,8 +4768,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.27579578285242,
-        "longitude": -71.24421843757167,
+        "latitude": 42.276130351000944,
+        "longitude": -71.24427160819594,
         "notes": null,
         "mission": null
       }
@@ -4775,12 +4779,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.01208622301948,
-          42.83843142088312
+          -71.01208426963666,
+          42.83807946963593
         ]
       },
       "properties": {
-        "id": "ac3e14ac-f082-4dfc-9a76-d7a0e58b643e",
+        "id": "95726685-0ad3-403e-9ef8-8aef0b8836c4",
         "name": "Sustainable Merrimack Valley",
         "website_url": "http://sustainablemv.org",
         "source_url": "http://sustainablemv.org",
@@ -4807,7 +4811,7 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Residents"
+          "unknown"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4815,8 +4819,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.83843142088312,
-        "longitude": -71.01208622301948,
+        "latitude": 42.83807946963593,
+        "longitude": -71.01208426963666,
         "notes": null,
         "mission": null
       }
@@ -4826,12 +4830,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88837927078052,
-          42.81219468526749
+          -70.88785636984872,
+          42.81225854892728
         ]
       },
       "properties": {
-        "id": "35c84fec-a26d-40d6-a670-111b14816118",
+        "id": "4b3aad2b-dda4-499e-b1ef-a6ad3a4ac6c0",
         "name": "Greater Newburyport Community Energy",
         "website_url": "https://www.greaternewburyportcommunityenergy.org",
         "source_url": "https://www.greaternewburyportcommunityenergy.org",
@@ -4861,8 +4865,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.81219468526749,
-        "longitude": -70.88837927078052,
+        "latitude": 42.81225854892728,
+        "longitude": -70.88785636984872,
         "notes": null,
         "mission": null
       }
@@ -4877,7 +4881,7 @@
         ]
       },
       "properties": {
-        "id": "b184d47e-83fd-4938-99cb-c0dc779f51e9",
+        "id": "f8af27b0-c946-4477-8237-55a57a43cf9b",
         "name": "Newburyport Climate Committee",
         "website_url": "https://www.cityofnewburyport.com/climate-committee",
         "source_url": "https://www.cityofnewburyport.com/climate-committee",
@@ -4897,13 +4901,14 @@
         "summary": "The Newburyport Climate Committee works on initiatives related to climate action and sustainability in the city.",
         "tags": [
           "climate action",
-          "municipal initiatives",
-          "sustainability"
+          "sustainability",
+          "municipal initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -4927,7 +4932,7 @@
         ]
       },
       "properties": {
-        "id": "820f04ef-0ba4-4133-bc92-199301849ac3",
+        "id": "637fb961-8d1b-436b-b2d4-1b4e70bc8fa2",
         "name": "Newburyport Energy Advisory Committee",
         "website_url": "https://www.cityofnewburyport.com/energy-advisory-committee",
         "source_url": "https://www.cityofnewburyport.com/energy-advisory-committee",
@@ -4946,14 +4951,15 @@
         "status": "active",
         "summary": "The Energy Advisory Committee promotes energy efficiency and renewable energy initiatives to reduce carbon emissions.",
         "tags": [
-          "carbon emissions reduction",
           "energy efficiency",
-          "renewable energy"
+          "renewable energy",
+          "carbon emissions reduction"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -4972,12 +4978,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88806869765986,
-          42.812142940545215
+          -70.88824195272514,
+          42.81233373114274
         ]
       },
       "properties": {
-        "id": "fc03d314-dffa-4b22-ac0c-8ee514509089",
+        "id": "0cc21833-acb4-4ff5-9a5b-218158cf9d9b",
         "name": "Sustainable Newburyport",
         "website_url": "https://www.sustainablenewburyport.org",
         "source_url": "https://www.sustainablenewburyport.org",
@@ -4996,9 +5002,9 @@
         "status": "active",
         "summary": "Sustainable Newburyport focuses on local sustainability efforts, including climate action initiatives.",
         "tags": [
+          "sustainability",
           "climate action",
-          "local efforts",
-          "sustainability"
+          "local efforts"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5011,8 +5017,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.812142940545215,
-        "longitude": -70.88806869765986,
+        "latitude": 42.81233373114274,
+        "longitude": -70.88824195272514,
         "notes": null,
         "mission": null
       }
@@ -5022,12 +5028,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08694747508177,
-          42.67113307491115
+          -71.08680654985619,
+          42.67129192965756
         ]
       },
       "properties": {
-        "id": "5ca8ce18-6471-4d70-a4e8-17f3650d8314",
+        "id": "e9e2343b-b571-45fc-b611-33dee577215d",
         "name": "Green North Andover",
         "website_url": "http://www.greennorthandover.org",
         "source_url": "http://www.greennorthandover.org",
@@ -5060,8 +5066,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.67113307491115,
-        "longitude": -71.08694747508177,
+        "latitude": 42.67129192965756,
+        "longitude": -71.08680654985619,
         "notes": null,
         "mission": null
       }
@@ -5071,12 +5077,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08709058142371,
-          42.67097769069705
+          -71.08670940356399,
+          42.671118111466505
         ]
       },
       "properties": {
-        "id": "ff798ab5-f54d-4aff-a612-3b8ac9d29dbc",
+        "id": "7cd7028c-9768-4f81-a888-284e3780f528",
         "name": "North Andover Climate Committee",
         "website_url": "http://www.northandoverma.gov/climate-committee",
         "source_url": "http://www.northandoverma.gov/climate-committee",
@@ -5101,7 +5107,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -5109,8 +5116,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.67097769069705,
-        "longitude": -71.08709058142371,
+        "latitude": 42.671118111466505,
+        "longitude": -71.08670940356399,
         "notes": null,
         "mission": null
       }
@@ -5120,12 +5127,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08721859058349,
-          42.671050721034376
+          -71.08719308876452,
+          42.670931918636285
         ]
       },
       "properties": {
-        "id": "110bf5e4-b7de-4f5d-863d-b4cbe557c197",
+        "id": "8fba20b5-8784-4491-891e-019ad7a13667",
         "name": "North Andover Public Schools - Climate Education Program",
         "website_url": "http://www.northandoverpublicschools.com/climate-education",
         "source_url": "http://www.northandoverpublicschools.com/climate-education",
@@ -5144,10 +5151,10 @@
         "status": "active",
         "summary": "Offers climate education programs for students to promote awareness and action.",
         "tags": [
-          "action",
-          "awareness",
           "climate education",
-          "student programs"
+          "student programs",
+          "awareness",
+          "action"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5160,8 +5167,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.671050721034376,
-        "longitude": -71.08721859058349,
+        "latitude": 42.670931918636285,
+        "longitude": -71.08719308876452,
         "notes": null,
         "mission": null
       }
@@ -5171,12 +5178,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08699056847269,
-          42.67126044406249
+          -71.08706698812699,
+          42.671027022012524
         ]
       },
       "properties": {
-        "id": "2553159d-826b-4329-9789-b81d891b4967",
+        "id": "250ee388-e947-4591-8b13-a8572a388116",
         "name": "Sustainable North Andover",
         "website_url": "http://www.sustainablenorthandover.org",
         "source_url": "http://www.sustainablenorthandover.org",
@@ -5195,8 +5202,8 @@
         "status": "active",
         "summary": "Promotes sustainability and climate action in the community.",
         "tags": [
-          "climate action",
-          "sustainability"
+          "sustainability",
+          "climate action"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5209,8 +5216,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.67126044406249,
-        "longitude": -71.08699056847269,
+        "latitude": 42.671027022012524,
+        "longitude": -71.08706698812699,
         "notes": null,
         "mission": null
       }
@@ -5220,12 +5227,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06070989965107,
-          42.35054751257137
+          -71.06068455881358,
+          42.35047241643255
         ]
       },
       "properties": {
-        "id": "07431fdc-b237-46ad-8a4c-98ae64187874",
+        "id": "0f4b6445-b189-4c12-a7ec-387ad201db1e",
         "name": "The Green Justice Coalition",
         "website_url": "https://www.greenjusticecoalition.org",
         "source_url": "https://www.greenjusticecoalition.org",
@@ -5244,8 +5251,8 @@
         "status": "active",
         "summary": "The Green Justice Coalition focuses on environmental justice and climate resilience in urban communities.",
         "tags": [
-          "climate resilience",
           "environmental justice",
+          "climate resilience",
           "urban communities"
         ],
         "social_links": [],
@@ -5259,8 +5266,57 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35054751257137,
-        "longitude": -71.06070989965107,
+        "latitude": 42.35047241643255,
+        "longitude": -71.06068455881358,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.63127529339867,
+          41.877818537631164
+        ]
+      },
+      "properties": {
+        "id": "f4974093-9662-45ae-9435-0d0a24e55a73",
+        "name": "Browns Point Climate Action",
+        "website_url": "http://www.brownspointclimateaction.org",
+        "source_url": "http://www.brownspointclimateaction.org",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "123 Climate St",
+        "city": "plymouth",
+        "state": "ma",
+        "postal_code": "02360",
+        "action_category": "Community Engagement",
+        "climate_categories": [
+          "Unknown"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "status": "active",
+        "summary": "Focus on local climate action initiatives and community engagement.",
+        "tags": [
+          "climate action",
+          "community engagement"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": "action",
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": "both",
+        "original_action_category": null,
+        "original_climate_categories": null,
+        "verified": "Not Verified",
+        "geocode_status": "zip_dataset",
+        "geocode_reason": null,
+        "latitude": 41.877818537631164,
+        "longitude": -70.63127529339867,
         "notes": null,
         "mission": null
       }
@@ -5275,7 +5331,7 @@
         ]
       },
       "properties": {
-        "id": "9a188c69-0913-4756-b94f-c61a5f83cabb",
+        "id": "a12672ae-5a95-4dd5-ae20-8ba80cc60e3d",
         "name": "Proctor Climate Action Group",
         "website_url": "http://www.proctorclimateaction.org",
         "source_url": "http://www.proctorclimateaction.org",
@@ -5294,8 +5350,8 @@
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement.",
         "tags": [
-          "community engagement",
-          "local climate action"
+          "local climate action",
+          "community engagement"
         ],
         "social_links": [],
         "advocacy_vs_action": "action",
@@ -5324,7 +5380,7 @@
         ]
       },
       "properties": {
-        "id": "01c72214-b722-492f-807d-51ab6c605ca5",
+        "id": "ccbcfe3c-fba4-4585-970b-5a34f056ab9c",
         "name": "MetroWest Climate Solutions",
         "website_url": "https://metrowestclimatesolutions.org",
         "source_url": "https://metrowestclimatesolutions.org",
@@ -5336,20 +5392,20 @@
         "postal_code": "01701",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
-          "Transportation"
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
         "status": "active",
         "summary": "MetroWest Climate Solutions is a coalition that inspires healthy, sustainable communities by hosting programs that provide knowledge and tools for local climate solutions.",
         "tags": [
-          "bicycle programs",
           "climate action",
-          "community engagement",
           "sustainability",
-          "tree planting"
+          "community engagement",
+          "tree planting",
+          "bicycle programs"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5373,12 +5429,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69238448592802,
-          42.4103961321695
+          -72.69214107644572,
+          42.41032578014074
         ]
       },
       "properties": {
-        "id": "8b6322cf-be94-4d8f-ad25-4990527f6ffa",
+        "id": "48488740-fd7e-4677-9e2d-892bd9365331",
         "name": "Massachusetts Climate Coalition",
         "website_url": "http://www.massclimatecoalition.org",
         "source_url": "http://www.massclimatecoalition.org",
@@ -5403,7 +5459,9 @@
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -5411,8 +5469,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.4103961321695,
-        "longitude": -72.69238448592802,
+        "latitude": 42.41032578014074,
+        "longitude": -72.69214107644572,
         "notes": null,
         "mission": null
       }
@@ -5422,12 +5480,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69211426899764,
-          42.41022825107874
+          -72.6919242066153,
+          42.410202849373555
         ]
       },
       "properties": {
-        "id": "7eda6254-ca3c-47e2-b7ec-13ff83d7f146",
+        "id": "00050ecc-9f80-4d10-b8b7-3b2a040dabe9",
         "name": "Riverside Climate Action Network",
         "website_url": "http://www.riversideclimateaction.org",
         "source_url": "http://www.riversideclimateaction.org",
@@ -5460,8 +5518,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41022825107874,
-        "longitude": -72.69211426899764,
+        "latitude": 42.410202849373555,
+        "longitude": -72.6919242066153,
         "notes": null,
         "mission": null
       }
@@ -5471,12 +5529,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69225041252552,
-          42.41045588262311
+          -72.69227159938754,
+          42.410004382143555
         ]
       },
       "properties": {
-        "id": "21244357-be94-4098-9505-17106bccb950",
+        "id": "dc9b041c-6ca4-4c24-be71-f6e5fe22eba9",
         "name": "Riverside Climate Education Program",
         "website_url": "http://www.riversideclimateeducation.org",
         "source_url": "http://www.riversideclimateeducation.org",
@@ -5496,13 +5554,14 @@
         "summary": "The Riverside Climate Education Program provides resources and workshops on climate change for schools and community groups.",
         "tags": [
           "climate change education",
-          "community resources",
-          "workshops"
+          "workshops",
+          "community resources"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -5510,8 +5569,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41045588262311,
-        "longitude": -72.69225041252552,
+        "latitude": 42.410004382143555,
+        "longitude": -72.69227159938754,
         "notes": null,
         "mission": null
       }
@@ -5521,12 +5580,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69207496896462,
-          42.410113729583045
+          -72.69241936416178,
+          42.410144805861286
         ]
       },
       "properties": {
-        "id": "c8b6118a-18c7-4726-a250-50102f11ec80",
+        "id": "de87f10a-4625-4f0b-baa2-713abe7d74e5",
         "name": "Riverside Energy Initiative",
         "website_url": "http://www.riversideenergyinitiative.org",
         "source_url": "http://www.riversideenergyinitiative.org",
@@ -5559,8 +5618,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.410113729583045,
-        "longitude": -72.69207496896462,
+        "latitude": 42.410144805861286,
+        "longitude": -72.69241936416178,
         "notes": null,
         "mission": null
       }
@@ -5570,12 +5629,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69211985105193,
-          42.41022855015092
+          -72.69234131860489,
+          42.41023276006831
         ]
       },
       "properties": {
-        "id": "3e9c9b84-b99e-4a36-9f3f-2a8256e8426a",
+        "id": "a737eb99-48c6-4ec9-a6fa-371b51dc0706",
         "name": "Riverside Environmental Justice Alliance",
         "website_url": "http://www.riversideejalliance.org",
         "source_url": "http://www.riversideejalliance.org",
@@ -5594,8 +5653,8 @@
         "status": "active",
         "summary": "The Riverside Environmental Justice Alliance addresses climate impacts on vulnerable communities.",
         "tags": [
-          "climate impacts",
           "environmental justice",
+          "climate impacts",
           "vulnerable communities"
         ],
         "social_links": [],
@@ -5609,8 +5668,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41022855015092,
-        "longitude": -72.69211985105193,
+        "latitude": 42.41023276006831,
+        "longitude": -72.69234131860489,
         "notes": null,
         "mission": null
       }
@@ -5620,12 +5679,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.6919552301602,
-          42.41008658061911
+          -72.6920860550916,
+          42.40995025048362
         ]
       },
       "properties": {
-        "id": "67a4fdca-0b9d-4a68-842f-5bff931f683d",
+        "id": "02d13539-54c3-41f8-90b8-d04a511520e0",
         "name": "Riverside Green Energy Task Force",
         "website_url": "http://www.riversidegreenenergy.org",
         "source_url": "http://www.riversidegreenenergy.org",
@@ -5644,8 +5703,8 @@
         "status": "active",
         "summary": "The Riverside Green Energy Task Force promotes renewable energy projects and energy efficiency in the community.",
         "tags": [
-          "energy efficiency",
-          "renewable energy"
+          "renewable energy",
+          "energy efficiency"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5658,8 +5717,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41008658061911,
-        "longitude": -72.6919552301602,
+        "latitude": 42.40995025048362,
+        "longitude": -72.6920860550916,
         "notes": null,
         "mission": null
       }
@@ -5669,12 +5728,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69234916769413,
-          42.41016652138705
+          -72.69205782019162,
+          42.409975214899006
         ]
       },
       "properties": {
-        "id": "2a877114-bc33-4292-b6a0-57f505a83d96",
+        "id": "3f01a0a3-1394-4b6a-a5c6-d73061b0c527",
         "name": "Riverside Resilience Committee",
         "website_url": "http://www.riversideresilience.org",
         "source_url": "http://www.riversideresilience.org",
@@ -5707,8 +5766,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41016652138705,
-        "longitude": -72.69234916769413,
+        "latitude": 42.409975214899006,
+        "longitude": -72.69205782019162,
         "notes": null,
         "mission": null
       }
@@ -5718,12 +5777,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62531549162739,
-          42.06247914877297
+          -72.62545830980496,
+          42.06246104320155
         ]
       },
       "properties": {
-        "id": "53a8d110-1ad3-475a-989b-b1c704b8099a",
+        "id": "5c8c5f66-27b1-482c-ae4c-ceada6e22681",
         "name": "Riverview Climate Action Network",
         "website_url": "http://www.riverviewclimateaction.org",
         "source_url": "http://www.riverviewclimateaction.org",
@@ -5756,8 +5815,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06247914877297,
-        "longitude": -72.62531549162739,
+        "latitude": 42.06246104320155,
+        "longitude": -72.62545830980496,
         "notes": null,
         "mission": null
       }
@@ -5772,7 +5831,7 @@
         ]
       },
       "properties": {
-        "id": "3a0cd6cf-690e-41b8-a804-a7573fe282f8",
+        "id": "debbd41f-4382-4026-a28c-c35bf9c67c97",
         "name": "Rockport Climate Action",
         "website_url": "http://www.rockportma.gov/climate-action",
         "source_url": "http://www.rockportma.gov/climate-action",
@@ -5784,8 +5843,8 @@
         "postal_code": "01966",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Green Economics"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -5798,7 +5857,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -5817,12 +5877,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62566557042965,
-          42.06235088259938
+          -72.62555367308403,
+          42.06250076914406
         ]
       },
       "properties": {
-        "id": "16ec2cf5-710d-46a2-846c-d7e6bc03f858",
+        "id": "94e39549-a17b-46b2-989f-b6c987959635",
         "name": "Green Energy Solutions of Rooty Plain",
         "website_url": "https://www.greenenergysolutions.org",
         "source_url": "https://www.greenenergysolutions.org",
@@ -5841,14 +5901,15 @@
         "status": "active",
         "summary": "Green Energy Solutions of Rooty Plain promotes renewable energy projects and energy efficiency programs to reduce carbon emissions.",
         "tags": [
-          "carbon emissions reduction",
+          "renewable energy",
           "energy efficiency",
-          "renewable energy"
+          "carbon emissions reduction"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Residents"
+          "Residents",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -5856,8 +5917,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06235088259938,
-        "longitude": -72.62566557042965,
+        "latitude": 42.06250076914406,
+        "longitude": -72.62555367308403,
         "notes": null,
         "mission": null
       }
@@ -5867,12 +5928,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62552543103347,
-          42.06226212755381
+          -72.62572466467161,
+          42.06259707446881
         ]
       },
       "properties": {
-        "id": "57304324-a723-4b7b-ba30-0dd614e5385b",
+        "id": "7c0700e0-484e-4eeb-ade9-ac42f40ab547",
         "name": "Rooty Plain Climate Resilience Initiative",
         "website_url": "https://www.rootyplainresilience.org",
         "source_url": "https://www.rootyplainresilience.org",
@@ -5892,9 +5953,9 @@
         "summary": "The Rooty Plain Climate Resilience Initiative focuses on developing strategies for climate adaptation and resilience in local infrastructure and communities.",
         "tags": [
           "climate adaptation",
-          "community",
+          "resilience",
           "local infrastructure",
-          "resilience"
+          "community"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -5907,8 +5968,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06226212755381,
-        "longitude": -72.62552543103347,
+        "latitude": 42.06259707446881,
+        "longitude": -72.62572466467161,
         "notes": null,
         "mission": null
       }
@@ -5918,12 +5979,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62545140395252,
-          42.06224728138468
+          -72.62560531940817,
+          42.06224205737999
         ]
       },
       "properties": {
-        "id": "894d323c-14de-45f7-9c7e-f1e4d3d285ee",
+        "id": "bb59e156-48a3-4bc6-8e33-c891861bec4f",
         "name": "Rooty Plain Energy Efficiency Program",
         "website_url": "https://www.rootyplainenergy.org",
         "source_url": "https://www.rootyplainenergy.org",
@@ -5942,15 +6003,16 @@
         "status": "active",
         "summary": "The Rooty Plain Energy Efficiency Program aims to reduce energy consumption and promote electrification in residential and commercial buildings.",
         "tags": [
-          "commercial buildings",
-          "electrification",
           "energy efficiency",
-          "residential buildings"
+          "electrification",
+          "residential buildings",
+          "commercial buildings"
         ],
         "social_links": [],
         "advocacy_vs_action": "action",
         "audience_focus": [
-          "Businesses / Residents"
+          "Residents",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -5958,8 +6020,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06224728138468,
-        "longitude": -72.62545140395252,
+        "latitude": 42.06224205737999,
+        "longitude": -72.62560531940817,
         "notes": null,
         "mission": null
       }
@@ -5969,12 +6031,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62563612927578,
-          42.0622306880216
+          -72.62561726491973,
+          42.06247784222152
         ]
       },
       "properties": {
-        "id": "bb399e53-07e7-4f7d-b9ba-d3bd611c52fe",
+        "id": "1e1f4634-c53b-4c96-a01c-8f73a1e9969a",
         "name": "Rooty Plain Youth Climate Coalition",
         "website_url": "https://www.rootyplainycc.org",
         "source_url": "https://www.rootyplainycc.org",
@@ -5993,10 +6055,10 @@
         "status": "active",
         "summary": "Rooty Plain Youth Climate Coalition engages youth in climate education and advocacy efforts to promote sustainability and resilience in their community.",
         "tags": [
+          "youth",
           "climate education",
-          "resilience",
           "sustainability",
-          "youth"
+          "resilience"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6009,8 +6071,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.0622306880216,
-        "longitude": -72.62563612927578,
+        "latitude": 42.06247784222152,
+        "longitude": -72.62561726491973,
         "notes": null,
         "mission": null
       }
@@ -6020,12 +6082,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88865772118648,
-          42.72224037898824
+          -70.88875967658545,
+          42.72219484919883
         ]
       },
       "properties": {
-        "id": "611820dd-7d0b-4f0f-869c-f2f2565bbdfb",
+        "id": "2d6efa4c-dbf3-4b3c-93f3-97533f14f129",
         "name": "Green Rowley",
         "website_url": "http://www.greenrowley.org",
         "source_url": "http://www.greenrowley.org",
@@ -6058,8 +6120,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.72224037898824,
-        "longitude": -70.88865772118648,
+        "latitude": 42.72219484919883,
+        "longitude": -70.88875967658545,
         "notes": null,
         "mission": null
       }
@@ -6069,12 +6131,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.90318119461243,
-          42.51250467338562
+          -70.90291619054189,
+          42.51248247190805
         ]
       },
       "properties": {
-        "id": "3d20dd85-0b7b-4f65-ae89-0c135a17f622",
+        "id": "8c0940bf-b227-4421-bf99-60709cc45475",
         "name": "Salem Climate Action",
         "website_url": "http://www.salemclimateaction.org",
         "source_url": "http://www.salemclimateaction.org",
@@ -6108,8 +6170,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.51250467338562,
-        "longitude": -70.90318119461243,
+        "latitude": 42.51248247190805,
+        "longitude": -70.90291619054189,
         "notes": null,
         "mission": null
       }
@@ -6124,7 +6186,7 @@
         ]
       },
       "properties": {
-        "id": "64255e21-5570-46aa-9734-bcef12955b50",
+        "id": "3064ae76-bb61-4451-aa86-dee1776c028d",
         "name": "Salem State University Sustainability Program",
         "website_url": "http://www.salemstate.edu/sustainability",
         "source_url": "http://www.salemstate.edu/sustainability",
@@ -6136,30 +6198,32 @@
         "postal_code": "01970",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
+          "Waste Reduction",
           "Transportation",
-          "Waste Reduction"
+          "Energy Efficiency"
         ],
         "organization_type": "Academic",
         "reach": "Regional",
         "status": "active",
         "summary": "The Sustainability Program at Salem State University includes climate education and initiatives aimed at reducing emissions, promoting green transportation, recycling, and sustainable dining.",
         "tags": [
+          "sustainability",
           "green transportation",
-          "pollinator garden",
           "recycling",
           "solar energy",
-          "sustainability"
+          "pollinator garden"
         ],
         "social_links": [
-          "https://twitter.com/SalemStateSustainability",
           "https://www.facebook.com/SalemStateSustainability",
-          "https://www.instagram.com/SalemStateSustainability"
+          "https://www.instagram.com/SalemStateSustainability",
+          "https://twitter.com/SalemStateSustainability"
         ],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -6178,12 +6242,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86189502985461,
-          42.846126494370736
+          -70.861827393609,
+          42.84648439916979
         ]
       },
       "properties": {
-        "id": "0879a039-8ddb-4b7e-8ae0-d72fedeffb1d",
+        "id": "0f19688a-97cc-432d-a367-08c366ca4cfb",
         "name": "Sustainable Salisbury",
         "website_url": "http://www.sustainablesalisbury.org",
         "source_url": "http://www.sustainablesalisbury.org",
@@ -6216,8 +6280,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.846126494370736,
-        "longitude": -70.86189502985461,
+        "latitude": 42.84648439916979,
+        "longitude": -70.861827393609,
         "notes": null,
         "mission": null
       }
@@ -6232,7 +6296,7 @@
         ]
       },
       "properties": {
-        "id": "9a10b1ff-8d0e-4739-ba67-8ade17c30f31",
+        "id": "a4938d78-1353-4518-822e-20a2beade31d",
         "name": "Green Saugus",
         "website_url": "http://www.greensaugus.org",
         "source_url": "http://www.greensaugus.org",
@@ -6252,8 +6316,8 @@
         "summary": "Green Saugus promotes local climate action initiatives and community engagement in sustainability efforts.",
         "tags": [
           "climate action",
-          "community engagement",
-          "sustainability"
+          "sustainability",
+          "community engagement"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6282,7 +6346,7 @@
         ]
       },
       "properties": {
-        "id": "dec3c475-c16f-4156-9bb8-4fa0d6cefc95",
+        "id": "d22f03d5-1c44-41ca-af36-997fad5e3d2b",
         "name": "Saugus Climate Action",
         "website_url": "http://www.saugus-ma.gov/climate-action",
         "source_url": "http://www.saugus-ma.gov/climate-action",
@@ -6328,7 +6392,7 @@
         ]
       },
       "properties": {
-        "id": "61ba584a-d4d8-4416-a57a-c170adbe0d2d",
+        "id": "5d621810-8a1e-441b-ad8a-7d12de9150c3",
         "name": "Saugus Environmental Committee",
         "website_url": "http://www.saugus-ma.gov/environmental-committee",
         "source_url": "http://www.saugus-ma.gov/environmental-committee",
@@ -6350,7 +6414,8 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -6369,12 +6434,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.01325526976886,
-          42.4691249507137
+          -71.01304936829247,
+          42.46914628071129
         ]
       },
       "properties": {
-        "id": "df279579-9036-48df-80bd-f737fee5e934",
+        "id": "1db8d935-1a07-4063-96d2-fa2df5af78ba",
         "name": "Saugus Youth Climate Coalition",
         "website_url": "http://www.saugusyouthclimate.org",
         "source_url": "http://www.saugusyouthclimate.org",
@@ -6394,8 +6459,8 @@
         "summary": "The Saugus Youth Climate Coalition engages students in climate education and advocacy for local climate policies.",
         "tags": [
           "climate education",
-          "local climate policies",
-          "youth engagement"
+          "youth engagement",
+          "local climate policies"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6408,8 +6473,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.4691249507137,
-        "longitude": -71.01325526976886,
+        "latitude": 42.46914628071129,
+        "longitude": -71.01304936829247,
         "notes": null,
         "mission": null
       }
@@ -6424,7 +6489,7 @@
         ]
       },
       "properties": {
-        "id": "a184e933-2883-44cf-bf8b-2ca4f445fde7",
+        "id": "27346f6d-7fd2-4c83-a652-6fd1ac1c6248",
         "name": "Shawsheen Village Climate Action Committee",
         "website_url": "http://shawsheenvillageclimateaction.org",
         "source_url": "http://shawsheenvillageclimateaction.org",
@@ -6473,7 +6538,7 @@
         ]
       },
       "properties": {
-        "id": "8bb2d5ee-4983-4ab5-9c76-09de1eb755eb",
+        "id": "f83d48b6-80f5-421e-8d77-ae03b39c4704",
         "name": "350 Massachusetts",
         "website_url": "https://350mass.betterfutureproject.org/",
         "source_url": "https://350mass.org",
@@ -6485,19 +6550,19 @@
         "postal_code": "02143",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
         "status": "active",
         "summary": "350 Massachusetts is a grassroots organization working to end fossil fuel dependency and secure a just transition to a clean energy future. They advocate for climate justice through public policy, direct actions, coalitions, education, and community organizing.",
         "tags": [
-          "advocacy",
-          "clean energy",
           "climate justice",
           "fossil fuel",
-          "grassroots"
+          "clean energy",
+          "grassroots",
+          "advocacy"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6526,7 +6591,7 @@
         ]
       },
       "properties": {
-        "id": "bfc3c6ae-78ff-4f2c-9173-123c365a4f36",
+        "id": "72904168-5b8b-402c-8a5e-08215341d213",
         "name": "Pioneer Valley Planning Commission",
         "website_url": "https://www.pvpc.org",
         "source_url": "https://www.pvpc.org",
@@ -6538,9 +6603,9 @@
         "postal_code": "01104",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
           "Environmental",
-          "Transportation"
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -6556,7 +6621,9 @@
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -6575,12 +6642,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62549870822534,
-          42.06216100373572
+          -72.62543109147869,
+          42.06222205637385
         ]
       },
       "properties": {
-        "id": "5dbae4d5-6035-40dd-8460-450350a1e094",
+        "id": "90b4f03b-f6db-495d-998a-9d030aa518f9",
         "name": "Stevens Crossing Climate Resilience Coalition",
         "website_url": "https://www.scresiliencecoalition.org",
         "source_url": "https://www.scresiliencecoalition.org",
@@ -6613,8 +6680,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06216100373572,
-        "longitude": -72.62549870822534,
+        "latitude": 42.06222205637385,
+        "longitude": -72.62543109147869,
         "notes": null,
         "mission": null
       }
@@ -6624,12 +6691,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62536940664168,
-          42.06254332201388
+          -72.62570072652781,
+          42.06237110984301
         ]
       },
       "properties": {
-        "id": "14fa26d7-4928-4e38-95bf-352299dee387",
+        "id": "ffe6c9d7-37fc-4c0e-9514-17677d1eb510",
         "name": "Youth for Climate Action - Stevens Crossing Chapter",
         "website_url": "https://www.youthforclimateaction.org",
         "source_url": "https://www.youthforclimateaction.org",
@@ -6648,9 +6715,9 @@
         "status": "active",
         "summary": "This youth-led organization focuses on climate education and advocacy for sustainable practices.",
         "tags": [
+          "youth",
           "climate education",
-          "sustainable practices",
-          "youth"
+          "sustainable practices"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6663,8 +6730,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06254332201388,
-        "longitude": -72.62536940664168,
+        "latitude": 42.06237110984301,
+        "longitude": -72.62570072652781,
         "notes": null,
         "mission": null
       }
@@ -6679,7 +6746,7 @@
         ]
       },
       "properties": {
-        "id": "25f1b4f2-dd8c-4767-ad72-31a0ad9dff73",
+        "id": "3d616875-2039-40b5-a040-e5c0f2edbbed",
         "name": "Swampscott Climate Action",
         "website_url": "https://www.swampscottma.gov/climate-action",
         "source_url": "https://www.swampscottma.gov/climate-action",
@@ -6691,8 +6758,8 @@
         "postal_code": "01907",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Green Economics"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6700,13 +6767,14 @@
         "summary": "The Swampscott Climate Action group focuses on local initiatives for reducing carbon emissions and promoting sustainability in the community.",
         "tags": [
           "carbon emissions",
-          "local initiatives",
-          "sustainability"
+          "sustainability",
+          "local initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -6730,7 +6798,7 @@
         ]
       },
       "properties": {
-        "id": "b25183d3-c82e-4a08-9216-2ae1ed3149be",
+        "id": "bde37bcd-0f97-4d4a-b128-01d6e5fe497a",
         "name": "Swampscott Green Energy Committee",
         "website_url": "https://www.swampscottma.gov/green-energy-committee",
         "source_url": "https://www.swampscottma.gov/green-energy-committee",
@@ -6749,14 +6817,15 @@
         "status": "active",
         "summary": "The Green Energy Committee works on projects related to energy efficiency and renewable energy initiatives in Swampscott.",
         "tags": [
-          "community projects",
           "energy efficiency",
-          "renewable energy"
+          "renewable energy",
+          "community projects"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -6780,7 +6849,7 @@
         ]
       },
       "properties": {
-        "id": "7053b90e-3687-44e7-b6d1-39093752f7e9",
+        "id": "2ece1edf-0df2-4e65-afbc-13dfd6dc1336",
         "name": "Swampscott Sustainability Committee",
         "website_url": "https://www.swampscottma.gov/sustainability-committee",
         "source_url": "https://www.swampscottma.gov/sustainability-committee",
@@ -6799,14 +6868,15 @@
         "status": "active",
         "summary": "The Sustainability Committee promotes sustainable practices and policies to reduce the town's carbon footprint.",
         "tags": [
+          "sustainability",
           "carbon footprint",
-          "municipal policy",
-          "sustainability"
+          "municipal policy"
         ],
         "social_links": [],
         "advocacy_vs_action": "advocacy",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "mitigation",
         "original_action_category": null,
@@ -6830,7 +6900,7 @@
         ]
       },
       "properties": {
-        "id": "ae350463-f679-4ab8-8acc-7145c0ff6ce6",
+        "id": "b0dd712d-3fa8-487e-a174-a596a99fbf95",
         "name": "Green Topsfield",
         "website_url": "http://www.topsfield-ma.gov/green-topsfield",
         "source_url": "http://www.topsfield-ma.gov/green-topsfield",
@@ -6849,13 +6919,14 @@
         "status": "active",
         "summary": "Green Topsfield is dedicated to promoting sustainable practices and reducing the town's carbon footprint through various programs.",
         "tags": [
-          "carbon footprint reduction",
-          "sustainability"
+          "sustainability",
+          "carbon footprint reduction"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Municipality / Residents"
+          "Residents",
+          "Municipality"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -6879,7 +6950,7 @@
         ]
       },
       "properties": {
-        "id": "6b8ef2b7-fe06-4f1f-8b31-848f8625e5ca",
+        "id": "30c2a75b-1e0b-45eb-ad23-5b90f651586b",
         "name": "Topsfield Climate Action",
         "website_url": "http://www.topsfieldclimateaction.org",
         "source_url": "http://www.topsfieldclimateaction.org",
@@ -6891,8 +6962,8 @@
         "postal_code": "01983",
         "action_category": "Community Engagement",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6900,8 +6971,8 @@
         "summary": "Topsfield Climate Action focuses on local initiatives to reduce carbon emissions and promote sustainability in the community.",
         "tags": [
           "carbon emissions",
-          "local initiatives",
-          "sustainability"
+          "sustainability",
+          "local initiatives"
         ],
         "social_links": [],
         "advocacy_vs_action": "action",
@@ -6925,12 +6996,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.29557454373695,
-          42.63213323402684
+          -71.29543678297809,
+          42.63218130883452
         ]
       },
       "properties": {
-        "id": "3d195add-8fbf-49ce-8ced-6624c8a1fd2a",
+        "id": "7daed449-f97b-4d2b-ae11-32ab1138d8cb",
         "name": "Lowell Sustainability Council",
         "website_url": "https://www.lowellsustainability.org/",
         "source_url": "https://www.lowellsustainability.org/",
@@ -6949,9 +7020,9 @@
         "status": "active",
         "summary": "The Lowell Sustainability Council focuses on sustainability initiatives, including energy efficiency and climate resilience.",
         "tags": [
-          "climate resilience",
+          "sustainability",
           "energy efficiency",
-          "sustainability"
+          "climate resilience"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
@@ -6964,8 +7035,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.63213323402684,
-        "longitude": -71.29557454373695,
+        "latitude": 42.63218130883452,
+        "longitude": -71.29543678297809,
         "notes": null,
         "mission": null
       }
@@ -6975,12 +7046,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88304312202669,
-          42.600671572973525
+          -70.88263629054677,
+          42.60041938679419
         ]
       },
       "properties": {
-        "id": "3ef40007-760a-4273-aa23-a8532f501563",
+        "id": "145bed2a-3a20-4e39-8004-2e1bd470c81f",
         "name": "Green Wenham",
         "website_url": "http://www.greenwenham.org",
         "source_url": "http://www.greenwenham.org",
@@ -7013,8 +7084,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.600671572973525,
-        "longitude": -70.88304312202669,
+        "latitude": 42.60041938679419,
+        "longitude": -70.88263629054677,
         "notes": null,
         "mission": null
       }
@@ -7024,12 +7095,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80158249023181,
-          42.261759364223416
+          -71.80166980264326,
+          42.262030823478426
         ]
       },
       "properties": {
-        "id": "dc0da840-de19-4890-8a02-c3804fa7e55f",
+        "id": "c91fae60-41df-49f8-814e-06e060f70970",
         "name": "Central Massachusetts Regional Planning Commission",
         "website_url": "https://www.cmrpc.org/",
         "source_url": "https://www.cmrpc.org/",
@@ -7049,16 +7120,18 @@
         "status": "active",
         "summary": "The Central Massachusetts Regional Planning Commission (CMRPC) is the regional planning agency serving 40 communities in Central Massachusetts, focusing on improving quality of life through regional collaboration, community planning, and transportation solutions.",
         "tags": [
-          "community development",
-          "environmental planning",
           "regional planning",
-          "resiliency",
-          "transportation"
+          "community development",
+          "transportation",
+          "environmental planning",
+          "resiliency"
         ],
         "social_links": [],
         "advocacy_vs_action": "both",
         "audience_focus": [
-          "Businesses / Municipality / Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": "both",
         "original_action_category": null,
@@ -7066,157 +7139,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.261759364223416,
-        "longitude": -71.80158249023181,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.137023667895,
-          42.654405196566
-        ]
-      },
-      "properties": {
-        "id": "a7eec32c-bef2-4c00-8fa8-2a3fb3dc49df",
-        "name": "Andover Green Advisory Board",
-        "website_url": "https://andoverma.gov/",
-        "source_url": "https://andoverma.gov/",
-        "email": "unknown",
-        "phone": "978-623-8200",
-        "address": "36 Bartlet St",
-        "city": "andover",
-        "state": "ma",
-        "postal_code": "01810",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Environmental"
-        ],
-        "organization_type": "Unknown",
-        "reach": "Unknown",
-        "status": "active",
-        "summary": "The Green Advisory Board advises on sustainability and climate-related initiatives in Andover.",
-        "tags": [
-          "climate initiatives",
-          "sustainability"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Municipality / Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "cached:census_full_address",
-        "geocode_reason": null,
-        "latitude": 42.654405196566,
-        "longitude": -71.137023667895,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.69011591150486,
-          42.62560495125583
-        ]
-      },
-      "properties": {
-        "id": "d9392e77-f48f-4073-a010-0b9ff6d235e5",
-        "name": "North Shore Climate Action Network",
-        "website_url": "https://www.northshoreclimate.org",
-        "source_url": "https://www.northshoreclimate.org",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "321 Bay St",
-        "city": "east gloucester",
-        "state": "ma",
-        "postal_code": "01930",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Environmental"
-        ],
-        "organization_type": "Unknown",
-        "reach": "Regional",
-        "status": "active",
-        "summary": "Focuses on grassroots climate advocacy and education initiatives in the North Shore area.",
-        "tags": [
-          "climate advocacy",
-          "education",
-          "grassroots"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "advocacy",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "mitigation",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 42.62560495125583,
-        "longitude": -70.69011591150486,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.51391906201,
-          42.373077729376
-        ]
-      },
-      "properties": {
-        "id": "e8ec1944-fb56-4e1c-8f27-364492ac62d7",
-        "name": "Climate Action Now Massachusetts",
-        "website_url": "https://www.climateactionnowma.org",
-        "source_url": "https://www.climateactionnowma.org",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "123 College St, Amherst, MA",
-        "city": "graceland park",
-        "state": "ma",
-        "postal_code": "01002",
-        "action_category": "Community Engagement",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": "Unknown",
-        "reach": "Unknown",
-        "status": "active",
-        "summary": "Climate Action Now focuses on grassroots climate action and advocacy in Massachusetts.",
-        "tags": [
-          "advocacy",
-          "climate action",
-          "grassroots"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": "both",
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": "both",
-        "original_action_category": null,
-        "original_climate_categories": null,
-        "verified": "Not Verified",
-        "geocode_status": "census_full_address",
-        "geocode_reason": null,
-        "latitude": 42.373077729376,
-        "longitude": -72.51391906201,
+        "latitude": 42.262030823478426,
+        "longitude": -71.80166980264326,
         "notes": null,
         "mission": null
       }
