@@ -703,12 +703,28 @@ function setupMapInteractions() {
   }
 
   if (lastSymbolLayerId) {
-    if (map.getLayer('clusters')) map.moveLayer('clusters', lastSymbolLayerId);
-    if (map.getLayer('cluster-count')) map.moveLayer('cluster-count', lastSymbolLayerId);
-    if (map.getLayer('org-points')) map.moveLayer('org-points', lastSymbolLayerId);
-    if (map.getLayer('org-highlight')) map.moveLayer('org-highlight', lastSymbolLayerId);
+    // Put clusters just above symbols
+    if (map.getLayer('clusters')) {
+      map.moveLayer('clusters', lastSymbolLayerId);
+    }
+
+    // Then cluster-count above clusters
+    if (map.getLayer('cluster-count')) {
+      map.moveLayer('cluster-count', 'clusters');
+    }
+
+    // Then org-points above cluster-count
+    if (map.getLayer('org-points')) {
+      map.moveLayer('org-points', 'cluster-count');
+    }
+
+    // Then highlight above org-points
+    if (map.getLayer('org-highlight')) {
+      map.moveLayer('org-highlight', 'org-points');
+    }
   }
 
+  // Cluster click handler MUST be inside the function
   map.on('click', 'clusters', (e) => {
     const features = map.queryRenderedFeatures(e.point, { layers: ['clusters'] });
     if (!features.length) return;
@@ -728,7 +744,13 @@ function setupMapInteractions() {
 // ORG POINT CLICKS
 // ------------------------------------------------------------
 function bindOrgPointClicks() {
+  if (!map.getLayer('org-points')) {
+    console.error('Layer "org-points" not found when binding clicks');
+    return;
+  }
+
   map.on('click', 'org-points', (e) => {
+    console.log('org-points click event', e);
     if (!e.features?.length) return;
     const feature = e.features[0];
     openPopupForFeature(feature, map);
