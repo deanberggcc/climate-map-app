@@ -203,17 +203,16 @@ async function loadDataAndInitUI() {
     allFeatures = geojson.features.map(f => {
       const p = f.properties || {};
 
-      // Verified normalization
-      if (typeof p.verified === "boolean") {
-        p.verified = p.verified ? "Verified" : "Not Verified";
-      } else if (typeof p.verified === "string") {
-        const v = p.verified.trim().toLowerCase();
-        p.verified = v === "verified" ? "Verified" : "Not Verified";
-      } else {
-        p.verified = "Not Verified";
-      }
-
-      delete p.validated;
+      // Normalize Verified from registry (capital V)
+	if (typeof p.Verified === "string") {
+ 	 const v = p.Verified.trim().toLowerCase();
+	  p.verified = v === "verified" ? "Verified" : "Not Verified";
+	} else if (typeof p.verified === "string") {
+	  const v = p.verified.trim().toLowerCase();
+	  p.verified = v === "verified" ? "Verified" : "Not Verified";
+	} else {
+	  p.verified = "Not Verified";
+	}
 
       p.raw = JSON.stringify(p);
 
@@ -229,6 +228,7 @@ async function loadDataAndInitUI() {
         p.category_guess,
         p.organization_type,
         p.reach,
+	p.verified,
         Array.isArray(p.climate_categories) ? p.climate_categories.join(' ') : '',
         Array.isArray(p.tags) ? p.tags.join(' ') : ''
       ].filter(Boolean).join(' ').toLowerCase();
