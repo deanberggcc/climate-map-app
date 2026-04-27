@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "id": "ba6723b0-5418-423d-a69c-1b805041e378",
+        "id": "a7b6ace2-8e3e-4d7a-9cf8-060b4b6a9931",
         "name": "Amesbury Climate Committee",
         "website_url": "https://www.amesburyma.gov/climate-committee",
         "source_url": "https://www.amesburyma.gov/climate-committee",
@@ -69,12 +69,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9446178238736,
-          42.852489498221374
+          -70.94482229807352,
+          42.85281800385104
         ]
       },
       "properties": {
-        "id": "c294c17d-abbb-4489-9a08-dea12bdd067b",
+        "id": "84d2c5f6-d162-4f67-b998-21f8d31e5b08",
         "name": "Amesbury Climate Action",
         "website_url": "http://amesburyclimateaction.org",
         "source_url": "http://amesburyclimateaction.org",
@@ -119,8 +119,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.852489498221374,
-        "longitude": -70.9446178238736,
+        "latitude": 42.85281800385104,
+        "longitude": -70.94482229807352,
         "notes": null,
         "mission": null
       }
@@ -135,7 +135,7 @@
         ]
       },
       "properties": {
-        "id": "ef90898f-b366-4ec5-bbff-ff23518b5b77",
+        "id": "d796b115-d05b-461a-8468-0cb1ade0423e",
         "name": "Andover Climate Committee",
         "website_url": "https://andoverma.gov/",
         "source_url": "https://andoverma.gov/",
@@ -194,12 +194,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.165569539503,
-          42.64622199259057
+          -71.16566981542891,
+          42.64668242492826
         ]
       },
       "properties": {
-        "id": "d0ccf768-a41a-43cf-ae64-d274ffebf2c1",
+        "id": "6869d071-6e84-42bc-9618-657fa4df0569",
         "name": "Sustainable Andover",
         "website_url": "https://www.sustainableandover.org/",
         "source_url": "https://www.sustainableandover.org/",
@@ -247,8 +247,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.64622199259057,
-        "longitude": -71.165569539503,
+        "latitude": 42.64668242492826,
+        "longitude": -71.16566981542891,
         "notes": null,
         "mission": null
       }
@@ -258,12 +258,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86480450219307,
-          42.568160083691616
+          -70.86518872491433,
+          42.56838727008106
         ]
       },
       "properties": {
-        "id": "af3cef23-2670-48a0-974b-df1e8676e524",
+        "id": "e6527c5e-58f1-408c-939f-5fbec7bf9733",
         "name": "Beverly Climate Action Network",
         "website_url": "http://www.beverlyclimateaction.org",
         "source_url": "http://www.beverlyclimateaction.org",
@@ -311,8 +311,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.568160083691616,
-        "longitude": -70.86480450219307,
+        "latitude": 42.56838727008106,
+        "longitude": -70.86518872491433,
         "notes": null,
         "mission": null
       }
@@ -327,7 +327,7 @@
         ]
       },
       "properties": {
-        "id": "42778cc5-2188-4c86-9e08-e37ecc2701be",
+        "id": "431c31aa-3dd8-4d8f-a4d0-afa65456b87b",
         "name": "Beverly High School Environmental Club",
         "website_url": "http://www.beverlyschools.org/environmentalclub",
         "source_url": "http://www.beverlyschools.org/environmentalclub",
@@ -390,7 +390,7 @@
         ]
       },
       "properties": {
-        "id": "1177edd8-b635-49e8-9935-9610428abad9",
+        "id": "bb71750c-e6d6-4e5b-9c96-3d1904368ef1",
         "name": "Beverly Municipal Sustainability Committee",
         "website_url": "http://www.beverlyma.gov/sustainability",
         "source_url": "http://www.beverlyma.gov/sustainability",
@@ -455,12 +455,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86523096625372,
-          42.56794874906096
+          -70.86494427800167,
+          42.5679314707532
         ]
       },
       "properties": {
-        "id": "c8f2ae5a-f7cd-46f0-ab38-aff364104a88",
+        "id": "530703e7-0904-42fa-93d1-f044b6e743f2",
         "name": "Beverly Youth Climate Coalition",
         "website_url": "http://www.beverlyyouthclimate.org",
         "source_url": "http://www.beverlyyouthclimate.org",
@@ -506,8 +506,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56794874906096,
-        "longitude": -70.86523096625372,
+        "latitude": 42.5679314707532,
+        "longitude": -70.86494427800167,
         "notes": null,
         "mission": null
       }
@@ -517,12 +517,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86520259378992,
-          42.56831096937268
+          -70.86485897754923,
+          42.56811857156294
         ]
       },
       "properties": {
-        "id": "ff19043b-8478-4085-8189-e82d42fa6090",
+        "id": "9f622336-cd6d-48b3-b7ff-a05be2d59c2e",
         "name": "Green Beverly",
         "website_url": "http://www.greenbeverly.org",
         "source_url": "http://www.greenbeverly.org",
@@ -579,8 +579,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56831096937268,
-        "longitude": -70.86520259378992,
+        "latitude": 42.56811857156294,
+        "longitude": -70.86485897754923,
         "notes": null,
         "mission": null
       }
@@ -590,12 +590,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.865221831618,
-          42.56811099618859
+          -70.86500502793648,
+          42.568334017262195
         ]
       },
       "properties": {
-        "id": "984e2eca-f5e8-4740-86d6-248ffdf18359",
+        "id": "380e366c-cca9-4e4b-9225-340b1f1463dd",
         "name": "North Shore Climate Coalition",
         "website_url": "http://www.northshoreclimatecoalition.org",
         "source_url": "http://www.northshoreclimatecoalition.org",
@@ -651,8 +651,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56811099618859,
-        "longitude": -70.865221831618,
+        "latitude": 42.568334017262195,
+        "longitude": -70.86500502793648,
         "notes": null,
         "mission": null
       }
@@ -662,12 +662,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86508442977795,
-          42.56820568643735
+          -70.86504837785675,
+          42.56840079976929
         ]
       },
       "properties": {
-        "id": "265533e5-50c6-4016-94b7-79be5716e243",
+        "id": "1ac11d93-0efe-4a47-9963-346d3a549b48",
         "name": "North Shore Climate Collaborative",
         "website_url": "http://www.northshoreclimatecollaborative.org",
         "source_url": "http://www.northshoreclimatecollaborative.org",
@@ -713,8 +713,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.56820568643735,
-        "longitude": -70.86508442977795,
+        "latitude": 42.56840079976929,
+        "longitude": -70.86504837785675,
         "notes": null,
         "mission": null
       }
@@ -729,7 +729,7 @@
         ]
       },
       "properties": {
-        "id": "e2045e4e-5b22-421f-b8d3-44d7885e2b29",
+        "id": "b6f5bd53-d081-4c7f-9e12-4f78c6136904",
         "name": "Massachusetts Clean Energy Center",
         "website_url": "https://www.masscec.com/",
         "source_url": "https://www.masscec.com/",
@@ -797,7 +797,7 @@
         ]
       },
       "properties": {
-        "id": "c0e60c2e-69af-46b1-a66c-3e2e18bee405",
+        "id": "10eb9cad-2244-4d7d-980c-86ad77fdc771",
         "name": "Massachusetts Climate Change Adaptation Coalition",
         "website_url": "https://www.massclimate.org",
         "source_url": "https://www.massclimate.org",
@@ -854,12 +854,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06546730828988,
-          42.35625158209981
+          -71.06521323290447,
+          42.35630676394484
         ]
       },
       "properties": {
-        "id": "2d47dc0f-86d7-4bd7-82ab-fb028c57b45f",
+        "id": "c5b6ad13-74f6-491e-9247-3af32985c687",
         "name": "Massachusetts Department of Energy Resources",
         "website_url": "https://www.mass.gov/orgs/department-of-energy-resources",
         "source_url": "https://www.mass.gov/orgs/department-of-energy-resources",
@@ -907,8 +907,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35625158209981,
-        "longitude": -71.06546730828988,
+        "latitude": 42.35630676394484,
+        "longitude": -71.06521323290447,
         "notes": null,
         "mission": null
       }
@@ -923,7 +923,7 @@
         ]
       },
       "properties": {
-        "id": "60443bb4-4c1c-47a1-85ff-d2e841c1a160",
+        "id": "1a58359e-8a1e-4663-a0da-3361768e5259",
         "name": "The Alliance for a Healthy Tomorrow",
         "website_url": "https://www.healthytomorrow.org",
         "source_url": "https://www.healthytomorrow.org",
@@ -988,7 +988,7 @@
         ]
       },
       "properties": {
-        "id": "07a89a05-8509-4d81-a7c0-3d36f9974658",
+        "id": "63f79b0a-35cf-4f81-a41a-c3087ef173e6",
         "name": "The Massachusetts Clean Energy Center",
         "website_url": "https://www.masscec.com",
         "source_url": "https://www.masscec.com",
@@ -1060,7 +1060,7 @@
         ]
       },
       "properties": {
-        "id": "6fe5a6e2-f537-40c9-ac9f-61c5dbfdb12e",
+        "id": "3c5578cb-aea8-49d4-a72d-cdb00ba97d58",
         "name": "Boxford Climate Action",
         "website_url": "http://www.boxfordma.gov/climate-action",
         "source_url": "http://www.boxfordma.gov/climate-action",
@@ -1121,7 +1121,7 @@
         ]
       },
       "properties": {
-        "id": "abbebcff-b9c0-46c9-8409-97c41423ee21",
+        "id": "72e931ca-85e2-4837-bd92-ad50e5969ae7",
         "name": "Boxford Climate Action Committee",
         "website_url": "https://www.boxfordma.gov/climate-action-committee",
         "source_url": "https://www.boxfordma.gov/climate-action-committee",
@@ -1183,7 +1183,7 @@
         ]
       },
       "properties": {
-        "id": "52efebde-1cf3-47d3-8ae3-a36d0bbf4bf8",
+        "id": "38eac992-5a20-453e-ba76-6f208cf49d47",
         "name": "Bradford Climate Action Committee",
         "website_url": "http://www.bradfordma.gov/climate-action",
         "source_url": "http://www.bradfordma.gov/climate-action",
@@ -1245,7 +1245,7 @@
         ]
       },
       "properties": {
-        "id": "b9d42244-717d-4aa5-8ccb-352232683872",
+        "id": "0a87f702-d2d7-4362-abb6-9b989f18fa2f",
         "name": "Green Energy Consumers Alliance",
         "website_url": "https://www.greenenergyconsumers.org/",
         "source_url": "https://www.greenenergyconsumers.org/",
@@ -1314,7 +1314,7 @@
         ]
       },
       "properties": {
-        "id": "edaab704-5fd3-4d0b-a495-b20a4ea04fc8",
+        "id": "d4cb311c-3c26-4857-94e0-ac9f04e8d20f",
         "name": "Massachusetts Climate Action Network",
         "website_url": "https://www.massclimateaction.org",
         "source_url": "https://www.massclimateaction.org",
@@ -1400,7 +1400,7 @@
         ]
       },
       "properties": {
-        "id": "0ce00c59-e002-45c6-8519-a82b0ee5ead2",
+        "id": "14db0544-8a7e-4146-9589-196e1c6d9d69",
         "name": "Sustainable Business Network of Massachusetts",
         "website_url": "https://www.sbnmass.org",
         "source_url": "https://www.sbnmass.org",
@@ -1461,12 +1461,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.34867202872923,
-          41.66026048154182
+          -70.34854846317398,
+          41.660401721344435
         ]
       },
       "properties": {
-        "id": "cf5ee2ec-2720-4cd6-92b3-b2e27861f016",
+        "id": "dffedcbf-cb70-49fc-acf2-9e1a0712a2e8",
         "name": "Cape Cod Climate Change Collaborative",
         "website_url": "https://www.capecodclimate.org/",
         "source_url": "https://www.capecodclimate.org/",
@@ -1532,8 +1532,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 41.66026048154182,
-        "longitude": -70.34867202872923,
+        "latitude": 41.660401721344435,
+        "longitude": -70.34854846317398,
         "notes": null,
         "mission": null
       }
@@ -1548,7 +1548,7 @@
         ]
       },
       "properties": {
-        "id": "1a1ecef8-14e5-4a27-a3d5-282bf1383a5a",
+        "id": "4d36841c-f601-4ee4-a2aa-7b91f11c1521",
         "name": "Clifton Climate Action Coalition",
         "website_url": "http://cliftonclimateaction.org",
         "source_url": "http://cliftonclimateaction.org",
@@ -1601,12 +1601,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06553677461142,
-          42.356390462534115
+          -71.0654694779426,
+          42.356497791284056
         ]
       },
       "properties": {
-        "id": "88c91e36-05cb-4623-af90-fedd6c3bdce1",
+        "id": "77daa6a6-ae20-4beb-8f3e-ea25ea458a32",
         "name": "Boston Climate Action Network",
         "website_url": "https://www.boston.gov/departments/environment/climate-action",
         "source_url": "https://www.boston.gov/departments/environment/climate-action",
@@ -1653,8 +1653,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.356390462534115,
-        "longitude": -71.06553677461142,
+        "latitude": 42.356497791284056,
+        "longitude": -71.0654694779426,
         "notes": null,
         "mission": null
       }
@@ -1664,12 +1664,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80853007409509,
-          42.259713948879856
+          -71.8086987318814,
+          42.259345869322736
         ]
       },
       "properties": {
-        "id": "85be1342-189c-4a1c-88aa-ea8c4bbd059c",
+        "id": "ed841926-ee43-4084-8283-05ac34b28413",
         "name": "Climate Action Now",
         "website_url": "https://climateactionnowma.org/",
         "source_url": "https://climateactionnowma.org/",
@@ -1723,8 +1723,8 @@
         "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
-        "latitude": 42.259713948879856,
-        "longitude": -71.80853007409509,
+        "latitude": 42.259345869322736,
+        "longitude": -71.8086987318814,
         "notes": null,
         "mission": null
       }
@@ -1734,12 +1734,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06552124314403,
-          42.35654754289062
+          -71.06520982993467,
+          42.35643521521606
         ]
       },
       "properties": {
-        "id": "07a666d9-a89a-4ff6-bd1f-295133247a65",
+        "id": "2b1d4819-4615-4258-8aca-183eb9d7d2f9",
         "name": "Resilient MA",
         "website_url": "https://www.resilientma.org/",
         "source_url": "https://www.resilientma.org/",
@@ -1786,8 +1786,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35654754289062,
-        "longitude": -71.06552124314403,
+        "latitude": 42.35643521521606,
+        "longitude": -71.06520982993467,
         "notes": null,
         "mission": null
       }
@@ -1797,12 +1797,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.13342563747447,
-          42.39316930046514
+          -71.13386324977331,
+          42.39316314634351
         ]
       },
       "properties": {
-        "id": "a89f1092-4803-4b11-99c3-627656ed3a4f",
+        "id": "6b980580-07c4-4125-8e3c-51143c51eb64",
         "name": "The Alliance for Climate Education",
         "website_url": "https://www.acespace.org/",
         "source_url": "https://www.acespace.org/",
@@ -1848,8 +1848,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.39316930046514,
-        "longitude": -71.13342563747447,
+        "latitude": 42.39316314634351,
+        "longitude": -71.13386324977331,
         "notes": null,
         "mission": null
       }
@@ -1859,12 +1859,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05223077918642,
-          42.35781696618901
+          -71.0523165726695,
+          42.3577066920845
         ]
       },
       "properties": {
-        "id": "592bcbe8-b343-474d-8b4d-9a8e87faa8e1",
+        "id": "d0568476-6291-4b7e-b6d0-a3a0f933979c",
         "name": "Massachusetts Department of Environmental Protection",
         "website_url": "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
         "source_url": "https://www.mass.gov/orgs/massachusetts-department-of-environmental-protection",
@@ -1917,8 +1917,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35781696618901,
-        "longitude": -71.05223077918642,
+        "latitude": 42.3577066920845,
+        "longitude": -71.0523165726695,
         "notes": null,
         "mission": null
       }
@@ -1933,7 +1933,7 @@
         ]
       },
       "properties": {
-        "id": "d9998956-269a-4bcc-86e6-dc967fe3ed86",
+        "id": "2272c2c6-f9d0-463f-8587-63244664d58a",
         "name": "Sustainable Northampton",
         "website_url": "https://www.sustainablenorthampton.org",
         "source_url": "https://www.sustainablenorthampton.org",
@@ -1991,12 +1991,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.59021068191711,
-          42.103907957070525
+          -72.5902687205646,
+          42.10408081700893
         ]
       },
       "properties": {
-        "id": "b7ec0f02-27fc-46e7-8507-1b634245d661",
+        "id": "00735e28-531f-4916-be1f-37c368d0d21b",
         "name": "Western Massachusetts Network to End Homelessness",
         "website_url": "https://www.wmneh.org",
         "source_url": "https://www.wmneh.org",
@@ -2041,8 +2041,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.103907957070525,
-        "longitude": -72.59021068191711,
+        "latitude": 42.10408081700893,
+        "longitude": -72.5902687205646,
         "notes": null,
         "mission": null
       }
@@ -2052,12 +2052,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.76201219260648,
-          42.20116854981717
+          -70.76166865246924,
+          42.20089847124288
         ]
       },
       "properties": {
-        "id": "97a15c12-22a4-4376-a84f-a2e43f3f65c5",
+        "id": "5b440a82-ba14-49a1-b1f3-1864c1a7b34a",
         "name": "Cushing Climate Action Committee",
         "website_url": "http://www.cushingma.gov/climate-action-committee",
         "source_url": "http://www.cushingma.gov/climate-action-committee",
@@ -2103,8 +2103,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.20116854981717,
-        "longitude": -70.76201219260648,
+        "latitude": 42.20089847124288,
+        "longitude": -70.76166865246924,
         "notes": null,
         "mission": null
       }
@@ -2114,12 +2114,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9492424586175,
-          42.57383170096896
+          -70.94967582603446,
+          42.57372424341107
         ]
       },
       "properties": {
-        "id": "3b9f214e-2213-4c97-a990-c241fee19e4f",
+        "id": "be44397f-29a7-41eb-81c6-f6deb6493cff",
         "name": "Danvers Climate Action Committee",
         "website_url": "https://www.danversma.gov/climate-action-committee",
         "source_url": "https://www.danversma.gov/climate-action-committee",
@@ -2165,8 +2165,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.57383170096896,
-        "longitude": -70.9492424586175,
+        "latitude": 42.57372424341107,
+        "longitude": -70.94967582603446,
         "notes": null,
         "mission": null
       }
@@ -2176,12 +2176,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9496174871369,
-          42.57350473890679
+          -70.94974069713766,
+          42.57396580751807
         ]
       },
       "properties": {
-        "id": "a0de99aa-8a86-4e34-b59d-cba25a0e0235",
+        "id": "9b4468c4-9c7e-4c26-a41c-b4c4f01783cf",
         "name": "Danvers Climate Action",
         "website_url": "https://www.danversma.gov/climate-action",
         "source_url": "https://www.danversma.gov/climate-action",
@@ -2228,8 +2228,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.57350473890679,
-        "longitude": -70.9496174871369,
+        "latitude": 42.57396580751807,
+        "longitude": -70.94974069713766,
         "notes": null,
         "mission": null
       }
@@ -2239,12 +2239,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68999910209072,
-          42.625730843576775
+          -70.69017603701809,
+          42.62604478291486
         ]
       },
       "properties": {
-        "id": "b425468c-d584-4c1f-b33d-c447dbbae290",
+        "id": "9a7770c7-1813-4af9-acdb-1252a240032b",
         "name": "Cape Ann Climate Coalition",
         "website_url": "https://www.capeannclimate.org",
         "source_url": "https://www.capeannclimate.org",
@@ -2292,8 +2292,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.625730843576775,
-        "longitude": -70.68999910209072,
+        "latitude": 42.62604478291486,
+        "longitude": -70.69017603701809,
         "notes": null,
         "mission": null
       }
@@ -2303,12 +2303,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68978907975014,
-          42.62598142277784
+          -70.68970111276403,
+          42.62558434678093
         ]
       },
       "properties": {
-        "id": "2e1eb546-8858-4b89-b2b2-9f8b1c56ce05",
+        "id": "18a022f5-2b8f-4f6f-8fb7-a4bc85282a84",
         "name": "Gloucester Resilience Committee",
         "website_url": "https://www.gloucesterresilience.org",
         "source_url": "https://www.gloucesterresilience.org",
@@ -2353,8 +2353,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62598142277784,
-        "longitude": -70.68978907975014,
+        "latitude": 42.62558434678093,
+        "longitude": -70.68970111276403,
         "notes": null,
         "mission": null
       }
@@ -2364,12 +2364,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94021952519013,
-          42.47072596111375
+          -70.939962030959,
+          42.47075415300272
         ]
       },
       "properties": {
-        "id": "a1e7b4c8-4956-4b62-88b1-8cc5a903f047",
+        "id": "14ee521e-6441-4a2a-bf63-e8c8ee601d87",
         "name": "Green Lynn",
         "website_url": "http://greenlynn.org",
         "source_url": "http://greenlynn.org",
@@ -2410,8 +2410,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.47072596111375,
-        "longitude": -70.94021952519013,
+        "latitude": 42.47075415300272,
+        "longitude": -70.939962030959,
         "notes": null,
         "mission": null
       }
@@ -2421,12 +2421,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62562997382913,
-          42.06235618730426
+          -72.62565900571032,
+          42.06234684400394
         ]
       },
       "properties": {
-        "id": "b8440df2-2d80-4c79-a0fc-bcc9e36b0043",
+        "id": "ed18b8e3-0aed-4faf-9cac-aa0340f59c40",
         "name": "East Parish Climate Action Group",
         "website_url": "http://www.eastparishclimateaction.org",
         "source_url": "http://www.eastparishclimateaction.org",
@@ -2472,8 +2472,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06235618730426,
-        "longitude": -72.62562997382913,
+        "latitude": 42.06234684400394,
+        "longitude": -72.62565900571032,
         "notes": null,
         "mission": null
       }
@@ -2488,7 +2488,7 @@
         ]
       },
       "properties": {
-        "id": "a43e3d18-3b20-4ca9-a5f3-e97035ece583",
+        "id": "d9d639d2-2c7b-4c01-8b78-62d446ea6be7",
         "name": "Essex Climate Action",
         "website_url": "http://www.essexclimateaction.org",
         "source_url": "http://www.essexclimateaction.org",
@@ -2546,7 +2546,7 @@
         ]
       },
       "properties": {
-        "id": "0cc80e5a-13ef-465f-b80f-fb5c43327621",
+        "id": "2a8268f2-af27-4828-b6f3-21276c07cb9e",
         "name": "Essex County Greenbelt Association",
         "website_url": "https://www.ecga.org/",
         "source_url": "https://www.ecga.org/",
@@ -2615,7 +2615,7 @@
         ]
       },
       "properties": {
-        "id": "92c84688-dbaf-4cbb-84c3-4bd6d3c2ec76",
+        "id": "2b2e856a-c3b1-4769-b232-ae281fc74c54",
         "name": "Georgetown Climate Action Committee",
         "website_url": "http://www.georgetownma.gov/climate-action-committee",
         "source_url": "http://www.georgetownma.gov/climate-action-committee",
@@ -2679,7 +2679,7 @@
         ]
       },
       "properties": {
-        "id": "4b51088f-f6e8-4a33-8d4a-4b9cdeeccbbb",
+        "id": "7cf6b948-72e5-408e-82bb-f0405599bffb",
         "name": "Glen Mills Climate Action Network",
         "website_url": "http://glenmillscanon.org",
         "source_url": "http://glenmillscanon.org",
@@ -2741,7 +2741,7 @@
         ]
       },
       "properties": {
-        "id": "62f89fc8-90d1-4f1e-8bbc-cdcdbf23c314",
+        "id": "b88e2cf7-8eac-47ff-b5b7-517e6870e32e",
         "name": "City of Gloucester Climate Action Plan",
         "website_url": "https://gloucester-ma.gov/ClimateActionPlan",
         "source_url": "https://gloucester-ma.gov/ClimateActionPlan",
@@ -2795,12 +2795,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68996247309786,
-          42.62578799452394
+          -70.68999155052842,
+          42.62579260731138
         ]
       },
       "properties": {
-        "id": "27a8179b-a40c-40a8-877d-8c9b836ecf00",
+        "id": "c6832913-ff25-4741-bc0e-7af99d1991a8",
         "name": "Green Gloucester",
         "website_url": "http://www.greengloucester.org",
         "source_url": "http://www.greengloucester.org",
@@ -2845,10 +2845,10 @@
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62578799452394,
-        "longitude": -70.68996247309786,
+        "latitude": 42.62579260731138,
+        "longitude": -70.68999155052842,
         "notes": null,
         "mission": null
       }
@@ -2858,12 +2858,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6896942062794,
-          42.62559734236061
+          -70.68977262700501,
+          42.62585467221357
         ]
       },
       "properties": {
-        "id": "f89c571c-e8f0-4b66-b96b-0b7a287e3a86",
+        "id": "1af191a4-4ccc-4d7e-81ff-7ca2ea89aa05",
         "name": "North Shore Community College - Sustainability Programs",
         "website_url": "https://www.northshore.edu/sustainability/",
         "source_url": "https://www.northshore.edu/sustainability/",
@@ -2908,8 +2908,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62559734236061,
-        "longitude": -70.6896942062794,
+        "latitude": 42.62585467221357,
+        "longitude": -70.68977262700501,
         "notes": null,
         "mission": null
       }
@@ -2919,12 +2919,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.69018694614097,
-          42.62560715922549
+          -70.69017341708114,
+          42.6256847806582
         ]
       },
       "properties": {
-        "id": "0665d58b-fe80-44ed-b319-67d9b42bd6c1",
+        "id": "1783fbdd-fcf5-475b-a73d-1e78553ab498",
         "name": "Sustainable Cape Ann",
         "website_url": "https://www.sustainablecapeann.org/",
         "source_url": "https://www.sustainablecapeann.org/",
@@ -2970,8 +2970,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.62560715922549,
-        "longitude": -70.69018694614097,
+        "latitude": 42.6256847806582,
+        "longitude": -70.69017341708114,
         "notes": null,
         "mission": null
       }
@@ -2986,7 +2986,7 @@
         ]
       },
       "properties": {
-        "id": "7b7af747-dd6c-4a9f-bb69-ad94ef418d27",
+        "id": "2e8c55bc-108c-4346-b182-793bbc878cf0",
         "name": "The Resilient MA Initiative",
         "website_url": "https://www.resilientma.org",
         "source_url": "https://www.resilientma.org",
@@ -3049,7 +3049,7 @@
         ]
       },
       "properties": {
-        "id": "ef3fe716-3197-468c-97c4-a6b7fa8b3f63",
+        "id": "ac387504-25c9-4483-8ada-b0d53f57550f",
         "name": "Youth Climate Action Network",
         "website_url": "https://www.youthclimateaction.org",
         "source_url": "https://www.youthclimateaction.org",
@@ -3112,7 +3112,7 @@
         ]
       },
       "properties": {
-        "id": "83606f00-c926-4312-bf9b-f961b19a6e94",
+        "id": "6ff1d3a6-1eaa-4a0c-acfb-67927fd74d54",
         "name": "Groveland Climate Committee",
         "website_url": "http://www.grovelandma.gov/climate-committee",
         "source_url": "http://www.grovelandma.gov/climate-committee",
@@ -3173,7 +3173,7 @@
         ]
       },
       "properties": {
-        "id": "74f160f7-7125-4351-9911-b96028957553",
+        "id": "a1f81f0a-3d3d-4a41-a3a7-6ef6186b7bd0",
         "name": "Hamilton Climate Action Committee",
         "website_url": "https://www.hamiltonma.gov/climate-action-committee",
         "source_url": "https://www.hamiltonma.gov/climate-action-committee",
@@ -3230,12 +3230,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0536470657743,
-          42.79543821171402
+          -71.05369218872224,
+          42.795407548481435
         ]
       },
       "properties": {
-        "id": "03cefa73-4fd3-45a1-bdd1-5de3a01e10c3",
+        "id": "a3b96620-f85d-4978-a7ac-c8db0fca213c",
         "name": "Green Haverhill",
         "website_url": "http://www.greenhaverhill.org",
         "source_url": "http://www.greenhaverhill.org",
@@ -3280,8 +3280,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.79543821171402,
-        "longitude": -71.0536470657743,
+        "latitude": 42.795407548481435,
+        "longitude": -71.05369218872224,
         "notes": null,
         "mission": null
       }
@@ -3291,12 +3291,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05326899902526,
-          42.79560726786749
+          -71.0534005243981,
+          42.79564545178739
         ]
       },
       "properties": {
-        "id": "e5ab1bdd-1551-4c94-919d-76c46d27b117",
+        "id": "41743b48-fc46-4dc7-a2b9-a7e0807f0bd6",
         "name": "Haverhill Climate Committee",
         "website_url": "http://www.haverhill-ma.gov/climatecommittee",
         "source_url": "http://www.haverhill-ma.gov/climatecommittee",
@@ -3339,8 +3339,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.79560726786749,
-        "longitude": -71.05326899902526,
+        "latitude": 42.79564545178739,
+        "longitude": -71.0534005243981,
         "notes": null,
         "mission": null
       }
@@ -3355,7 +3355,7 @@
         ]
       },
       "properties": {
-        "id": "002ce01e-7230-4d9c-adff-00644fd33ac9",
+        "id": "cdf6898c-2e56-42b3-98a8-d9ebe45a3286",
         "name": "Haverhill Public Schools - Green Team",
         "website_url": "http://www.haverhill-ps.org",
         "source_url": "http://www.haverhill-ps.org",
@@ -3412,12 +3412,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.05341430867009,
-          42.79545460473756
+          -71.05336134146104,
+          42.795637095456264
         ]
       },
       "properties": {
-        "id": "57960491-fedb-4fef-9ada-4d4d32742db7",
+        "id": "e1366f76-ee62-4b02-b80f-eeefda019cdd",
         "name": "Merrimack Valley Planning Commission",
         "website_url": "http://www.mvpc.org",
         "source_url": "http://www.mvpc.org",
@@ -3469,8 +3469,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.79545460473756,
-        "longitude": -71.05341430867009,
+        "latitude": 42.795637095456264,
+        "longitude": -71.05336134146104,
         "notes": null,
         "mission": null
       }
@@ -3480,12 +3480,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80194800750095,
-          42.261691161361576
+          -71.80184440789877,
+          42.26206792259425
         ]
       },
       "properties": {
-        "id": "f4795b1e-82ad-4463-9b17-798342df608d",
+        "id": "1b92e9f4-baeb-4b7a-8cab-0e326c022241",
         "name": "Worcester Environmental Council",
         "website_url": "https://www.worcesterenvironmentalcouncil.org/",
         "source_url": "https://www.worcesterenvironmentalcouncil.org/",
@@ -3530,8 +3530,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.261691161361576,
-        "longitude": -71.80194800750095,
+        "latitude": 42.26206792259425,
+        "longitude": -71.80184440789877,
         "notes": null,
         "mission": null
       }
@@ -3541,12 +3541,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80990139301475,
-          42.2462863520391
+          -71.80982219960163,
+          42.246322579344856
         ]
       },
       "properties": {
-        "id": "b794d854-57d7-40a4-8235-a7c705b020d5",
+        "id": "d6af5850-ab01-4817-8749-d1e9d25eeb0a",
         "name": "Worcester Youth Climate Coalition",
         "website_url": "https://www.worcesterycc.org/",
         "source_url": "https://www.worcesterycc.org/",
@@ -3592,8 +3592,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.2462863520391,
-        "longitude": -71.80990139301475,
+        "latitude": 42.246322579344856,
+        "longitude": -71.80982219960163,
         "notes": null,
         "mission": null
       }
@@ -3603,12 +3603,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.84040885705127,
-          42.685241703229785
+          -70.83994601596363,
+          42.68515893567938
         ]
       },
       "properties": {
-        "id": "1e3731df-068f-4e93-a2fd-be95548127f2",
+        "id": "fea4bc9c-cce3-4198-83ba-29643a5ccc21",
         "name": "Green Ipswich",
         "website_url": "http://www.greenipswich.org",
         "source_url": "http://www.greenipswich.org",
@@ -3654,8 +3654,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.685241703229785,
-        "longitude": -70.84040885705127,
+        "latitude": 42.68515893567938,
+        "longitude": -70.83994601596363,
         "notes": null,
         "mission": null
       }
@@ -3670,7 +3670,7 @@
         ]
       },
       "properties": {
-        "id": "d771c5ba-6208-42f9-b412-82455180b6cb",
+        "id": "39a72015-2b23-4c06-87a8-610f2bd66b8b",
         "name": "Ipswich Climate Action Committee",
         "website_url": "http://www.ipswichma.gov/",
         "source_url": "http://www.ipswichma.gov/",
@@ -3728,12 +3728,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.84021744260532,
-          42.68565975853683
+          -70.84019706526217,
+          42.6851708555239
         ]
       },
       "properties": {
-        "id": "e24b2781-6640-4a7b-8e66-9948fb616731",
+        "id": "25d9fc0b-2385-422a-b20d-44bceb4701eb",
         "name": "Sustainable Ipswich",
         "website_url": "http://www.sustainableipswich.org",
         "source_url": "http://www.sustainableipswich.org",
@@ -3778,8 +3778,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.68565975853683,
-        "longitude": -70.84021744260532,
+        "latitude": 42.6851708555239,
+        "longitude": -70.84019706526217,
         "notes": null,
         "mission": null
       }
@@ -3789,12 +3789,77 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63173906379335,
-          42.32215805257194
+          -72.69235804187029,
+          42.41021953791718
         ]
       },
       "properties": {
-        "id": "e8ed295e-6ac5-498e-a5f9-2f7df4ff4e00",
+        "id": "6a928a0e-6808-4f18-9277-ee8231334f68",
+        "name": "Massachusetts Climate Coalition",
+        "website_url": "https://www.massclimatecoalition.org/",
+        "source_url": "https://www.massclimatecoalition.org/",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "456 Coalition Ave",
+        "city": "kings forest",
+        "state": "ma",
+        "postal_code": "01039",
+        "climate_categories": [
+          "Unknown"
+        ],
+        "organization_type": [
+          "Nonprofit",
+          "Grassroots"
+        ],
+        "reach": [
+          "State",
+          "National"
+        ],
+        "action_category": [
+          "Policy"
+        ],
+        "status": "active",
+        "summary": "The Massachusetts Climate Coalition works on climate policy and advocacy to address climate change.",
+        "tags": [
+          "advocacy",
+          "climate change",
+          "climate policy",
+          "local implementation"
+        ],
+        "social_links": [],
+        "advocacy_vs_action": [
+          "advocacy"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
+        "original_action_category": [],
+        "original_climate_categories": [],
+        "verified": "Not Verified",
+        "geocode_status": "zip_dataset",
+        "geocode_reason": null,
+        "latitude": 42.41021953791718,
+        "longitude": -72.69235804187029,
+        "notes": null,
+        "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.63169775294396,
+          42.3219440821717
+        ]
+      },
+      "properties": {
+        "id": "757baca7-fe70-4a9a-b458-c281e45b8f48",
         "name": "Knights Crossing Clean Energy Coalition",
         "website_url": "http://www.kccleancoalition.org",
         "source_url": "http://www.kccleancoalition.org",
@@ -3840,8 +3905,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32215805257194,
-        "longitude": -72.63173906379335,
+        "latitude": 42.3219440821717,
+        "longitude": -72.63169775294396,
         "notes": null,
         "mission": null
       }
@@ -3851,12 +3916,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.6317037981956,
-          42.32217678700603
+          -72.63133294418897,
+          42.32165348802035
         ]
       },
       "properties": {
-        "id": "87ec5bdf-a3f3-4adc-900a-379afb6383e8",
+        "id": "dd65aa1f-1a55-4b73-b19b-5f4fda5d9524",
         "name": "Knights Crossing Climate Education Center",
         "website_url": "http://www.kcclimateeducation.org",
         "source_url": "http://www.kcclimateeducation.org",
@@ -3902,8 +3967,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32217678700603,
-        "longitude": -72.6317037981956,
+        "latitude": 42.32165348802035,
+        "longitude": -72.63133294418897,
         "notes": null,
         "mission": null
       }
@@ -3913,12 +3978,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63127591293436,
-          42.32200892109427
+          -72.63170803139296,
+          42.32174387467176
         ]
       },
       "properties": {
-        "id": "6f869afc-6c3a-4c7a-9575-d047087c4fff",
+        "id": "18cff6e3-86fc-4183-9caf-4df36a13ac24",
         "name": "Knights Crossing Energy Initiative",
         "website_url": "http://www.kcenergyinitiative.org",
         "source_url": "http://www.kcenergyinitiative.org",
@@ -3964,8 +4029,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32200892109427,
-        "longitude": -72.63127591293436,
+        "latitude": 42.32174387467176,
+        "longitude": -72.63170803139296,
         "notes": null,
         "mission": null
       }
@@ -3975,12 +4040,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63167643332126,
-          42.32165593796698
+          -72.63133889496739,
+          42.32169354543046
         ]
       },
       "properties": {
-        "id": "993e1de9-f594-4d2b-8c14-c1dae7914bfe",
+        "id": "a0574a0d-ff3a-4960-af1f-8704d3c35a69",
         "name": "Knights Crossing Environmental Justice Alliance",
         "website_url": "http://www.kcejalliance.org",
         "source_url": "http://www.kcejalliance.org",
@@ -4025,8 +4090,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32165593796698,
-        "longitude": -72.63167643332126,
+        "latitude": 42.32169354543046,
+        "longitude": -72.63133889496739,
         "notes": null,
         "mission": null
       }
@@ -4036,12 +4101,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63161684693257,
-          42.32183439063728
+          -72.63135488885099,
+          42.32196195938736
         ]
       },
       "properties": {
-        "id": "84cbbf35-e694-4ab9-b307-6c729c35b4cf",
+        "id": "7d3ca093-d53f-4627-889c-f730f22a7025",
         "name": "Knights Crossing Resilience Committee",
         "website_url": "http://www.kcresiliencecommittee.org",
         "source_url": "http://www.kcresiliencecommittee.org",
@@ -4086,8 +4151,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32183439063728,
-        "longitude": -72.63161684693257,
+        "latitude": 42.32196195938736,
+        "longitude": -72.63135488885099,
         "notes": null,
         "mission": null
       }
@@ -4097,12 +4162,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63155658144386,
-          42.32205863841275
+          -72.63170848023876,
+          42.32216782334186
         ]
       },
       "properties": {
-        "id": "9c3f98ad-c0dd-49b4-8751-a62fa7753a82",
+        "id": "274b6a56-d563-4826-8d81-0f35fff735bd",
         "name": "Knights Crossing Urban Climate Adaptation Program",
         "website_url": "http://www.kcurbanadaptation.org",
         "source_url": "http://www.kcurbanadaptation.org",
@@ -4149,8 +4214,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32205863841275,
-        "longitude": -72.63155658144386,
+        "latitude": 42.32216782334186,
+        "longitude": -72.63170848023876,
         "notes": null,
         "mission": null
       }
@@ -4160,12 +4225,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.63166659864044,
-          42.32179114479563
+          -72.63139377536426,
+          42.32183583219329
         ]
       },
       "properties": {
-        "id": "f183d9d3-91a3-47fc-b30f-d00d43c2733c",
+        "id": "8fc93c1c-5fef-41f9-8fbc-c896c0abf4c2",
         "name": "Youth Climate Action Knights Crossing",
         "website_url": "http://www.youthclimateactionkc.org",
         "source_url": "http://www.youthclimateactionkc.org",
@@ -4211,8 +4276,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.32179114479563,
-        "longitude": -72.63166659864044,
+        "latitude": 42.32183583219329,
+        "longitude": -72.63139377536426,
         "notes": null,
         "mission": null
       }
@@ -4227,7 +4292,7 @@
         ]
       },
       "properties": {
-        "id": "abc923c2-39f4-4dee-8be5-5fe141ec6b4e",
+        "id": "53ed08b1-396f-4438-b291-120a34634d23",
         "name": "Groundwork Lawrence",
         "website_url": "http://www.groundworklawrence.org/",
         "source_url": "http://www.groundworklawrence.org/",
@@ -4287,12 +4352,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.1604833100129,
-          42.706601895367136
+          -71.16067985413876,
+          42.70654342651134
         ]
       },
       "properties": {
-        "id": "c90c5673-003e-44ac-8529-3817b2f14356",
+        "id": "93163927-4df8-4103-b366-757d420fcf86",
         "name": "Lawrence Climate Action",
         "website_url": "https://www.lawrenceclimateaction.org/",
         "source_url": "https://www.lawrenceclimateaction.org/",
@@ -4337,8 +4402,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.706601895367136,
-        "longitude": -71.1604833100129,
+        "latitude": 42.70654342651134,
+        "longitude": -71.16067985413876,
         "notes": null,
         "mission": null
       }
@@ -4348,12 +4413,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.90309677539983,
-          42.51255043554693
+          -70.90317679100833,
+          42.5127855287269
         ]
       },
       "properties": {
-        "id": "78de4c29-5303-46d5-9287-350bd8f60fa2",
+        "id": "9e36bb3c-6583-49bf-b4ec-3c0b7a9ccd81",
         "name": "Green Salem",
         "website_url": "https://www.greensalem.org",
         "source_url": "https://www.greensalem.org",
@@ -4400,8 +4465,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.51255043554693,
-        "longitude": -70.90309677539983,
+        "latitude": 42.5127855287269,
+        "longitude": -70.90317679100833,
         "notes": null,
         "mission": null
       }
@@ -4411,12 +4476,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.92652218084605,
-          42.428531363545794
+          -70.92635417913448,
+          42.42848992377923
         ]
       },
       "properties": {
-        "id": "57ac2890-e7e6-472e-9a8f-0d83f0f85f81",
+        "id": "7134bf39-b8f6-4605-b395-6b88369e298f",
         "name": "Green Nahant",
         "website_url": "http://www.greennahant.org",
         "source_url": "http://www.greennahant.org",
@@ -4462,8 +4527,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.428531363545794,
-        "longitude": -70.92652218084605,
+        "latitude": 42.42848992377923,
+        "longitude": -70.92635417913448,
         "notes": null,
         "mission": null
       }
@@ -4473,12 +4538,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.29591144290822,
-          42.632025474681065
+          -71.2954792630161,
+          42.63203134604385
         ]
       },
       "properties": {
-        "id": "0e5f839d-025d-408c-82d3-46e67eb92445",
+        "id": "3d3b2610-e8aa-4fb6-b411-f34c92ea7bb6",
         "name": "Clean Energy Massachusetts",
         "website_url": "http://www.cleanenergymass.org",
         "source_url": "http://www.cleanenergymass.org",
@@ -4526,8 +4591,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.632025474681065,
-        "longitude": -71.29591144290822,
+        "latitude": 42.63203134604385,
+        "longitude": -71.2954792630161,
         "notes": null,
         "mission": null
       }
@@ -4542,7 +4607,7 @@
         ]
       },
       "properties": {
-        "id": "4dbb7d0f-0283-4375-9ebc-f10fa0bfaf10",
+        "id": "27fdc3c1-2e48-4644-927b-4c5123490590",
         "name": "Lowell Climate Action",
         "website_url": "http://www.lowellclimateaction.org",
         "source_url": "http://www.lowellclimateaction.org",
@@ -4604,7 +4669,7 @@
         ]
       },
       "properties": {
-        "id": "db9e0f72-2349-40c4-92cf-3a433bb364af",
+        "id": "8a41ebdd-1609-48d1-bffe-8b3a59d54879",
         "name": "Lynn Community Health Center",
         "website_url": "https://lynnchc.org/",
         "source_url": "https://www.lchcnet.org/",
@@ -4663,12 +4728,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94640223126814,
-          42.46076576239094
+          -70.94687146218503,
+          42.461067388179
         ]
       },
       "properties": {
-        "id": "2670e1b7-d3e0-44dd-8493-555228a3fbd0",
+        "id": "9e384898-2043-444e-b7b9-5d0e3c075d5f",
         "name": "Lynn Environmental Sustainability Committee",
         "website_url": "https://www.lynnma.gov/",
         "source_url": "https://www.lynnma.gov/",
@@ -4718,8 +4783,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.46076576239094,
-        "longitude": -70.94640223126814,
+        "latitude": 42.461067388179,
+        "longitude": -70.94687146218503,
         "notes": null,
         "mission": null
       }
@@ -4734,7 +4799,7 @@
         ]
       },
       "properties": {
-        "id": "341a46cb-062c-48e7-b909-acc6555ce7c5",
+        "id": "a1276b41-bc29-4049-ac0a-ac4764f228df",
         "name": "Lynn Public Schools - Sustainability Program",
         "website_url": "https://www.lynnschools.org/",
         "source_url": "https://www.lynnschools.org/",
@@ -4796,7 +4861,7 @@
         ]
       },
       "properties": {
-        "id": "acca9262-507f-40e1-90a4-7eb589feb5ab",
+        "id": "5d7b92b9-6d55-44c5-897a-02474bc34514",
         "name": "North Shore Community Development Coalition",
         "website_url": "https://www.nscdc.org/",
         "source_url": "https://www.nscdc.org/",
@@ -4859,7 +4924,7 @@
         ]
       },
       "properties": {
-        "id": "1c0c0d27-48a5-427e-90dc-e133cf43c924",
+        "id": "46875e2c-3832-490a-9643-bd64867ce151",
         "name": "Lynnfield Climate Action Committee",
         "website_url": "https://www.lynnfield.ma.us/climate-action-committee",
         "source_url": "https://www.lynnfield.ma.us/climate-action-committee",
@@ -4913,12 +4978,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.03705886405409,
-          42.53513891188577
+          -71.03719373865533,
+          42.534979632513746
         ]
       },
       "properties": {
-        "id": "deea0de9-9762-4b16-abfb-41aeb0703294",
+        "id": "3f696084-0c12-4d36-bf2b-db0bd44beff6",
         "name": "Lynnfield Climate Action",
         "website_url": "http://lynnfieldclimateaction.org",
         "source_url": "http://lynnfieldclimateaction.org",
@@ -4959,8 +5024,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.53513891188577,
-        "longitude": -71.03705886405409,
+        "latitude": 42.534979632513746,
+        "longitude": -71.03719373865533,
         "notes": null,
         "mission": null
       }
@@ -4975,7 +5040,7 @@
         ]
       },
       "properties": {
-        "id": "018d6878-f75f-4fdc-80cc-ac67ac15f06b",
+        "id": "69321648-5522-4abc-bb2e-150600869a17",
         "name": "Manchester-by-the-Sea Climate Action Committee",
         "website_url": "https://www.manchester.ma.us/",
         "source_url": "https://www.manchester.ma.us/",
@@ -5032,12 +5097,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86385565315368,
-          42.49908680501835
+          -70.86374908102357,
+          42.499060959594956
         ]
       },
       "properties": {
-        "id": "d38f47c0-a384-4ac8-a5e5-31286c5a672b",
+        "id": "84e25dfe-da2c-4444-b039-84ddebdb80c3",
         "name": "Green Marblehead",
         "website_url": "http://www.greenmarblehead.org",
         "source_url": "http://www.greenmarblehead.org",
@@ -5082,8 +5147,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.49908680501835,
-        "longitude": -70.86385565315368,
+        "latitude": 42.499060959594956,
+        "longitude": -70.86374908102357,
         "notes": null,
         "mission": null
       }
@@ -5093,12 +5158,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86368486261756,
-          42.49910078105288
+          -70.86369007413137,
+          42.499085668742886
         ]
       },
       "properties": {
-        "id": "bd92165a-181d-4626-9429-aaed2192ede1",
+        "id": "29ecc9c9-2336-4b26-8123-6bdb2bef9726",
         "name": "Marblehead Climate Action Committee",
         "website_url": "http://www.marblehead.org/climate-action-committee",
         "source_url": "http://www.marblehead.org/climate-action-committee",
@@ -5141,8 +5206,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.49910078105288,
-        "longitude": -70.86368486261756,
+        "latitude": 42.499085668742886,
+        "longitude": -70.86369007413137,
         "notes": null,
         "mission": null
       }
@@ -5152,12 +5217,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86391747376571,
-          42.49899234639356
+          -70.8634989478926,
+          42.49898652973553
         ]
       },
       "properties": {
-        "id": "72b339d2-87bc-43bd-a0a7-210b96b56884",
+        "id": "2fb70a9c-ed57-42ed-8efc-fbd70fe63126",
         "name": "Marblehead Municipal Light Department",
         "website_url": "http://www.marblehead.org/marblehead-municipal-light-department",
         "source_url": "http://www.marblehead.org/marblehead-municipal-light-department",
@@ -5203,8 +5268,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.49899234639356,
-        "longitude": -70.86391747376571,
+        "latitude": 42.49898652973553,
+        "longitude": -70.8634989478926,
         "notes": null,
         "mission": null
       }
@@ -5214,12 +5279,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80852675816439,
-          42.25938060650104
+          -71.80871084090558,
+          42.25921971717785
         ]
       },
       "properties": {
-        "id": "0cfc3503-6f3e-4f95-82b9-f8177381771f",
+        "id": "d535ad8e-9324-4ec1-8b88-ff94b2a0eab2",
         "name": "Sustainable Marblehead",
         "website_url": "https://www.sustainablemarblehead.org",
         "source_url": "https://www.sustainablemarblehead.org",
@@ -5274,11 +5339,11 @@
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Verified",
+        "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
-        "latitude": 42.25938060650104,
-        "longitude": -71.80852675816439,
+        "latitude": 42.25921971717785,
+        "longitude": -71.80871084090558,
         "notes": null,
         "mission": null
       }
@@ -5293,7 +5358,7 @@
         ]
       },
       "properties": {
-        "id": "a9b02933-6c1e-4037-a7c6-51a2e216aaaa",
+        "id": "cb78b6bd-6722-4548-a1c8-e95fa5024052",
         "name": "Marlborough Energy Task Force",
         "website_url": "https://www.marlborough-ma.gov/energy-task-force",
         "source_url": "https://www.marlborough-ma.gov/energy-task-force",
@@ -5351,12 +5416,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.59016855362529,
-          42.10427023381772
+          -72.590096316914,
+          42.10430208538102
         ]
       },
       "properties": {
-        "id": "f4d7b415-13dd-44f9-bb12-5c2eb3d26a2d",
+        "id": "1e9afbd2-1d3a-49fe-80b8-abb8cb99646b",
         "name": "Eversource",
         "website_url": "https://www.eversource.com/",
         "source_url": "https://www.wmeco.com/",
@@ -5400,8 +5465,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.10427023381772,
-        "longitude": -72.59016855362529,
+        "latitude": 42.10430208538102,
+        "longitude": -72.590096316914,
         "notes": null,
         "mission": null
       }
@@ -5416,7 +5481,7 @@
         ]
       },
       "properties": {
-        "id": "d8fee206-b56a-4d2c-a721-646cbe6a5f46",
+        "id": "405cf372-68d5-4bb9-89af-5fb0b0f90bbd",
         "name": "Massachusetts Institute of Technology (MIT) Energy Initiative",
         "website_url": "https://energy.mit.edu/",
         "source_url": "https://energy.mit.edu/",
@@ -5481,12 +5546,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06553408368869,
-          42.3564043542281
+          -71.06555974982304,
+          42.35648665782169
         ]
       },
       "properties": {
-        "id": "47d7b439-52da-4a0f-8a25-dfe52df25ef2",
+        "id": "75005e62-c6b2-4cd6-8c5d-041deaa762a0",
         "name": "The Massachusetts Executive Office of Energy and Environmental Affairs",
         "website_url": "https://www.mass.gov/orgs/executive-office-of-energy-and-environmental-affairs",
         "source_url": "https://www.mass.gov/orgs/executive-office-of-energy-and-environmental-affairs",
@@ -5535,8 +5600,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.3564043542281,
-        "longitude": -71.06553408368869,
+        "latitude": 42.35648665782169,
+        "longitude": -71.06555974982304,
         "notes": null,
         "mission": null
       }
@@ -5551,7 +5616,7 @@
         ]
       },
       "properties": {
-        "id": "2703670d-5585-40cd-a5ae-e7cceea63750",
+        "id": "dc8ae2e6-525a-4813-85b1-bac1157991de",
         "name": "Merrimac Climate Action",
         "website_url": "http://www.merrimacclimateaction.org",
         "source_url": "http://www.merrimacclimateaction.org",
@@ -5613,7 +5678,7 @@
         ]
       },
       "properties": {
-        "id": "72019fff-6ccc-446e-b9e5-2cc6ef8a3310",
+        "id": "44f628fd-e227-4c08-b2fb-f10ee34331d7",
         "name": "Methuen Climate Action Committee",
         "website_url": "https://www.methuen-ma.gov/climate-action-committee",
         "source_url": "https://www.methuen-ma.gov/climate-action-committee",
@@ -5670,12 +5735,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0168767150032,
-          42.60398375513416
+          -71.01681661501617,
+          42.60426009232887
         ]
       },
       "properties": {
-        "id": "474ca8c1-f64b-4f02-8dfb-f1a8c92d4117",
+        "id": "ac25057c-f234-48b3-906d-11f48d525a7a",
         "name": "Green Middleton",
         "website_url": "http://www.greenmiddleton.org",
         "source_url": "http://www.greenmiddleton.org",
@@ -5720,8 +5785,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.60398375513416,
-        "longitude": -71.0168767150032,
+        "latitude": 42.60426009232887,
+        "longitude": -71.01681661501617,
         "notes": null,
         "mission": null
       }
@@ -5731,12 +5796,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.1088238529654,
-          42.42316203894226
+          -71.10907316939281,
+          42.42311361507741
         ]
       },
       "properties": {
-        "id": "90562381-e7ac-48db-b83b-b059e343938f",
+        "id": "4f1b1516-6abb-4ea4-9319-ac2d7292981d",
         "name": "Mount Vernon Park Climate Action Group",
         "website_url": "http://www.mvclimateaction.org",
         "source_url": "http://www.mvclimateaction.org",
@@ -5781,8 +5846,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.42316203894226,
-        "longitude": -71.1088238529654,
+        "latitude": 42.42311361507741,
+        "longitude": -71.10907316939281,
         "notes": null,
         "mission": null
       }
@@ -5792,12 +5857,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.24395481436869,
-          42.275987744481576
+          -71.24399068836048,
+          42.275774963447645
         ]
       },
       "properties": {
-        "id": "686bcc59-9ede-4677-9059-61d861b5fb6a",
+        "id": "d066452a-0fae-46f9-8014-76314ddc736a",
         "name": "Green Needham",
         "website_url": "http://www.greenneedham.org",
         "source_url": "http://www.greenneedham.org",
@@ -5854,8 +5919,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.275987744481576,
-        "longitude": -71.24395481436869,
+        "latitude": 42.275774963447645,
+        "longitude": -71.24399068836048,
         "notes": null,
         "mission": null
       }
@@ -5865,12 +5930,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.01223625117782,
-          42.83805784920454
+          -71.01212530864586,
+          42.838364563893904
         ]
       },
       "properties": {
-        "id": "1bb77cf0-362b-410a-a2d7-b6797ff1442e",
+        "id": "22e41e4a-9e1e-4681-95dd-16282eb549a4",
         "name": "Sustainable Merrimack Valley",
         "website_url": "http://sustainablemv.org",
         "source_url": "http://sustainablemv.org",
@@ -5916,8 +5981,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.83805784920454,
-        "longitude": -71.01223625117782,
+        "latitude": 42.838364563893904,
+        "longitude": -71.01212530864586,
         "notes": null,
         "mission": null
       }
@@ -5927,12 +5992,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.8881860785532,
-          42.812101225086224
+          -70.88791584705639,
+          42.81212327893318
         ]
       },
       "properties": {
-        "id": "966fc099-eed7-45ad-aed8-af23aece7f5e",
+        "id": "9993730b-28f3-4fd3-954c-5dcf0018da3e",
         "name": "Greater Newburyport Community Energy",
         "website_url": "https://www.greaternewburyportcommunityenergy.org",
         "source_url": "https://www.greaternewburyportcommunityenergy.org",
@@ -5973,8 +6038,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.812101225086224,
-        "longitude": -70.8881860785532,
+        "latitude": 42.81212327893318,
+        "longitude": -70.88791584705639,
         "notes": null,
         "mission": null
       }
@@ -5989,7 +6054,7 @@
         ]
       },
       "properties": {
-        "id": "349e376d-08be-42d1-aa33-be97c50f16dc",
+        "id": "5e6d9f25-11f1-4f0d-9449-7c2ec2aeaf3e",
         "name": "Newburyport Climate Committee",
         "website_url": "https://www.cityofnewburyport.com/climate-committee",
         "source_url": "https://www.cityofnewburyport.com/climate-committee",
@@ -6051,7 +6116,7 @@
         ]
       },
       "properties": {
-        "id": "1e97b03f-4300-40f8-8b11-56ab282534d9",
+        "id": "c68fc040-658c-4d2f-babd-25e414fecd8c",
         "name": "Newburyport Energy Advisory Committee",
         "website_url": "https://www.cityofnewburyport.com/energy-advisory-committee",
         "source_url": "https://www.cityofnewburyport.com/energy-advisory-committee",
@@ -6108,12 +6173,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88790708709325,
-          42.81190232739943
+          -70.88833887663927,
+          42.8119484520375
         ]
       },
       "properties": {
-        "id": "9b17fb7c-d843-4508-9baa-78df8bab13f9",
+        "id": "162f89d3-2c1a-4487-b507-7fa988c1dc60",
         "name": "Sustainable Newburyport",
         "website_url": "https://www.sustainablenewburyport.org",
         "source_url": "https://www.sustainablenewburyport.org",
@@ -6159,8 +6224,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.81190232739943,
-        "longitude": -70.88790708709325,
+        "latitude": 42.8119484520375,
+        "longitude": -70.88833887663927,
         "notes": null,
         "mission": null
       }
@@ -6170,12 +6235,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08701379433509,
-          42.67090998807152
+          -71.08684993277596,
+          42.67079497684548
         ]
       },
       "properties": {
-        "id": "73c36991-9a2f-421d-ae77-4460ca642954",
+        "id": "c6059c0a-c8ca-4c86-82ea-602caf7cde7b",
         "name": "Green North Andover",
         "website_url": "http://www.greennorthandover.org",
         "source_url": "http://www.greennorthandover.org",
@@ -6220,8 +6285,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.67090998807152,
-        "longitude": -71.08701379433509,
+        "latitude": 42.67079497684548,
+        "longitude": -71.08684993277596,
         "notes": null,
         "mission": null
       }
@@ -6231,12 +6296,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0871043291216,
-          42.671232646667654
+          -71.08718975413079,
+          42.670960112334946
         ]
       },
       "properties": {
-        "id": "c832ef3c-a093-4dba-8bd5-536923c13aee",
+        "id": "c089150a-9196-47fc-9dde-eca25b7752ea",
         "name": "North Andover Climate Committee",
         "website_url": "http://www.northandoverma.gov/climate-committee",
         "source_url": "http://www.northandoverma.gov/climate-committee",
@@ -6282,8 +6347,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.671232646667654,
-        "longitude": -71.0871043291216,
+        "latitude": 42.670960112334946,
+        "longitude": -71.08718975413079,
         "notes": null,
         "mission": null
       }
@@ -6293,12 +6358,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08721266836348,
-          42.67104980067125
+          -71.08696654506682,
+          42.67081473849685
         ]
       },
       "properties": {
-        "id": "0af34397-feee-4507-aa8b-92c7e1d730ac",
+        "id": "fc6bb22d-32a7-44b3-b2a0-49330919bbc8",
         "name": "North Andover Public Schools - Climate Education Program",
         "website_url": "http://www.northandoverpublicschools.com/climate-education",
         "source_url": "http://www.northandoverpublicschools.com/climate-education",
@@ -6344,8 +6409,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.67104980067125,
-        "longitude": -71.08721266836348,
+        "latitude": 42.67081473849685,
+        "longitude": -71.08696654506682,
         "notes": null,
         "mission": null
       }
@@ -6355,12 +6420,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.08718051610907,
-          42.670925412802795
+          -71.08686401474769,
+          42.671047010662505
         ]
       },
       "properties": {
-        "id": "3543150e-0355-4c0e-98cc-97bb5ac31025",
+        "id": "b758756d-1ac0-4bd9-89aa-e58a69def8d8",
         "name": "Sustainable North Andover",
         "website_url": "http://www.sustainablenorthandover.org",
         "source_url": "http://www.sustainablenorthandover.org",
@@ -6405,8 +6470,8 @@
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.670925412802795,
-        "longitude": -71.08718051610907,
+        "latitude": 42.671047010662505,
+        "longitude": -71.08686401474769,
         "notes": null,
         "mission": null
       }
@@ -6416,12 +6481,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.06070573041158,
-          42.35024456041489
+          -71.0605715578362,
+          42.35061425327787
         ]
       },
       "properties": {
-        "id": "9fb1669b-da75-4a54-af85-0b7450e4c6ad",
+        "id": "9ecc728b-e1c5-4453-954c-075105cfc4ca",
         "name": "The Green Justice Coalition",
         "website_url": "https://www.greenjusticecoalition.org",
         "source_url": "https://www.greenjusticecoalition.org",
@@ -6466,8 +6531,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.35024456041489,
-        "longitude": -71.06070573041158,
+        "latitude": 42.35061425327787,
+        "longitude": -71.0605715578362,
         "notes": null,
         "mission": null
       }
@@ -6477,12 +6542,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.63137551501441,
-          41.87797954085758
+          -70.63104241757816,
+          41.87814749422439
         ]
       },
       "properties": {
-        "id": "9446862e-09e1-4d8e-92f2-fda0d0e42266",
+        "id": "eceabcd1-c24a-4679-b360-68fafdc1a170",
         "name": "Browns Point Climate Action",
         "website_url": "http://www.brownspointclimateaction.org",
         "source_url": "http://www.brownspointclimateaction.org",
@@ -6527,8 +6592,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 41.87797954085758,
-        "longitude": -70.63137551501441,
+        "latitude": 41.87814749422439,
+        "longitude": -70.63104241757816,
         "notes": null,
         "mission": null
       }
@@ -6543,7 +6608,7 @@
         ]
       },
       "properties": {
-        "id": "920eec6c-63ab-4d06-a5e2-0c1c7cb9d65e",
+        "id": "140b4f63-43dd-4b05-b735-e52670a02579",
         "name": "Proctor Climate Action Group",
         "website_url": "http://www.proctorclimateaction.org",
         "source_url": "http://www.proctorclimateaction.org",
@@ -6604,7 +6669,7 @@
         ]
       },
       "properties": {
-        "id": "ac2360cd-e621-4905-addf-28dc60c2c1a5",
+        "id": "8a481a73-296d-41ae-9213-a3f0681bd926",
         "name": "MetroWest Climate Solutions",
         "website_url": "https://metrowestclimatesolutions.org",
         "source_url": "https://metrowestclimatesolutions.org",
@@ -6664,75 +6729,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69211987171997,
-          42.41023813919704
+          -72.69197751154896,
+          42.41009737763691
         ]
       },
       "properties": {
-        "id": "baac13cf-4214-445a-abf3-41e206f6e8a9",
-        "name": "Massachusetts Climate Coalition",
-        "website_url": "http://www.massclimatecoalition.org",
-        "source_url": "http://www.massclimatecoalition.org",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "456 Coalition Ave",
-        "city": "riverside",
-        "state": "ma",
-        "postal_code": "01039",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
-        "status": "active",
-        "summary": "The Massachusetts Climate Coalition works on statewide climate policy and local implementation strategies.",
-        "tags": [
-          "climate policy",
-          "local implementation"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
-        "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
-        ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
-        "original_action_category": [],
-        "original_climate_categories": [],
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 42.41023813919704,
-        "longitude": -72.69211987171997,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.69220157485749,
-          42.41000649954565
-        ]
-      },
-      "properties": {
-        "id": "e76121f8-7684-45fd-a9d3-620d207b0ea4",
+        "id": "4d5394f0-41e6-4cb0-9045-74f473587459",
         "name": "Riverside Climate Action Network",
         "website_url": "http://www.riversideclimateaction.org",
         "source_url": "http://www.riversideclimateaction.org",
@@ -6777,8 +6779,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41000649954565,
-        "longitude": -72.69220157485749,
+        "latitude": 42.41009737763691,
+        "longitude": -72.69197751154896,
         "notes": null,
         "mission": null
       }
@@ -6788,12 +6790,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69240360022465,
-          42.4100820472435
+          -72.69236390660004,
+          42.410286607091976
         ]
       },
       "properties": {
-        "id": "9761c68e-3b3c-4c3d-8fe3-bb008f8e6da4",
+        "id": "5779c7ca-ceb3-456e-a543-f41a6258766e",
         "name": "Riverside Climate Education Program",
         "website_url": "http://www.riversideclimateeducation.org",
         "source_url": "http://www.riversideclimateeducation.org",
@@ -6839,8 +6841,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.4100820472435,
-        "longitude": -72.69240360022465,
+        "latitude": 42.410286607091976,
+        "longitude": -72.69236390660004,
         "notes": null,
         "mission": null
       }
@@ -6850,12 +6852,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69217216898836,
-          42.410117013159756
+          -72.69224507458595,
+          42.41041355345556
         ]
       },
       "properties": {
-        "id": "beb4a7ed-e202-4ead-9791-1ef4e64b4b45",
+        "id": "1b0df191-c687-49cd-80d2-c7f6e5557a20",
         "name": "Riverside Energy Initiative",
         "website_url": "http://www.riversideenergyinitiative.org",
         "source_url": "http://www.riversideenergyinitiative.org",
@@ -6900,8 +6902,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.410117013159756,
-        "longitude": -72.69217216898836,
+        "latitude": 42.41041355345556,
+        "longitude": -72.69224507458595,
         "notes": null,
         "mission": null
       }
@@ -6911,12 +6913,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69221516658214,
-          42.41036874381673
+          -72.69211074213547,
+          42.41044028996243
         ]
       },
       "properties": {
-        "id": "23827890-1674-4426-9542-6a83975daccb",
+        "id": "e2657f1a-2557-452e-b1ec-dacec44b9fce",
         "name": "Riverside Environmental Justice Alliance",
         "website_url": "http://www.riversideejalliance.org",
         "source_url": "http://www.riversideejalliance.org",
@@ -6961,8 +6963,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41036874381673,
-        "longitude": -72.69221516658214,
+        "latitude": 42.41044028996243,
+        "longitude": -72.69211074213547,
         "notes": null,
         "mission": null
       }
@@ -6972,12 +6974,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69197931884781,
-          42.41008135492144
+          -72.69234889115403,
+          42.410138836631845
         ]
       },
       "properties": {
-        "id": "a31b6351-78b2-4bae-b944-4226a0a49be3",
+        "id": "a6d78f65-c9bc-4259-aa30-86b353f9a976",
         "name": "Riverside Green Energy Task Force",
         "website_url": "http://www.riversidegreenenergy.org",
         "source_url": "http://www.riversidegreenenergy.org",
@@ -7022,8 +7024,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41008135492144,
-        "longitude": -72.69197931884781,
+        "latitude": 42.410138836631845,
+        "longitude": -72.69234889115403,
         "notes": null,
         "mission": null
       }
@@ -7033,12 +7035,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.69192196651943,
-          42.41000862650672
+          -72.6920197523561,
+          42.41041966934131
         ]
       },
       "properties": {
-        "id": "b7eac62f-306f-4ba1-a224-df7875d727cc",
+        "id": "d288ad11-022f-4630-a2c9-bdffa0ebb1d4",
         "name": "Riverside Resilience Committee",
         "website_url": "http://www.riversideresilience.org",
         "source_url": "http://www.riversideresilience.org",
@@ -7083,8 +7085,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.41000862650672,
-        "longitude": -72.69192196651943,
+        "latitude": 42.41041966934131,
+        "longitude": -72.6920197523561,
         "notes": null,
         "mission": null
       }
@@ -7094,12 +7096,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62523266613356,
-          42.062381781338686
+          -72.62544106762975,
+          42.06210615465671
         ]
       },
       "properties": {
-        "id": "3b4475f8-a6da-4636-bce1-bcb50d856ca9",
+        "id": "9aa4d7b5-f43b-4b52-8f62-57897b66e6f0",
         "name": "Riverview Climate Action Network",
         "website_url": "http://www.riverviewclimateaction.org",
         "source_url": "http://www.riverviewclimateaction.org",
@@ -7144,8 +7146,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.062381781338686,
-        "longitude": -72.62523266613356,
+        "latitude": 42.06210615465671,
+        "longitude": -72.62544106762975,
         "notes": null,
         "mission": null
       }
@@ -7160,7 +7162,7 @@
         ]
       },
       "properties": {
-        "id": "9cc9f9de-b421-44ce-8099-59611617d5e5",
+        "id": "15ded051-641c-4004-918e-6591b11c3ba0",
         "name": "Rockport Climate Action",
         "website_url": "http://www.rockportma.gov/climate-action",
         "source_url": "http://www.rockportma.gov/climate-action",
@@ -7218,12 +7220,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62530918994644,
-          42.06259680406933
+          -72.62550763122141,
+          42.06226244481869
         ]
       },
       "properties": {
-        "id": "1dccc57f-a6b9-4daf-ba20-909cbbc5f7e4",
+        "id": "d428c3e6-ff06-435b-a1a3-8c3ef8f5020e",
         "name": "Green Energy Solutions of Rooty Plain",
         "website_url": "https://www.greenenergysolutions.org",
         "source_url": "https://www.greenenergysolutions.org",
@@ -7270,8 +7272,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06259680406933,
-        "longitude": -72.62530918994644,
+        "latitude": 42.06226244481869,
+        "longitude": -72.62550763122141,
         "notes": null,
         "mission": null
       }
@@ -7281,12 +7283,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62552101719467,
-          42.062299108054376
+          -72.62566832687334,
+          42.062111775372145
         ]
       },
       "properties": {
-        "id": "7dea947e-7097-4776-baf1-b0205b26979b",
+        "id": "c89edddd-6326-43ab-acb6-da5ff6ee884c",
         "name": "Rooty Plain Climate Resilience Initiative",
         "website_url": "https://www.rootyplainresilience.org",
         "source_url": "https://www.rootyplainresilience.org",
@@ -7333,8 +7335,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.062299108054376,
-        "longitude": -72.62552101719467,
+        "latitude": 42.062111775372145,
+        "longitude": -72.62566832687334,
         "notes": null,
         "mission": null
       }
@@ -7344,12 +7346,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62550795721614,
-          42.06255157126256
+          -72.62548389494958,
+          42.062253895081604
         ]
       },
       "properties": {
-        "id": "d8c0f51f-d224-4cf4-8835-96b96b12759a",
+        "id": "3062c786-0b4b-4f1c-9ce4-e9e99e9e9a82",
         "name": "Rooty Plain Energy Efficiency Program",
         "website_url": "https://www.rootyplainenergy.org",
         "source_url": "https://www.rootyplainenergy.org",
@@ -7397,8 +7399,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06255157126256,
-        "longitude": -72.62550795721614,
+        "latitude": 42.062253895081604,
+        "longitude": -72.62548389494958,
         "notes": null,
         "mission": null
       }
@@ -7408,12 +7410,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62571613112593,
-          42.06225671916275
+          -72.62527107994077,
+          42.062331517511446
         ]
       },
       "properties": {
-        "id": "8f89197f-3f5b-4289-814b-2a1eeb90e6b5",
+        "id": "109c1ba3-a008-41ba-b1e3-995cc3ce77f5",
         "name": "Rooty Plain Youth Climate Coalition",
         "website_url": "https://www.rootyplainycc.org",
         "source_url": "https://www.rootyplainycc.org",
@@ -7460,8 +7462,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06225671916275,
-        "longitude": -72.62571613112593,
+        "latitude": 42.062331517511446,
+        "longitude": -72.62527107994077,
         "notes": null,
         "mission": null
       }
@@ -7471,12 +7473,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88864568173331,
-          42.72220066320782
+          -70.88883421772779,
+          42.72189942771313
         ]
       },
       "properties": {
-        "id": "c00940fd-6e11-4c2a-bf3a-2943853bb453",
+        "id": "9da10995-00d3-490d-9c18-225e9e04c484",
         "name": "Green Rowley",
         "website_url": "http://www.greenrowley.org",
         "source_url": "http://www.greenrowley.org",
@@ -7521,8 +7523,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.72220066320782,
-        "longitude": -70.88864568173331,
+        "latitude": 42.72189942771313,
+        "longitude": -70.88883421772779,
         "notes": null,
         "mission": null
       }
@@ -7532,12 +7534,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.90311875032506,
-          42.512938112752984
+          -70.90313788893219,
+          42.51257897518341
         ]
       },
       "properties": {
-        "id": "d84380c9-17c7-41c1-9cde-879822aaac6b",
+        "id": "d512e3b4-bc49-4f7e-8731-fdb33ca9d5c6",
         "name": "Salem Climate Action",
         "website_url": "http://www.salemclimateaction.org",
         "source_url": "http://www.salemclimateaction.org",
@@ -7581,10 +7583,10 @@
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.512938112752984,
-        "longitude": -70.90311875032506,
+        "latitude": 42.51257897518341,
+        "longitude": -70.90313788893219,
         "notes": null,
         "mission": null
       }
@@ -7599,7 +7601,7 @@
         ]
       },
       "properties": {
-        "id": "bac7a7f9-12d5-42c3-b1c8-0859ce8e0f5c",
+        "id": "0cb620ed-893c-48b4-916b-ab2017ef84af",
         "name": "Salem State University Sustainability Program",
         "website_url": "http://www.salemstate.edu/sustainability",
         "source_url": "http://www.salemstate.edu/sustainability",
@@ -7665,12 +7667,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86184349180094,
-          42.846124626670345
+          -70.86167890071138,
+          42.84639694041316
         ]
       },
       "properties": {
-        "id": "b93b2b9f-1a6d-4d8b-9e73-ce4640c256c5",
+        "id": "adbfa750-fa36-4344-a746-4a9e431758de",
         "name": "Sustainable Salisbury",
         "website_url": "http://www.sustainablesalisbury.org",
         "source_url": "http://www.sustainablesalisbury.org",
@@ -7715,8 +7717,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.846124626670345,
-        "longitude": -70.86184349180094,
+        "latitude": 42.84639694041316,
+        "longitude": -70.86167890071138,
         "notes": null,
         "mission": null
       }
@@ -7731,7 +7733,7 @@
         ]
       },
       "properties": {
-        "id": "c0bd1149-f4b7-4907-9329-1c41696ab313",
+        "id": "e5e752d1-fd83-4d02-86d8-4dd981192857",
         "name": "Green Saugus",
         "website_url": "http://www.greensaugus.org",
         "source_url": "http://www.greensaugus.org",
@@ -7793,7 +7795,7 @@
         ]
       },
       "properties": {
-        "id": "449df1e9-702d-4c89-9654-1c05ae3b0cbd",
+        "id": "5643cab2-e547-42d4-8a6d-e318c448f1a4",
         "name": "Saugus Climate Action",
         "website_url": "http://www.saugus-ma.gov/climate-action",
         "source_url": "http://www.saugus-ma.gov/climate-action",
@@ -7850,7 +7852,7 @@
         ]
       },
       "properties": {
-        "id": "c9b7613b-1617-4b95-b587-1a583b2be9b5",
+        "id": "e8da17c4-a740-4cf1-8780-a519c9fc9d89",
         "name": "Saugus Environmental Committee",
         "website_url": "http://www.saugus-ma.gov/environmental-committee",
         "source_url": "http://www.saugus-ma.gov/environmental-committee",
@@ -7904,12 +7906,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.01328121607357,
-          42.4691416696654
+          -71.01332633719204,
+          42.468765287508695
         ]
       },
       "properties": {
-        "id": "ea1fa726-ddd7-4a12-91d1-950451843007",
+        "id": "bc89917a-5add-464b-8c7e-313e1518c0c7",
         "name": "Saugus Youth Climate Coalition",
         "website_url": "http://www.saugusyouthclimate.org",
         "source_url": "http://www.saugusyouthclimate.org",
@@ -7955,8 +7957,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.4691416696654,
-        "longitude": -71.01328121607357,
+        "latitude": 42.468765287508695,
+        "longitude": -71.01332633719204,
         "notes": null,
         "mission": null
       }
@@ -7971,7 +7973,7 @@
         ]
       },
       "properties": {
-        "id": "07949cc1-d14d-4c0b-92a8-808bf6f13573",
+        "id": "41e14204-6dbe-4007-be14-670aa72f927f",
         "name": "Shawsheen Village Climate Action Committee",
         "website_url": "http://shawsheenvillageclimateaction.org",
         "source_url": "http://shawsheenvillageclimateaction.org",
@@ -8032,7 +8034,7 @@
         ]
       },
       "properties": {
-        "id": "45484b66-aa75-424e-b3e7-c073ee7734c9",
+        "id": "ef285cf2-d2fc-41db-b754-9fcb237b3732",
         "name": "350 Massachusetts",
         "website_url": "https://350mass.betterfutureproject.org/",
         "source_url": "https://350mass.org",
@@ -8097,7 +8099,7 @@
         ]
       },
       "properties": {
-        "id": "b1a89e09-cc59-4b21-ad40-4cf89867638d",
+        "id": "52764591-9e98-458f-9144-0d8214f5471d",
         "name": "Pioneer Valley Planning Commission",
         "website_url": "https://www.pvpc.org",
         "source_url": "https://www.pvpc.org",
@@ -8159,12 +8161,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62560169367792,
-          42.062113762577056
+          -72.6255550383482,
+          42.06239390420565
         ]
       },
       "properties": {
-        "id": "c4e3e570-25cb-49f6-ac52-7b8c343858dd",
+        "id": "5ee09c1c-8c1e-4f2f-a58d-ed28735f1bec",
         "name": "Stevens Crossing Climate Resilience Coalition",
         "website_url": "https://www.scresiliencecoalition.org",
         "source_url": "https://www.scresiliencecoalition.org",
@@ -8209,8 +8211,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.062113762577056,
-        "longitude": -72.62560169367792,
+        "latitude": 42.06239390420565,
+        "longitude": -72.6255550383482,
         "notes": null,
         "mission": null
       }
@@ -8220,12 +8222,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -72.62560809980566,
-          42.06211645304546
+          -72.62566369761109,
+          42.06226892619464
         ]
       },
       "properties": {
-        "id": "93bc8e30-6cb0-4065-886f-233519588f4b",
+        "id": "f08b77f6-1d23-4116-8935-092830a9fae8",
         "name": "Youth for Climate Action - Stevens Crossing Chapter",
         "website_url": "https://www.youthforclimateaction.org",
         "source_url": "https://www.youthforclimateaction.org",
@@ -8271,8 +8273,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.06211645304546,
-        "longitude": -72.62560809980566,
+        "latitude": 42.06226892619464,
+        "longitude": -72.62566369761109,
         "notes": null,
         "mission": null
       }
@@ -8287,7 +8289,7 @@
         ]
       },
       "properties": {
-        "id": "daeaeb0e-c6d0-4b43-8efe-36c9c5ff958a",
+        "id": "c8ae9da9-af23-433a-b4d9-5e4a02e89e53",
         "name": "Swampscott Climate Action",
         "website_url": "https://www.swampscottma.gov/climate-action",
         "source_url": "https://www.swampscottma.gov/climate-action",
@@ -8351,7 +8353,7 @@
         ]
       },
       "properties": {
-        "id": "7083ca67-34eb-44cf-bc5d-367c555cbd82",
+        "id": "aaecb1d7-9aca-46af-8fac-cda76722b814",
         "name": "Swampscott Green Energy Committee",
         "website_url": "https://www.swampscottma.gov/green-energy-committee",
         "source_url": "https://www.swampscottma.gov/green-energy-committee",
@@ -8414,7 +8416,7 @@
         ]
       },
       "properties": {
-        "id": "ccfde3c5-6258-49d4-832a-49ab2bfd8ff6",
+        "id": "01af72dd-f0a1-492e-8c8b-f95ac7062866",
         "name": "Swampscott Sustainability Committee",
         "website_url": "https://www.swampscottma.gov/sustainability-committee",
         "source_url": "https://www.swampscottma.gov/sustainability-committee",
@@ -8477,7 +8479,7 @@
         ]
       },
       "properties": {
-        "id": "d9242c72-6479-4bd7-bff7-da08e6848384",
+        "id": "657eec42-2788-4092-8827-3c4ca498820d",
         "name": "Green Topsfield",
         "website_url": "http://www.topsfield-ma.gov/green-topsfield",
         "source_url": "http://www.topsfield-ma.gov/green-topsfield",
@@ -8539,7 +8541,7 @@
         ]
       },
       "properties": {
-        "id": "6739fe69-f331-450e-b787-9cf3068a7470",
+        "id": "152f9a41-f4a6-4bf6-a2fa-dbf8d0b4ae60",
         "name": "Topsfield Climate Action",
         "website_url": "http://www.topsfieldclimateaction.org",
         "source_url": "http://www.topsfieldclimateaction.org",
@@ -8597,12 +8599,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.29566611304786,
-          42.63219200910634
+          -71.29542537381552,
+          42.63227461836363
         ]
       },
       "properties": {
-        "id": "0c521986-748d-40a8-b436-2929a044c050",
+        "id": "0344986e-920d-41d0-b780-764c623e3d1a",
         "name": "Lowell Sustainability Council",
         "website_url": "https://www.lowellsustainability.org/",
         "source_url": "https://www.lowellsustainability.org/",
@@ -8648,8 +8650,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.63219200910634,
-        "longitude": -71.29566611304786,
+        "latitude": 42.63227461836363,
+        "longitude": -71.29542537381552,
         "notes": null,
         "mission": null
       }
@@ -8659,12 +8661,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.88294554297528,
-          42.60064935402433
+          -70.8829756234106,
+          42.60060789524994
         ]
       },
       "properties": {
-        "id": "d10fac8b-9965-4b07-ae72-2d887c95659d",
+        "id": "0bb658b7-a62b-46e2-8b0d-b9c3ff79136f",
         "name": "Green Wenham",
         "website_url": "http://www.greenwenham.org",
         "source_url": "http://www.greenwenham.org",
@@ -8709,8 +8711,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.60064935402433,
-        "longitude": -70.88294554297528,
+        "latitude": 42.60060789524994,
+        "longitude": -70.8829756234106,
         "notes": null,
         "mission": null
       }
@@ -8720,12 +8722,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.80167582498363,
-          42.261572160534755
+          -71.80183159284843,
+          42.261975513346414
         ]
       },
       "properties": {
-        "id": "9eb451e7-d583-4edf-ab28-9f3bcf28cb0d",
+        "id": "41dc8e05-8fef-419b-b150-d0e521db766e",
         "name": "Central Massachusetts Regional Planning Commission",
         "website_url": "https://www.cmrpc.org/",
         "source_url": "https://www.cmrpc.org/",
@@ -8775,8 +8777,8 @@
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
-        "latitude": 42.261572160534755,
-        "longitude": -71.80167582498363,
+        "latitude": 42.261975513346414,
+        "longitude": -71.80183159284843,
         "notes": null,
         "mission": null
       }
