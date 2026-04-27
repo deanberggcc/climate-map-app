@@ -189,6 +189,27 @@ function setupSidebarToggle() {
   });
 }
 
+map.on("click", () => {
+  if (window.innerWidth < 768) {
+    sidebar.classList.add("closed");
+  }
+});
+
+let touchStartX = 0;
+
+document.addEventListener("touchstart", e => {
+  touchStartX = e.touches[0].clientX;
+});
+
+document.addEventListener("touchend", e => {
+  const dx = e.changedTouches[0].clientX - touchStartX;
+
+  // swipe left closes sidebar
+  if (dx < -50 && window.innerWidth < 768) {
+    sidebar.classList.add("closed");
+  }
+});
+
 
 // ------------------------------------------------------------
 // SEARCH BAR
