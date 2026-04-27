@@ -63,24 +63,52 @@ map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 // ------------------------------------------------------------
 // POPUP + HIGHLIGHT HELPERS
 // ------------------------------------------------------------
+
+// Shared popup instance (the only popup used)
+const popup = new mapboxgl.Popup({
+  closeButton: true,
+  closeOnClick: false,
+  maxWidth: "300px"
+});
+
+// Keep track of the active popup location
+let currentPopup = null;
+
+// Keep popup in view when map moves
+map.on("move", () => {
+  if (currentPopup) {
+    popup.setLngLat(currentPopup);
+  }
+});
+
+// Compute anchor based on screen position
 function computePopupAnchor(screenPos, map) {
   const w = map.getCanvas().width;
   const x = screenPos.x;
-  if (x < SIDEBAR_WIDTH + 20) return 'right';
-  return x < w / 2 ? 'right' : 'left';
+
+  // Avoid sidebar overlap
+  if (x < SIDEBAR_WIDTH + 20) return "right";
+
+  // Otherwise left/right based on midpoint
+  return x < w / 2 ? "right" : "left";
 }
 
+// Compute offset to keep popup inside viewport
 function computePopupOffset(screenPos, map) {
   const h = map.getCanvas().height;
   const y = screenPos.y;
 
   let dx = 14;
+
+  // Push popup away from sidebar
   if (screenPos.x < SIDEBAR_WIDTH + 20) {
     dx = SIDEBAR_WIDTH - screenPos.x + 20;
   }
 
   const margin = 80;
   let dy = 0;
+
+  // Keep popup from going off top/bottom
   if (y < margin) dy = margin - y;
   else if (y > h - margin) dy = (h - margin) - y;
 
@@ -90,6 +118,7 @@ function computePopupOffset(screenPos, map) {
   };
 }
 
+// Highlight selected org
 function highlightOrg(feature) {
   if (!feature) {
     selectedOrgId = null;
@@ -101,13 +130,7 @@ function highlightOrg(feature) {
   map.setFilter("org-highlight", ["==", "id", selectedOrgId]);
 }
 
-// Use the shared popup instance you already have:
-const popup = new mapboxgl.Popup({
-  closeButton: true,
-  closeOnClick: false,
-  maxWidth: '300px'
-});
-
+// Open popup for a feature
 export function openPopupForFeature(feature, map) {
   const coords = feature.geometry.coordinates;
   const data = feature.properties;
@@ -115,15 +138,18 @@ export function openPopupForFeature(feature, map) {
   requestAnimationFrame(() => {
     const screenPos = map.project(coords);
     const offset = computePopupOffset(screenPos, map);
+    const anchor = computePopupAnchor(screenPos, map);
+
+    currentPopup = coords;
 
     popup
       .setLngLat(coords)
       .setHTML(renderPopupHTML(data))
-      .setOffset(offset)   // <-- IMPORTANT: pass the whole offset object
+      .setOffset(offset)
+      .setAnchor(anchor)
       .addTo(map);
   });
 }
-
 
 // ------------------------------------------------------------
 // DEBOUNCE
