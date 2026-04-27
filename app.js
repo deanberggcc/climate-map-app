@@ -326,6 +326,19 @@ function applyCollisionJitter(features) {
 // LAYERS
 // ------------------------------------------------------------
 function addLayers() {
+  if (!map.getLayer("cluster-count")) {
+    map.addLayer({
+      id: 'cluster-count',
+      type: 'symbol',
+      source: 'orgs',
+      filter: ['has', 'point_count'],
+      layout: {
+        'text-field': '{point_count_abbreviated}',
+        'text-size': 12
+      }
+    });
+  }
+
   if (!map.getLayer("clusters")) {
     map.addLayer({
       id: 'clusters',
@@ -349,19 +362,6 @@ function addLayers() {
           25, 100,
           30
         ]
-      }
-    });
-  }
-
-  if (!map.getLayer("cluster-count")) {
-    map.addLayer({
-      id: 'cluster-count',
-      type: 'symbol',
-      source: 'orgs',
-      filter: ['has', 'point_count'],
-      layout: {
-        'text-field': '{point_count_abbreviated}',
-        'text-size': 12
       }
     });
   }
@@ -702,16 +702,17 @@ function setupMapInteractions() {
     if (layer.type === 'symbol') lastSymbolLayerId = layer.id;
   }
 
+    // Then cluster-count above clusters
+    if (map.getLayer('cluster-count')) {
+      map.moveLayer('cluster-count', 'clusters');
+    }
+
   if (lastSymbolLayerId) {
     // Put clusters just above symbols
     if (map.getLayer('clusters')) {
       map.moveLayer('clusters', lastSymbolLayerId);
     }
 
-    // Then cluster-count above clusters
-    if (map.getLayer('cluster-count')) {
-      map.moveLayer('cluster-count', 'clusters');
-    }
 
     // Then org-points above cluster-count
     if (map.getLayer('org-points')) {
