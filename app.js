@@ -562,7 +562,7 @@ function applyFilters() {
       }
     }
 
-    const multi = ['climate_categories', 'tags'];
+    const multi = ['climate_categories', 'tags', 'audience_focus'];
     for (const field of multi) {
       const selected = currentFilters[field];
       if (selected && selected.length > 0) {

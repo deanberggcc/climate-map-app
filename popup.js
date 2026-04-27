@@ -6,7 +6,19 @@ export function renderPopupHTML(data) {
   const isVerified = data.verified === "Verified";
   const verifiedIcon = isVerified ? "✔️ " : "";
 
-  const climate = (data.climate_categories || []).slice(0, 3).join(", ");
+  const climateRaw = data.climate_categories;
+const climateList = Array.isArray(climateRaw)
+  ? climateRaw
+  : typeof climateRaw === "string"
+    ? climateRaw.replace(/^
+
+\[|\]
+
+$/g, "").split(/[,;]/).map(s => s.trim()).filter(Boolean)
+    : [];
+
+const climate = climateList.slice(0, 3).join(", ");
+
   const social = (data.social_links || []).join(" • ");
 
   return `
@@ -22,7 +34,11 @@ export function renderPopupHTML(data) {
         <div><strong>Type:</strong> ${data.organization_type || "Unknown"}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
         <div><strong>Climate:</strong> ${climate || "Unknown"}</div>
-        <div><strong>Audience:</strong> ${Array.isArray(data.audience_focus) ? data.audience_focus.join(", ") : data.audience_focus || "Unknown"}</div>
+        <div><strong>Audience:</strong> ${
+  Array.isArray(data.audience_focus)
+    ? data.audience_focus.join(", ")
+    : (data.audience_focus || "Unknown")
+}</div>
         <div><strong>Reach:</strong> ${data.reach || "Unknown"}</div>
       </div>
 
