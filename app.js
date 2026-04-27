@@ -146,7 +146,6 @@ export function openPopupForFeature(feature, map) {
       .setLngLat(coords)
       .setHTML(renderPopupHTML(data))
       .setOffset(offset)
-      .setAnchor(anchor)
       .addTo(map);
   });
 }
