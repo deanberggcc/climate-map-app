@@ -1,25 +1,58 @@
 // popup.js
 import { formatAddress, formatCity } from "./formatters.js";
 
+/**
+ * Safely normalize any field that might be:
+ *  - a list
+ *  - a JSON list string
+ *  - a slash-separated string ("Residents / Businesses")
+ *  - a comma-separated string
+ *  - a single string
+ *  - null / undefined
+ */
+function normalizeList(value) {
+  if (Array.isArray(value)) return value;
+
+  if (typeof value !== "string") return [];
+
+  const s = value.trim();
+  if (!s) return [];
+
+  // JSON list?
+  if (s.startsWith("[") && s.endsWith("]")) {
+    try {
+      const parsed = JSON.parse(s);
+      if (Array.isArray(parsed)) return parsed;
+    } catch {
+      // fall through
+    }
+  }
+
+  // Slash, comma, semicolon
+  if (/[\/,;]/.test(s)) {
+    return s.split(/[\/,;]/).map(x => x.trim()).filter(Boolean);
+  }
+
+  // Single item
+  return [s];
+}
+
 export function renderPopupHTML(data) {
   // Verified is ALWAYS a string: "Verified" or "Not Verified"
   const isVerified = data.verified === "Verified";
   const verifiedIcon = isVerified ? "✔️ " : "";
 
-  const climateRaw = data.climate_categories;
-const climateList = Array.isArray(climateRaw)
-  ? climateRaw
-  : typeof climateRaw === "string"
-    ? climateRaw.replace(/^
+  // Climate categories (always list)
+  const climateList = normalizeList(data.climate_categories);
+  const climate = climateList.slice(0, 3).join(", ") || "Unknown";
 
-\[|\]
+  // Audience focus (always list)
+  const audienceList = normalizeList(data.audience_focus);
+  const audience = audienceList.join(", ") || "Unknown";
 
-$/g, "").split(/[,;]/).map(s => s.trim()).filter(Boolean)
-    : [];
-
-const climate = climateList.slice(0, 3).join(", ");
-
-  const social = (data.social_links || []).join(" • ");
+  // Social links (list)
+  const socialList = normalizeList(data.social_links);
+  const social = socialList.join(" • ");
 
   return `
     <div class="popup">
@@ -33,12 +66,8 @@ const climate = climateList.slice(0, 3).join(", ");
       <div class="popup-meta">
         <div><strong>Type:</strong> ${data.organization_type || "Unknown"}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
-        <div><strong>Climate:</strong> ${climate || "Unknown"}</div>
-        <div><strong>Audience:</strong> ${
-  Array.isArray(data.audience_focus)
-    ? data.audience_focus.join(", ")
-    : (data.audience_focus || "Unknown")
-}</div>
+        <div><strong>Climate:</strong> ${climate}</div>
+        <div><strong>Audience:</strong> ${audience}</div>
         <div><strong>Reach:</strong> ${data.reach || "Unknown"}</div>
       </div>
 
@@ -55,4 +84,3 @@ const climate = climateList.slice(0, 3).join(", ");
     </div>
   `;
 }
-
