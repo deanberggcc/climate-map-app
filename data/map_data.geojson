@@ -22,12 +22,9 @@
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -47,15 +44,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.856489915859,
@@ -85,12 +82,9 @@
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -109,14 +103,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.85281800385104,
@@ -146,12 +140,9 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -172,15 +163,15 @@
           "both"
         ],
         "audience_focus": [
-          "Municipality",
-          "Residents"
+          "['Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.654405196566,
@@ -210,13 +201,10 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "['Energy Efficiency'",
+          "'Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -236,15 +224,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "unknown"
+          "['Residents'",
+          "'unknown']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.64668242492826,
@@ -274,12 +262,9 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -301,14 +286,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.56838727008106,
@@ -338,13 +323,10 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -364,14 +346,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.567156244851,
@@ -401,15 +383,12 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental",
-          "Transportation",
-          "Waste Reduction"
+          "['Energy Efficiency'",
+          "'Environmental'",
+          "'Transportation'",
+          "'Waste Reduction']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -432,16 +411,16 @@
           "both"
         ],
         "audience_focus": [
-          "Businesses",
-          "Municipality",
-          "Residents"
+          "['Businesses'",
+          "'Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.547973264765,
@@ -471,12 +450,9 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -496,14 +472,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.5679314707532,
@@ -533,17 +509,14 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Green Economics",
-          "Food & Food Waste",
-          "Transportation",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Waste Reduction'",
+          "'Green Economics'",
+          "'Food & Food Waste'",
+          "'Transportation'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -568,15 +541,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Businesses"
+          "['Residents'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.56811857156294,
@@ -606,12 +579,9 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -641,14 +611,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.568334017262195,
@@ -678,12 +648,9 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -702,15 +669,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.56840079976929,
@@ -740,14 +707,11 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Energy Efficiency",
-          "Transportation",
-          "Environmental"
+          "['Energy Efficiency'",
+          "'Transportation'",
+          "'Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -769,16 +733,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.357297436292,
@@ -808,12 +772,9 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -833,14 +794,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Municipality"
+          "['Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.360988608209,
@@ -870,12 +831,9 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "State",
           "National"
@@ -895,16 +853,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.35630676394484,
@@ -934,12 +892,9 @@
         "state": "ma",
         "postal_code": "02124",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -960,16 +915,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.359164350753,
@@ -999,14 +954,12 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental",
-          "Green Economics",
-          "Transportation"
+          "['Energy Efficiency'",
+          "'Environmental'",
+          "'Green Economics'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Municipality"
-        ],
+        "organization_type": "Municipality",
         "reach": [
           "State",
           "National"
@@ -1032,16 +985,16 @@
           "both"
         ],
         "audience_focus": [
-          "Businesses",
-          "Municipality",
-          "Residents"
+          "['Businesses'",
+          "'Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.357297436292,
@@ -1071,12 +1024,9 @@
         "state": "ma",
         "postal_code": "01921",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -1095,14 +1045,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.694262379562,
@@ -1132,12 +1082,9 @@
         "state": "ma",
         "postal_code": "01921",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -1156,15 +1103,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.694262379562,
@@ -1194,12 +1141,9 @@
         "state": "ma",
         "postal_code": "01835",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -1218,15 +1162,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.737828633318,
@@ -1256,14 +1200,11 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "Energy Efficiency",
-          "Green Economics",
-          "Transportation"
+          "['Energy Efficiency'",
+          "'Green Economics'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1286,16 +1227,16 @@
           "both"
         ],
         "audience_focus": [
-          "Businesses",
-          "Municipality",
-          "Residents"
+          "['Businesses'",
+          "'Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.368861243468,
@@ -1325,12 +1266,9 @@
         "state": "ma",
         "postal_code": "02138",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1372,16 +1310,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.362094295267,
@@ -1411,14 +1349,11 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "Energy Efficiency",
-          "Food & Food Waste",
-          "Green Economics"
+          "['Energy Efficiency'",
+          "'Food & Food Waste'",
+          "'Green Economics']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1439,15 +1374,15 @@
           "both"
         ],
         "audience_focus": [
-          "Businesses",
-          "Residents"
+          "['Businesses'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.365859121587,
@@ -1477,14 +1412,11 @@
         "state": "ma",
         "postal_code": "02632",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency",
-          "Transportation"
+          "['Environmental'",
+          "'Energy Efficiency'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -1520,16 +1452,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 41.660401721344435,
@@ -1559,12 +1491,9 @@
         "state": "ma",
         "postal_code": "01510",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -1580,14 +1509,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.410678274575,
@@ -1617,13 +1546,10 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "['Energy Efficiency'",
+          "'Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -1642,15 +1568,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.356497791284056,
@@ -1680,12 +1606,9 @@
         "state": "ma",
         "postal_code": "01002",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1713,14 +1636,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
         "latitude": 42.259345869322736,
@@ -1750,12 +1673,9 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1775,15 +1695,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.35643521521606,
@@ -1813,12 +1733,9 @@
         "state": "ma",
         "postal_code": "02140",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -1838,14 +1755,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.39316314634351,
@@ -1875,12 +1792,9 @@
         "state": "ma",
         "postal_code": "02110",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "State",
           "National"
@@ -1905,16 +1819,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Businesses",
-          "Municipality",
-          "Residents"
+          "['Businesses'",
+          "'Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.3577066920845,
@@ -1944,12 +1858,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -1970,14 +1881,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.319196901531,
@@ -2007,12 +1918,9 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -2031,14 +1939,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.10408081700893,
@@ -2068,12 +1976,9 @@
         "state": "ma",
         "postal_code": "02066",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -2092,15 +1997,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.20089847124288,
@@ -2130,12 +2035,9 @@
         "state": "ma",
         "postal_code": "01923",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -2154,15 +2056,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.57372424341107,
@@ -2192,13 +2094,10 @@
         "state": "ma",
         "postal_code": "01923",
         "climate_categories": [
-          "Green Economics",
-          "Energy Efficiency"
+          "['Green Economics'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -2217,15 +2116,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.57396580751807,
@@ -2255,12 +2154,9 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -2282,14 +2178,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.62604478291486,
@@ -2319,12 +2215,9 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2343,14 +2236,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.62558434678093,
@@ -2380,12 +2273,9 @@
         "state": "ma",
         "postal_code": "01902",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "unknown"
         ],
@@ -2400,14 +2290,14 @@
           "unknown"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "unknown"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.47075415300272,
@@ -2437,12 +2327,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2462,14 +2349,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.06234684400394,
@@ -2499,12 +2386,9 @@
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2520,14 +2404,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.635455712614,
@@ -2557,13 +2441,10 @@
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
-          "Environmental",
-          "Food & Food Waste"
+          "['Environmental'",
+          "'Food & Food Waste']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -2589,14 +2470,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.632850180929,
@@ -2626,13 +2507,10 @@
         "state": "ma",
         "postal_code": "01833",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -2652,15 +2530,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.722981357416,
@@ -2690,12 +2568,9 @@
         "state": "ma",
         "postal_code": "02038",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2715,14 +2590,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.086160407386,
@@ -2752,12 +2627,9 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -2773,15 +2645,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.614177971067,
@@ -2811,13 +2683,10 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction"
+          "['Environmental'",
+          "'Waste Reduction']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2837,14 +2706,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.62579260731138,
@@ -2874,11 +2743,9 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Academic"
-        ],
+        "organization_type": "Academic",
         "reach": [
           "Regional"
         ],
@@ -2896,16 +2763,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.62585467221357,
@@ -2935,12 +2802,9 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -2960,14 +2824,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.6256847806582,
@@ -2997,12 +2861,9 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -3022,15 +2883,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.359258208898,
@@ -3060,12 +2921,9 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -3086,14 +2944,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.092453387892,
@@ -3123,12 +2981,9 @@
         "state": "ma",
         "postal_code": "01834",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -3147,14 +3002,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.767983121853,
@@ -3184,12 +3039,9 @@
         "state": "ma",
         "postal_code": "01936",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -3208,15 +3060,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.619906898035,
@@ -3246,12 +3098,9 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3270,14 +3119,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.795407548481435,
@@ -3307,12 +3156,9 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -3328,15 +3174,15 @@
           "action"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.79564545178739,
@@ -3366,12 +3212,9 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3391,14 +3234,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.777703380986,
@@ -3428,13 +3271,10 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "Environmental",
-          "Transportation"
+          "['Environmental'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -3457,16 +3297,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.795637095456264,
@@ -3496,12 +3336,9 @@
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3520,14 +3357,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.26206792259425,
@@ -3557,12 +3394,9 @@
         "state": "ma",
         "postal_code": "01610",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3582,14 +3416,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.246322579344856,
@@ -3619,12 +3453,9 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3644,14 +3475,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.68515893567938,
@@ -3681,12 +3512,9 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -3706,15 +3534,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.680751292378,
@@ -3744,12 +3572,9 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3768,14 +3593,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.6851708555239,
@@ -3805,12 +3630,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -3831,16 +3653,16 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.41021953791718,
@@ -3870,12 +3692,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3895,14 +3714,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.3219440821717,
@@ -3932,12 +3751,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -3957,14 +3773,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32165348802035,
@@ -3994,12 +3810,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4019,14 +3832,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32174387467176,
@@ -4056,12 +3869,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "unknown"
         ],
@@ -4080,14 +3890,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "unknown"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32169354543046,
@@ -4117,12 +3927,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4141,14 +3948,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32196195938736,
@@ -4178,12 +3985,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4203,15 +4007,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32216782334186,
@@ -4241,12 +4045,9 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4266,14 +4067,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.32183583219329,
@@ -4303,13 +4104,10 @@
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
-          "Environmental",
-          "Food & Food Waste"
+          "['Environmental'",
+          "'Food & Food Waste']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -4331,14 +4129,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.706186872023,
@@ -4368,12 +4166,9 @@
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4392,14 +4187,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.70654342651134,
@@ -4429,12 +4224,9 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4455,14 +4247,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.5127855287269,
@@ -4492,12 +4284,9 @@
         "state": "ma",
         "postal_code": "01908",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4517,14 +4306,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.42848992377923,
@@ -4554,12 +4343,9 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -4581,14 +4367,14 @@
           "both"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.63203134604385,
@@ -4618,13 +4404,10 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4643,14 +4426,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.646482172061,
@@ -4680,12 +4463,9 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4707,14 +4487,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.465364791782,
@@ -4744,14 +4524,11 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental",
-          "Waste Reduction"
+          "['Energy Efficiency'",
+          "'Environmental'",
+          "'Waste Reduction']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -4772,15 +4549,15 @@
           "both"
         ],
         "audience_focus": [
-          "Municipality",
-          "Residents"
+          "['Municipality'",
+          "'Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.461067388179,
@@ -4810,12 +4587,9 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -4835,14 +4609,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.456388299421,
@@ -4872,12 +4646,9 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -4898,14 +4669,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.470463231216,
@@ -4935,12 +4706,9 @@
         "state": "ma",
         "postal_code": "01940",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -4956,15 +4724,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.538204641291,
@@ -4994,12 +4762,9 @@
         "state": "ma",
         "postal_code": "01940",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "unknown"
         ],
@@ -5014,14 +4779,14 @@
           "unknown"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "unknown"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.534979632513746,
@@ -5051,12 +4816,9 @@
         "state": "ma",
         "postal_code": "01944",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -5076,14 +4838,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.575191811313,
@@ -5113,12 +4875,9 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5137,14 +4896,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.499060959594956,
@@ -5174,12 +4933,9 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5195,15 +4951,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.499085668742886,
@@ -5233,12 +4989,9 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5257,15 +5010,15 @@
           "action"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.49898652973553,
@@ -5295,15 +5048,12 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Energy Efficiency",
-          "Transportation"
+          "['Environmental'",
+          "'Waste Reduction'",
+          "'Energy Efficiency'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5330,16 +5080,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
         "latitude": 42.25921971717785,
@@ -5369,12 +5119,9 @@
         "state": "ma",
         "postal_code": "01752",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -5394,15 +5141,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.346781932156,
@@ -5432,11 +5179,9 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Business"
-        ],
+        "organization_type": "Business",
         "reach": [
           "Regional"
         ],
@@ -5454,15 +5199,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Businesses"
+          "['Residents'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.10430208538102,
@@ -5492,13 +5237,11 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "Energy Efficiency",
-          "Transportation",
-          "Environmental"
+          "['Energy Efficiency'",
+          "'Transportation'",
+          "'Environmental']"
         ],
-        "organization_type": [
-          "Academic"
-        ],
+        "organization_type": "Academic",
         "reach": [
           "State",
           "National"
@@ -5523,16 +5266,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.358954558549,
@@ -5562,13 +5305,10 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "Energy Efficiency",
-          "Environmental"
+          "['Energy Efficiency'",
+          "'Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "State",
           "National"
@@ -5588,16 +5328,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.35648665782169,
@@ -5627,12 +5367,9 @@
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5652,14 +5389,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.822452058577,
@@ -5689,12 +5426,9 @@
         "state": "ma",
         "postal_code": "01844",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -5713,15 +5447,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.732371645329,
@@ -5751,12 +5485,9 @@
         "state": "ma",
         "postal_code": "01949",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5775,14 +5506,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.60426009232887,
@@ -5812,12 +5543,9 @@
         "state": "ma",
         "postal_code": "02155",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5836,14 +5564,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.42311361507741,
@@ -5873,17 +5601,14 @@
         "state": "ma",
         "postal_code": "02492",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Green Economics",
-          "Food & Food Waste",
-          "Transportation",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Waste Reduction'",
+          "'Green Economics'",
+          "'Food & Food Waste'",
+          "'Transportation'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -5907,16 +5632,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.275774963447645,
@@ -5946,12 +5671,9 @@
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -5971,14 +5693,14 @@
           "both"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.838364563893904,
@@ -6008,12 +5730,9 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "unknown"
         ],
@@ -6028,14 +5747,14 @@
           "unknown"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "unknown"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.81212327893318,
@@ -6065,11 +5784,9 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipality"
-        ],
+        "organization_type": "Municipality",
         "reach": [
           "Town",
           "City"
@@ -6089,15 +5806,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.81093546143,
@@ -6127,11 +5844,9 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipality"
-        ],
+        "organization_type": "Municipality",
         "reach": [
           "Town",
           "City"
@@ -6151,15 +5866,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.81093546143,
@@ -6189,12 +5904,9 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6214,14 +5926,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.8119484520375,
@@ -6251,12 +5963,9 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6275,14 +5984,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.67079497684548,
@@ -6312,12 +6021,9 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -6336,15 +6042,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.670960112334946,
@@ -6374,11 +6080,9 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Academic"
-        ],
+        "organization_type": "Academic",
         "reach": [
           "Town",
           "City"
@@ -6399,14 +6103,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.67081473849685,
@@ -6436,12 +6140,9 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6460,14 +6161,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:zip_dataset",
         "geocode_reason": null,
         "latitude": 42.671047010662505,
@@ -6497,12 +6198,9 @@
         "state": "ma",
         "postal_code": "02111",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -6521,14 +6219,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.35061425327787,
@@ -6558,12 +6256,9 @@
         "state": "ma",
         "postal_code": "02360",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6582,14 +6277,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 41.87814749422439,
@@ -6619,12 +6314,9 @@
         "state": "ma",
         "postal_code": "01234",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6643,14 +6335,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 35.104585785438,
@@ -6680,14 +6372,11 @@
         "state": "ma",
         "postal_code": "01701",
         "climate_categories": [
-          "Environmental",
-          "Transportation",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Transportation'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -6708,14 +6397,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.306354753507,
@@ -6745,12 +6434,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6769,14 +6455,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.41009737763691,
@@ -6806,12 +6492,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -6830,15 +6513,15 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.410286607091976,
@@ -6868,12 +6551,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -6892,14 +6572,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.41041355345556,
@@ -6929,12 +6609,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -6953,14 +6630,14 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.41044028996243,
@@ -6990,12 +6667,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7014,14 +6688,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.410138836631845,
@@ -7051,12 +6725,9 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7075,14 +6746,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.41041966934131,
@@ -7112,12 +6783,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7136,14 +6804,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.06210615465671,
@@ -7173,13 +6841,10 @@
         "state": "ma",
         "postal_code": "01966",
         "climate_categories": [
-          "Green Economics",
-          "Energy Efficiency"
+          "['Green Economics'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -7198,15 +6863,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.656741985648,
@@ -7236,12 +6901,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7261,15 +6923,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Businesses"
+          "['Residents'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.06226244481869,
@@ -7299,12 +6961,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7325,14 +6984,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.062111775372145,
@@ -7362,12 +7021,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7388,15 +7044,15 @@
           "action"
         ],
         "audience_focus": [
-          "Residents",
-          "Businesses"
+          "['Residents'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.062253895081604,
@@ -7426,12 +7082,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7452,14 +7105,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.062331517511446,
@@ -7489,12 +7142,9 @@
         "state": "ma",
         "postal_code": "01969",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7513,14 +7163,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.72189942771313,
@@ -7550,12 +7200,9 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7575,14 +7222,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.51257897518341,
@@ -7612,14 +7259,12 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Transportation",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Waste Reduction'",
+          "'Transportation'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Academic"
-        ],
+        "organization_type": "Academic",
         "reach": [
           "Regional"
         ],
@@ -7644,16 +7289,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.506317530676,
@@ -7683,12 +7328,9 @@
         "state": "ma",
         "postal_code": "01952",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7707,14 +7349,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.84639694041316,
@@ -7744,12 +7386,9 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7769,14 +7408,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.465589548136,
@@ -7806,12 +7445,9 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "unknown"
         ],
@@ -7826,14 +7462,14 @@
           "unknown"
         ],
         "audience_focus": [
-          "unknown"
+          "['unknown']"
         ],
         "adaptation_vs_mitigation": [
           "unknown"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.465589548136,
@@ -7863,12 +7499,9 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -7884,15 +7517,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.465589548136,
@@ -7922,12 +7555,9 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -7947,14 +7577,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.468765287508695,
@@ -7984,12 +7614,9 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "Unknown"
+          "['Unknown']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8008,14 +7635,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.651940476851,
@@ -8045,13 +7672,10 @@
         "state": "ma",
         "postal_code": "02143",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "State",
           "National"
@@ -8073,14 +7697,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.382379845972,
@@ -8110,14 +7734,11 @@
         "state": "ma",
         "postal_code": "01104",
         "climate_categories": [
-          "Environmental",
-          "Transportation",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Transportation'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -8138,16 +7759,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.107712310883,
@@ -8177,12 +7798,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8201,14 +7819,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.06239390420565,
@@ -8238,12 +7856,9 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8263,14 +7878,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.06226892619464,
@@ -8300,13 +7915,10 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "Green Economics",
-          "Energy Efficiency"
+          "['Green Economics'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -8326,15 +7938,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.469014323451,
@@ -8364,12 +7976,9 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -8389,15 +7998,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.469014323451,
@@ -8427,12 +8036,9 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -8452,15 +8058,15 @@
           "advocacy"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "cached:census_full_address",
         "geocode_reason": null,
         "latitude": 42.469014323451,
@@ -8490,12 +8096,9 @@
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Municipal",
-          "Government-affiliated"
-        ],
+        "organization_type": "Municipal / Government-affiliated",
         "reach": [
           "Town",
           "City"
@@ -8514,15 +8117,15 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "['Residents'",
+          "'Municipality']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.641193699325,
@@ -8552,13 +8155,10 @@
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "['Environmental'",
+          "'Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8578,14 +8178,14 @@
           "action"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.641193699325,
@@ -8615,12 +8215,9 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "Energy Efficiency"
+          "['Energy Efficiency']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8640,14 +8237,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.63227461836363,
@@ -8677,12 +8274,9 @@
         "state": "ma",
         "postal_code": "01984",
         "climate_categories": [
-          "Environmental"
+          "['Environmental']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Town",
           "City"
@@ -8701,14 +8295,14 @@
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "['Residents']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.60060789524994,
@@ -8738,13 +8332,10 @@
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
-          "Environmental",
-          "Transportation"
+          "['Environmental'",
+          "'Transportation']"
         ],
-        "organization_type": [
-          "Nonprofit",
-          "Grassroots"
-        ],
+        "organization_type": "Nonprofit / Grassroots",
         "reach": [
           "Regional"
         ],
@@ -8765,16 +8356,16 @@
           "both"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "['Residents'",
+          "'Municipality'",
+          "'Businesses']"
         ],
         "adaptation_vs_mitigation": [
           "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
-        "verified": "Not Verified",
+        "verified": NaN,
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.261975513346414,
