@@ -25,13 +25,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Amesbury Climate Committee focuses on climate action and sustainability initiatives in the city.",
         "tags": [
@@ -40,16 +35,12 @@
           "city initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -85,13 +76,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Amesbury Climate Action is dedicated to reducing greenhouse gas emissions and promoting sustainability in Amesbury.",
         "tags": [
@@ -99,15 +85,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -143,13 +125,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Andover Climate Committee focuses on climate action and sustainability initiatives in the community.",
         "tags": [
@@ -159,16 +136,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -205,13 +178,8 @@
           "'Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Andover promotes initiatives for reducing carbon emissions and enhancing sustainability in the community.",
         "tags": [
@@ -220,16 +188,12 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -265,13 +229,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Beverly Climate Action Network focuses on local climate initiatives and community engagement for climate resilience.",
         "tags": [
@@ -282,15 +241,11 @@
           "local climate initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -327,13 +282,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The club engages students in climate education and action projects focused on sustainability and emissions reduction.",
         "tags": [
@@ -342,15 +292,11 @@
           "emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -389,13 +335,8 @@
           "'Waste Reduction']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Beverly Municipal Sustainability Committee is committed to a sustainable future for Beverly by significantly reducing carbon pollution and enhancing the community's resilience to climate change through environmentally conscious municipal operations and collaborative community programs.",
         "tags": [
@@ -407,17 +348,13 @@
           "waste reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Businesses'",
           "'Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -453,13 +390,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Beverly Youth Climate Coalition engages young people in climate advocacy and education initiatives.",
         "tags": [
@@ -468,15 +400,11 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -517,13 +445,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Beverly is a non-profit working to lower the carbon footprint of Beverly residents and businesses by providing services, running community programs, and facilitating knowledge sharing.",
         "tags": [
@@ -537,16 +460,12 @@
           "sustainable living"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -582,12 +501,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The North Shore Climate Coalition works on regional climate action plans and advocacy for emissions reduction.",
         "tags": [
@@ -607,15 +522,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -651,12 +562,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The North Shore Climate Collaborative works with local municipalities to implement climate action plans and promote sustainability.",
         "tags": [
@@ -665,16 +572,12 @@
           "municipal collaboration"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -712,13 +615,8 @@
           "'Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Massachusetts Clean Energy Center promotes clean energy technologies and supports the transition to renewable energy sources, aiming to make Massachusetts a global hub for the climatetech industry.",
         "tags": [
@@ -729,17 +627,13 @@
           "workforce training"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -775,13 +669,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The coalition focuses on climate adaptation strategies for municipalities across Massachusetts.",
         "tags": [
@@ -790,15 +679,11 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -834,13 +719,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Massachusetts Department of Energy Resources implements policies for energy efficiency and renewable energy, contributing to climate action.",
         "tags": [
@@ -849,17 +729,13 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -895,13 +771,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Alliance for a Healthy Tomorrow is a coalition focused on preventing toxic hazards and advocating for policies that protect health and the environment.",
         "tags": [
@@ -911,17 +782,13 @@
           "environmental protection"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -960,13 +827,8 @@
           "'Transportation']"
         ],
         "organization_type": "Municipality",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Massachusetts Clean Energy Center (MassCEC) supports the transition to clean energy through various programs and initiatives, focusing on climate solution innovation to meet Massachusetts emission reduction goals while growing the state\u2019s clean energy economy.",
         "tags": [
@@ -981,17 +843,13 @@
           "workforce training"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Businesses'",
           "'Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1027,13 +885,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Boxford Climate Action is dedicated to reducing greenhouse gas emissions and promoting sustainability in the community.",
         "tags": [
@@ -1041,15 +894,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1085,13 +934,8 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Boxford Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [
@@ -1099,16 +943,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1144,13 +984,8 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Bradford Climate Action Committee focuses on local climate initiatives and resilience planning.",
         "tags": [
@@ -1158,16 +993,12 @@
           "resilience planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1205,13 +1036,8 @@
           "'Transportation']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Energy Consumers Alliance is a nonprofit organization that empowers consumers and communities to speed a just transition to a zero-carbon world through education, programming, and advocacy.",
         "tags": [
@@ -1223,17 +1049,13 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Businesses'",
           "'Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1269,13 +1091,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "Massachusetts Climate Action Network works on climate policy and advocacy to reduce emissions and promote sustainability.",
         "tags": [
@@ -1306,17 +1123,13 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1354,13 +1167,8 @@
           "'Green Economics']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Sustainable Business Network of Massachusetts (SBN) is a nonprofit organization focused on building a local economy that is green and fair. SBN promotes sustainable business practices, supports local entrepreneurs, and educates about the benefits of purchasing from locally owned and independent businesses.",
         "tags": [
@@ -1370,16 +1178,12 @@
           "sustainable business"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Businesses'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1417,12 +1221,8 @@
           "'Transportation']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Cape Cod Climate Change Collaborative is a non-profit organization focused on reducing the Cape & Islands region's contributions to climate change and protecting the region from its impacts.",
         "tags": [
@@ -1448,17 +1248,13 @@
           "https://www.linkedin.com/company/cape-cod-climate-change-collaborative",
           "https://www.youtube.com/channel/UC-CapeCodClimate"
         ],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1494,26 +1290,17 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement for sustainability.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1550,13 +1337,8 @@
           "'Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Boston Climate Action Network aims to reduce greenhouse gas emissions and prepare for climate impacts.",
         "tags": [
@@ -1564,16 +1346,12 @@
           "climate impacts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1609,13 +1387,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "Climate Action Now is a grassroots organization advocating for climate action and sustainability initiatives in Massachusetts.",
         "tags": [
@@ -1632,15 +1405,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1676,13 +1445,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Resilient MA focuses on building resilience to climate change impacts across Massachusetts.",
         "tags": [
@@ -1691,16 +1455,12 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1736,13 +1496,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Alliance for Climate Education educates and empowers young people to take action on climate change.",
         "tags": [
@@ -1751,15 +1506,11 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1795,13 +1546,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Massachusetts Department of Environmental Protection implements climate adaptation strategies and policies.",
         "tags": [
@@ -1815,17 +1561,13 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Businesses'",
           "'Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1861,13 +1603,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Northampton works on local sustainability initiatives that include climate action and resilience planning.",
         "tags": [
@@ -1877,15 +1614,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1921,12 +1654,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Western Massachusetts Network to End Homelessness addresses environmental justice issues related to housing and climate impacts.",
         "tags": [
@@ -1935,15 +1664,11 @@
           "climate impacts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1979,13 +1704,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Cushing Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [
@@ -1993,16 +1713,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2038,13 +1754,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Danvers Climate Action Committee works on initiatives to reduce greenhouse gas emissions and promote sustainability in the community.",
         "tags": [
@@ -2052,16 +1763,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2098,13 +1805,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Danvers Climate Action Committee focuses on reducing greenhouse gas emissions and promoting sustainability initiatives in the community.",
         "tags": [
@@ -2112,16 +1814,12 @@
           "sustainability initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2157,12 +1855,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Working on local climate action plans and community resilience initiatives.",
         "tags": [
@@ -2174,15 +1868,11 @@
           "resilience planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2218,13 +1908,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Develops strategies for climate adaptation and community resilience.",
         "tags": [
@@ -2232,15 +1917,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2276,25 +1957,17 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "unknown"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "unknown",
+        "action_category": "Unknown",
         "status": "unknown",
         "summary": "Green Lynn is focused on climate action and sustainability initiatives in the Lynn area.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "unknown"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "unknown"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2330,13 +2003,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement for emissions reduction.",
         "tags": [
@@ -2345,15 +2013,11 @@
           "emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2389,26 +2053,17 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Essex Climate Action focuses on local climate initiatives and community engagement for sustainability.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2445,12 +2100,8 @@
           "'Food & Food Waste']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Conservation"
-        ],
+        "reach": "Regional",
+        "action_category": "Conservation",
         "status": "active",
         "summary": "The Essex County Greenbelt Association conserves farmland, wildlife habitat, and scenic landscapes throughout Essex County, Massachusetts, ensuring free access to nature for all.",
         "tags": [
@@ -2466,15 +2117,11 @@
           "https://www.linkedin.com",
           "https://www.youtube.com"
         ],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2511,13 +2158,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Georgetown Climate Action Committee works on initiatives to reduce greenhouse gas emissions and promote sustainability in the community.",
         "tags": [
@@ -2526,16 +2168,12 @@
           "community initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2571,13 +2209,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement for sustainability.",
         "tags": [
@@ -2586,15 +2219,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2630,27 +2259,18 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "Town / City",
+        "action_category": "Unknown",
         "status": "active",
         "summary": "The city has developed a Climate Action Plan focusing on emissions reduction and resilience.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2687,13 +2307,8 @@
           "'Waste Reduction']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Gloucester focuses on local climate action initiatives and sustainability programs.",
         "tags": [
@@ -2702,15 +2317,11 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2746,12 +2357,8 @@
           "['Environmental']"
         ],
         "organization_type": "Academic",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "North Shore Community College offers programs focused on sustainability and climate education.",
         "tags": [
@@ -2759,17 +2366,13 @@
           "climate education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2805,13 +2408,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Cape Ann focuses on local sustainability initiatives, including climate action and community resilience.",
         "tags": [
@@ -2820,15 +2418,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2864,13 +2458,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The initiative focuses on building resilience to climate change impacts across Massachusetts.",
         "tags": [
@@ -2879,16 +2468,12 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2924,13 +2509,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The network empowers youth to engage in climate action and advocacy.",
         "tags": [
@@ -2940,15 +2520,11 @@
           "youth"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2984,13 +2560,8 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Groveland Climate Committee focuses on local climate action initiatives and sustainability practices.",
         "tags": [
@@ -2998,15 +2569,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3042,13 +2609,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Hamilton Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [
@@ -3056,16 +2618,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3101,13 +2659,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Haverhill works on projects that promote sustainability and climate action in the community.",
         "tags": [
@@ -3115,15 +2668,11 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3159,27 +2708,18 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Haverhill Climate Committee focuses on local climate action initiatives and sustainability efforts.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3215,13 +2755,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Green Team promotes climate education and sustainability practices within the school system.",
         "tags": [
@@ -3230,15 +2765,11 @@
           "school system"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3275,12 +2806,8 @@
           "'Transportation']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Merrimack Valley Planning Commission fosters cooperative efforts among communities to resolve regional problems, promote coordinated development, and enhance the general welfare of residents.",
         "tags": [
@@ -3293,17 +2820,13 @@
           "transportation planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3339,13 +2862,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Worcester Environmental Council works on climate resilience and sustainability initiatives in the city.",
         "tags": [
@@ -3353,15 +2871,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3397,13 +2911,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The coalition focuses on youth-led climate action and education programs.",
         "tags": [
@@ -3412,15 +2921,11 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3456,13 +2961,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Ipswich is focused on promoting sustainable practices and climate action in the community.",
         "tags": [
@@ -3471,15 +2971,11 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3515,13 +3011,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Ipswich Climate Action Committee works on local climate initiatives and sustainability efforts.",
         "tags": [
@@ -3530,16 +3021,12 @@
           "local government"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3575,13 +3062,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Ipswich promotes initiatives aimed at reducing carbon emissions and enhancing community resilience.",
         "tags": [
@@ -3589,15 +3071,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3633,13 +3111,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Massachusetts Climate Coalition works on climate policy and advocacy to address climate change.",
         "tags": [
@@ -3649,17 +3122,13 @@
           "local implementation"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3695,13 +3164,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Coalition focuses on promoting clean energy solutions and reducing carbon emissions in the community.",
         "tags": [
@@ -3710,15 +3174,11 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3754,13 +3214,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Center provides educational resources and programs focused on climate change and sustainability.",
         "tags": [
@@ -3769,15 +3224,11 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3813,13 +3264,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Knights Crossing Energy Initiative promotes electrification and renewable energy solutions for local residents.",
         "tags": [
@@ -3828,15 +3274,11 @@
           "local residents"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3872,12 +3314,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "unknown"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "unknown",
+        "action_category": "Unknown",
         "status": "unknown",
         "summary": "The Alliance advocates for environmental justice with a focus on climate impacts in marginalized communities.",
         "tags": [
@@ -3886,15 +3324,11 @@
           "marginalized communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "unknown"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3930,13 +3364,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Resilience Committee works on climate adaptation strategies for the community.",
         "tags": [
@@ -3944,15 +3373,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3988,13 +3413,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Knights Crossing Urban Climate Adaptation Program focuses on urban planning and climate adaptation strategies for city infrastructure.",
         "tags": [
@@ -4003,16 +3423,12 @@
           "city infrastructure"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4048,13 +3464,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "This organization engages youth in climate education and advocacy efforts.",
         "tags": [
@@ -4063,15 +3474,11 @@
           "advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4108,12 +3515,8 @@
           "'Food & Food Waste']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Groundwork Lawrence is a nonprofit organization focused on environmental and open space improvements, fresh food access programs, youth and adult education and employment initiatives, and community programming and events. It aims to regenerate and manage the physical environment through community-based partnerships.",
         "tags": [
@@ -4125,15 +3528,11 @@
           "employment initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4169,13 +3568,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Lawrence Climate Action focuses on local climate initiatives and community education about climate change.",
         "tags": [
@@ -4183,15 +3577,11 @@
           "community education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4227,13 +3617,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Salem promotes sustainability practices and climate resilience in the community through various programs and initiatives.",
         "tags": [
@@ -4243,15 +3628,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4287,13 +3668,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Nahant is focused on sustainability initiatives and climate action in the community.",
         "tags": [
@@ -4302,15 +3678,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4346,13 +3718,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Clean Energy Massachusetts promotes renewable energy and energy efficiency programs to reduce carbon footprints.",
         "tags": [
@@ -4363,15 +3730,11 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4408,13 +3771,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Lowell Climate Action focuses on reducing carbon emissions and promoting sustainability initiatives in the city.",
         "tags": [
@@ -4422,15 +3780,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4466,13 +3820,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Lynn Community Health Center is a nonprofit, multicultural community health center providing comprehensive health care services to residents of Lynn, MA, regardless of their ability to pay. The center offers a range of services including primary care, behavioral health, dental, and eye care, and is committed to social justice and reducing barriers to care.",
         "tags": [
@@ -4483,15 +3832,11 @@
           "social justice"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4529,13 +3874,8 @@
           "'Waste Reduction']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Lynn Environmental Sustainability Committee focuses on climate action and sustainability initiatives in the city.",
         "tags": [
@@ -4545,16 +3885,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Municipality'",
           "'Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4590,13 +3926,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Lynn Public Schools have implemented sustainability programs that include climate education for students.",
         "tags": [
@@ -4605,15 +3936,11 @@
           "public schools"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4649,12 +3976,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The coalition works on housing and community development with a focus on sustainability and climate resilience.",
         "tags": [
@@ -4665,15 +3988,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4709,27 +4028,18 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Lynnfield Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4765,25 +4075,17 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "unknown"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "unknown",
+        "action_category": "Unknown",
         "status": "unknown",
         "summary": "Lynnfield Climate Action is focused on reducing carbon emissions and promoting sustainable practices in the community.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "unknown"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "unknown"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4819,13 +4121,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Climate Action Committee focuses on reducing greenhouse gas emissions and promoting sustainability initiatives in the community.",
         "tags": [
@@ -4834,15 +4131,11 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4878,13 +4171,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Marblehead is focused on promoting sustainability and climate action in the community.",
         "tags": [
@@ -4892,15 +4180,11 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4936,27 +4220,18 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Marblehead Climate Action Committee focuses on local climate planning and implementation strategies.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4992,13 +4267,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Conservation"
-        ],
+        "reach": "Town / City",
+        "action_category": "Conservation",
         "status": "active",
         "summary": "The Marblehead Municipal Light Department is involved in energy efficiency programs and renewable energy initiatives.",
         "tags": [
@@ -5006,16 +4276,12 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5054,13 +4320,8 @@
           "'Transportation']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Marblehead is a community organization focused on educating and engaging the Marblehead community to reduce waste and pollution and achieve net zero carbon emissions by 2040.",
         "tags": [
@@ -5076,17 +4337,13 @@
           "waste reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5122,13 +4379,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Marlborough Energy Task Force is focused on promoting energy efficiency and sustainability initiatives in the city.",
         "tags": [
@@ -5137,16 +4389,12 @@
           "municipal initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5182,12 +4430,8 @@
           "['Unknown']"
         ],
         "organization_type": "Business",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "Regional",
+        "action_category": "Unknown",
         "status": "active",
         "summary": "Eversource, formerly known as Western Massachusetts Electric Company, is involved in energy transition and electrification programs.",
         "tags": [
@@ -5195,16 +4439,12 @@
           "electrification"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5242,13 +4482,8 @@
           "'Environmental']"
         ],
         "organization_type": "Academic",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The MIT Energy Initiative is MIT\u2019s hub for energy research, education, and outreach, advancing zero- and low-carbon solutions to expand energy access and address climate change.",
         "tags": [
@@ -5262,17 +4497,13 @@
           "https://www.linkedin.com",
           "https://www.youtube.com"
         ],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5309,13 +4540,8 @@
           "'Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "State / National",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Massachusetts Executive Office of Energy and Environmental Affairs oversees climate adaptation and energy transition initiatives across the state.",
         "tags": [
@@ -5324,17 +4550,13 @@
           "state government"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5370,13 +4592,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Merrimac Climate Action focuses on local initiatives for reducing carbon emissions and promoting renewable energy sources.",
         "tags": [
@@ -5385,15 +4602,11 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5429,13 +4642,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Methuen Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [
@@ -5443,16 +4651,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5488,13 +4692,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Middleton focuses on sustainability initiatives and climate action in the community.",
         "tags": [
@@ -5502,15 +4701,11 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5546,13 +4741,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Mount Vernon Park Climate Action Group aims to reduce local carbon emissions and promote renewable energy solutions in Mount Vernon Park.",
         "tags": [
@@ -5560,15 +4750,11 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5609,13 +4795,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Needham is a volunteer organization dedicated to securing a better future through local action. They work to reduce carbon emissions and promote the wise use of resources in Needham.",
         "tags": [
@@ -5628,17 +4809,13 @@
           "policy advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5674,12 +4851,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Merrimack Valley is focused on promoting sustainability and climate action in the Merrimack Valley region.",
         "tags": [
@@ -5689,15 +4862,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5733,25 +4902,17 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "unknown"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "unknown",
+        "action_category": "Unknown",
         "status": "unknown",
         "summary": "This organization focuses on community energy solutions and promoting renewable energy sources.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "unknown"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "unknown"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5787,13 +4948,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipality",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Newburyport Climate Committee works on initiatives related to climate action and sustainability in the city.",
         "tags": [
@@ -5802,16 +4958,12 @@
           "municipal initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5847,13 +4999,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Municipality",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "Town / City",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Energy Advisory Committee promotes energy efficiency and renewable energy initiatives to reduce carbon emissions.",
         "tags": [
@@ -5862,16 +5009,12 @@
           "carbon emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5907,13 +5050,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Sustainable Newburyport focuses on local sustainability efforts, including climate action initiatives.",
         "tags": [
@@ -5922,15 +5060,11 @@
           "local efforts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5966,13 +5100,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate initiatives and sustainability programs.",
         "tags": [
@@ -5980,15 +5109,11 @@
           "sustainability programs"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6024,13 +5149,8 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The committee works on climate action plans and sustainability initiatives.",
         "tags": [
@@ -6038,16 +5158,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6083,13 +5199,8 @@
           "['Environmental']"
         ],
         "organization_type": "Academic",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Offers climate education programs for students to promote awareness and action.",
         "tags": [
@@ -6099,15 +5210,11 @@
           "action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6143,13 +5250,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Promotes sustainability and climate action in the community.",
         "tags": [
@@ -6157,15 +5259,11 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6201,12 +5299,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Green Justice Coalition focuses on environmental justice and climate resilience in urban communities.",
         "tags": [
@@ -6215,15 +5309,11 @@
           "urban communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6259,13 +5349,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement.",
         "tags": [
@@ -6273,15 +5358,11 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6317,13 +5398,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community engagement.",
         "tags": [
@@ -6331,15 +5407,11 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6377,12 +5449,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "MetroWest Climate Solutions is a coalition that inspires healthy, sustainable communities by hosting programs that provide knowledge and tools for local climate solutions.",
         "tags": [
@@ -6393,15 +5461,11 @@
           "bicycle programs"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6437,13 +5501,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Riverside Climate Action Network focuses on local climate initiatives and community resilience programs.",
         "tags": [
@@ -6451,15 +5510,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6495,12 +5550,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Riverside Climate Education Program provides resources and workshops on climate change for schools and community groups.",
         "tags": [
@@ -6509,16 +5560,12 @@
           "community resources"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6554,13 +5601,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Riverside Energy Initiative promotes electrification and energy efficiency programs in the community.",
         "tags": [
@@ -6568,15 +5610,11 @@
           "energy efficiency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6612,12 +5650,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Riverside Environmental Justice Alliance addresses climate impacts on vulnerable communities.",
         "tags": [
@@ -6626,15 +5660,11 @@
           "vulnerable communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6670,13 +5700,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Riverside Green Energy Task Force promotes renewable energy projects and energy efficiency in the community.",
         "tags": [
@@ -6684,15 +5709,11 @@
           "energy efficiency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6728,13 +5749,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Riverside Resilience Committee focuses on climate adaptation strategies for local infrastructure.",
         "tags": [
@@ -6742,15 +5758,11 @@
           "local infrastructure"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6786,13 +5798,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and community resilience programs.",
         "tags": [
@@ -6800,15 +5807,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6845,13 +5848,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Rockport Climate Action focuses on reducing emissions and promoting sustainability in the community.",
         "tags": [
@@ -6859,16 +5857,12 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6904,13 +5898,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Energy Solutions of Rooty Plain promotes renewable energy projects and energy efficiency programs to reduce carbon emissions.",
         "tags": [
@@ -6919,16 +5908,12 @@
           "carbon emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6964,13 +5949,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Rooty Plain Climate Resilience Initiative focuses on developing strategies for climate adaptation and resilience in local infrastructure and communities.",
         "tags": [
@@ -6980,15 +5960,11 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7024,13 +6000,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Rooty Plain Energy Efficiency Program aims to reduce energy consumption and promote electrification in residential and commercial buildings.",
         "tags": [
@@ -7040,16 +6011,12 @@
           "commercial buildings"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7085,13 +6052,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Rooty Plain Youth Climate Coalition engages youth in climate education and advocacy efforts to promote sustainability and resilience in their community.",
         "tags": [
@@ -7101,15 +6063,11 @@
           "resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7145,13 +6103,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate action initiatives and sustainability programs.",
         "tags": [
@@ -7159,15 +6112,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7203,13 +6152,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Salem Climate Action works on local initiatives to reduce carbon emissions and promote climate resilience.",
         "tags": [
@@ -7218,15 +6162,11 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7265,12 +6205,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Academic",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Sustainability Program at Salem State University includes climate education and initiatives aimed at reducing emissions, promoting green transportation, recycling, and sustainable dining.",
         "tags": [
@@ -7285,17 +6221,13 @@
           "https://www.instagram.com/SalemStateSustainability",
           "https://twitter.com/SalemStateSustainability"
         ],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7331,13 +6263,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate initiatives and sustainability practices in Salisbury.",
         "tags": [
@@ -7345,15 +6272,11 @@
           "sustainability practices"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7389,13 +6312,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Saugus promotes local climate action initiatives and community engagement in sustainability efforts.",
         "tags": [
@@ -7404,15 +6322,11 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7448,25 +6362,17 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "unknown"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "unknown",
+        "action_category": "Unknown",
         "status": "unknown",
         "summary": "Saugus Climate Action focuses on reducing greenhouse gas emissions and promoting sustainability initiatives in the community.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "unknown"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['unknown']"
         ],
-        "adaptation_vs_mitigation": [
-          "unknown"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7502,27 +6408,18 @@
           "['Unknown']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Unknown"
-        ],
+        "reach": "Town / City",
+        "action_category": "Unknown",
         "status": "active",
         "summary": "The Saugus Environmental Committee works on initiatives related to climate resilience and sustainability in local planning.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7558,13 +6455,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Saugus Youth Climate Coalition engages students in climate education and advocacy for local climate policies.",
         "tags": [
@@ -7573,15 +6465,11 @@
           "local climate policies"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7617,13 +6505,8 @@
           "['Unknown']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Focus on local climate initiatives and community resilience programs.",
         "tags": [
@@ -7631,15 +6514,11 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7676,13 +6555,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "State",
-          "National"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "State / National",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "350 Massachusetts is a grassroots organization working to end fossil fuel dependency and secure a just transition to a clean energy future. They advocate for climate justice through public policy, direct actions, coalitions, education, and community organizing.",
         "tags": [
@@ -7693,15 +6567,11 @@
           "advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7739,12 +6609,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Pioneer Valley Planning Commission (PVPC) is the primary agency responsible for increasing communication, cooperation, and coordination among all levels of government as well as the private business and civic sectors to benefit the Pioneer Valley region and improve its residents\u2019 quality of life.",
         "tags": [
@@ -7755,17 +6621,13 @@
           "transportation"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7801,13 +6663,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The coalition works on climate adaptation strategies for local communities.",
         "tags": [
@@ -7815,15 +6672,11 @@
           "local communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "adaptation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7859,13 +6712,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "This youth-led organization focuses on climate education and advocacy for sustainable practices.",
         "tags": [
@@ -7874,15 +6722,11 @@
           "sustainable practices"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7919,13 +6763,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Swampscott Climate Action group focuses on local initiatives for reducing carbon emissions and promoting sustainability in the community.",
         "tags": [
@@ -7934,16 +6773,12 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7979,13 +6814,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Green Energy Committee works on projects related to energy efficiency and renewable energy initiatives in Swampscott.",
         "tags": [
@@ -7994,16 +6824,12 @@
           "community projects"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8039,13 +6865,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Policy"
-        ],
+        "reach": "Town / City",
+        "action_category": "Policy",
         "status": "active",
         "summary": "The Sustainability Committee promotes sustainable practices and policies to reduce the town's carbon footprint.",
         "tags": [
@@ -8054,16 +6875,12 @@
           "municipal policy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "advocacy"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8099,13 +6916,8 @@
           "['Environmental']"
         ],
         "organization_type": "Municipal / Government-affiliated",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Topsfield is dedicated to promoting sustainable practices and reducing the town's carbon footprint through various programs.",
         "tags": [
@@ -8113,16 +6925,12 @@
           "carbon footprint reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8159,13 +6967,8 @@
           "'Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Topsfield Climate Action focuses on local initiatives to reduce carbon emissions and promote sustainability in the community.",
         "tags": [
@@ -8174,15 +6977,11 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "action"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "mitigation"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8218,13 +7017,8 @@
           "['Energy Efficiency']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Lowell Sustainability Council focuses on sustainability initiatives, including energy efficiency and climate resilience.",
         "tags": [
@@ -8233,15 +7027,11 @@
           "climate resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8277,13 +7067,8 @@
           "['Environmental']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Town",
-          "City"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "Green Wenham focuses on local climate action initiatives and sustainability efforts in the community.",
         "tags": [
@@ -8291,15 +7076,11 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -8336,12 +7117,8 @@
           "'Transportation']"
         ],
         "organization_type": "Nonprofit / Grassroots",
-        "reach": [
-          "Regional"
-        ],
-        "action_category": [
-          "Community Engagement"
-        ],
+        "reach": "Regional",
+        "action_category": "Community Engagement",
         "status": "active",
         "summary": "The Central Massachusetts Regional Planning Commission (CMRPC) is the regional planning agency serving 40 communities in Central Massachusetts, focusing on improving quality of life through regional collaboration, community planning, and transportation solutions.",
         "tags": [
@@ -8352,17 +7129,13 @@
           "resiliency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
+        "advocacy_vs_action": [],
         "audience_focus": [
           "['Residents'",
           "'Municipality'",
           "'Businesses']"
         ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
+        "adaptation_vs_mitigation": [],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
