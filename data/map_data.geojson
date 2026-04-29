@@ -469,12 +469,12 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Green Economics",
-          "Food & Food Waste",
+          "Energy Efficiency",
           "Transportation",
-          "Energy Efficiency"
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -482,18 +482,13 @@
         "status": "active",
         "summary": "Green Beverly is a non-profit working to lower the carbon footprint of Beverly residents and businesses by providing services, running community programs, and facilitating knowledge sharing.",
         "tags": [
-          "carbon footprint",
-          "carbon footprint reduction",
-          "community programs",
-          "eco-friendly",
-          "eco-friendly choices",
-          "green actions",
-          "sustainability",
-          "sustainable living"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "action"
         ],
         "audience_focus": [
           "Residents",
@@ -503,14 +498,24 @@
           "both"
         ],
         "original_action_category": [],
-        "original_climate_categories": [],
-        "verified": "Not Verified",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
+        ],
+        "verified": "Verified",
         "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.56811857156294,
         "longitude": -70.86485897754923,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "primary",
+        "row_uuid": "b50c2aa3-2445-59e3-8747-0104f586bf7b",
+        "llm_processed_at": "2026-04-21T23:30:42.022346+00:00"
       }
     },
     {
@@ -534,7 +539,7 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Unknown"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -1972,63 +1977,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.69017603701809,
-          42.62604478291486
-        ]
-      },
-      "properties": {
-        "id": "9a7770c7-1813-4af9-acdb-1252a240032b",
-        "name": "Cape Ann Climate Coalition",
-        "website_url": "https://www.capeannclimate.org",
-        "source_url": "https://www.capeannclimate.org",
-        "email": "unknown",
-        "phone": "unknown",
-        "address": "456 Ocean Ave",
-        "city": "east gloucester",
-        "state": "ma",
-        "postal_code": "01930",
-        "climate_categories": [
-          "Unknown"
-        ],
-        "organization_type": "Nonprofit / Grassroots",
-        "reach": "Regional",
-        "action_category": "Community Engagement",
-        "status": "active",
-        "summary": "Working on local climate action plans and community resilience initiatives.",
-        "tags": [
-          "advocacy",
-          "climate action",
-          "climate change",
-          "community resilience",
-          "local action",
-          "resilience planning"
-        ],
-        "social_links": [],
-        "advocacy_vs_action": [
-          "both"
-        ],
-        "audience_focus": [
-          "Residents"
-        ],
-        "adaptation_vs_mitigation": [
-          "both"
-        ],
-        "original_action_category": [],
-        "original_climate_categories": [],
-        "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
-        "geocode_reason": null,
-        "latitude": 42.62604478291486,
-        "longitude": -70.69017603701809,
-        "notes": null,
-        "mission": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -70.68970111276403,
           42.62558434678093
         ]
@@ -3344,7 +3292,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "Unknown"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -3890,7 +3838,7 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "Unknown"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4015,10 +3963,11 @@
         ],
         "social_links": [],
         "advocacy_vs_action": [
-          "unknown"
+          "both"
         ],
         "audience_focus": [
-          "unknown"
+          "Residents",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": [
           "mitigation"
@@ -4644,12 +4593,9 @@
         "address": "PO Box 1320",
         "city": "marblehead",
         "state": "ma",
-        "postal_code": "01945",
+        "postal_code": null,
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction",
-          "Energy Efficiency",
-          "Transportation"
+          "nan"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4657,38 +4603,34 @@
         "status": "active",
         "summary": "Sustainable Marblehead is a community organization focused on educating and engaging the Marblehead community to reduce waste and pollution and achieve net zero carbon emissions by 2040.",
         "tags": [
-          "carbon emissions",
-          "carbon neutrality",
-          "clean energy",
-          "climate action",
-          "climate resilience",
-          "community engagement",
-          "net zero",
-          "renewable energy",
-          "sustainability",
-          "waste reduction"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality",
-          "Businesses"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
         "original_action_category": [],
-        "original_climate_categories": [],
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
         "geocode_reason": null,
         "latitude": 42.25921971717785,
         "longitude": -71.80871084090558,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "b50c2aa3-2445-59e3-8747-0104f586bf7b",
+        "llm_processed_at": "2026-04-21T23:30:42.022401+00:00"
       }
     },
     {
@@ -5220,7 +5162,7 @@
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
-          "Unknown"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -5235,13 +5177,13 @@
         ],
         "social_links": [],
         "advocacy_vs_action": [
-          "unknown"
+          "both"
         ],
         "audience_focus": [
-          "unknown"
+          "Residents"
         ],
         "adaptation_vs_mitigation": [
-          "unknown"
+          "both"
         ],
         "original_action_category": [],
         "original_climate_categories": [],
