@@ -22,7 +22,7 @@
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -35,12 +35,16 @@
           "city initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -73,7 +77,7 @@
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -85,11 +89,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -122,7 +130,7 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -136,12 +144,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -174,8 +186,8 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental']"
+          "Energy Efficiency",
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -188,12 +200,16 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'unknown']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -226,7 +242,7 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -241,11 +257,15 @@
           "local climate initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -278,8 +298,8 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -292,11 +312,15 @@
           "emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -329,10 +353,10 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental'",
-          "'Transportation'",
-          "'Waste Reduction']"
+          "Energy Efficiency",
+          "Environmental",
+          "Transportation",
+          "Waste Reduction"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -348,13 +372,17 @@
           "waste reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Businesses'",
-          "'Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Businesses",
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -387,7 +415,7 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -400,11 +428,15 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -437,12 +469,12 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Environmental'",
-          "'Waste Reduction'",
-          "'Green Economics'",
-          "'Food & Food Waste'",
-          "'Transportation'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Waste Reduction",
+          "Green Economics",
+          "Food & Food Waste",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -460,12 +492,16 @@
           "sustainable living"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -498,7 +534,7 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -522,11 +558,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -559,7 +599,7 @@
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -572,12 +612,16 @@
           "municipal collaboration"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -610,9 +654,9 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Transportation'",
-          "'Environmental']"
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -627,13 +671,17 @@
           "workforce training"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -666,7 +714,7 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -679,11 +727,15 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Municipality']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -716,7 +768,7 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "State / National",
@@ -729,13 +781,17 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -768,7 +824,7 @@
         "state": "ma",
         "postal_code": "02124",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -782,13 +838,17 @@
           "environmental protection"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -821,10 +881,10 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental'",
-          "'Green Economics'",
-          "'Transportation']"
+          "Energy Efficiency",
+          "Environmental",
+          "Green Economics",
+          "Transportation"
         ],
         "organization_type": "Municipality",
         "reach": "State / National",
@@ -843,13 +903,17 @@
           "workforce training"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Businesses'",
-          "'Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Businesses",
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -882,7 +946,7 @@
         "state": "ma",
         "postal_code": "01921",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -894,11 +958,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -931,7 +999,7 @@
         "state": "ma",
         "postal_code": "01921",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -943,12 +1011,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -981,7 +1053,7 @@
         "state": "ma",
         "postal_code": "01835",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -993,12 +1065,16 @@
           "resilience planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1031,9 +1107,9 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Green Economics'",
-          "'Transportation']"
+          "Energy Efficiency",
+          "Green Economics",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1049,13 +1125,17 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Businesses'",
-          "'Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Businesses",
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1088,7 +1168,7 @@
         "state": "ma",
         "postal_code": "02138",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1123,13 +1203,17 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1162,9 +1246,9 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Food & Food Waste'",
-          "'Green Economics']"
+          "Energy Efficiency",
+          "Food & Food Waste",
+          "Green Economics"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1178,12 +1262,16 @@
           "sustainable business"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Businesses'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Businesses",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1216,9 +1304,9 @@
         "state": "ma",
         "postal_code": "02632",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency'",
-          "'Transportation']"
+          "Environmental",
+          "Energy Efficiency",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -1248,13 +1336,17 @@
           "https://www.linkedin.com/company/cape-cod-climate-change-collaborative",
           "https://www.youtube.com/channel/UC-CapeCodClimate"
         ],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1287,7 +1379,7 @@
         "state": "ma",
         "postal_code": "01510",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -1296,11 +1388,15 @@
         "summary": "Focus on local climate action initiatives and community engagement for sustainability.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1333,8 +1429,8 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental']"
+          "Energy Efficiency",
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -1346,12 +1442,16 @@
           "climate impacts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1384,7 +1484,7 @@
         "state": "ma",
         "postal_code": "01002",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1405,11 +1505,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1442,7 +1546,7 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1455,12 +1559,16 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1493,7 +1601,7 @@
         "state": "ma",
         "postal_code": "02140",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -1506,11 +1614,15 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1543,7 +1655,7 @@
         "state": "ma",
         "postal_code": "02110",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "State / National",
@@ -1561,13 +1673,17 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Businesses'",
-          "'Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Businesses",
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1600,7 +1716,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -1614,11 +1730,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1651,7 +1771,7 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -1664,11 +1784,15 @@
           "climate impacts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1701,7 +1825,7 @@
         "state": "ma",
         "postal_code": "02066",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -1713,12 +1837,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1751,7 +1879,7 @@
         "state": "ma",
         "postal_code": "01923",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -1763,12 +1891,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1801,8 +1933,8 @@
         "state": "ma",
         "postal_code": "01923",
         "climate_categories": [
-          "['Green Economics'",
-          "'Energy Efficiency']"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -1814,12 +1946,16 @@
           "sustainability initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1852,7 +1988,7 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -1868,11 +2004,15 @@
           "resilience planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1905,7 +2045,7 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -1917,11 +2057,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -1954,7 +2098,7 @@
         "state": "ma",
         "postal_code": "01902",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "unknown",
@@ -1963,11 +2107,15 @@
         "summary": "Green Lynn is focused on climate action and sustainability initiatives in the Lynn area.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2000,7 +2148,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2013,11 +2161,15 @@
           "emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2050,7 +2202,7 @@
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2059,11 +2211,15 @@
         "summary": "Essex Climate Action focuses on local climate initiatives and community engagement for sustainability.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2096,8 +2252,8 @@
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
-          "['Environmental'",
-          "'Food & Food Waste']"
+          "Environmental",
+          "Food & Food Waste"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -2117,11 +2273,15 @@
           "https://www.linkedin.com",
           "https://www.youtube.com"
         ],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2154,8 +2314,8 @@
         "state": "ma",
         "postal_code": "01833",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -2168,12 +2328,16 @@
           "community initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2206,7 +2370,7 @@
         "state": "ma",
         "postal_code": "02038",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2219,11 +2383,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2256,7 +2424,7 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -2265,12 +2433,16 @@
         "summary": "The city has developed a Climate Action Plan focusing on emissions reduction and resilience.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2303,8 +2475,8 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Environmental'",
-          "'Waste Reduction']"
+          "Environmental",
+          "Waste Reduction"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2317,11 +2489,15 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2354,7 +2530,7 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Academic",
         "reach": "Regional",
@@ -2366,13 +2542,17 @@
           "climate education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2405,7 +2585,7 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2418,11 +2598,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2455,7 +2639,7 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -2468,12 +2652,16 @@
           "Massachusetts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2506,7 +2694,7 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -2520,11 +2708,15 @@
           "youth"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2557,7 +2749,7 @@
         "state": "ma",
         "postal_code": "01834",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -2569,11 +2761,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2606,7 +2802,7 @@
         "state": "ma",
         "postal_code": "01936",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -2618,12 +2814,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2656,7 +2856,7 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2668,11 +2868,15 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2705,7 +2909,7 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -2714,12 +2918,16 @@
         "summary": "The Haverhill Climate Committee focuses on local climate action initiatives and sustainability efforts.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2752,7 +2960,7 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2765,11 +2973,15 @@
           "school system"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2802,8 +3014,8 @@
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
-          "['Environmental'",
-          "'Transportation']"
+          "Environmental",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -2820,13 +3032,17 @@
           "transportation planning"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2859,7 +3075,7 @@
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2871,11 +3087,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2908,7 +3128,7 @@
         "state": "ma",
         "postal_code": "01610",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2921,11 +3141,15 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -2958,7 +3182,7 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2971,11 +3195,15 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3008,7 +3236,7 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -3021,12 +3249,16 @@
           "local government"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3059,7 +3291,7 @@
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3071,11 +3303,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3108,7 +3344,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -3122,13 +3358,17 @@
           "local implementation"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3161,7 +3401,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3174,11 +3414,15 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3211,7 +3455,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3224,11 +3468,15 @@
           "education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3261,7 +3509,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3274,11 +3522,15 @@
           "local residents"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3311,7 +3563,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "unknown",
@@ -3324,11 +3576,15 @@
           "marginalized communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3361,7 +3617,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3373,11 +3629,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3410,7 +3670,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3423,12 +3683,16 @@
           "city infrastructure"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3461,7 +3725,7 @@
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3474,11 +3738,15 @@
           "advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3511,8 +3779,8 @@
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
-          "['Environmental'",
-          "'Food & Food Waste']"
+          "Environmental",
+          "Food & Food Waste"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -3528,11 +3796,15 @@
           "employment initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3565,7 +3837,7 @@
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3577,11 +3849,15 @@
           "community education"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3614,7 +3890,7 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3628,11 +3904,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3665,7 +3945,7 @@
         "state": "ma",
         "postal_code": "01908",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3678,11 +3958,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3715,7 +3999,7 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -3730,11 +4014,15 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3767,8 +4055,8 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3780,11 +4068,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3817,7 +4109,7 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3832,11 +4124,15 @@
           "social justice"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3869,9 +4165,9 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental'",
-          "'Waste Reduction']"
+          "Energy Efficiency",
+          "Environmental",
+          "Waste Reduction"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -3885,12 +4181,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Municipality'",
-          "'Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Municipality",
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3923,7 +4223,7 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3936,11 +4236,15 @@
           "public schools"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -3973,7 +4277,7 @@
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -3988,11 +4292,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4025,7 +4333,7 @@
         "state": "ma",
         "postal_code": "01940",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -4034,12 +4342,16 @@
         "summary": "The Lynnfield Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4072,7 +4384,7 @@
         "state": "ma",
         "postal_code": "01940",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "unknown",
@@ -4081,11 +4393,15 @@
         "summary": "Lynnfield Climate Action is focused on reducing carbon emissions and promoting sustainable practices in the community.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4118,7 +4434,7 @@
         "state": "ma",
         "postal_code": "01944",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -4131,11 +4447,15 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4168,7 +4488,7 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4180,11 +4500,15 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4217,7 +4541,7 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4226,12 +4550,16 @@
         "summary": "The Marblehead Climate Action Committee focuses on local climate planning and implementation strategies.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4264,7 +4592,7 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4276,12 +4604,16 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4314,10 +4646,10 @@
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
-          "['Environmental'",
-          "'Waste Reduction'",
-          "'Energy Efficiency'",
-          "'Transportation']"
+          "Environmental",
+          "Waste Reduction",
+          "Energy Efficiency",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4337,13 +4669,17 @@
           "waste reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4376,7 +4712,7 @@
         "state": "ma",
         "postal_code": "01752",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -4389,12 +4725,16 @@
           "municipal initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4427,7 +4767,7 @@
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Business",
         "reach": "Regional",
@@ -4439,12 +4779,16 @@
           "electrification"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4477,9 +4821,9 @@
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Transportation'",
-          "'Environmental']"
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental"
         ],
         "organization_type": "Academic",
         "reach": "State / National",
@@ -4497,13 +4841,17 @@
           "https://www.linkedin.com",
           "https://www.youtube.com"
         ],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4536,8 +4884,8 @@
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
-          "['Energy Efficiency'",
-          "'Environmental']"
+          "Energy Efficiency",
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "State / National",
@@ -4550,13 +4898,17 @@
           "state government"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4589,7 +4941,7 @@
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4602,11 +4954,15 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4639,7 +4995,7 @@
         "state": "ma",
         "postal_code": "01844",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -4651,12 +5007,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4689,7 +5049,7 @@
         "state": "ma",
         "postal_code": "01949",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4701,11 +5061,15 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4738,7 +5102,7 @@
         "state": "ma",
         "postal_code": "02155",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4750,11 +5114,15 @@
           "renewable energy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4787,12 +5155,12 @@
         "state": "ma",
         "postal_code": "02492",
         "climate_categories": [
-          "['Environmental'",
-          "'Waste Reduction'",
-          "'Green Economics'",
-          "'Food & Food Waste'",
-          "'Transportation'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Waste Reduction",
+          "Green Economics",
+          "Food & Food Waste",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4809,13 +5177,17 @@
           "policy advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4848,7 +5220,7 @@
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -4862,11 +5234,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4899,7 +5275,7 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "unknown",
@@ -4908,11 +5284,15 @@
         "summary": "This organization focuses on community energy solutions and promoting renewable energy sources.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4945,7 +5325,7 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipality",
         "reach": "Town / City",
@@ -4958,12 +5338,16 @@
           "municipal initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -4996,7 +5380,7 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Municipality",
         "reach": "Town / City",
@@ -5009,12 +5393,16 @@
           "carbon emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5047,7 +5435,7 @@
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5060,11 +5448,15 @@
           "local efforts"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5097,7 +5489,7 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5109,11 +5501,15 @@
           "sustainability programs"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5146,7 +5542,7 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -5158,12 +5554,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5196,7 +5596,7 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Academic",
         "reach": "Town / City",
@@ -5210,11 +5610,15 @@
           "action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5247,7 +5651,7 @@
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5259,11 +5663,15 @@
           "climate action"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5296,7 +5704,7 @@
         "state": "ma",
         "postal_code": "02111",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -5309,11 +5717,15 @@
           "urban communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5346,7 +5758,7 @@
         "state": "ma",
         "postal_code": "02360",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5358,11 +5770,15 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5395,7 +5811,7 @@
         "state": "ma",
         "postal_code": "01234",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5407,11 +5823,15 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5444,9 +5864,9 @@
         "state": "ma",
         "postal_code": "01701",
         "climate_categories": [
-          "['Environmental'",
-          "'Transportation'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -5461,11 +5881,15 @@
           "bicycle programs"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5498,7 +5922,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5510,11 +5934,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5547,7 +5975,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -5560,12 +5988,16 @@
           "community resources"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5598,7 +6030,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5610,11 +6042,15 @@
           "energy efficiency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5647,7 +6083,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -5660,11 +6096,15 @@
           "vulnerable communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5697,7 +6137,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5709,11 +6149,15 @@
           "energy efficiency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5746,7 +6190,7 @@
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5758,11 +6202,15 @@
           "local infrastructure"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5795,7 +6243,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5807,11 +6255,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5844,8 +6296,8 @@
         "state": "ma",
         "postal_code": "01966",
         "climate_categories": [
-          "['Green Economics'",
-          "'Energy Efficiency']"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -5857,12 +6309,16 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5895,7 +6351,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5908,12 +6364,16 @@
           "carbon emissions reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5946,7 +6406,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -5960,11 +6420,15 @@
           "community"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -5997,7 +6461,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6011,12 +6475,16 @@
           "commercial buildings"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6049,7 +6517,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6063,11 +6531,15 @@
           "resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6100,7 +6572,7 @@
         "state": "ma",
         "postal_code": "01969",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6112,11 +6584,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6149,7 +6625,7 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6162,11 +6638,15 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6199,10 +6679,10 @@
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
-          "['Environmental'",
-          "'Waste Reduction'",
-          "'Transportation'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Waste Reduction",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Academic",
         "reach": "Regional",
@@ -6221,13 +6701,17 @@
           "https://www.instagram.com/SalemStateSustainability",
           "https://twitter.com/SalemStateSustainability"
         ],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6260,7 +6744,7 @@
         "state": "ma",
         "postal_code": "01952",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6272,11 +6756,15 @@
           "sustainability practices"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6309,7 +6797,7 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6322,11 +6810,15 @@
           "community engagement"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6359,7 +6851,7 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "unknown",
@@ -6368,11 +6860,15 @@
         "summary": "Saugus Climate Action focuses on reducing greenhouse gas emissions and promoting sustainability initiatives in the community.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['unknown']"
+        "advocacy_vs_action": [
+          "unknown"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "unknown"
+        ],
+        "adaptation_vs_mitigation": [
+          "unknown"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6405,7 +6901,7 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6414,12 +6910,16 @@
         "summary": "The Saugus Environmental Committee works on initiatives related to climate resilience and sustainability in local planning.",
         "tags": [],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6452,7 +6952,7 @@
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6465,11 +6965,15 @@
           "local climate policies"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6502,7 +7006,7 @@
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
-          "['Unknown']"
+          "Unknown"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6514,11 +7018,15 @@
           "community resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6551,8 +7059,8 @@
         "state": "ma",
         "postal_code": "02143",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "State / National",
@@ -6567,11 +7075,15 @@
           "advocacy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6604,9 +7116,9 @@
         "state": "ma",
         "postal_code": "01104",
         "climate_categories": [
-          "['Environmental'",
-          "'Transportation'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -6621,13 +7133,17 @@
           "transportation"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6660,7 +7176,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6672,11 +7188,15 @@
           "local communities"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "adaptation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6709,7 +7229,7 @@
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6722,11 +7242,15 @@
           "sustainable practices"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6759,8 +7283,8 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "['Green Economics'",
-          "'Energy Efficiency']"
+          "Green Economics",
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6773,12 +7297,16 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6811,7 +7339,7 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6824,12 +7352,16 @@
           "community projects"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6862,7 +7394,7 @@
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6875,12 +7407,16 @@
           "municipal policy"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "advocacy"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6913,7 +7449,7 @@
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -6925,12 +7461,16 @@
           "carbon footprint reduction"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -6963,8 +7503,8 @@
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
-          "['Environmental'",
-          "'Energy Efficiency']"
+          "Environmental",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -6977,11 +7517,15 @@
           "local initiatives"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "action"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7014,7 +7558,7 @@
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
-          "['Energy Efficiency']"
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -7027,11 +7571,15 @@
           "climate resilience"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7064,7 +7612,7 @@
         "state": "ma",
         "postal_code": "01984",
         "climate_categories": [
-          "['Environmental']"
+          "Environmental"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -7076,11 +7624,15 @@
           "sustainability"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
@@ -7113,8 +7665,8 @@
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
-          "['Environmental'",
-          "'Transportation']"
+          "Environmental",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Regional",
@@ -7129,13 +7681,17 @@
           "resiliency"
         ],
         "social_links": [],
-        "advocacy_vs_action": [],
-        "audience_focus": [
-          "['Residents'",
-          "'Municipality'",
-          "'Businesses']"
+        "advocacy_vs_action": [
+          "both"
         ],
-        "adaptation_vs_mitigation": [],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
         "original_action_category": [],
         "original_climate_categories": [],
         "verified": "Not Verified",
