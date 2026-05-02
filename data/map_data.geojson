@@ -18,7 +18,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Amesbury City Hall, 62 Friend St",
-        "city": "amesbury",
+        "city": "Amesbury",
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
@@ -45,7 +45,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -73,7 +73,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Amesbury, MA",
-        "city": "amesbury",
+        "city": "Amesbury Town city",
         "state": "ma",
         "postal_code": "01913",
         "climate_categories": [
@@ -98,7 +98,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -126,7 +126,7 @@
         "email": "unknown",
         "phone": "978-623-8200",
         "address": "36 Bartlet St",
-        "city": "andover",
+        "city": "Andover",
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
@@ -154,7 +154,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -182,7 +182,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Andover, MA",
-        "city": "andover",
+        "city": "Andover",
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
@@ -210,7 +210,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -266,7 +266,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -321,7 +321,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -349,7 +349,7 @@
         "email": "unknown",
         "phone": "978-921-6000",
         "address": "191 Cabot Street",
-        "city": "beverly",
+        "city": "Beverly",
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
@@ -383,7 +383,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -411,7 +411,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Beverly, MA",
-        "city": "beverly",
+        "city": "Beverly",
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
@@ -437,10 +437,10 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.5679314707532,
         "longitude": -70.86494427800167,
@@ -465,16 +465,16 @@
         "email": "info@greenbeverly.org",
         "phone": "unknown",
         "address": "100 Cummings Center",
-        "city": "beverly",
+        "city": "Beverly",
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
-          "Energy Efficiency",
-          "Transportation",
           "Environmental",
-          "Food & Food Waste",
           "Waste Reduction",
-          "Green Economics"
+          "Green Economics",
+          "Food & Food Waste",
+          "Transportation",
+          "Energy Efficiency"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -482,13 +482,18 @@
         "status": "active",
         "summary": "Green Beverly is a non-profit working to lower the carbon footprint of Beverly residents and businesses by providing services, running community programs, and facilitating knowledge sharing.",
         "tags": [
-          "nan"
+          "carbon footprint",
+          "community programs",
+          "eco-friendly",
+          "green actions",
+          "nan",
+          "sustainability"
         ],
         "social_links": [
           "nan"
         ],
         "advocacy_vs_action": [
-          "action"
+          "both"
         ],
         "audience_focus": [
           "Residents",
@@ -497,7 +502,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste, Waste Reduction, Green Economics",
         "original_climate_categories": [
           "Energy Efficiency",
           "Transportation",
@@ -572,7 +577,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -600,7 +605,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Beverly, MA",
-        "city": "beverly",
+        "city": "Beverly",
         "state": "ma",
         "postal_code": "01915",
         "climate_categories": [
@@ -627,7 +632,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -655,7 +660,7 @@
         "email": null,
         "phone": "617-315-9300",
         "address": "294 Washington St., 11th",
-        "city": "boston",
+        "city": "Boston",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -687,7 +692,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -715,7 +720,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "100 Cambridge St, Boston, MA",
-        "city": "boston",
+        "city": "Boston",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -741,7 +746,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -769,7 +774,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Boston, MA",
-        "city": "boston",
+        "city": "Boston",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -797,7 +802,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -825,7 +830,7 @@
         "email": "lspark@cleanwater.org",
         "phone": "617-338-8131",
         "address": "40 Court Street 6th",
-        "city": "boston",
+        "city": "Boston",
         "state": "ma",
         "postal_code": "02124",
         "climate_categories": [
@@ -854,7 +859,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -882,7 +887,7 @@
         "email": "unknown",
         "phone": "617-315-9300",
         "address": "294 Washington St., 11th",
-        "city": "boston",
+        "city": "Boston",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -919,7 +924,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:census_full_address",
@@ -940,8 +945,8 @@
         ]
       },
       "properties": {
-        "id": "3c5578cb-aea8-49d4-a72d-cdb00ba97d58",
-        "name": "Boxford Climate Action",
+        "id": "75c5368d-d0ba-5566-a376-1c6eca0510fd",
+        "name": "Westford Climate Action",
         "website_url": "http://www.boxfordma.gov/climate-action",
         "source_url": "http://www.boxfordma.gov/climate-action",
         "email": "unknown",
@@ -949,9 +954,9 @@
         "address": "Boxford Town Hall, 7A Spofford Rd",
         "city": "boxford",
         "state": "ma",
-        "postal_code": "01921",
+        "postal_code": null,
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -959,28 +964,34 @@
         "status": "active",
         "summary": "Boxford Climate Action is dedicated to reducing greenhouse gas emissions and promoting sustainability in the community.",
         "tags": [
-          "greenhouse gas emissions",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "mitigation"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.694262379562,
         "longitude": -71.015206575534,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "b90900fb-b18c-5364-a892-9389cd2254ed",
+        "llm_processed_at": "2026-04-21T23:30:27.994388+00:00"
       }
     },
     {
@@ -988,53 +999,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.015206575534,
-          42.694262379562
+          -71.3652415261355,
+          42.46171168123291
         ]
       },
       "properties": {
-        "id": "72e931ca-85e2-4837-bd92-ad50e5969ae7",
-        "name": "Boxford Climate Action Committee",
-        "website_url": "https://www.boxfordma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "https://www.boxfordma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "7A Spofford Road",
-        "city": "boxford",
-        "state": "ma",
-        "postal_code": "01921",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Unknown"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Boxford Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "climate initiatives",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.694262379562,
-        "longitude": -71.015206575534,
+        "latitude": 42.46171168123291,
+        "longitude": -71.3652415261355,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -1042,53 +1058,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.068825462806,
-          42.737828633318
+          -71.36555042367651,
+          42.462058416426565
         ]
       },
       "properties": {
-        "id": "38eac992-5a20-453e-ba76-6f208cf49d47",
-        "name": "Bradford Climate Action Committee",
-        "website_url": "http://www.bradfordma.gov/climate-action",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "http://www.bradfordma.gov/climate-action",
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Parker Road",
-        "city": "bradford",
-        "state": "ma",
-        "postal_code": "01835",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Unknown"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Bradford Climate Action Committee focuses on local climate initiatives and resilience planning.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "climate initiatives",
-          "resilience planning"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.737828633318,
-        "longitude": -71.068825462806,
+        "latitude": 42.462058416426565,
+        "longitude": -71.36555042367651,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -1108,7 +1129,7 @@
         "email": "hello@greenenergyconsumers.org",
         "phone": "617-397-5199",
         "address": "955 Massachusetts Ave",
-        "city": "cambridge",
+        "city": "Cambridge",
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
@@ -1141,7 +1162,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -1169,7 +1190,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St, Cambridge, MA 02138",
-        "city": "cambridge",
+        "city": "Cambridge",
         "state": "ma",
         "postal_code": "02138",
         "climate_categories": [
@@ -1219,7 +1240,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -1247,7 +1268,7 @@
         "email": "info@sbnmass.org",
         "phone": "unknown",
         "address": "99 Bishop Allen Drive",
-        "city": "cambridge",
+        "city": "Cambridge",
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
@@ -1277,7 +1298,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -1305,7 +1326,7 @@
         "email": "info@capecodclimate.org",
         "phone": "unknown",
         "address": "5 Patti Page Way",
-        "city": "centerville",
+        "city": "Centerville",
         "state": "ma",
         "postal_code": "02632",
         "climate_categories": [
@@ -1352,7 +1373,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1380,7 +1401,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St, Clifton, MA",
-        "city": "clifton",
+        "city": "Clifton",
         "state": "ma",
         "postal_code": "01510",
         "climate_categories": [
@@ -1402,7 +1423,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -1430,7 +1451,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "City Hall",
-        "city": "cliftondale",
+        "city": "Cliftondale",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -1457,7 +1478,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1485,7 +1506,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "PO Box 101",
-        "city": "cliftondale",
+        "city": "Cliftondale",
         "state": "ma",
         "postal_code": "01002",
         "climate_categories": [
@@ -1519,7 +1540,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "city_centroid_po_box",
@@ -1547,7 +1568,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "100 Cambridge St",
-        "city": "cliftondale",
+        "city": "Cliftondale",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -1574,7 +1595,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1602,7 +1623,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Broadway",
-        "city": "cliftondale",
+        "city": "Cliftondale",
         "state": "ma",
         "postal_code": "02140",
         "climate_categories": [
@@ -1628,7 +1649,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1656,7 +1677,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Winter St",
-        "city": "curzon mill",
+        "city": "Curzon Mill",
         "state": "ma",
         "postal_code": "02110",
         "climate_categories": [
@@ -1689,7 +1710,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1717,7 +1738,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "100 Main St",
-        "city": "curzon mill",
+        "city": "Curzon Mill",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -1744,7 +1765,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -1772,7 +1793,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St",
-        "city": "curzon mill",
+        "city": "Curzon Mill",
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
@@ -1798,7 +1819,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1814,53 +1835,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.76166865246924,
-          42.20089847124288
+          -71.372144802568,
+          42.45598736332
         ]
       },
       "properties": {
-        "id": "5b440a82-ba14-49a1-b1f3-1864c1a7b34a",
-        "name": "Cushing Climate Action Committee",
-        "website_url": "http://www.cushingma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "http://www.cushingma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "Cushing Town Hall, 673 Main St",
-        "city": "cushing",
-        "state": "ma",
-        "postal_code": "02066",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "Cushing Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "local climate initiatives",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
+        "geocode_status": "census_full_address",
         "geocode_reason": null,
-        "latitude": 42.20089847124288,
-        "longitude": -70.76166865246924,
+        "latitude": 42.45598736332,
+        "longitude": -71.372144802568,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -1868,53 +1894,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.94967582603446,
-          42.57372424341107
+          -71.36548582603446,
+          42.46195424341107
         ]
       },
       "properties": {
-        "id": "be44397f-29a7-41eb-81c6-f6deb6493cff",
-        "name": "Danvers Climate Action Committee",
-        "website_url": "https://www.danversma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "https://www.danversma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "Danvers Town Hall, 1 Sylvan St",
-        "city": "danvers",
-        "state": "ma",
-        "postal_code": "01923",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Danvers Climate Action Committee works on initiatives to reduce greenhouse gas emissions and promote sustainability in the community.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "greenhouse gas emissions",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "mitigation"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.57372424341107,
-        "longitude": -70.94967582603446,
+        "latitude": 42.46195424341107,
+        "longitude": -71.36548582603446,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -1934,7 +1965,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Danvers Town Hall, 1 Sylvan St",
-        "city": "danversport",
+        "city": "Danversport",
         "state": "ma",
         "postal_code": "01923",
         "climate_categories": [
@@ -1961,7 +1992,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -1970,6 +2001,133 @@
         "longitude": -70.94974069713766,
         "notes": null,
         "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.36540803016892,
+          42.4618031210061
+        ]
+      },
+      "properties": {
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
+        "source_url": "https://www.localclimateaction.org",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "unknown",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
+        "climate_categories": [
+          "nan"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "action_category": "Community Engagement",
+        "status": "active",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "nan"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
+        "verified": "Not Verified",
+        "geocode_status": "city_centroid_dataset",
+        "geocode_reason": null,
+        "latitude": 42.4618031210061,
+        "longitude": -71.36540803016892,
+        "notes": null,
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.69017603701809,
+          42.62604478291486
+        ]
+      },
+      "properties": {
+        "id": "92b362c8-c001-50f7-8d32-72c811f9c42e",
+        "name": "Cape Ann Climate Coalition",
+        "website_url": "https://www.capeannclimate.org",
+        "source_url": "https://www.capeannclimate.org",
+        "email": "unknown",
+        "phone": "unknown",
+        "address": "456 Ocean Ave",
+        "city": "East Gloucester",
+        "state": "ma",
+        "postal_code": "01930",
+        "climate_categories": [
+          "Environmental"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Regional",
+        "action_category": "Community Engagement",
+        "status": "active",
+        "summary": "Working on local climate action plans and community resilience initiatives.",
+        "tags": [
+          "advocacy",
+          "climate action",
+          "climate change",
+          "community resilience",
+          "local action",
+          "nan",
+          "resilience planning"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "both"
+        ],
+        "audience_focus": [
+          "Residents"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Waste Reduction",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Waste Reduction"
+        ],
+        "verified": "Verified",
+        "geocode_status": "zip_dataset",
+        "geocode_reason": null,
+        "latitude": 42.62604478291486,
+        "longitude": -70.69017603701809,
+        "notes": null,
+        "mission": null,
+        "confidence": "primary",
+        "row_uuid": "b51089fe-0aa7-5546-85fe-362abb9fabbf",
+        "llm_processed_at": "2026-04-21T23:30:14.274112+00:00"
       }
     },
     {
@@ -1989,7 +2147,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "654 Shore Dr",
-        "city": "east gloucester",
+        "city": "East Gloucester",
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
@@ -2014,7 +2172,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -2042,7 +2200,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Lynn, MA",
-        "city": "east lynn",
+        "city": "East Lynn",
         "state": "ma",
         "postal_code": "01902",
         "climate_categories": [
@@ -2064,7 +2222,7 @@
         "adaptation_vs_mitigation": [
           "unknown"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -2092,7 +2250,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Climate St",
-        "city": "east parish",
+        "city": "East Parish",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -2118,7 +2276,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -2146,7 +2304,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Main St",
-        "city": "essex",
+        "city": "Essex",
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
@@ -2168,7 +2326,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2196,7 +2354,7 @@
         "email": "info@ecga.org",
         "phone": "978-768-7241",
         "address": "82 Eastern Avenue",
-        "city": "essex",
+        "city": "Essex",
         "state": "ma",
         "postal_code": "01929",
         "climate_categories": [
@@ -2230,7 +2388,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2246,55 +2404,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.99226008706,
-          42.722981357416
+          -71.36508155043487,
+          42.46190861917029
         ]
       },
       "properties": {
-        "id": "2b2e856a-c3b1-4769-b232-ae281fc74c54",
-        "name": "Georgetown Climate Action Committee",
-        "website_url": "http://www.georgetownma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "http://www.georgetownma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Library Street",
-        "city": "georgetown",
-        "state": "ma",
-        "postal_code": "01833",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental",
-          "Energy Efficiency"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Georgetown Climate Action Committee works on initiatives to reduce greenhouse gas emissions and promote sustainability in the community.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "greenhouse gas emissions",
-          "sustainability",
-          "community initiatives"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.722981357416,
-        "longitude": -70.99226008706,
+        "latitude": 42.46190861917029,
+        "longitude": -71.36508155043487,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -2314,7 +2475,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St",
-        "city": "glen mills",
+        "city": "Glen Mills",
         "state": "ma",
         "postal_code": "02038",
         "climate_categories": [
@@ -2340,7 +2501,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2368,7 +2529,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "City Hall, 9 Dale Ave",
-        "city": "gloucester",
+        "city": "Gloucester",
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
@@ -2391,7 +2552,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2413,18 +2574,17 @@
       },
       "properties": {
         "id": "c6832913-ff25-4741-bc0e-7af99d1991a8",
-        "name": "Green Gloucester",
+        "name": "400Trees Gloucester",
         "website_url": "http://www.greengloucester.org",
         "source_url": "http://www.greengloucester.org",
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "gloucester",
-        "state": "ma",
-        "postal_code": "01930",
+        "city": "Gloucester",
+        "state": "MA",
+        "postal_code": null,
         "climate_categories": [
-          "Environmental",
-          "Waste Reduction"
+          "nan"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2432,29 +2592,34 @@
         "status": "active",
         "summary": "Green Gloucester focuses on local climate action initiatives and sustainability programs.",
         "tags": [
-          "climate action",
-          "sustainability",
-          "local initiatives"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "zip_dataset",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
         "latitude": 42.62579260731138,
         "longitude": -70.68999155052842,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "e63aef55-a81b-51ef-b4a2-46c9305d9678",
+        "llm_processed_at": "2026-04-21T22:01:10.668761+00:00"
       }
     },
     {
@@ -2474,7 +2639,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "One Ferncroft Road",
-        "city": "gloucester",
+        "city": "Gloucester",
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
@@ -2501,7 +2666,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -2523,7 +2688,7 @@
       },
       "properties": {
         "id": "1783fbdd-fcf5-475b-a73d-1e78553ab498",
-        "name": "Sustainable Cape Ann",
+        "name": "Sustainable Lebanon",
         "website_url": "https://www.sustainablecapeann.org/",
         "source_url": "https://www.sustainablecapeann.org/",
         "email": "unknown",
@@ -2533,7 +2698,11 @@
         "state": "ma",
         "postal_code": "01930",
         "climate_categories": [
-          "Environmental"
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -2541,29 +2710,40 @@
         "status": "active",
         "summary": "Sustainable Cape Ann focuses on local sustainability initiatives, including climate action and community resilience.",
         "tags": [
-          "sustainability",
-          "climate action",
-          "community resilience"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
           "both"
         ],
         "audience_focus": [
-          "Residents"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
-        "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste, Waste Reduction",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "verified": "Verified",
+        "geocode_status": "zip_dataset",
         "geocode_reason": null,
         "latitude": 42.6256847806582,
         "longitude": -70.69017341708114,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "primary",
+        "row_uuid": "115bcb68-67d2-5150-899f-a69f64be06f0",
+        "llm_processed_at": "2026-04-21T23:30:12.646701+00:00"
       }
     },
     {
@@ -2583,7 +2763,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "1 Ashburton Pl, Boston, MA",
-        "city": "graceland park",
+        "city": "Graceland Park",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -2610,7 +2790,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2638,7 +2818,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "456 Main St, Springfield, MA",
-        "city": "graceland park",
+        "city": "Graceland Park",
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
@@ -2665,7 +2845,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2693,7 +2873,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Groveland Town Hall, 183 Main St",
-        "city": "groveland",
+        "city": "Groveland",
         "state": "ma",
         "postal_code": "01834",
         "climate_categories": [
@@ -2718,7 +2898,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2734,53 +2914,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.855135131514,
-          42.619906898035
+          -71.36528402603949,
+          42.46212648505313
         ]
       },
       "properties": {
-        "id": "a1f81f0a-3d3d-4a41-a3a7-6ef6186b7bd0",
-        "name": "Hamilton Climate Action Committee",
-        "website_url": "https://www.hamiltonma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "https://www.hamiltonma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "577 Bay Road",
-        "city": "hamilton",
-        "state": "ma",
-        "postal_code": "01936",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Hamilton Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "climate initiatives",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.619906898035,
-        "longitude": -70.855135131514,
+        "latitude": 42.46212648505313,
+        "longitude": -71.36528402603949,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -2800,7 +2985,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Haverhill, MA",
-        "city": "haverhill",
+        "city": "Haverhill",
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
@@ -2825,7 +3010,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -2853,7 +3038,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Haverhill, MA",
-        "city": "haverhill",
+        "city": "Haverhill",
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
@@ -2876,7 +3061,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -2904,7 +3089,7 @@
         "email": null,
         "phone": "(978) 374-3400",
         "address": "4 Summer Street",
-        "city": "haverhill",
+        "city": "Haverhill",
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
@@ -2930,7 +3115,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -2958,7 +3143,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Haverhill, MA",
-        "city": "haverhill",
+        "city": "Haverhill",
         "state": "ma",
         "postal_code": "01830",
         "climate_categories": [
@@ -2991,7 +3176,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -3019,7 +3204,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Worcester, MA",
-        "city": "howe",
+        "city": "Howe",
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
@@ -3044,7 +3229,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3072,7 +3257,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Worcester, MA",
-        "city": "howe",
+        "city": "Howe",
         "state": "ma",
         "postal_code": "01610",
         "climate_categories": [
@@ -3098,7 +3283,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3126,7 +3311,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "ipswich",
+        "city": "Ipswich",
         "state": "ma",
         "postal_code": "01938",
         "climate_categories": [
@@ -3152,7 +3337,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3168,54 +3353,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.833936128191,
-          42.680751292378
+          -71.36556456861928,
+          42.46191542515698
         ]
       },
       "properties": {
-        "id": "39a72015-2b23-4c06-87a8-610f2bd66b8b",
-        "name": "Ipswich Climate Action Committee",
-        "website_url": "http://www.ipswichma.gov/",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "http://www.ipswichma.gov/",
         "email": "unknown",
         "phone": "978-356-6600",
         "address": "25 Green Street",
-        "city": "ipswich",
-        "state": "ma",
-        "postal_code": "01938",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Ipswich Climate Action Committee works on local climate initiatives and sustainability efforts.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "climate initiatives",
-          "sustainability",
-          "local government"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "census_full_address",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.680751292378,
-        "longitude": -70.833936128191,
+        "latitude": 42.46191542515698,
+        "longitude": -71.36556456861928,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -3229,17 +3418,17 @@
       },
       "properties": {
         "id": "25d9fc0b-2385-422a-b20d-44bceb4701eb",
-        "name": "Sustainable Ipswich",
+        "name": "Sustainable Stow",
         "website_url": "http://www.sustainableipswich.org",
         "source_url": "http://www.sustainableipswich.org",
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "ipswich",
+        "city": "Ipswich",
         "state": "ma",
-        "postal_code": "01938",
+        "postal_code": null,
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -3247,28 +3436,34 @@
         "status": "active",
         "summary": "Sustainable Ipswich promotes initiatives aimed at reducing carbon emissions and enhancing community resilience.",
         "tags": [
-          "carbon emissions",
-          "community resilience"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
         "latitude": 42.6851708555239,
         "longitude": -70.84019706526217,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "eca020d7-340c-5272-842f-d2d09ad3803b",
+        "llm_processed_at": "2026-04-21T22:01:13.567712+00:00"
       }
     },
     {
@@ -3288,7 +3483,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "456 Coalition Ave",
-        "city": "kings forest",
+        "city": "Kings Forest",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -3317,7 +3512,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3345,7 +3540,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "202 Clean Energy Blvd",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3371,7 +3566,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3399,7 +3594,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "303 Education Ln",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3425,7 +3620,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3453,7 +3648,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "456 Energy Ave",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3479,7 +3674,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3507,7 +3702,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "404 Justice St",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3533,7 +3728,7 @@
         "adaptation_vs_mitigation": [
           "unknown"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3561,7 +3756,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "789 Resilience Rd",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3586,7 +3781,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3614,7 +3809,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "505 Urban Way",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3641,7 +3836,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3669,7 +3864,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "101 Youth Way",
-        "city": "knights crossing",
+        "city": "Knights Crossing",
         "state": "ma",
         "postal_code": "01060",
         "climate_categories": [
@@ -3695,7 +3890,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3723,7 +3918,7 @@
         "email": "unknown",
         "phone": "(978) 974-0770",
         "address": "50 Island Street",
-        "city": "lawrence",
+        "city": "Lawrence",
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
@@ -3753,7 +3948,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -3781,7 +3976,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "lawrence",
+        "city": "Lawrence",
         "state": "ma",
         "postal_code": "01840",
         "climate_categories": [
@@ -3806,7 +4001,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3834,7 +4029,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Salem, MA",
-        "city": "linebrook",
+        "city": "Linebrook",
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
@@ -3861,7 +4056,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3889,7 +4084,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Nahant, MA",
-        "city": "little nahant",
+        "city": "Little Nahant",
         "state": "ma",
         "postal_code": "01908",
         "climate_categories": [
@@ -3915,7 +4110,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -3943,7 +4138,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "456 Energy Blvd",
-        "city": "lowell junction",
+        "city": "Lowell Junction",
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
@@ -3972,7 +4167,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4000,7 +4195,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "50 Arcand Drive",
-        "city": "lowell junction",
+        "city": "Lowell Junction",
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
@@ -4026,7 +4221,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4054,7 +4249,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "269 Union Street",
-        "city": "lynn",
+        "city": "Lynn",
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
@@ -4082,7 +4277,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4110,7 +4305,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Lynn City Hall, 2 City Hall Square",
-        "city": "lynn",
+        "city": "Lynn",
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
@@ -4140,7 +4335,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4168,7 +4363,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "100 Bennett Street",
-        "city": "lynn",
+        "city": "Lynn",
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
@@ -4194,7 +4389,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4222,7 +4417,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "30 Washington Street",
-        "city": "lynn",
+        "city": "Lynn",
         "state": "ma",
         "postal_code": "01901",
         "climate_categories": [
@@ -4250,7 +4445,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4271,45 +4466,53 @@
         ]
       },
       "properties": {
-        "id": "46875e2c-3832-490a-9643-bd64867ce151",
-        "name": "Lynnfield Climate Action Committee",
-        "website_url": "https://www.lynnfield.ma.us/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "https://www.lynnfield.ma.us/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "Lynnfield Town Hall, 55 Summer St",
-        "city": "lynnfield",
-        "state": "ma",
-        "postal_code": "01940",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Unknown"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Lynnfield Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
-        "tags": [],
-        "social_links": [],
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.538204641291,
         "longitude": -71.046426743311,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -4329,7 +4532,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Lynnfield, MA",
-        "city": "lynnhurst",
+        "city": "Lynnhurst",
         "state": "ma",
         "postal_code": "01940",
         "climate_categories": [
@@ -4351,7 +4554,7 @@
         "adaptation_vs_mitigation": [
           "unknown"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4379,7 +4582,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "10 Central Street",
-        "city": "manchester-by-the-sea",
+        "city": "Manchester-by-the-Sea",
         "state": "ma",
         "postal_code": "01944",
         "climate_categories": [
@@ -4405,7 +4608,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4433,7 +4636,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Marblehead, MA",
-        "city": "marblehead",
+        "city": "Marblehead",
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
@@ -4458,7 +4661,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4474,50 +4677,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.86369007413137,
-          42.499085668742886
+          -71.36525007413137,
+          42.462055668742885
         ]
       },
       "properties": {
-        "id": "29ecc9c9-2336-4b26-8123-6bdb2bef9726",
-        "name": "Marblehead Climate Action Committee",
-        "website_url": "http://www.marblehead.org/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "http://www.marblehead.org/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "Marblehead, MA",
-        "city": "marblehead",
-        "state": "ma",
-        "postal_code": "01945",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Unknown"
+          "nan"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Marblehead Climate Action Committee focuses on local climate planning and implementation strategies.",
-        "tags": [],
-        "social_links": [],
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
-        "geocode_status": "cached:zip_dataset",
+        "geocode_status": "city_centroid_dataset",
         "geocode_reason": null,
-        "latitude": 42.499085668742886,
-        "longitude": -70.86369007413137,
+        "latitude": 42.462055668742885,
+        "longitude": -71.36525007413137,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -4537,7 +4748,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "80 Broad St, Marblehead, MA 01945",
-        "city": "marblehead",
+        "city": "Marblehead",
         "state": "ma",
         "postal_code": "01945",
         "climate_categories": [
@@ -4563,7 +4774,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4591,11 +4802,14 @@
         "email": "sustainablemarblehead@gmail.com",
         "phone": "unknown",
         "address": "PO Box 1320",
-        "city": "marblehead",
+        "city": "Marblehead",
         "state": "ma",
-        "postal_code": null,
+        "postal_code": "01945",
         "climate_categories": [
-          "nan"
+          "Environmental",
+          "Waste Reduction",
+          "Energy Efficiency",
+          "Transportation"
         ],
         "organization_type": "Nonprofit / Grassroots",
         "reach": "Town / City",
@@ -4603,21 +4817,28 @@
         "status": "active",
         "summary": "Sustainable Marblehead is a community organization focused on educating and engaging the Marblehead community to reduce waste and pollution and achieve net zero carbon emissions by 2040.",
         "tags": [
-          "nan"
+          "carbon emissions",
+          "climate resilience",
+          "community engagement",
+          "nan",
+          "sustainability",
+          "waste reduction"
         ],
         "social_links": [
           "nan"
         ],
         "advocacy_vs_action": [
-          "nan"
+          "both"
         ],
         "audience_focus": [
-          "nan"
+          "Residents",
+          "Municipality",
+          "Businesses"
         ],
         "adaptation_vs_mitigation": [
-          "nan"
+          "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [
           "nan"
         ],
@@ -4650,7 +4871,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "City Hall, 140 Main St",
-        "city": "marlboro",
+        "city": "Marlboro",
         "state": "ma",
         "postal_code": "01752",
         "climate_categories": [
@@ -4677,7 +4898,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4705,7 +4926,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "marsh corner",
+        "city": "Marsh Corner",
         "state": "ma",
         "postal_code": "01103",
         "climate_categories": [
@@ -4731,7 +4952,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4759,7 +4980,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "77 Massachusetts Ave",
-        "city": "marsh corner",
+        "city": "Marsh Corner",
         "state": "ma",
         "postal_code": "02139",
         "climate_categories": [
@@ -4794,7 +5015,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4822,7 +5043,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "100 Cambridge St",
-        "city": "marsh corner",
+        "city": "Marsh Corner",
         "state": "ma",
         "postal_code": "02108",
         "climate_categories": [
@@ -4851,7 +5072,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -4879,7 +5100,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St, Merrimac, MA 01860",
-        "city": "merrimac",
+        "city": "Merrimac",
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
@@ -4905,7 +5126,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -4921,53 +5142,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.180518321157,
-          42.732371645329
+          -71.395228179872,
+          42.4527878894
         ]
       },
       "properties": {
-        "id": "44f628fd-e227-4c08-b2fb-f10ee34331d7",
-        "name": "Methuen Climate Action Committee",
-        "website_url": "https://www.methuen-ma.gov/climate-action-committee",
+        "id": "b6167afa-0f1a-561a-83bf-34637387a2ac",
+        "name": "Concord Climate Action Committee",
+        "website_url": "https://concordma.gov/3324/Climate-Action-Committee",
         "source_url": "https://www.methuen-ma.gov/climate-action-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "City Hall, 41 Pleasant St",
-        "city": "methuen",
-        "state": "ma",
-        "postal_code": "01844",
+        "city": "Concord",
+        "state": "MA",
+        "postal_code": "1742",
         "climate_categories": [
-          "Environmental"
+          "nan"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
         "action_category": "Community Engagement",
         "status": "active",
-        "summary": "The Methuen Climate Action Committee focuses on local climate initiatives and sustainability efforts.",
+        "summary": "work with residents, work with businesses, energy efficiency (heating/cooling, weatherization, solar, etc.), transportation (public options, electric vehicles, etc.), environmental (pollinators, native plants, clean air/water, etc.), food & food waste (composting, food choices, local farming, etc), waste reduction (reuse, repair, repurpose, recycle, refuse, etc), mitigation (refers to the actions and activities that are taken to reduce or prevent further release of green house gas emissions)",
         "tags": [
-          "climate initiatives",
-          "sustainability"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "both"
+          "nan"
         ],
         "audience_focus": [
-          "Residents",
-          "Municipality"
+          "nan"
         ],
         "adaptation_vs_mitigation": [
-          "both"
+          "nan"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
         "geocode_reason": null,
-        "latitude": 42.732371645329,
-        "longitude": -71.180518321157,
+        "latitude": 42.4527878894,
+        "longitude": -71.395228179872,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "secondary",
+        "row_uuid": "d25793c0-92ac-523c-9146-f6b4890c3fd6",
+        "llm_processed_at": "2026-04-21T23:30:36.597472+00:00"
       }
     },
     {
@@ -4987,7 +5213,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Middleton, MA",
-        "city": "middleton",
+        "city": "Middleton",
         "state": "ma",
         "postal_code": "01949",
         "climate_categories": [
@@ -5012,7 +5238,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5040,7 +5266,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Climate St",
-        "city": "mount vernon park",
+        "city": "Mount Vernon Park",
         "state": "ma",
         "postal_code": "02155",
         "climate_categories": [
@@ -5065,7 +5291,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5093,7 +5319,7 @@
         "email": "info@greenneedham.org",
         "phone": "unknown",
         "address": "Needham, MA",
-        "city": "needham",
+        "city": "Needham",
         "state": "ma",
         "postal_code": "02492",
         "climate_categories": [
@@ -5130,7 +5356,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5158,7 +5384,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Merrimac, MA",
-        "city": "newbury old town",
+        "city": "Newbury Old Town",
         "state": "ma",
         "postal_code": "01860",
         "climate_categories": [
@@ -5185,7 +5411,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5213,7 +5439,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Newburyport, MA",
-        "city": "newburyport",
+        "city": "Newburyport",
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
@@ -5235,7 +5461,7 @@
         "adaptation_vs_mitigation": [
           "unknown"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5263,7 +5489,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Newburyport City Hall, 60 Pleasant St",
-        "city": "newburyport",
+        "city": "Newburyport",
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
@@ -5290,7 +5516,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -5318,7 +5544,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Newburyport City Hall, 60 Pleasant St",
-        "city": "newburyport",
+        "city": "Newburyport",
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
@@ -5345,7 +5571,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:census_full_address",
@@ -5373,7 +5599,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Newburyport, MA",
-        "city": "newburyport",
+        "city": "Newburyport",
         "state": "ma",
         "postal_code": "01950",
         "climate_categories": [
@@ -5399,7 +5625,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -5427,7 +5653,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "North Andover, MA",
-        "city": "north andover",
+        "city": "North Andover",
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
@@ -5452,7 +5678,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5480,7 +5706,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "North Andover, MA",
-        "city": "north andover",
+        "city": "North Andover",
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
@@ -5506,7 +5732,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -5534,7 +5760,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "North Andover, MA",
-        "city": "north andover",
+        "city": "North Andover",
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
@@ -5561,7 +5787,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -5589,7 +5815,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "North Andover, MA",
-        "city": "north andover",
+        "city": "North Andover",
         "state": "ma",
         "postal_code": "01845",
         "climate_categories": [
@@ -5614,7 +5840,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:zip_dataset",
@@ -5642,7 +5868,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "10 Beacon St",
-        "city": "oakland vale",
+        "city": "Oakland Vale",
         "state": "ma",
         "postal_code": "02111",
         "climate_categories": [
@@ -5668,7 +5894,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5721,7 +5947,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5749,7 +5975,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St",
-        "city": "proctor",
+        "city": "Proctor",
         "state": "ma",
         "postal_code": "01234",
         "climate_categories": [
@@ -5774,7 +6000,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -5802,7 +6028,7 @@
         "email": "metrowestclimate@gmail.com",
         "phone": "unknown",
         "address": "1000 Concord St",
-        "city": "riverdale station",
+        "city": "Riverdale Station",
         "state": "ma",
         "postal_code": "01701",
         "climate_categories": [
@@ -5832,7 +6058,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -5860,7 +6086,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Climate St",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -5885,7 +6111,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5913,7 +6139,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "246 Education Ln",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -5940,7 +6166,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -5968,7 +6194,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "789 Energy Rd",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -5993,7 +6219,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6021,7 +6247,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "987 Justice St",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -6047,7 +6273,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6075,7 +6301,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "135 Greenway Dr",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -6100,7 +6326,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6128,7 +6354,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "321 Resilience Blvd",
-        "city": "riverside",
+        "city": "Riverside",
         "state": "ma",
         "postal_code": "01039",
         "climate_categories": [
@@ -6153,7 +6379,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6181,7 +6407,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Climate St",
-        "city": "riverview",
+        "city": "Riverview",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -6206,7 +6432,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6234,7 +6460,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Rockport Town Hall, 34 Broadway",
-        "city": "rockport",
+        "city": "Rockport",
         "state": "ma",
         "postal_code": "01966",
         "climate_categories": [
@@ -6261,7 +6487,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -6289,7 +6515,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "654 Maple St",
-        "city": "rooty plain",
+        "city": "Rooty Plain",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -6316,7 +6542,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6344,7 +6570,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "321 Pine St",
-        "city": "rooty plain",
+        "city": "Rooty Plain",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -6371,7 +6597,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6399,7 +6625,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "456 Elm St",
-        "city": "rooty plain",
+        "city": "Rooty Plain",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -6427,7 +6653,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6455,7 +6681,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "789 Oak St",
-        "city": "rooty plain",
+        "city": "Rooty Plain",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -6482,7 +6708,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6510,7 +6736,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Rowley, MA",
-        "city": "rowley",
+        "city": "Rowley",
         "state": "ma",
         "postal_code": "01969",
         "climate_categories": [
@@ -6535,7 +6761,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6563,7 +6789,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Salem, MA",
-        "city": "salem",
+        "city": "Salem",
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
@@ -6589,7 +6815,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6617,7 +6843,7 @@
         "email": "tara.gallagher@salemstate.edu",
         "phone": "978.542.6200",
         "address": "352 Lafayette St, Salem, MA 01970",
-        "city": "salem",
+        "city": "Salem",
         "state": "ma",
         "postal_code": "01970",
         "climate_categories": [
@@ -6654,7 +6880,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -6682,7 +6908,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Salisbury, MA",
-        "city": "salisbury",
+        "city": "Salisbury",
         "state": "ma",
         "postal_code": "01952",
         "climate_categories": [
@@ -6707,7 +6933,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6735,7 +6961,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Saugus Town Hall, 298 Central St",
-        "city": "saugus",
+        "city": "Saugus",
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
@@ -6761,7 +6987,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -6789,7 +7015,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Saugus Town Hall, 298 Central St",
-        "city": "saugus",
+        "city": "Saugus",
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
@@ -6811,7 +7037,7 @@
         "adaptation_vs_mitigation": [
           "unknown"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:census_full_address",
@@ -6839,7 +7065,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Saugus Town Hall, 298 Central St",
-        "city": "saugus",
+        "city": "Saugus",
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
@@ -6862,7 +7088,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:census_full_address",
@@ -6890,7 +7116,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Saugus High School, 1 Pearce Memorial Dr",
-        "city": "saugus",
+        "city": "Saugus",
         "state": "ma",
         "postal_code": "01906",
         "climate_categories": [
@@ -6916,7 +7142,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -6944,7 +7170,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "123 Main St",
-        "city": "shawsheen village",
+        "city": "Shawsheen Village",
         "state": "ma",
         "postal_code": "01810",
         "climate_categories": [
@@ -6969,7 +7195,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -6997,7 +7223,7 @@
         "email": "unknown",
         "phone": "508-202-1075",
         "address": "15 Properzi Way",
-        "city": "somerville",
+        "city": "Somerville",
         "state": "ma",
         "postal_code": "02143",
         "climate_categories": [
@@ -7026,7 +7252,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -7054,7 +7280,7 @@
         "email": "unknown",
         "phone": "413-781-6045",
         "address": "60 Congress Street",
-        "city": "springfield",
+        "city": "Springfield",
         "state": "ma",
         "postal_code": "01104",
         "climate_categories": [
@@ -7086,7 +7312,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -7114,7 +7340,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "789 Oak St",
-        "city": "stevens crossing",
+        "city": "Stevens Crossing",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -7139,7 +7365,7 @@
         "adaptation_vs_mitigation": [
           "adaptation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -7167,7 +7393,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "321 Pine St",
-        "city": "stevens crossing",
+        "city": "Stevens Crossing",
         "state": "ma",
         "postal_code": "01001",
         "climate_categories": [
@@ -7193,7 +7419,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -7221,7 +7447,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Swampscott Town Hall, 22 Monument Ave",
-        "city": "swampscott",
+        "city": "Swampscott",
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
@@ -7249,7 +7475,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -7277,7 +7503,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Swampscott Town Hall, 22 Monument Ave",
-        "city": "swampscott",
+        "city": "Swampscott",
         "state": "ma",
         "postal_code": "01907",
         "climate_categories": [
@@ -7304,7 +7530,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "cached:census_full_address",
@@ -7326,17 +7552,19 @@
       },
       "properties": {
         "id": "01af72dd-f0a1-492e-8c8b-f95ac7062866",
-        "name": "Swampscott Sustainability Committee",
+        "name": "Weston Sustainability Committee",
         "website_url": "https://www.swampscottma.gov/sustainability-committee",
         "source_url": "https://www.swampscottma.gov/sustainability-committee",
         "email": "unknown",
         "phone": "unknown",
         "address": "Swampscott Town Hall, 22 Monument Ave",
-        "city": "swampscott",
-        "state": "ma",
+        "city": "Weston",
+        "state": "MA",
         "postal_code": "01907",
         "climate_categories": [
-          "Energy Efficiency"
+          "Energy Efficiency",
+          "Transportation",
+          "Food & Food Waste"
         ],
         "organization_type": "Municipal / Government-affiliated",
         "reach": "Town / City",
@@ -7344,30 +7572,37 @@
         "status": "active",
         "summary": "The Sustainability Committee promotes sustainable practices and policies to reduce the town's carbon footprint.",
         "tags": [
-          "sustainability",
-          "carbon footprint",
-          "municipal policy"
+          "nan"
         ],
-        "social_links": [],
+        "social_links": [
+          "nan"
+        ],
         "advocacy_vs_action": [
-          "advocacy"
+          "action"
         ],
         "audience_focus": [
           "Residents",
           "Municipality"
         ],
         "adaptation_vs_mitigation": [
-          "mitigation"
+          "both"
         ],
-        "original_action_category": [],
-        "original_climate_categories": [],
-        "verified": "Not Verified",
-        "geocode_status": "cached:census_full_address",
+        "original_action_category": "Energy Efficiency, Transportation, Food & Food Waste",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Food & Food Waste"
+        ],
+        "verified": "Verified",
+        "geocode_status": "census_full_address",
         "geocode_reason": null,
         "latitude": 42.469014323451,
         "longitude": -70.917848726946,
         "notes": null,
-        "mission": null
+        "mission": null,
+        "confidence": "primary",
+        "row_uuid": "78db5393-1fd5-561c-b055-c2bd4eb93018",
+        "llm_processed_at": "2026-04-21T22:00:47.691236+00:00"
       }
     },
     {
@@ -7387,7 +7622,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Topsfield Town Hall, 8 West Common St",
-        "city": "topsfield",
+        "city": "Topsfield",
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
@@ -7413,7 +7648,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -7441,7 +7676,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "8 West Common St",
-        "city": "topsfield",
+        "city": "Topsfield",
         "state": "ma",
         "postal_code": "01983",
         "climate_categories": [
@@ -7468,7 +7703,7 @@
         "adaptation_vs_mitigation": [
           "mitigation"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "census_full_address",
@@ -7496,7 +7731,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Lowell, MA",
-        "city": "ward hill",
+        "city": "Ward Hill",
         "state": "ma",
         "postal_code": "01852",
         "climate_categories": [
@@ -7522,7 +7757,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -7550,7 +7785,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "Wenham, MA",
-        "city": "wenham",
+        "city": "Wenham",
         "state": "ma",
         "postal_code": "01984",
         "climate_categories": [
@@ -7575,7 +7810,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -7603,7 +7838,7 @@
         "email": "unknown",
         "phone": "unknown",
         "address": "unknown",
-        "city": "worcester",
+        "city": "Worcester",
         "state": "ma",
         "postal_code": "01608",
         "climate_categories": [
@@ -7634,7 +7869,7 @@
         "adaptation_vs_mitigation": [
           "both"
         ],
-        "original_action_category": [],
+        "original_action_category": null,
         "original_climate_categories": [],
         "verified": "Not Verified",
         "geocode_status": "zip_dataset",
@@ -7643,6 +7878,658 @@
         "longitude": -71.80183159284843,
         "notes": null,
         "mission": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8087295449394,
+          42.25951803917432
+        ]
+      },
+      "properties": {
+        "id": "99d5b8f9-02af-4ddf-9e56-83226a85d0c2",
+        "name": "Andover Sustainability",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Andover",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "nan"
+        ],
+        "organization_type": "Municipal / Government-affiliated",
+        "reach": null,
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "nan"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
+        "verified": "Not Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25951803917432,
+        "longitude": -71.8087295449394
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80862364879137,
+          42.25940136757785
+        ]
+      },
+      "properties": {
+        "id": "1c64ef7f-30b1-499b-9a68-a884d98d8f05",
+        "name": "Andover WECAN",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Andover",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "both"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste, Waste Reduction",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "verified": "Verified",
+        "geocode_status": "cached:city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25940136757785,
+        "longitude": -71.80862364879137
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80881220127971,
+          42.259537004135645
+        ]
+      },
+      "properties": {
+        "id": "201ddd53-7b14-4c60-97bf-f69ef046f4ab",
+        "name": "Energize Wayland",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Wayland",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "action"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental"
+        ],
+        "verified": "Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.259537004135645,
+        "longitude": -71.80881220127971
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80884897548577,
+          42.25954871848268
+        ]
+      },
+      "properties": {
+        "id": "f6983931-eb71-4456-9971-447864833d11",
+        "name": "Gloucester",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Gloucester",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "nan"
+        ],
+        "organization_type": "Municipal / Government-affiliated",
+        "reach": null,
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "nan"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
+        "verified": "Not Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25954871848268,
+        "longitude": -71.80884897548577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80835497878805,
+          42.25927187407748
+        ]
+      },
+      "properties": {
+        "id": "0bea7eef-a09f-401f-b511-1bca81431406",
+        "name": "Green Hudson",
+        "website_url": "https://greenhudson.org/",
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Hudson",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City, Regional, State / National",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "both"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste, Waste Reduction, Green Economics",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
+        ],
+        "verified": "Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25927187407748,
+        "longitude": -71.80835497878805
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80860643946247,
+          42.25933094496605
+        ]
+      },
+      "properties": {
+        "id": "b5791fe9-1d87-4781-b424-c297a905c71b",
+        "name": "Green Newton",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Newton",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
+        ],
+        "organization_type": null,
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "both"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "mitigation"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste, Waste Reduction, Green Economics",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction",
+          "Green Economics"
+        ],
+        "verified": "Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25933094496605,
+        "longitude": -71.80860643946247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80853477128143,
+          42.25939968813659
+        ]
+      },
+      "properties": {
+        "id": "00c6ca44-5e24-4594-ae18-b67ed29f0d52",
+        "name": "Littleton Sustainability Committee",
+        "website_url": "https://www.littletonma.org/",
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Littleton",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "nan"
+        ],
+        "organization_type": null,
+        "reach": null,
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "nan"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
+        "verified": "Not Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25939968813659,
+        "longitude": -71.80853477128143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80836001617483,
+          42.25962470552712
+        ]
+      },
+      "properties": {
+        "id": "c4251f15-10da-436f-a245-aa36ce539ac4",
+        "name": "Milton\u2019s Climate Action Planning Committee",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Milton",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste"
+        ],
+        "organization_type": null,
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "both"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality",
+          "Businesses"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
+        "original_action_category": "Energy Efficiency, Transportation, Environmental, Food & Food Waste",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Transportation",
+          "Environmental",
+          "Food & Food Waste"
+        ],
+        "verified": "Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25962470552712,
+        "longitude": -71.80836001617483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80850550759803,
+          42.259489628256674
+        ]
+      },
+      "properties": {
+        "id": "95096ad8-c14a-423f-a4f9-408012305588",
+        "name": "Sustainable Milton",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Milton",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "organization_type": "Nonprofit / Grassroots",
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "action"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "both"
+        ],
+        "original_action_category": "Energy Efficiency, Food & Food Waste, Waste Reduction",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "verified": "Verified",
+        "geocode_status": "cached:city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.259489628256674,
+        "longitude": -71.80850550759803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8088249975763,
+          42.25944662556599
+        ]
+      },
+      "properties": {
+        "id": "c39ab852-a4ee-4502-8616-74045bbfdc7e",
+        "name": "Tyngsborough Sustainability Committee",
+        "website_url": null,
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Tyngsborough",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "Energy Efficiency",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "organization_type": null,
+        "reach": "Town / City",
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "Residents",
+          "Municipality"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": "Energy Efficiency, Environmental, Food & Food Waste, Waste Reduction",
+        "original_climate_categories": [
+          "Energy Efficiency",
+          "Environmental",
+          "Food & Food Waste",
+          "Waste Reduction"
+        ],
+        "verified": "Verified",
+        "geocode_status": "city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.25944662556599,
+        "longitude": -71.8088249975763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.80833445585466,
+          42.259204234570475
+        ]
+      },
+      "properties": {
+        "id": "2d307014-704f-4e94-b0a0-a0d992bf2c44",
+        "name": "TownGreen Inc",
+        "website_url": "https://capeannclimatecoalition.org/save-green-and-get-green/",
+        "source_url": null,
+        "email": null,
+        "phone": null,
+        "address": null,
+        "city": "Gloucester",
+        "state": "ma",
+        "postal_code": null,
+        "climate_categories": [
+          "nan"
+        ],
+        "organization_type": null,
+        "reach": null,
+        "action_category": null,
+        "status": "Unknown",
+        "summary": null,
+        "tags": [
+          "nan"
+        ],
+        "social_links": [
+          "nan"
+        ],
+        "advocacy_vs_action": [
+          "nan"
+        ],
+        "audience_focus": [
+          "nan"
+        ],
+        "adaptation_vs_mitigation": [
+          "nan"
+        ],
+        "original_action_category": null,
+        "original_climate_categories": [
+          "nan"
+        ],
+        "verified": "Not Verified",
+        "geocode_status": "cached:city_centroid_no_address",
+        "geocode_reason": null,
+        "latitude": 42.259204234570475,
+        "longitude": -71.80833445585466
       }
     }
   ]
