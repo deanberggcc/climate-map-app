@@ -37,22 +37,65 @@ function normalizeList(value) {
   return [s];
 }
 
+function normalizeListField(value) {
+  // Nullish → Unknown
+  if (!value) return "Unknown";
+
+  // Already a list
+  if (Array.isArray(value)) {
+    const cleaned = value
+      .map(v => (typeof v === "string" ? v.trim() : ""))
+      .filter(v => v && v.toLowerCase() !== "nan" && v.toLowerCase() !== "none");
+
+    if (cleaned.length === 0) return "Unknown";
+
+    // Capitalize each item
+    return cleaned
+      .map(v => v.charAt(0).toUpperCase() + v.slice(1))
+      .join(", ");
+  }
+
+  // Strings that look like lists: "['foo', 'bar']"
+  if (typeof value === "string") {
+    const s = value.trim();
+
+    if (!s || s.toLowerCase() === "nan" || s.toLowerCase() === "none") {
+      return "Unknown";
+    }
+
+    // Try to parse Python/JSON list strings
+    try {
+      const parsed = JSON.parse(s);
+      if (Array.isArray(parsed)) return normalizeListField(parsed);
+    } catch {}
+
+    try {
+      const parsed = eval(s);
+      if (Array.isArray(parsed)) return normalizeListField(parsed);
+    } catch {}
+
+    // Otherwise treat as scalar string
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+
+  return "Unknown";
+}
+
 export function renderPopupHTML(data) {
-  // Verified is ALWAYS a string: "Verified" or "Not Verified"
   const isVerified = data.verified === "Verified";
   const verifiedIcon = isVerified ? "✔️ " : "";
 
-  // Climate categories (always list)
-  const climateList = normalizeList(data.climate_categories);
-  const climate = climateList.slice(0, 3).join(", ") || "Unknown";
+  // Normalize list fields
+  const climate = normalizeListField(data.climate_categories);
+  const audience = normalizeListField(data.audience_focus);
+  const resilience = normalizeListField(data.adaptation_vs_mitigation);
+  const activity = normalizeListField(data.advocacy_vs_action);
 
-  // Audience focus (always list)
-  const audienceList = normalizeList(data.audience_focus);
-  const audience = audienceList.join(", ") || "Unknown";
-
-  // Social links (list)
-  const socialList = normalizeList(data.social_links);
-  const social = socialList.join(" • ");
+  // Social links (list → bullet-separated)
+  const socialRaw = Array.isArray(data.social_links) ? data.social_links : [];
+  const social = socialRaw
+    .filter(v => v && v !== "nan")
+    .join(" • ");
 
   return `
     <div class="popup">
@@ -66,8 +109,8 @@ export function renderPopupHTML(data) {
       <div class="popup-meta">
         <div><strong>Type:</strong> ${data.organization_type || "Unknown"}</div>
         <div><strong>Audience:</strong> ${audience}</div>
-        <div><strong>Resilience:</strong> ${data.adaptation_vs_mitigation || "Unknown"}</div>
-        <div><strong>Activity:</strong> ${data.advocacy_vs_action || "Unknown"}</div>
+        <div><strong>Resilience:</strong> ${resilience}</div>
+        <div><strong>Activity:</strong> ${activity}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
         <div><strong>Climate:</strong> ${climate}</div>
         <div><strong>Reach:</strong> ${data.reach || "Unknown"}</div>
@@ -78,6 +121,7 @@ export function renderPopupHTML(data) {
       ${social ? `<div class="popup-social">${social}</div>` : ""}
 
       ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ""}
+    </div>
 
       ${!isVerified ? `
         <div class="popup-verify">
