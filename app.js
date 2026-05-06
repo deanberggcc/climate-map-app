@@ -501,9 +501,9 @@ function buildFiltersFromData(features) {
 
   const fields = [
     { key: 'organization_type', label: 'Organization Type' },
+    { key: 'audience_focus', label: 'Audience Focus' },
     { key: 'action_category', label: 'Action Category' },
     { key: 'climate_categories', label: 'Climate Categories' },
-    { key: 'audience_focus', label: 'Audience Focus' },
     { key: 'reach', label: 'Reach' },
     { key: 'verified', label: 'Verification' }
   ];

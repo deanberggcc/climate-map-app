@@ -65,9 +65,11 @@ export function renderPopupHTML(data) {
 
       <div class="popup-meta">
         <div><strong>Type:</strong> ${data.organization_type || "Unknown"}</div>
+        <div><strong>Audience:</strong> ${audience}</div>
+        <div><strong>Resilience:</strong> ${data.adaptation_vs_mitigation || "Unknown"}</div>
+        <div><strong>Activity:</strong> ${data.advocacy_vs_action || "Unknown"}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
         <div><strong>Climate:</strong> ${climate}</div>
-        <div><strong>Audience:</strong> ${audience}</div>
         <div><strong>Reach:</strong> ${data.reach || "Unknown"}</div>
       </div>
 
