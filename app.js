@@ -224,9 +224,15 @@ function fuzzyMatch(haystack, needle) {
 }
 
 function setupSearchBar() {
-  // (unchanged — your search logic is correct)
-  // I will keep it intact for brevity.
+  const input = document.getElementById('search-bar');
+  if (!input) return;
+
+  input.addEventListener('input', debounce(e => {
+    currentFilters.search = e.target.value.trim().toLowerCase();
+    applyFilters();
+  }, 120));
 }
+
 
 
 // ------------------------------------------------------------
@@ -500,13 +506,15 @@ function buildFiltersFromData(features) {
   filtersEl.appendChild(header);
 
   const fields = [
-    { key: 'organization_type', label: 'Organization Type' },
-    { key: 'audience_focus', label: 'Audience Focus' },
-    { key: 'action_category', label: 'Action Category' },
-    { key: 'climate_categories', label: 'Climate Categories' },
-    { key: 'reach', label: 'Reach' },
-    { key: 'verified', label: 'Verification' }
-  ];
+ 	 { key: 'organization_type', label: 'Organization Type' },
+	  { key: 'audience_focus', label: 'Audience Focus' },
+ 	 { key: 'adaptation_vs_mitigation', label: 'Resilience' },
+ 	 { key: 'advocacy_vs_action', label: 'Activity' },
+ 	 { key: 'action_category', label: 'Action Category' },
+ 	 { key: 'climate_categories', label: 'Climate Categories' },
+ 	 { key: 'reach', label: 'Reach' },
+ 	 { key: 'verified', label: 'Verification' }
+	];
 
   const valuesByField = {};
   fields.forEach(f => valuesByField[f.key] = new Set());
@@ -595,7 +603,6 @@ function applyFilters() {
     const simple = [
       'action_category',
       'organization_type',
-      'audience_focus',
       'reach',
       'verified'
     ];
@@ -608,7 +615,13 @@ function applyFilters() {
       }
     }
 
-    const multi = ['climate_categories', 'tags', 'audience_focus'];
+    const multi = [
+ 	 'climate_categories',
+ 	 'tags',
+	  'audience_focus',
+	  'advocacy_vs_action',
+	  'adaptation_vs_mitigation'
+	];
     for (const field of multi) {
       const selected = currentFilters[field];
       if (selected && selected.length > 0) {

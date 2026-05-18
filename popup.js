@@ -121,12 +121,11 @@ export function renderPopupHTML(data) {
       ${social ? `<div class="popup-social">${social}</div>` : ""}
 
       ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ""}
-    </div>
+    ${!isVerified ? `
+  <div class="popup-verify">
+    <a href="https://forms.gle/qrH53jyJkizRgKNN7" target="_blank">Click to claim and verify</a>
+  </div>` : ""}
+</div>
 
-      ${!isVerified ? `
-        <div class="popup-verify">
-          <a href="https://forms.gle/qrH53jyJkizRgKNN7" target="_blank">Click to claim and verify</a>
-        </div>` : ""}
-    </div>
   `;
 }
