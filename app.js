@@ -255,6 +255,7 @@ async function loadDataAndInitUI() {
     allFeatures = geojson.features.map(f => {
       const p = f.properties || {};
 
+	p.id = p.id || p.ID || p.Id;
       // Normalize Verified from registry (capital V)
 	if (typeof p.Verified === "string") {
  	 const v = p.Verified.trim().toLowerCase();
