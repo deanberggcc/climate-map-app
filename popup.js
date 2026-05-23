@@ -113,7 +113,12 @@ export function renderPopupHTML(data) {
         <div><strong>Activity:</strong> ${activity}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
         <div><strong>Climate:</strong> ${climate}</div>
-        <div><strong>Reach:</strong> ${data.reach || "Unknown"}</div>
+        const reach = Array.isArray(data.reach)
+	  ? data.reach.join(", ")
+	  : (data.reach || "Unknown");
+
+	<div><strong>Reach:</strong> ${reach}</div>
+
       </div>
 
       ${data.website_url ? `<a class="popup-link" href="${data.website_url}" target="_blank">Website</a>` : ""}
