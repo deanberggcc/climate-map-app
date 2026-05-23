@@ -120,6 +120,31 @@ html, body {
   margin-bottom: 8px;
 }
 
+#search-suggestions {
+  position: relative;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 240px;
+  overflow-y: auto;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+#search-suggestions .suggestion {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#search-suggestions .suggestion.active {
+  background: #e0e0e0;
+}
+
+#search-suggestions .suggestion:hover {
+  background: #eee;
+}
+
+
 .sidebar-section-header {
   margin: 12px 0 6px;
   font-size: 1.1rem;

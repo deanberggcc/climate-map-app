@@ -214,25 +214,140 @@ document.addEventListener("touchend", e => {
 // ------------------------------------------------------------
 // SEARCH BAR
 // ------------------------------------------------------------
-function fuzzyMatch(haystack, needle) {
-  if (!needle) return true;
-  haystack = (haystack || '').toLowerCase();
+function scoreMatch(haystack, needle) {
+  if (!needle) return 0;
+  haystack = (haystack || "").toLowerCase();
   needle = needle.toLowerCase();
-  if (haystack.includes(needle)) return true;
+
+  if (haystack === needle) return 100;
+  if (haystack.startsWith(needle)) return 90;
+  if (haystack.includes(needle)) return 75;
+
+  // Token scoring
   const tokens = needle.split(/\s+/).filter(Boolean);
-  return tokens.every(t => haystack.includes(t));
+  let score = 0;
+  for (const t of tokens) {
+    if (haystack.includes(t)) score += 15;
+  }
+
+  return score;
+}
+
+function computeSearchScore(feature, needle) {
+  if (!needle) return 0;
+
+  const p = feature.properties;
+
+  const fields = [
+    p.name,
+    p.city,
+    p.county,
+    p.address,
+    p.summary,
+    p.organization_type,
+    p.reach,
+    p.verified,
+    ...(p.climate_categories || []),
+    ...(p.tags || []),
+    ...(p.audience_focus || []),
+  ];
+
+  let best = 0;
+  for (const f of fields) {
+    best = Math.max(best, scoreMatch(f, needle));
+  }
+  return best;
 }
 
 function setupSearchBar() {
-  const input = document.getElementById('search-bar');
-  if (!input) return;
+  const input = document.getElementById("search-bar");
+  const box = document.getElementById("search-suggestions");
+  if (!input || !box) return;
 
-  input.addEventListener('input', debounce(e => {
-    currentFilters.search = e.target.value.trim().toLowerCase();
+  let activeIndex = -1;
+  let currentResults = [];
+
+  function renderSuggestions() {
+    if (!currentResults.length) {
+      box.innerHTML = "";
+      return;
+    }
+
+    box.innerHTML = currentResults
+      .map((r, i) => `
+        <div class="suggestion ${i === activeIndex ? "active" : ""}">
+          ${r.feature.properties.name}
+          <div style="font-size:11px;color:#666;">
+            ${formatCity(r.feature.properties.city)} • ${r.feature.properties.organization_type}
+          </div>
+        </div>
+      `)
+      .join("");
+
+    box.querySelectorAll(".suggestion").forEach((el, i) => {
+      el.addEventListener("click", () => {
+        selectResult(i);
+      });
+    });
+  }
+
+  function selectResult(i) {
+    const f = currentResults[i].feature;
+    input.value = f.properties.name;
+    currentFilters.search = input.value.toLowerCase();
+    box.innerHTML = "";
     applyFilters();
-  }, 120));
-}
+    zoomToFeature(f);
+    openPopupForFeature(f, map);
+  }
 
+  input.addEventListener(
+    "input",
+    debounce(e => {
+      const q = e.target.value.trim().toLowerCase();
+      currentFilters.search = q;
+
+      if (!q) {
+        box.innerHTML = "";
+        applyFilters();
+        return;
+      }
+
+      currentResults = allFeatures
+        .map(f => ({
+          feature: f,
+          score: computeSearchScore(f, q)
+        }))
+        .filter(x => x.score > 30)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8);
+
+      activeIndex = -1;
+      renderSuggestions();
+      applyFilters();
+    }, 120)
+  );
+
+  // Keyboard navigation
+  input.addEventListener("keydown", e => {
+    if (!currentResults.length) return;
+
+    if (e.key === "ArrowDown") {
+      activeIndex = (activeIndex + 1) % currentResults.length;
+      renderSuggestions();
+      e.preventDefault();
+    } else if (e.key === "ArrowUp") {
+      activeIndex = (activeIndex - 1 + currentResults.length) % currentResults.length;
+      renderSuggestions();
+      e.preventDefault();
+    } else if (e.key === "Enter") {
+      if (activeIndex >= 0) {
+        selectResult(activeIndex);
+        e.preventDefault();
+      }
+    }
+  });
+}
 
 
 // ------------------------------------------------------------
@@ -595,12 +710,20 @@ function applyFilters() {
   filteredFeatures = allFeatures.filter(f => {
     const p = f.properties || {};
 
+    // ----------------------------
+    // SEARCH FILTER (ranked)
+    // ----------------------------
     if (currentFilters.search) {
-      if (!fuzzyMatch(p.searchIndex || '', currentFilters.search)) {
-        return false;
-      }
+      const score = computeSearchScore(f, currentFilters.search);
+      if (score < 30) return false;
+      f._searchScore = score;
+    } else {
+      f._searchScore = 0;
     }
 
+    // ----------------------------
+    // SIMPLE FILTERS (scalar)
+    // ----------------------------
     const simple = [
       'action_category',
       'organization_type',
@@ -616,13 +739,17 @@ function applyFilters() {
       }
     }
 
+    // ----------------------------
+    // MULTI FILTERS (list)
+    // ----------------------------
     const multi = [
- 	 'climate_categories',
- 	 'tags',
-	  'audience_focus',
-	  'advocacy_vs_action',
-	  'adaptation_vs_mitigation'
-	];
+      'climate_categories',
+      'tags',
+      'audience_focus',
+      'advocacy_vs_action',
+      'adaptation_vs_mitigation'
+    ];
+
     for (const field of multi) {
       const selected = currentFilters[field];
       if (selected && selected.length > 0) {
@@ -635,6 +762,14 @@ function applyFilters() {
     return true;
   });
 
+  // ----------------------------
+  // SORT BY SEARCH SCORE
+  // ----------------------------
+  filteredFeatures.sort((a, b) => (b._searchScore || 0) - (a._searchScore || 0));
+
+  // ----------------------------
+  // UPDATE MAP SOURCE
+  // ----------------------------
   const src = map.getSource('orgs');
   if (src) {
     src.setData({
@@ -645,7 +780,6 @@ function applyFilters() {
 
   updateVisibleOrgs();
 }
-
 
 // ------------------------------------------------------------
 // ZOOM HELPERS
@@ -693,6 +827,17 @@ function clampZoom(maxZoom = 13) {
     map.easeTo({ zoom: maxZoom, duration: 300 });
   }
 }
+
+function zoomToFeature(f) {
+  const [lon, lat] = f.geometry.coordinates;
+  map.flyTo({
+    center: [lon, lat],
+    zoom: 11,
+    speed: 0.8,
+    curve: 1.4
+  });
+}
+
 
 // ------------------------------------------------------------
 // VISIBLE ORGS + SIDEBAR LIST
