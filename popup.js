@@ -2,13 +2,7 @@
 import { formatAddress, formatCity } from "./formatters.js";
 
 /**
- * Safely normalize any field that might be:
- *  - a list
- *  - a JSON list string
- *  - a slash-separated string ("Residents / Businesses")
- *  - a comma-separated string
- *  - a single string
- *  - null / undefined
+ * Normalize any list-like field into a clean array.
  */
 function normalizeList(value) {
   if (Array.isArray(value)) return value;
@@ -23,9 +17,7 @@ function normalizeList(value) {
     try {
       const parsed = JSON.parse(s);
       if (Array.isArray(parsed)) return parsed;
-    } catch {
-      // fall through
-    }
+    } catch {}
   }
 
   // Slash, comma, semicolon
@@ -37,11 +29,12 @@ function normalizeList(value) {
   return [s];
 }
 
+/**
+ * Convert list-like values into a display string.
+ */
 function normalizeListField(value) {
-  // Nullish → Unknown
   if (!value) return "Unknown";
 
-  // Already a list
   if (Array.isArray(value)) {
     const cleaned = value
       .map(v => (typeof v === "string" ? v.trim() : ""))
@@ -49,21 +42,16 @@ function normalizeListField(value) {
 
     if (cleaned.length === 0) return "Unknown";
 
-    // Capitalize each item
     return cleaned
       .map(v => v.charAt(0).toUpperCase() + v.slice(1))
       .join(", ");
   }
 
-  // Strings that look like lists: "['foo', 'bar']"
   if (typeof value === "string") {
     const s = value.trim();
+    if (!s || ["nan", "none"].includes(s.toLowerCase())) return "Unknown";
 
-    if (!s || s.toLowerCase() === "nan" || s.toLowerCase() === "none") {
-      return "Unknown";
-    }
-
-    // Try to parse Python/JSON list strings
+    // Try JSON or Python-style list
     try {
       const parsed = JSON.parse(s);
       if (Array.isArray(parsed)) return normalizeListField(parsed);
@@ -74,7 +62,6 @@ function normalizeListField(value) {
       if (Array.isArray(parsed)) return normalizeListField(parsed);
     } catch {}
 
-    // Otherwise treat as scalar string
     return s.charAt(0).toUpperCase() + s.slice(1);
   }
 
@@ -91,11 +78,14 @@ export function renderPopupHTML(data) {
   const resilience = normalizeListField(data.adaptation_vs_mitigation);
   const activity = normalizeListField(data.advocacy_vs_action);
 
-  // Social links (list → bullet-separated)
+  // Normalize reach (scalar or list)
+  const reach = Array.isArray(data.reach)
+    ? data.reach.join(", ")
+    : (data.reach || "Unknown");
+
+  // Social links
   const socialRaw = Array.isArray(data.social_links) ? data.social_links : [];
-  const social = socialRaw
-    .filter(v => v && v !== "nan")
-    .join(" • ");
+  const social = socialRaw.filter(v => v && v !== "nan").join(" • ");
 
   return `
     <div class="popup">
@@ -113,12 +103,7 @@ export function renderPopupHTML(data) {
         <div><strong>Activity:</strong> ${activity}</div>
         <div><strong>Action:</strong> ${data.action_category || "Unknown"}</div>
         <div><strong>Climate:</strong> ${climate}</div>
-        const reach = Array.isArray(data.reach)
-	  ? data.reach.join(", ")
-	  : (data.reach || "Unknown");
-
-	<div><strong>Reach:</strong> ${reach}</div>
-
+        <div><strong>Reach:</strong> ${reach}</div>
       </div>
 
       ${data.website_url ? `<a class="popup-link" href="${data.website_url}" target="_blank">Website</a>` : ""}
@@ -126,11 +111,11 @@ export function renderPopupHTML(data) {
       ${social ? `<div class="popup-social">${social}</div>` : ""}
 
       ${data.summary ? `<div class="popup-summary">${data.summary}</div>` : ""}
-    ${!isVerified ? `
-  <div class="popup-verify">
-    <a href="https://forms.gle/qrH53jyJkizRgKNN7" target="_blank">Click to claim and verify</a>
-  </div>` : ""}
-</div>
 
+      ${!isVerified ? `
+        <div class="popup-verify">
+          <a href="https://forms.gle/qrH53jyJkizRgKNN7" target="_blank">Click to claim and verify</a>
+        </div>` : ""}
+    </div>
   `;
 }
