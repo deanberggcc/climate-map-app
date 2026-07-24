@@ -212,27 +212,51 @@ document.addEventListener("touchend", e => {
 
 
 // ------------------------------------------------------------
-// SEARCH BAR
+// SEARCH BAR (Improved ZIP + Address Matching)
 // ------------------------------------------------------------
+
+// More robust matching: supports ZIP codes, numbers, multi‑token,
+// partial matches, and boosts exact numeric matches.
 function scoreMatch(haystack, needle) {
   if (!needle) return 0;
+
   haystack = (haystack || "").toLowerCase();
   needle = needle.toLowerCase();
 
+  // Exact match
   if (haystack === needle) return 100;
+
+  // ZIP code (5 digits)
+  if (/^\d{5}$/.test(needle)) {
+    if (haystack.includes(needle)) return 100;   // ZIP is authoritative
+  }
+
+  // Starts with
   if (haystack.startsWith(needle)) return 90;
+
+  // Contains substring
   if (haystack.includes(needle)) return 75;
 
-  // Token scoring
+  // Token scoring (handles multi‑word searches)
   const tokens = needle.split(/\s+/).filter(Boolean);
   let score = 0;
+
   for (const t of tokens) {
+    // Numeric token (street numbers, ZIP fragments)
+    if (/^\d+$/.test(t)) {
+      if (haystack.includes(t)) score += 20;
+      continue;
+    }
+
+    // Normal token
     if (haystack.includes(t)) score += 15;
   }
 
   return score;
 }
 
+
+// Compute best score across all searchable fields
 function computeSearchScore(feature, needle) {
   if (!needle) return 0;
 
@@ -243,6 +267,7 @@ function computeSearchScore(feature, needle) {
     p.city,
     p.county,
     p.address,
+    p.postal_code,          // ⭐ ZIP code now searchable
     p.summary,
     p.organization_type,
     p.reach,
@@ -258,6 +283,7 @@ function computeSearchScore(feature, needle) {
   }
   return best;
 }
+
 
 function setupSearchBar() {
   const input = document.getElementById("search-bar");
